@@ -1,0 +1,160 @@
+$x:
+{'constant': [67247336]}
+call_weak_fn:
+{'constant': [0, 67116832, 67248024], 'ir_0': [0]}
+deregister_tm_clones:
+{'constant': [False, 67247968, 67248384], 'ir_1': [0]}
+register_tm_clones:
+{'constant': [0, 67117588, 67248104, 67248384]}
+frame_dummy:
+{'constant': [67117536]}
+select_plural:
+{'constant': []}
+dot_or_dotdot:
+{'constant': [0, 1, 2, 46, 47, 255, 67120992], 'a0': [0, 1, 2]}
+cache_stat_init:
+{'constant': [18446744073709551615]}
+nonexistent_file_errno:
+{'constant': [0, 1, 2, 20, 22, 84, 67122904, 67122908], 'a0': [0, 1]}
+mark_ancestor_dirs:
+{'constant': [0, 1]}
+sub_400435c:
+{'constant': []}
+close_stdin_set_file_name:
+{'constant': []}
+close_stdout_set_file_name:
+{'constant': []}
+close_stdout_set_ignore_EPIPE:
+{'constant': []}
+last_component:
+{'constant': [0, 1, 47], 'a0': [0, 1]}
+priv_set_remove_linkdir:
+{'constant': [4294967295], 'ir_0': []}
+priv_set_restore_linkdir:
+{'constant': [4294967295], 'ir_0': []}
+get_quoting_style:
+{'constant': [0, 67248440], 'a0': [0]}
+set_quoting_style:
+{'constant': [0, 67248440]}
+set_char_quoting:
+{'constant': [0, 1, 2, 5, 8, 27, 31, 62, 255, 67248440, 134217727, 18446744073709551612]}
+set_quoting_flags:
+{'constant': [0, 67248440], 'a0': [0]}
+cycle_warning_required:
+{'constant': [0, 1, 16, 255, 67142244], 'a0': [0, 1]}
+freadahead:
+{'constant': [0, 256, 67142716], 'a0': [0]}
+AD_compare:
+{'constant': [0, 1, 255, 67143008], 'a0': [0, 1]}
+AD_hash:
+{'constant': []}
+dev_type_hash:
+{'constant': []}
+dev_type_compare:
+{'constant': [0, 1, 255]}
+fts_compare_ino:
+{'constant': [0, 1, 255, 4294967295], 'a0': []}
+set_stat_type:
+{'constant': [0, 1, 2, 4, 6, 8, 10, 12, 4096, 8192, 16384, 24576, 32768, 40960, 49152, 67150160], 'a0': [4096, 8192, 16384, 24576, 32768, 40960, 49152], 'a1': [0, 24576, 40960]}
+fts_padjust:
+{'constant': [0, 248]}
+exchange:
+{'constant': [0, 1, 3, 32, 61, 63, 4294967295, 18446744069414584320, 18446744073709551608], 's_40': [0, 1, 2]}
+is_zero_or_power_of_two:
+{'constant': [0, 1, 255]}
+cycle_check_init:
+{'constant': [0, 9827862]}
+hash_get_n_buckets:
+{'constant': []}
+hash_get_n_buckets_used:
+{'constant': []}
+hash_get_n_entries:
+{'constant': []}
+hash_get_max_bucket_length:
+{'constant': [0, 1, 8, 16], 'a0': [0, 1]}
+hash_table_ok:
+{'constant': [0, 1, 8, 16, 67163020], 'a0': [0, 1]}
+hash_get_entries:
+{'constant': [0, 1, 3, 16, 61, 18446744073709551608], 'a0': [0]}
+hash_string:
+{'constant': [0, 1, 5, 59, 18446744073709551584], 's_20': [0]}
+is_prime:
+{'constant': [0, 1, 2, 3, 62, 255, 18446744073709551612], 'a0': [9]}
+hash_reset_tuning:
+{'constant': [67180408, 67180416, 67180424], 'a0': [0]}
+raw_comparator:
+{'constant': [0, 1, 255]}
+check_tuning:
+{'constant': [0, 1, 67180408, 1036831949, 1065353216], 'a0': [0, 1]}
+free_entry:
+{'constant': [0]}
+i_ring_init:
+{'constant': [0, 1, 2, 3], 'a1': [0, 1], 'a0': [0, 1, 2]}
+i_ring_empty:
+{'constant': []}
+i_ring_push:
+{'constant': [0, 1, 2, 3, 255]}
+rotl64:
+{'constant': [0, 63, 64]}
+rotr64:
+{'constant': [0, 63, 64]}
+rotl32:
+{'constant': [0, 31, 32]}
+rotr32:
+{'constant': [0, 31, 32]}
+rotl_sz:
+{'constant': [63, 64]}
+rotr_sz:
+{'constant': [63, 64]}
+rotl16:
+{'constant': [16, 31, 65535]}
+rotr16:
+{'constant': [16, 31, 65535]}
+rotl8:
+{'constant': [8, 31, 255]}
+rotr8:
+{'constant': [8, 31, 255]}
+c_isalnum:
+{'constant': [0, 1, 9, 25, 48, 65, 90, 97, 67172744], 'a0': [0, 1]}
+c_isalpha:
+{'constant': [0, 1, 65, 90, 67172804], 'a0': [0, 1]}
+c_isascii:
+{'constant': [0, 1, 127], 'a0': [0, 1]}
+c_isblank:
+{'constant': [0, 1, 9, 32, 255, 67172900], 'a0': [0, 1]}
+c_iscntrl:
+{'constant': [0, 1, 31, 67172964], 'a0': [0, 1]}
+c_isdigit:
+{'constant': [0, 1, 9, 48], 'a0': [0, 1]}
+c_isgraph:
+{'constant': [0, 1, 33, 93], 'a0': [0, 1]}
+c_islower:
+{'constant': [0, 1, 25, 97], 'a0': [0, 1]}
+c_isprint:
+{'constant': [0, 1, 32, 94], 'a0': [0, 1]}
+c_ispunct:
+{'constant': [0, 1, 3, 14, 33, 58, 64, 91, 96, 123, 67173232], 'a0': [0, 1]}
+c_isspace:
+{'constant': [0, 1, 9, 13, 67173288], 'a0': [0, 1]}
+c_isupper:
+{'constant': [0, 1, 25, 65], 'a0': [0, 1]}
+c_isxdigit:
+{'constant': [0, 1, 5, 9, 48, 65, 70, 97, 67173408], 'a0': [0, 1]}
+c_tolower:
+{'constant': [25, 32, 65]}
+c_toupper:
+{'constant': [25, 32, 97]}
+__libc_csu_fini:
+{'constant': []}
+atexit:
+{'constant': [67116432]}
+__stat:
+{'constant': [67117328]}
+__fstat:
+{'constant': [67117168]}
+__lstat:
+{'constant': [67117120]}
+fstatat:
+{'constant': [67117392]}
+_fini:
+{'constant': []}

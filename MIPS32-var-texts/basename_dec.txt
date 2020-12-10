@@ -1,0 +1,338 @@
+_init:
+{'constant': [0, 138948], 'ir_1': []}
+sub_401244:
+{'constant': [5156, 4305140]}
+sub_401264:
+{'constant': [28048, 4305144]}
+_ftext:
+{'constant': []}
+sub_40129c:
+{'constant': [16, 20, 24, 32, 4305128, 4305132, 4305136, 4305400, 4294967288], 'ir_2': []}
+hlt:
+{'constant': [4199136]}
+deregister_tm_clones:
+{'constant': [0, 12496, 4199200, 4305108, 4325376], 'ir_0': []}
+register_tm_clones:
+{'constant': [0, 12496, 4199276, 4325376], 'ir_0': [0], 'ir_1': []}
+__do_global_dtors_aux:
+{'constant': [0, 1, 2, 19820, 19824, 20624, 4304748, 4305552, 4305556, 4325376], 'ir_0': [], 'ir_1': [0, 1, 2, 3, 1836412020], 'ir_2': [0]}
+frame_dummy:
+{'constant': [4199208]}
+emit_mandatory_arg_note:
+{'constant': [4232784, 4305412, 4337872], 'ir_3': []}
+emit_ancillary_info:
+{'constant': [0, 3, 5, 8, 56, 4232860, 4232884, 4232924, 4232940, 4232944, 4233016, 4233044, 4233096, 4233108, 4304912, 4305492, 4305496, 4337872], 'ir_4': [], 'ir_0': [3, 56], 'ir_1': [0, 1526726656], 'a0': [5], 'ir_3': [0]}
+usage:
+{'constant': [0, 4233276, 4233316, 4233372, 4233476, 4233680, 4233728, 4233784, 4337872], 'ir_0': [], 'ir_3': [0]}
+remove_suffix:
+{'constant': [0, 1, 4305404], 'ir_1': []}
+perform_basename:
+{'constant': [0, 10, 47, 4337872], 'ir_2': [], 'ir_0': [0, 47], 'a0': [0, 10]}
+main:
+{'constant': [0, 1, 2, 6, 97, 98, 115, 122, 255, 4201852, 4201992, 4202004, 4232924, 4233108, 4233132, 4233972, 4233984, 4234008, 4234032, 4234048, 4304756, 4337872, 4294967165, 4294967166, 4294967295], 'ir_14': [], 's_40': [0, 1, 2], 'a0': [0, 1, 6], 'ir_0': [0, 1, 3], 'ir_10': [1836412020], 'a1': [0]}
+close_stdout_set_file_name:
+{'constant': [4325376], 'ir_0': []}
+close_stdout_set_ignore_EPIPE:
+{'constant': [4325376], 'ir_0': []}
+close_stdout:
+{'constant': [0, 1, 32, 255, 4234096, 4234108, 4234116, 4305372, 4305568, 4305572, 4337872], 'ir_2': [], 'ir_0': [0, 1], 'ir_1': [0, 1, 32]}
+base_name:
+{'constant': [0, 1, 47], 'ir_0': [47]}
+last_component:
+{'constant': [0, 1, 47]}
+base_len:
+{'constant': [1, 2, 47, 4305404], 'ir_1': [47]}
+strip_trailing_slashes:
+{'constant': [0]}
+set_program_name:
+{'constant': [0, 1, 3, 7, 47, 55, 4234128, 4234184, 4234192, 4337872], 'ir_0': [], 'ir_3': [1, 47], 'ir_5': [1], 'ir_2': [3, 7, 55]}
+clone_quoting_options:
+{'constant': [0, 48, 4305380, 4337872], 'ir_0': [], 'ir_3': [48]}
+get_quoting_style:
+{'constant': [0, 4305600], 'ir_0': [0]}
+set_quoting_style:
+{'constant': [0, 4305600]}
+set_char_quoting:
+{'constant': [0, 1, 2, 5, 8, 31, 255, 4305600]}
+set_quoting_flags:
+{'constant': [0, 4305600], 'ir_0': [0]}
+set_custom_quoting:
+{'constant': [0, 10, 4305600, 4337872], 'ir_0': []}
+quoting_options_from_style:
+{'constant': [10, 48, 4305492, 4337872], 'ir_0': [], 'ir_1': [10], 'ir_3': [48], 'a0': [0]}
+gettext_quote:
+{'constant': [0, 9, 96, 4234360, 4234364, 4234376, 4234380, 4234384, 4234388, 4305412], 'ir_1': [9, 96]}
+quotearg_buffer:
+{'constant': [0, 4337872], 'ir_0': [], 'ir_1': [0]}
+quotearg_alloc:
+{'constant': []}
+quotearg_alloc_mem:
+{'constant': [0, 1, 4305600, 4337872], 'ir_0': [], 'ir_1': [0]}
+quotearg_free:
+{'constant': [1, 3, 256, 4305008, 4305072, 4305080, 4305648, 4325376, 4337872], 'ir_0': [], 'ir_2': [0, 1]}
+quotearg_n_options:
+{'constant': [0, 1, 3, 4, 4305008, 4305072, 4305076, 4305080, 4305380, 4305648, 4337872, 268435454, 2147483648], 'ir_1': [], 'ir_0': [1], 'a0': [0]}
+quotearg_n:
+{'constant': []}
+quotearg_n_mem:
+{'constant': []}
+quotearg:
+{'constant': []}
+quotearg_mem:
+{'constant': []}
+quotearg_n_style:
+{'constant': [4305492, 4337872, 4294967295], 'ir_5': [], 'a0': [0]}
+quotearg_n_style_mem:
+{'constant': [4305492, 4337872], 'ir_5': [], 'a0': [0]}
+quotearg_style:
+{'constant': []}
+quotearg_style_mem:
+{'constant': []}
+quotearg_char_mem:
+{'constant': [48, 4305492, 4305496, 4305600, 4337872], 'ir_9': [], 'a2': [1, 48], 'a0': [0]}
+quotearg_char:
+{'constant': []}
+quotearg_colon:
+{'constant': []}
+quotearg_colon_mem:
+{'constant': []}
+quotearg_n_style_colon:
+{'constant': [48, 4305492, 4337872, 4294967295], 'ir_10': [], 'a0': [0], 'a2': [1, 48], 'a1': [58]}
+quotearg_n_custom:
+{'constant': []}
+quotearg_n_custom_mem:
+{'constant': [48, 4305492, 4305496, 4305600, 4337872], 'ir_9': [], 'a2': [48], 'a0': [0]}
+quotearg_custom:
+{'constant': []}
+quotearg_custom_mem:
+{'constant': []}
+quote_n_mem:
+{'constant': []}
+quote_mem:
+{'constant': []}
+quote_n:
+{'constant': []}
+quote:
+{'constant': []}
+version_etc_arn:
+{'constant': [0, 2, 10, 2020, 4216132, 4216212, 4216308, 4216416, 4216544, 4216688, 4216840, 4217012, 4217204, 4217620, 4217624, 4235216, 4235228, 4235236, 4235240, 4235412, 4235448, 4235464, 4235488, 4235516, 4235548, 4235584, 4235624, 4235668, 4235716, 4235768, 4337872], 'ir_0': [], 'a3': [2020], 'a0': [10]}
+version_etc_ar:
+{'constant': [0, 1, 2]}
+version_etc_va:
+{'constant': [0, 1, 2, 4, 10, 44, 4305492, 4337872], 'ir_5': [], 'ir_4': [0, 1]}
+version_etc:
+{'constant': [4305492, 4337872], 'ir_1': [], 's_40': [0]}
+emit_bug_reporting_address:
+{'constant': [10, 4235868, 4235888, 4235912, 4235932, 4235972, 4235988, 4236028, 4305372, 4305480, 4337872], 'ir_0': [], 'ir_1': [10]}
+xnmalloc:
+{'constant': [0, 1, 2147483648], 'a0': [0, 1]}
+xnrealloc:
+{'constant': [0, 1, 2147483648], 'a0': [0, 1]}
+x2nrealloc:
+{'constant': [0, 1, 64, 255, 2147483648], 'ir_1': [64], 'a0': [0, 1]}
+xcharalloc:
+{'constant': []}
+xmalloc:
+{'constant': [0, 4305428], 'ir_1': []}
+xrealloc:
+{'constant': [0, 4219644, 4337872], 'ir_0': [], 'ir_2': [0]}
+x2realloc:
+{'constant': []}
+xzalloc:
+{'constant': []}
+xcalloc:
+{'constant': [0, 1, 4337872, 2147483648], 'ir_0': [], 'a0': [0, 1], 'ir_4': [0]}
+xmemdup:
+{'constant': [4337872], 'ir_3': []}
+xstrdup:
+{'constant': [1, 4305404], 'ir_1': []}
+xalloc_die:
+{'constant': [0, 4236112, 4236132, 4305204, 4305412, 4337872], 'ir_0': [1], 'ir_6': [], 'ir_4': [0]}
+xstrndup:
+{'constant': [0, 4305364], 'ir_2': []}
+exchange:
+{'constant': [0, 1, 2]}
+process_long_option:
+{'constant': [0, 1, 2, 4, 10, 16, 45, 58, 61, 63, 4221792, 4221860, 4223396, 4236144, 4236176, 4236224, 4236232, 4236264, 4236312, 4337872, 4294967295], 'ir_0': [], 'ir_4': [0, 1, 45, 61, 63], 'a0': [0, 10], 'a1': [0]}
+_getopt_initialize:
+{'constant': [0, 1, 2, 43, 45, 4223712, 4236352, 4337872], 'ir_0': [], 'ir_2': [43, 45]}
+_getopt_internal_r:
+{'constant': [0, 1, 2, 43, 45, 58, 59, 63, 87, 4223976, 4224260, 4224628, 4226488, 4236368, 4236376, 4236404, 4337872, 4294967295], 'ir_0': [], 's_50': [0, 58, 63], 'ir_1': [1, 43, 45, 58, 59, 63, 87]}
+rpl_getopt_internal:
+{'constant': [4305088, 4305092, 4305904, 4305912, 4305916, 4337872]}
+rpl_getopt:
+{'constant': [], 'ir_0': [1]}
+rpl_getopt_long:
+{'constant': []}
+_getopt_long_r:
+{'constant': []}
+rpl_getopt_long_only:
+{'constant': []}
+_getopt_long_only_r:
+{'constant': []}
+rpl_mbrtowc:
+{'constant': [0, 1, 255, 4227644, 4236464, 4305492, 4337872, 4294967294], 'ir_0': [], 'ir_1': [1], 'a0': [0]}
+c_strcasecmp:
+{'constant': [0, 1], 'ir_8': [0]}
+close_stream:
+{'constant': [0, 1, 9, 255, 4228212, 4305452, 4337872, 4294967295], 'ir_6': [], 'ir_1': [0, 9]}
+hard_locale:
+{'constant': [0, 1, 255, 257, 4228444, 4236480, 4236484, 4305492, 4337872], 'ir_3': [], 'ir_0': [257], 'a0': [0], 'ir_2': [0, 1]}
+locale_charset:
+{'constant': [0, 14, 4236496, 4236500, 4305356], 'ir_0': [14], 'ir_1': [0]}
+setlocale_null_androidfix:
+{'constant': [0, 4305352], 'ir_0': [0], 'ir_2': []}
+setlocale_null_unlocked:
+{'constant': [0, 1, 22, 34, 4337872], 'ir_1': [], 'ir_0': [0, 22, 34]}
+setlocale_null_r:
+{'constant': []}
+setlocale_null:
+{'constant': []}
+rpl_fclose:
+{'constant': [0, 4305376, 4337872, 2147483648, 4294967295], 'ir_2': [], 'ir_1': [0]}
+clear_ungetc_buffer_preserving_position:
+{'constant': [0, 256], 's_28': [1]}
+rpl_fflush:
+{'constant': [0, 4229868, 4337872], 'ir_0': []}
+rpl_fseeko:
+{'constant': [0, 4230224, 4337872, 4294967279, 4294967295], 'ir_0': [], 'ir_2': [0]}
+c_isalnum:
+{'constant': [0, 1, 10, 26, 48, 65, 91, 97, 4230356], 'ir_0': [0, 1]}
+c_isalpha:
+{'constant': [0, 1, 65, 91, 4230452], 'ir_0': [0, 1]}
+c_isascii:
+{'constant': [0, 1, 128], 'ir_0': [0, 1]}
+c_isblank:
+{'constant': [0, 1, 9, 32, 255, 4230608], 'ir_0': [0, 1, 9, 32]}
+c_iscntrl:
+{'constant': [0, 1, 32, 4230704, 2147483648], 'ir_0': [0, 1]}
+c_isdigit:
+{'constant': [0, 1, 10, 48], 'ir_0': [0, 1]}
+c_isgraph:
+{'constant': [0, 1, 33, 94], 'ir_0': [0, 1]}
+c_islower:
+{'constant': [0, 1, 26, 97], 'ir_0': [0, 1]}
+c_isprint:
+{'constant': [0, 1, 32, 95], 'ir_0': [0, 1]}
+c_ispunct:
+{'constant': [0, 1, 4, 15, 33, 58, 65, 91, 97, 123, 4231136], 'ir_0': [0, 1]}
+c_isspace:
+{'constant': [0, 1, 9, 14, 4231228], 'ir_0': [0, 1]}
+c_isupper:
+{'constant': [0, 1, 26, 65], 'ir_0': [0, 1]}
+c_isxdigit:
+{'constant': [0, 1, 2, 48, 55, 4231384, 4231396, 4231400], 'ir_0': [0]}
+c_tolower:
+{'constant': [0, 26, 32, 65]}
+c_toupper:
+{'constant': [0, 26, 32, 97]}
+__libc_csu_init:
+{'constant': [0, 1, 2, 4, 106288], 'ir_8': [0, 1]}
+__libc_csu_fini:
+{'constant': []}
+atexit:
+{'constant': [106112]}
+__do_global_ctors_aux:
+{'constant': [4, 20636, 4304740, 4325376, 4294967295], 'ir_0': [], 'ir_2': [0]}
+_MIPS_STUBS_:
+{'constant': []}
+sub_4092e0:
+{'constant': []}
+sub_4092f0:
+{'constant': []}
+sub_409300:
+{'constant': []}
+sub_409310:
+{'constant': []}
+sub_409320:
+{'constant': []}
+sub_409330:
+{'constant': []}
+sub_409340:
+{'constant': []}
+sub_409350:
+{'constant': []}
+sub_409360:
+{'constant': []}
+sub_409370:
+{'constant': []}
+sub_409380:
+{'constant': []}
+sub_409390:
+{'constant': []}
+sub_4093a0:
+{'constant': []}
+sub_4093b0:
+{'constant': []}
+sub_4093c0:
+{'constant': []}
+sub_4093d0:
+{'constant': []}
+sub_4093e0:
+{'constant': []}
+sub_4093f0:
+{'constant': []}
+sub_409400:
+{'constant': []}
+sub_409410:
+{'constant': []}
+sub_409420:
+{'constant': []}
+sub_409430:
+{'constant': []}
+sub_409440:
+{'constant': []}
+sub_409450:
+{'constant': []}
+sub_409460:
+{'constant': []}
+sub_409470:
+{'constant': []}
+sub_409480:
+{'constant': []}
+sub_409490:
+{'constant': []}
+sub_4094a0:
+{'constant': []}
+sub_4094b0:
+{'constant': []}
+sub_4094c0:
+{'constant': []}
+sub_4094d0:
+{'constant': []}
+sub_4094e0:
+{'constant': []}
+sub_4094f0:
+{'constant': []}
+sub_409500:
+{'constant': []}
+sub_409510:
+{'constant': []}
+sub_409520:
+{'constant': []}
+sub_409530:
+{'constant': []}
+sub_409540:
+{'constant': []}
+sub_409550:
+{'constant': []}
+sub_409560:
+{'constant': []}
+sub_409570:
+{'constant': []}
+sub_409580:
+{'constant': []}
+sub_409590:
+{'constant': []}
+sub_4095a0:
+{'constant': []}
+sub_4095b0:
+{'constant': []}
+sub_4095c0:
+{'constant': []}
+sub_4095d0:
+{'constant': [4232688]}
+_fini:
+{'constant': []}
+sub_409610:
+{'constant': [4980, 4305140]}

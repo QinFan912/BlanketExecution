@@ -1,0 +1,276 @@
+_init:
+{}
+_start:
+{'ir_2': [0], 's_0': [], 'ir_0': [-516948194], 'ir_6': [1], 'ir_4': [-449978364]}
+sub_8fc0:
+{'ir_0': [-516948194]}
+call_weak_fn:
+{'ir_0': [1], 'ir_1': [0], 'ir_4': [2]}
+__do_global_dtors_aux:
+{'ir_2': [2], 'ir_3': [0], 'ir_1': [1]}
+frame_dummy:
+{'ir_2': [0], 'ir_4': [2]}
+emit_ancillary_info:
+{'ir_3': [], 'ir_1': [0, 5], 'ir_6': [0], 'ir_29': [2], 'ir_7': [3]}
+usage:
+{'ir_4': [2], 'ir_6': [0], 'ir_1': [], 'ir_0': [1048832]}
+writeline:
+{'ir_5': [2], 'ir_7': [0, 1, 2, 3], 'ir_8': [0], 'ir_4': [0, 1], 'ir_2': [1]}
+check_order:
+{'ir_5': [0], 'ir_7': [2], 'ir_9': [0, 1, 2], 'ir_3': [0, 1]}
+compare_files:
+{'s_168': [0, 1, 2, 10], 'ir_9': [0, 1, 2, 3, 10], 'ir_10': [0, 1, 2, 9, 10], 'ir_17': [1, 2], 'ir_18': [0, 1, 2], 'ir_19': [0, 1, 3], 'ir_20': [0], 'ir_32': [0, 2, 3], 'ir_8': [0, 1], 'ir_974': []}
+main:
+{'ir_2': [0, 1, 3, 6], 's_30': [0, 1, 2], 'ir_19': [0, 1, 2, 257, 258, 259], 'ir_4': [-1811938901, 0, 1, 1667590243], 'ir_47': [1, 2], 'ir_49': [0, 1, 2, 3, 49, 50, 51, 122, 256, 257, 258, 259], 'ir_50': [0]}
+close_stdout_set_file_name:
+{}
+close_stdout_set_ignore_EPIPE:
+{}
+close_stdout:
+{'ir_2': [0, 1], 'ir_7': [2], 'ir_9': [0, 32], 'ir_10': [0]}
+fdadvise:
+{}
+fadvise:
+{'ir_4': [2], 'ir_6': [0]}
+fopen_safer:
+{'ir_7': [2], 'ir_9': [0, 2], 'ir_10': [0]}
+hard_locale:
+{'ir_2': [0, 1], 'ir_4': [], 'ir_5': [257], 'ir_8': [2], 'ir_10': [0]}
+umaxtostr:
+{'ir_3': [10], 'ir_4': [0], 'ir_32': [5]}
+initbuffer:
+{'ir_2': [0]}
+readlinebuffer:
+{'ir_5': [10]}
+readlinebuffer_delim:
+{'ir_16': [1, 2], 'ir_18': [0, 1], 'ir_19': [0]}
+freebuffer:
+{}
+memcmp2:
+{'ir_7': [2], 'ir_10': [0], 'ir_4': [1]}
+set_program_name:
+{'ir_3': [2], 'ir_5': [0, 6], 'ir_6': [0], 'ir_11': [1, 47], 'ir_2': [0, 1919954734], 'ir_7': [3, 7, 55]}
+clone_quoting_options:
+{'ir_6': [2], 'ir_8': [0], 'ir_12': [48]}
+get_quoting_style:
+{'ir_2': [2], 'ir_4': [0]}
+set_quoting_style:
+{'ir_3': [2], 'ir_5': [0]}
+set_char_quoting:
+{'ir_6': [2], 'ir_8': [0]}
+set_quoting_flags:
+{'ir_3': [2], 'ir_5': [0]}
+set_custom_quoting:
+{'ir_5': [2], 'ir_7': [0], 'ir_3': [10]}
+quoting_options_from_style:
+{'s_48': [0], 'ir_30': [2], 'ir_32': [10]}
+gettext_quote:
+{'ir_7': [2], 'ir_10': [0], 'ir_9': [0, 9, 96], 'ir_6': [15014704]}
+quotearg_buffer_restyled:
+{'s_80': [0, 1, 2, 3, 4, 5, 34, 36, 39, 48, 63, 92, 97, 98, 102, 110, 114, 116, 118], 'ir_5': [0, 1, 4, 48, 97, 98, 102, 110, 114, 116, 118], 'ir_13': [1, 2], 'ir_15': [0, 1, 2, 5, 10, 29, 33, 47, 57, 63, 126], 'ir_16': [0], 'ir_14': [0, 1, 2, 3], 'ir_4': [0, 1, 2, 3, 34, 39, 48, 63, 92]}
+quotearg_buffer:
+{'ir_6': [2], 'ir_8': [0]}
+quotearg_alloc:
+{'ir_3': [0]}
+quotearg_alloc_mem:
+{'ir_6': [2], 'ir_8': [0]}
+quotearg_free:
+{'ir_1': [0, 1, 8], 's_10': [1, 2, 3, 256], 'ir_6': [1, 2, 3], 'ir_7': [2], 'ir_9': [1], 'ir_10': [0], 'ir_16': [0, 8]}
+quotearg_n_options:
+{'ir_12': [2], 'ir_14': [0], 'ir_4': [1], 's_58': [1, 256], 'ir_5': [0, 1]}
+quotearg_n:
+{'ir_5': []}
+quotearg_n_mem:
+{}
+quotearg:
+{'ir_1': [0]}
+quotearg_mem:
+{'ir_1': [0]}
+quotearg_n_style:
+{'ir_4': []}
+quotearg_n_style_mem:
+{'ir_4': []}
+quotearg_style:
+{'ir_1': [0]}
+quotearg_style_mem:
+{'ir_1': [0]}
+quotearg_char_mem:
+{'ir_6': [], 'ir_1': [0], 'ir_3': [1]}
+quotearg_char:
+{'ir_2': []}
+quotearg_colon:
+{'ir_3': [58]}
+quotearg_colon_mem:
+{'ir_5': [58]}
+quotearg_n_style_colon:
+{'ir_4': [], 'ir_2': [58], 'ir_3': [1]}
+quotearg_n_custom:
+{'s_20': []}
+quotearg_n_custom_mem:
+{'s_48': [0], 'ir_6': []}
+quotearg_custom:
+{'ir_1': [0]}
+quotearg_custom_mem:
+{'ir_1': [0]}
+quote_n_mem:
+{}
+quote_mem:
+{'ir_1': [0]}
+quote_n:
+{'ir_5': []}
+quote:
+{'ir_1': [0]}
+setlocale_null_androidfix:
+{'ir_3': [0]}
+setlocale_null_unlocked:
+{'ir_7': [2], 'ir_9': [0], 'ir_6': [0, 22, 34]}
+setlocale_null_r:
+{}
+setlocale_null:
+{}
+dup_safer:
+{'ir_3': [0], 'ir_4': [3]}
+version_etc_arn:
+{'ir_10': [2], 'ir_12': [0, 9], 'ir_13': [0], 'ir_8': [2020], 'ir_5': [10]}
+version_etc_ar:
+{'ir_4': [0], 's_28': [0, 1, 2], 'ir_11': [2]}
+version_etc_va:
+{'ir_4': [0, 1, 2], 'ir_7': [2], 'ir_9': [0, 9], 'ir_10': [0], 'ir_1': []}
+version_etc:
+{'s_30': []}
+emit_bug_reporting_address:
+{'ir_1': [], 'ir_3': [10]}
+xnmalloc:
+{'ir_1': [], 'ir_9': [2], 'ir_12': [0]}
+xnrealloc:
+{'ir_1': [], 'ir_10': [2], 'ir_13': [0]}
+x2nrealloc:
+{'ir_7': [2], 'ir_9': [0], 'ir_1': [64]}
+xcharalloc:
+{}
+xmalloc:
+{'ir_6': [2], 'ir_8': [0]}
+xrealloc:
+{'ir_4': [2], 'ir_6': [0]}
+x2realloc:
+{'ir_5': [1]}
+xzalloc:
+{'ir_3': [1]}
+xcalloc:
+{'ir_1': [], 'ir_9': [2], 'ir_12': [0]}
+xmemdup:
+{}
+xstrdup:
+{}
+xalloc_die:
+{'ir_1': [1], 'ir_5': [0, 1], 'ir_9': [0, 8], 'ir_10': [0]}
+collate_error:
+{'ir_4': [0, 1], 'ir_5': [0, 8], 'ir_1': [1]}
+xmemcoll:
+{'ir_14': [2], 'ir_16': [0]}
+xmemcoll0:
+{'ir_14': [2], 'ir_16': [0]}
+rpl_fclose:
+{'s_28': [0, 1], 'ir_2': [0], 'ir_7': [2], 'ir_1': []}
+rpl_fcntl:
+{'ir_8': [2], 'ir_10': [0, 1, 3, 4, 8, 10, 11, 1024, 1026, 1030, 1031, 1032], 'ir_11': [0], 'ir_1': [1026, 1030, 1031, 1032]}
+$a:
+{'ir_2': [0]}
+rpl_fcntl_DUPFD_CLOEXEC:
+{'ir_3': [0, 1], 'ir_5': [1, 2], 'ir_7': [0, 1, 22], 'ir_8': [0], 'ir_2': [1, 2, 1030], 'ir_11': [1], 'ir_1': []}
+clear_ungetc_buffer_preserving_position:
+{'ir_5': [2], 'ir_7': [0], 's_18': [1]}
+rpl_fflush:
+{'ir_3': [2], 'ir_5': [0]}
+rpl_fseeko:
+{'ir_8': [2], 'ir_11': [0], 'ir_2': []}
+exchange:
+{'ir_10': [2], 'ir_13': [0], 's_30': [0, 1, 2]}
+process_long_option:
+{'s_50': [0, 1], 'ir_11': [2], 'ir_13': [0, 1, 45, 61], 'ir_14': [0], 'ir_5': [0, 1, 63], 'ir_1': [], 'ir_2': [0, 10, 63]}
+_getopt_initialize:
+{'ir_7': [2], 'ir_9': [0, 43, 45], 'ir_10': [0], 'ir_3': [0, 1, 2]}
+_getopt_internal_r:
+{'ir_9': [2], 'ir_11': [0, 1, 43, 45, 58, 59, 87], 'ir_12': [0], 's_48': [0, 58, 63], 'ir_5': [58, 63], 'ir_2': [63], 'ir_1': []}
+rpl_getopt_internal:
+{'s_30': [0, 1], 'ir_3': [0]}
+rpl_getopt:
+{'s_28': [0, 1], 'ir_4': [0]}
+rpl_getopt_long:
+{'s_28': [0]}
+_getopt_long_r:
+{'s_28': [0]}
+rpl_getopt_long_only:
+{'s_28': [0, 1]}
+_getopt_long_only_r:
+{'s_28': [0, 1]}
+rpl_mbrtowc:
+{'ir_6': [1, 2], 'ir_8': [0, 3], 'ir_9': [0], 's_28': [0, 1], 'ir_4': [1]}
+c_strcasecmp:
+{'ir_7': [2], 'ir_10': [0]}
+close_stream:
+{'ir_5': [2], 'ir_7': [0, 9], 'ir_8': [0]}
+locale_charset:
+{'ir_1': [14], 'ir_4': [2], 'ir_6': [0]}
+strcoll_loop:
+{'ir_3': [0], 'ir_12': [2], 'ir_4': [0, 1]}
+memcoll:
+{'ir_7': [2], 'ir_10': [0]}
+memcoll0:
+{'ir_7': [2], 'ir_10': [0]}
+rpl_nl_langinfo:
+{'ir_5': [2], 'ir_7': [11], 'ir_8': [0]}
+c_isalnum:
+{'ir_2': [2], 'ir_4': [9, 25, 65, 90], 'ir_5': [0], 'ir_1': [0, 1]}
+c_isalpha:
+{'ir_2': [2], 'ir_4': [25, 65, 90], 'ir_5': [0], 'ir_1': [0, 1]}
+c_isascii:
+{'ir_3': [2], 'ir_5': [127], 'ir_6': [0], 'ir_1': [0, 1]}
+c_isblank:
+{'ir_2': [2], 'ir_4': [9, 32], 'ir_5': [0], 'ir_1': [0, 1]}
+c_iscntrl:
+{'ir_2': [2], 'ir_4': [0, 31, 127], 'ir_5': [0], 'ir_1': [0, 1]}
+c_isdigit:
+{'ir_3': [2], 'ir_5': [9], 'ir_6': [0], 'ir_1': [0, 1]}
+c_isgraph:
+{'ir_3': [2], 'ir_5': [93], 'ir_6': [0], 'ir_1': [0, 1]}
+c_islower:
+{'ir_3': [2], 'ir_5': [25], 'ir_6': [0], 'ir_1': [0, 1]}
+c_isprint:
+{'ir_3': [2], 'ir_5': [94], 'ir_6': [0], 'ir_1': [0, 1]}
+c_ispunct:
+{'ir_2': [2], 'ir_4': [3, 14, 58, 64, 91, 96], 'ir_5': [0], 'ir_1': [0, 1]}
+c_isspace:
+{'ir_3': [2], 'ir_5': [0, 23], 'ir_6': [0], 'ir_1': [0, 1]}
+c_isupper:
+{'ir_3': [2], 'ir_5': [25], 'ir_6': [0], 'ir_1': [0, 1]}
+c_isxdigit:
+{'ir_3': [2], 'ir_5': [54], 'ir_6': [0], 'ir_1': [0, 1]}
+c_tolower:
+{'ir_3': [2], 'ir_5': [25], 'ir_6': [0]}
+c_toupper:
+{'ir_3': [2], 'ir_5': [25], 'ir_6': [0]}
+__udivsi3:
+{'ir_2': [2, 5], 'ir_4': [0, 1], 'ir_5': [0], 'ir_7': [8]}
+__aeabi_uidivmod:
+{'ir_1': [2], 'ir_3': [0], 'ir_6': [8]}
+__aeabi_uldivmod:
+{'ir_1': [2], 'ir_3': [0], 's_10': [], 'ir_15': [8]}
+__aeabi_idiv0:
+{'ir_2': [8]}
+__gnu_ldivmod_helper:
+{'ir_21': [2], 'ir_24': [0]}
+__gnu_uldivmod_helper:
+{'ir_21': [2], 'ir_24': [0]}
+__divdi3:
+{'ir_10': [1, 2], 'ir_12': [0], 'ir_3': [], 'ir_18': [1]}
+__udivdi3:
+{'ir_12': [1, 2], 'ir_14': [0], 'ir_10': [0, 1]}
+__libc_csu_init:
+{'ir_5': [-442564576, -442552304], 'ir_1': [1, 4], 'ir_20': [2, 5], 'ir_21': [1, 2], 'ir_22': [0, 1], 'ir_6': [1, 2, 3], 'ir_23': [0]}
+__libc_csu_fini:
+{}
+atexit:
+{'ir_0': [1], 'ir_4': [0], 'ir_5': [2]}
+_fini:
+{}

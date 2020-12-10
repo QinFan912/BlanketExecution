@@ -1,0 +1,464 @@
+_init:
+{'constant': [0, 69279696], 'ir_0': [0]}
+sub_40019b0:
+{'constant': [69279128]}
+_start:
+{'constant': [67118303, 67162272, 67162384, 69279688], 'a2': []}
+sub_4001e2a:
+{'constant': []}
+deregister_tm_clones:
+{'constant': [69279680, 69279928], 'ir_0': [0]}
+register_tm_clones:
+{'constant': [0, 69279704], 'ir_0': [0]}
+__do_global_dtors_aux:
+{'constant': [0, 1, 67116536, 69279712, 69279752, 69280008], 'ir_0': [69279752], 's_8': [1]}
+frame_dummy:
+{'constant': [67116656]}
+select_plural:
+{'constant': []}
+emit_ancillary_info:
+{'constant': [0, 16, 67162544, 67162546, 67162562, 67162572, 67162594, 67162604, 69279944], 'ir_1': [0], 'a0': [5], 'ir_4': []}
+diagnose_leading_hyphen:
+{'constant': [0, 1, 3, 8, 45, 255, 67117708, 69280000], 's_e8': [1, 2], 'ir_3': [0, 1, 2], 'a1': [3], 'a0': [1, 4]}
+usage:
+{'constant': [0, 69279944, 69280000], 'ir_4': [0]}
+rm_option_init:
+{'constant': [0, 4], 'a0': [0]}
+main:
+{'constant': [-131, -130, -1, 0, 1, 2, 3, 4, 8, 73, 82, 100, 102, 105, 114, 118, 128, 129, 131, 132, 255, 67118843, 67119051, 67119730, 69279760, 69279768, 69279944, 69279960, 69279968, 69280000], 's_78': [0, 1, 2, 3, 4, 5], 'a0': [0, 1, 4, 6], 'ir_1': [0, 1, 2], 'a1': [0]}
+dot_or_dotdot:
+{'constant': [0, 1, 2, 46, 47, 67119842], 'ir_3': [0, 1], 'ir_0': [1, 2]}
+readdir_ignoring_dot_and_dotdot:
+{'constant': [0, 1, 19, 255]}
+is_empty_dir:
+{'constant': [0, 1, 31], 'ir_0': [0]}
+cache_fstatat:
+{'constant': [-2, -1, 0], 'ir_0': [0]}
+cache_stat_init:
+{'constant': [-1]}
+write_protected_non_symlink:
+{'constant': [-1, 0, 1, 13, 255, 40960, 61440], 'ir_0': [0, 1], 'a2': [2]}
+prompt:
+{'constant': [-1, 0, 1, 2, 3, 4, 5, 10, 21, 31, 255, 16384, 40960, 61440, 67121180, 67121592, 67121616, 69280000], 'ir_1': [0, 1, 2, 3, 4], 'a0': [0, 4], 'ir_17': [0], 'a2': [0, 3, 4], 'a3': [256]}
+nonexistent_file_errno:
+{'constant': [0, 1, 2, 20, 22, 84, 67121697], 'ir_0': [0, 1]}
+ignorable_missing:
+{'constant': [0, 1, 255, 67121751], 'ir_0': [0, 1]}
+fts_skip_tree:
+{'constant': []}
+mark_ancestor_dirs:
+{'constant': [0, 1], 's_8': [1]}
+excise:
+{'constant': [0, 1, 2, 4, 13, 17, 20, 21, 30, 39, 255], 'ir_1': [0, 2, 4, 512], 'a2': [0, 512], 'a0': [0, 4], 'ir_17': [0]}
+rm_fts:
+{'constant': [0, 1, 2, 4, 6, 13, 21, 39, 255, 67122586, 67124007, 67124226, 67124354, 67124459, 67166296], 'a1': [0, 3, 4, 21, 39], 'a0': [0, 1, 2, 4], 'ir_1': [0, 1, 4, 39], 'a2': [0, 1]}
+rm:
+{'constant': [0, 2, 3, 4, 64, 255, 536], 's_48': [2, 4, 536, 600], 'ir_0': [0, 2, 4], 'a1': [536, 600], 'a0': [0]}
+__argmatch_die:
+{'constant': []}
+sub_4003f59:
+{'constant': []}
+argmatch:
+{'constant': [-2, -1, 0, 1, 3, 8, 67125329], 's_48': [0, 1, 2], 'a2': [0, 8, 16], 'ir_0': [0, 1]}
+argmatch_invalid:
+{'constant': [-1], 'a0': [0, 1], 'a1': [0, 8], 'ir_0': [0]}
+argmatch_valid:
+{'constant': [0, 1, 3, 8, 69280000], 'ir_0': [], 'a2': [0, 8], 'ir_1': [0], 'a0': [0, 10]}
+__xargmatch_internal:
+{'constant': [-1, 0, 63]}
+argmatch_to_argument:
+{'constant': [0, 1, 3, 8], 's_38': [0, 1, 2], 'a2': [0, 8, 16], 'ir_0': [0]}
+close_stdin_set_file_name:
+{'constant': []}
+close_stdin:
+{'constant': [0, 1, 69279776, 69279952, 69280032], 'ir_0': [0, 1]}
+close_stdout_set_file_name:
+{'constant': []}
+close_stdout_set_ignore_EPIPE:
+{'constant': []}
+close_stdout:
+{'constant': [0, 1, 32, 255, 69279776, 69279944, 69280000, 69280040, 69280048], 'ir_0': [0, 1]}
+last_component:
+{'constant': [0, 1, 47, 255], 's_8': [0, 1]}
+base_len:
+{'constant': [1, 47]}
+file_type:
+{'constant': [0, 4096, 8192, 16384, 24576, 32768, 40960, 49152, 61440]}
+file_name_concat:
+{'constant': [0]}
+mfile_name_concat:
+{'constant': [0, 1, 2, 46, 47], 'ir_0': [0, 1], 'a2': [0, 46]}
+priv_set_remove_linkdir:
+{'constant': [-1], 'ir_0': []}
+priv_set_restore_linkdir:
+{'constant': [-1], 'ir_0': []}
+set_program_name:
+{'constant': [0, 3, 6, 7, 69280000], 'ir_0': [0]}
+clone_quoting_options:
+{'constant': [0, 69280064]}
+get_quoting_style:
+{'constant': [0, 69280064], 'ir_0': [0]}
+set_quoting_style:
+{'constant': [0, 69280064]}
+set_char_quoting:
+{'constant': [0, 1, 4, 5, 8, 31, 69280064]}
+set_quoting_flags:
+{'constant': [0, 69280064], 's_8': [0]}
+set_custom_quoting:
+{'constant': [0, 10, 69280064]}
+quoting_options_from_style:
+{'constant': [0, 10], 'ir_1': [0]}
+gettext_quote:
+{'constant': [0, 9, 96, 67166926, 67166930, 67166942, 67166946, 67166949, 67166951]}
+quotearg_buffer:
+{'constant': [0, 69280064], 'a4': [0]}
+quotearg_alloc:
+{'constant': []}
+quotearg_alloc_mem:
+{'constant': [0, 1, 69280064], 'a1': [0]}
+quotearg_free:
+{'constant': [1, 16, 256, 69279808, 69279904, 69279920, 69280128], 'ir_0': [0, 1]}
+quotearg_n_options:
+{'constant': [0, 1, 8, 16, 31, 67133695, 69279808, 69279904, 69279912, 69279920, 69280128, 2147483646], 'ir_0': [0, 1], 's_58': [1, 256], 'a0': [0], 'a3': [16]}
+quotearg_n:
+{'constant': []}
+quotearg_n_mem:
+{'constant': []}
+quotearg:
+{'constant': []}
+quotearg_mem:
+{'constant': []}
+quotearg_n_style:
+{'constant': []}
+quotearg_n_style_mem:
+{'constant': [], 'a0': [0]}
+quotearg_style:
+{'constant': []}
+quotearg_style_mem:
+{'constant': []}
+quotearg_char_mem:
+{'constant': [], 'a2': [1], 'a0': [0]}
+quotearg_char:
+{'constant': []}
+quotearg_colon:
+{'constant': []}
+quotearg_colon_mem:
+{'constant': []}
+quotearg_n_style_colon:
+{'constant': [], 'a2': [1], 'a1': [58]}
+quotearg_n_custom:
+{'constant': []}
+quotearg_n_custom_mem:
+{'constant': [], 'a0': [0]}
+quotearg_custom:
+{'constant': []}
+quotearg_custom_mem:
+{'constant': []}
+quote_n_mem:
+{'constant': []}
+quote_mem:
+{'constant': []}
+quote_n:
+{'constant': []}
+quote:
+{'constant': []}
+get_root_dev_ino:
+{'constant': [0]}
+statat:
+{'constant': []}
+lstatat:
+{'constant': []}
+version_etc_arn:
+{'constant': [0, 4, 67168396], 'ir_0': [0], 'a0': [10]}
+version_etc_ar:
+{'constant': [0, 1, 3], 'a2': [0, 8, 16]}
+version_etc_va:
+{'constant': [0, 1, 3, 8, 9, 47, 96], 'ir_1': [0], 'a4': []}
+version_etc:
+{'constant': [0, 255], 's_f8': [32, 48], 'ir_0': [0]}
+emit_bug_reporting_address:
+{'constant': [69279944], 'ir_0': [0]}
+can_write_any_file:
+{'constant': [0, 1, 255, 69280384, 69280385], 'ir_0': [0, 1]}
+xnmalloc:
+{'constant': [0, 1, 255], 'ir_0': [0, 1], 'ir_4': [1]}
+xnrealloc:
+{'constant': [0, 1, 255], 'ir_0': [0, 1], 'ir_4': [1]}
+x2nrealloc:
+{'constant': [0, 1, 255], 'ir_1': [0, 1], 'ir_0': [1]}
+xcharalloc:
+{'constant': []}
+xmalloc:
+{'constant': [0]}
+xrealloc:
+{'constant': [0, 67138537], 'ir_0': [0]}
+x2realloc:
+{'constant': []}
+xzalloc:
+{'constant': []}
+xcalloc:
+{'constant': [0, 1, 255], 'ir_0': [0, 1], 'ir_4': [1]}
+xmemdup:
+{'constant': []}
+xstrdup:
+{'constant': [1]}
+xalloc_die:
+{'constant': [69279776], 'ir_0': [0, 1]}
+xfts_open:
+{'constant': [0, 22], 'a2': [41]}
+cycle_warning_required:
+{'constant': [0, 1, 16, 67139066], 'ir_0': [0, 1]}
+yesno:
+{'constant': [0, 1, 10, 69279952], 'ir_1': [0]}
+clear_ungetc_buffer_preserving_position:
+{'constant': [0, 256]}
+rpl_fflush:
+{'constant': [0]}
+freadahead:
+{'constant': [0, 256, 67139483], 'ir_1': [0]}
+rpl_fseeko:
+{'constant': [-17, -1, 0, 67139672], 'ir_0': [0]}
+AD_compare:
+{'constant': [0, 1, 67139754], 'ir_0': [0, 1]}
+AD_hash:
+{'constant': []}
+setup_dir:
+{'constant': [0, 1, 258, 67139961, 69279672], 'a0': [31, 32], 'ir_0': [0, 1]}
+enter_dir:
+{'constant': [0, 1, 2, 120, 255, 258, 67140226, 67140231], 'a0': [24], 'ir_0': [0, 1], 's_38': [2]}
+leave_dir:
+{'constant': [0, 120, 258, 67140515], 's_58': [], 'ir_1': [0]}
+free_dir:
+{'constant': [0, 258]}
+fd_ring_clear:
+{'constant': [0, 1, 255]}
+fts_set_stat_required:
+{'constant': [0, 1, 2, 11], 'ir_1': [1, 2]}
+cwd_advance_fd:
+{'constant': [-100, 0, 1, 4, 31, 96]}
+restore_initial_cwd:
+{'constant': [-100, 0, 1, 4, 96, 512, 67141037], 'ir_0': [0, 1], 'a0': []}
+diropen:
+{'constant': [0, 512, 8192, 131072, 592128, 67141169], 'ir_2': [0]}
+rpl_fts_open:
+{'constant': [-4096, -100, -1, 0, 1, 2, 4, 8, 9, 11, 18, 22, 31, 47, 96, 255, 264, 512, 1024, 2048, 4096, 67141535, 67141566, 67141818, 67142106, 67142134], 's_78': [0, 1, 9, 11, 22], 'ir_1': [0, 1], 'a1': [0, 1, 128], 'a2': [0]}
+fts_load:
+{'constant': [0, 1, 255, 264], 'a1': [47]}
+rpl_fts_close:
+{'constant': [-1, 0, 1, 4, 31, 96, 512], 'ir_2': [0]}
+dev_type_hash:
+{'constant': []}
+dev_type_compare:
+{'constant': []}
+filesystem_type:
+{'constant': [0, 1, 31, 512, 67143304, 69279672], 'ir_1': [0], 'a0': [13, 16], 'ir_2': []}
+dirent_inode_sort_may_be_useful:
+{'constant': [-11317950, 0, 1, 26985, 16914836, 67143396], 'ir_0': [0, 1]}
+leaf_optimization:
+{'constant': [-11317950, 0, 1, 2, 26985, 40864, 67143511, 67143516, 'ReIs', 'SFAO', 'XFSB'], 'ir_0': [0, 1, 2]}
+rpl_fts_read:
+{'constant': [-1, 0, 1, 2, 3, 4, 6, 7, 8, 11, 12, 13, 16, 31, 47, 64, 255, 264, 512, 4096, 8192, 16384, 61440, 67144133, 67144594, 67144812, 67144891, 67145117, 67145224, 67145299], 'ir_3': [0, 6, 7], 'ir_62': [0, 1]}
+rpl_fts_set:
+{'constant': [0, 1, 2, 3, 4, 22, 67145395], 'ir_0': [0, 1]}
+rpl_fts_children:
+{'constant': [0, 1, 2, 4, 9, 22, 31, 47, 512, 4096, 8192, 67145795, 67145799], 'ir_2': [0, 1, 2], 'a1': [1, 2]}
+fts_compare_ino:
+{'constant': [-1], 'ir_0': []}
+set_stat_type:
+{'constant': [0, 4096, 8192, 16384, 24576, 32768, 40960, 49152], 's_8': [0]}
+fts_build:
+{'constant': [-100, -1, 0, 1, 2, 3, 4, 6, 7, 8, 11, 12, 16, 19, 31, 32, 36, 46, 47, 120, 255, 256, 264, 512, 1024, 10000, 100000, 67145808, 67146280, 67146320, 67146682, 67146951, 67147057, 67147218, 67147410, 67147566, 67147783, 67147864, 67147969, 67148017, 67148091, 67148138, 67148195, 67148300, 67148453, 67148488], 'a0': [0, 131072], 'ir_2': [0, 1, 100000], 'ir_26': [0], 'ir_11': [0, 3, 4, 7, 131072], 'ir_36': [0, 1], 'a1': [0, 1, 1030]}
+fts_stat:
+{'constant': [-1, 0, 1, 2, 3, 5, 8, 12, 32, 46, 120, 255, 16384, 32768, 40960, 61440, 67148736, 67148863, 67148998], 'a2': [144], 'a1': [0], 'ir_1': [0, 1, 3, 5, 8, 10, 12, 13]}
+fts_compar:
+{'constant': []}
+fts_sort:
+{'constant': [-1, 0, 1, 8, 40, 67149401], 's_58': [0], 'ir_2': [], 'a2': [8]}
+fts_alloc:
+{'constant': [-8, 0, 3, 264, 272], 'ir_1': [0], 's_38': [0, 3]}
+fts_lfree:
+{'constant': [0]}
+fts_palloc:
+{'constant': [0, 1, 36, 256], 'ir_0': [0, 1]}
+fts_padjust:
+{'constant': [0, 264]}
+fts_maxarglen:
+{'constant': [0, 1, 8], 'ir_0': [1]}
+fts_safe_changedir:
+{'constant': [-1, 0, 1, 2, 4, 31, 96, 255, 512, 67150338, 67150874, 67150931], 's_e8': [0, 1, 2], 'ir_1': [0, 1], 'a3': [0], 'a2': [1], 'a1': []}
+rpl_mbrtowc:
+{'constant': [-3, 0, 1, 255, 67151097], 'ir_1': [0, 1], 'a0': [0]}
+c_strcasecmp:
+{'constant': [0, 1], 'ir_2': [0]}
+close_stream:
+{'constant': [0, 1, 9, 255, 67151376], 'ir_0': [0]}
+is_zero_or_power_of_two:
+{'constant': [0, 1]}
+cycle_check_init:
+{'constant': [0, 9827862]}
+cycle_check:
+{'constant': [0, 1, 255, 9827862, 67151651, 67151656], 'ir_0': [0, 1]}
+open_safer:
+{'constant': [0, 16, 64, 255, 67151896], 'a2': [0, 24], 'ir_0': [0, 16], 'a1': [0]}
+hard_locale:
+{'constant': [0, 1, 67152105], 'ir_1': [0, 1], 'a0': []}
+hash_get_n_buckets:
+{'constant': []}
+hash_get_n_buckets_used:
+{'constant': []}
+hash_get_n_entries:
+{'constant': []}
+hash_get_max_bucket_length:
+{'constant': [0, 1, 8, 16], 's_8': [0, 1, 2, 3], 'ir_0': [0, 1, 2]}
+hash_table_ok:
+{'constant': [0, 1, 8, 16, 67152462], 's_8': [0, 1, 2, 3], 'ir_0': [0, 1]}
+hash_print_statistics:
+{'constant': [], 'ir_0': [0, 1]}
+hash_lookup:
+{'constant': [0, 255], 'ir_0': [0]}
+hash_get_first:
+{'constant': [0, 16], 'ir_0': [0]}
+hash_get_next:
+{'constant': [0, 8, 16], 'ir_0': [0]}
+hash_get_entries:
+{'constant': [0, 1, 8, 16], 's_8': [0, 1], 'ir_0': [0]}
+hash_do_for_each:
+{'constant': [0, 1, 16, 255], 'ir_7': [0]}
+hash_string:
+{'constant': [0, 1], 's_8': [0]}
+is_prime:
+{'constant': [0, 1, 3, 4], 's_8': [3, 4, 5, 6, 7, 9, 25, 49], 'ir_0': [9, 25, 49]}
+next_prime:
+{'constant': [-1, 0, 1, 2, 9, 10, 255], 's_10': [10, 11, 13, 15], 'ir_0': [11, 13]}
+hash_reset_tuning:
+{'constant': [0, 67169040, 67169044, 67169048]}
+raw_hasher:
+{'constant': [], 'a1': [3]}
+raw_comparator:
+{'constant': []}
+check_tuning:
+{'constant': [0, 1, 6, 69, 67154221, 67168896, 67169040, 67169052], 'ir_0': [0, 1], 's_8': []}
+compute_bucket_size:
+{'constant': [0, 1, 255, 67154407, 67154415, 67154486, 67169056, 67169060], 'ir_2': [0, 1], 'ir_0': [0]}
+hash_initialize:
+{'constant': [0, 1, 16, 255, 67153884, 67153939, 67154858, 67168896], 'a0': [80], 'ir_0': [0], 'a1': [16]}
+hash_clear:
+{'constant': [0, 16]}
+hash_free:
+{'constant': [0, 16]}
+allocate_entry:
+{'constant': [0], 'a0': [16]}
+free_entry:
+{'constant': [0]}
+hash_find_entry:
+{'constant': [0, 255], 'ir_0': [0]}
+transfer_entries:
+{'constant': [0, 1, 16, 67156356, 67156390], 'ir_0': [0, 1]}
+hash_rehash:
+{'constant': [0, 1, 16, 255, 67156949], 's_88': [0], 'ir_2': [0, 1], 'a1': [16], 'a0': []}
+hash_insert_if_absent:
+{'constant': [-1, 0, 1, 6, 69, 255, 67157547, 67157778, 67169056, 67169060], 'ir_1': [0, 1], 'a2': [], 'ir_3': [0]}
+hash_insert:
+{'constant': [-1, 0], 's_38': [], 'ir_1': [0]}
+hash_delete:
+{'constant': [0, 1, 6, 69, 255, 67158509, 67169060], 'ir_1': [0]}
+i_ring_init:
+{'constant': [0, 1, 3, 4], 's_8': [0, 1, 2]}
+i_ring_empty:
+{'constant': []}
+i_ring_push:
+{'constant': [0, 1, 3, 4], 's_8': [0]}
+i_ring_pop:
+{'constant': [0, 1, 3, 4, 255]}
+locale_charset:
+{'constant': [0, 255, 67169064, 67169065], 'ir_0': [0]}
+openat_safer:
+{'constant': [0, 24, 64, 255, 67159308], 'ir_0': [0, 24], 'a2': [32]}
+opendirat:
+{'constant': [0, 1, 31, 592128], 'ir_3': [0]}
+setlocale_null_androidfix:
+{'constant': []}
+setlocale_null_unlocked:
+{'constant': [0, 1, 22], 'ir_0': [0, 22, 34]}
+setlocale_null_r:
+{'constant': []}
+setlocale_null:
+{'constant': []}
+fd_safer:
+{'constant': [0, 1, 2, 31]}
+rpl_fclose:
+{'constant': [-1, 0, 1, 31], 'ir_0': []}
+rpl_fcntl:
+{'constant': [0, 1, 3, 4, 8, 9, 10, 11, 16, 47, 255, 1024, 1025, 1026, 1030, 1031, 1033, 1034, 67160779, 67160893], 'ir_0': [0, 16], 'a2': [24]}
+rpl_fcntl_DUPFD:
+{'constant': [], 'ir_0': [0]}
+rpl_fcntl_DUPFD_CLOEXEC:
+{'constant': [-1, 0, 1, 22, 31, 67161104, 69280388], 'ir_0': [0, 1], 'a1': [1, 2, 1030]}
+rotl64:
+{'constant': [63, 64]}
+rotr64:
+{'constant': [63, 64]}
+rotl32:
+{'constant': [31, 32]}
+rotr32:
+{'constant': [31, 32]}
+rotl_sz:
+{'constant': [63, 64]}
+rotr_sz:
+{'constant': [63, 64]}
+rotl16:
+{'constant': [16, 31]}
+rotr16:
+{'constant': [16, 31]}
+rotl8:
+{'constant': [8, 31]}
+rotr8:
+{'constant': [8, 31]}
+c_isalnum:
+{'constant': [0, 1, 9, 25, 48, 65, 90, 97, 67161690], 'ir_0': [0, 1]}
+c_isalpha:
+{'constant': [0, 1, 65, 90, 67161732], 'ir_0': [0, 1]}
+c_isascii:
+{'constant': [0, 1, 127], 'ir_0': [0, 1]}
+c_isblank:
+{'constant': [0, 1, 9, 32, 67161797], 'ir_0': [0, 1]}
+c_iscntrl:
+{'constant': [0, 1, 31, 67161838], 'ir_0': [0, 1]}
+c_isdigit:
+{'constant': [0, 1, 9, 48], 'ir_0': [0, 1]}
+c_isgraph:
+{'constant': [0, 1, 33, 93], 'ir_0': [0, 1]}
+c_islower:
+{'constant': [0, 1, 25, 97], 'ir_0': [0, 1]}
+c_isprint:
+{'constant': [0, 1, 32, 94], 'ir_0': [0, 1]}
+c_ispunct:
+{'constant': [0, 1, 3, 14, 33, 58, 64, 91, 96, 123, 67162028], 'ir_0': [0, 1]}
+c_isspace:
+{'constant': [0, 1, 9, 13, 67162067], 'ir_0': [0, 1]}
+c_isupper:
+{'constant': [0, 1, 25, 65], 'ir_0': [0, 1]}
+c_isxdigit:
+{'constant': [0, 1, 48], 'ir_0': [0]}
+c_tolower:
+{'constant': [25, 32, 65]}
+c_toupper:
+{'constant': [25, 32, 97]}
+dup_safer:
+{'constant': [], 'ir_3': [0]}
+__libc_csu_init:
+{'constant': [0, 1, 8, 69278064], 'ir_1': [-443987883], 'ir_5': [0, 1, 2]}
+__libc_csu_fini:
+{'constant': []}
+atexit:
+{'constant': [67116400]}
+__stat:
+{'constant': [67116112]}
+__fstat:
+{'constant': [67116208]}
+__lstat:
+{'constant': [67115696]}
+fstatat:
+{'constant': [67115808]}
+_fini:
+{'constant': []}

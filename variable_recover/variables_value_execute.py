@@ -1,0 +1,45 @@
+import sys
+from variable_recover.variables_value_extractor import VariablesValueExtractor
+
+
+def main(argv):
+    file_name = "rm"
+
+    # X86
+    X86_file_path = "/home/qinfan/coreutils/coreutils-X86/src/" + file_name
+    X86_save_path = '/home/qinfan/PycharmProjects/angr/var_texts/' + file_name + "_dec.txt"
+    X86_data_path = '/home/qinfan/PycharmProjects/angr/data/X86/' + file_name + "_data.txt"
+
+    # ARM32
+    ARM32_file_path = "/home/qinfan/coreutils/coreutils-ARM32/src/" + file_name
+    ARM32_save_path = '/home/qinfan/PycharmProjects/angr/ARM_Var_tests/' + file_name + "_dec.txt"
+    ARM32_data_path = '/home/qinfan/PycharmProjects/angr/data/ARM32/' + file_name + "_data.txt"
+
+    # ARM64
+    ARM64_file_path = "/home/qinfan/coreutils/coreutils-ARM64/src/" + file_name
+    ARM64_save_path = '/home/qinfan/PycharmProjects/angr/ARM64-var-texts/' + file_name + "_dec.txt"
+    ARM64_data_path = '/home/qinfan/PycharmProjects/angr/data/ARM64/' + file_name + "_data.txt"
+
+    # MIPS32
+    MIPS32_file_path = "/home/qinfan/coreutils/coreutils-MIPS32/src/" + file_name
+    MIPS32_save_path = '/home/qinfan/PycharmProjects/angr/MIPS32-var-texts/' + file_name + "_dec.txt"
+    MIPS32_data_path = '/home/qinfan/PycharmProjects/angr/data/MIPS32/' + file_name + "_data.txt"
+
+    # MIPS64
+    MIPS64_file_path = "/home/qinfan/coreutils/coreutils-MIPS64/src/" + file_name
+    MIPS64_save_path = '/home/qinfan/PycharmProjects/angr/MIPS64-var-texts/' + file_name + "_dec.txt"
+    MIPS64_data_path = '/home/qinfan/PycharmProjects/angr/data/MIPS64/' + file_name + "_data.txt"
+
+    # extractor = VariablesValueExtractor(file_name, X86_file_path, X86_save_path, X86_data_path)             # X86
+    extractor = VariablesValueExtractor(file_name, ARM32_file_path, ARM32_save_path, ARM32_data_path)       # ARM32
+    # extractor = VariablesValueExtractor(file_name, ARM64_file_path, ARM64_save_path, ARM64_data_path)       # ARM64
+    # extractor = VariablesValueExtractor(file_name, MIPS32_file_path, MIPS32_save_path, MIPS32_data_path)    # MIPS32
+    # extractor = VariablesValueExtractor(file_name, MIPS64_file_path, MIPS64_save_path, MIPS64_data_path)    # MIPS64
+
+    print(extractor.not_cover)
+    data_dict = extractor.value_result
+    print(data_dict)
+
+
+if __name__ == '__main__':
+    main(sys.argv)

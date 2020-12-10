@@ -1,0 +1,212 @@
+_init:
+{'constant': [0, 69238736], 'ir_0': [0]}
+sub_40012f0:
+{'constant': [69238360]}
+_start:
+{'constant': [67115971, 67130400, 67130512, 69238728], 'a2': []}
+sub_40015fa:
+{'constant': []}
+deregister_tm_clones:
+{'constant': [69238720, 69238936], 'ir_0': [0]}
+register_tm_clones:
+{'constant': [0, 69238744], 'ir_0': [0]}
+__do_global_dtors_aux:
+{'constant': [0, 1, 69238752, 69239016], 's_8': [1]}
+frame_dummy:
+{'constant': [67114560]}
+emit_mandatory_arg_note:
+{'constant': [69238952], 'ir_0': []}
+emit_ancillary_info:
+{'constant': [0, 16, 67130643, 67130645, 67130661, 67130671, 67130693, 67130703, 69238952], 'ir_1': [0], 'a0': [5], 'ir_4': []}
+usage:
+{'constant': [0, 69238952, 69239008], 'ir_4': [0]}
+remove_suffix:
+{'constant': [0, 1], 's_28': [0]}
+perform_basename:
+{'constant': [0, 10, 47, 69238952], 'a2': [], 'ir_0': [0, 10]}
+main:
+{'constant': [0, 1, 2, 8, 97, 115, 122, 255, 67116180, 67116269, 67116279, 67116594, 69238800, 69238952, 69238960, 69238968, 4294967165, 4294967166, 4294967295], 's_38': [0, 1, 2], 'a0': [0, 1, 6], 'ir_0': [0, 1, 2, 3], 'a1': [0], 'ir_12': [0, 24]}
+close_stdout_set_file_name:
+{'constant': []}
+close_stdout_set_ignore_EPIPE:
+{'constant': []}
+close_stdout:
+{'constant': [0, 1, 32, 255, 69238808, 69238952, 69239008, 69239024, 69239032], 'ir_0': [0, 1]}
+base_name:
+{'constant': [0, 1, 47, 255]}
+last_component:
+{'constant': [0, 1, 47, 255], 's_8': [0, 1]}
+base_len:
+{'constant': [1, 47]}
+strip_trailing_slashes:
+{'constant': [0, 255]}
+set_program_name:
+{'constant': [0, 3, 6, 7, 69239008], 'ir_0': [0]}
+clone_quoting_options:
+{'constant': [0, 69239072]}
+get_quoting_style:
+{'constant': [0, 69239072], 'ir_0': [0]}
+set_quoting_style:
+{'constant': [0, 69239072]}
+set_char_quoting:
+{'constant': [0, 1, 4, 5, 8, 31, 69239072]}
+set_quoting_flags:
+{'constant': [0, 69239072], 's_8': [0]}
+set_custom_quoting:
+{'constant': [0, 10, 69239072]}
+quoting_options_from_style:
+{'constant': [0, 10], 'ir_1': [0]}
+gettext_quote:
+{'constant': [0, 9, 96, 67132078, 67132082, 67132094, 67132098, 67132101, 67132103]}
+quotearg_buffer:
+{'constant': [0, 69239072], 'a4': [0]}
+quotearg_alloc:
+{'constant': []}
+quotearg_alloc_mem:
+{'constant': [0, 1, 69239072], 'a1': [0]}
+quotearg_free:
+{'constant': [1, 16, 256, 69238816, 69238912, 69238928, 69239136], 'ir_0': [0, 1]}
+quotearg_n_options:
+{'constant': [0, 1, 8, 16, 31, 67123434, 69238816, 69238912, 69238920, 69238928, 69239136, 2147483646], 'ir_0': [0, 1], 's_58': [1, 256], 'a0': [0], 'a3': [16]}
+quotearg_n:
+{'constant': []}
+quotearg_n_mem:
+{'constant': []}
+quotearg:
+{'constant': []}
+quotearg_mem:
+{'constant': []}
+quotearg_n_style:
+{'constant': []}
+quotearg_n_style_mem:
+{'constant': [], 'a0': [0]}
+quotearg_style:
+{'constant': []}
+quotearg_style_mem:
+{'constant': []}
+quotearg_char_mem:
+{'constant': [], 'a2': [1], 'a0': [0]}
+quotearg_char:
+{'constant': []}
+quotearg_colon:
+{'constant': []}
+quotearg_colon_mem:
+{'constant': []}
+quotearg_n_style_colon:
+{'constant': [], 'a2': [1], 'a1': [58]}
+quotearg_n_custom:
+{'constant': []}
+quotearg_n_custom_mem:
+{'constant': [], 'a0': [0]}
+quotearg_custom:
+{'constant': []}
+quotearg_custom_mem:
+{'constant': []}
+quote_n_mem:
+{'constant': []}
+quote_mem:
+{'constant': []}
+quote_n:
+{'constant': []}
+quote:
+{'constant': []}
+version_etc_arn:
+{'constant': [0, 4, 67133548], 'ir_0': [0], 'a0': [10]}
+version_etc_ar:
+{'constant': [0, 1, 3], 'a2': [0, 8, 16]}
+version_etc_va:
+{'constant': [0, 1, 3, 8, 9, 47, 96], 'ir_1': [0], 'a4': []}
+version_etc:
+{'constant': [0, 255], 's_f8': [32, 48], 'ir_0': [0]}
+emit_bug_reporting_address:
+{'constant': [69238952], 'ir_0': [0]}
+xnmalloc:
+{'constant': [0, 1, 255], 'ir_0': [0, 1], 'ir_4': [1]}
+xnrealloc:
+{'constant': [0, 1, 255], 'ir_0': [0, 1], 'ir_4': [1]}
+x2nrealloc:
+{'constant': [0, 1, 255], 'ir_1': [0, 1], 'ir_0': [1]}
+xcharalloc:
+{'constant': []}
+xmalloc:
+{'constant': [0]}
+xrealloc:
+{'constant': [0, 67127993], 'ir_0': [0]}
+x2realloc:
+{'constant': []}
+xzalloc:
+{'constant': []}
+xcalloc:
+{'constant': [0, 1, 255], 'ir_0': [0, 1], 'ir_4': [1]}
+xmemdup:
+{'constant': []}
+xstrdup:
+{'constant': [1]}
+xalloc_die:
+{'constant': [69238808], 'ir_0': [0, 1]}
+xstrndup:
+{'constant': [0]}
+rpl_mbrtowc:
+{'constant': [0, 1, 255, 67128520, 18446744073709551613], 'ir_1': [0, 1], 'a0': [0]}
+c_strcasecmp:
+{'constant': [0, 1], 'ir_2': [0]}
+close_stream:
+{'constant': [0, 1, 9, 255, 67128799], 'ir_0': [0]}
+hard_locale:
+{'constant': [0, 1, 67128936], 'ir_1': [0, 1], 'a0': []}
+locale_charset:
+{'constant': [0, 255, 67133867, 67133868], 'ir_0': [0]}
+setlocale_null_androidfix:
+{'constant': []}
+setlocale_null_unlocked:
+{'constant': [0, 1, 22], 'ir_0': [0, 22, 34]}
+setlocale_null_r:
+{'constant': []}
+setlocale_null:
+{'constant': []}
+rpl_fclose:
+{'constant': [0, 1, 31, 4294967295, 18446744073709551615], 'ir_0': []}
+clear_ungetc_buffer_preserving_position:
+{'constant': [0, 256]}
+rpl_fflush:
+{'constant': [0]}
+rpl_fseeko:
+{'constant': [0, 67129805, 4294967279, 4294967295, 18446744073709551615], 'ir_0': [0]}
+c_isalnum:
+{'constant': [0, 1, 9, 25, 48, 65, 90, 97, 67129857], 'ir_0': [0, 1]}
+c_isalpha:
+{'constant': [0, 1, 65, 90, 67129899], 'ir_0': [0, 1]}
+c_isascii:
+{'constant': [0, 1, 127], 'ir_0': [0, 1]}
+c_isblank:
+{'constant': [0, 1, 9, 32, 67129964], 'ir_0': [0, 1]}
+c_iscntrl:
+{'constant': [0, 1, 31, 67130005], 'ir_0': [0, 1]}
+c_isdigit:
+{'constant': [0, 1, 9, 48], 'ir_0': [0, 1]}
+c_isgraph:
+{'constant': [0, 1, 33, 93], 'ir_0': [0, 1]}
+c_islower:
+{'constant': [0, 1, 25, 97], 'ir_0': [0, 1]}
+c_isprint:
+{'constant': [0, 1, 32, 94], 'ir_0': [0, 1]}
+c_ispunct:
+{'constant': [0, 1, 3, 14, 33, 58, 64, 91, 96, 123, 67130195], 'ir_0': [0, 1]}
+c_isspace:
+{'constant': [0, 1, 9, 13, 67130234], 'ir_0': [0, 1]}
+c_isupper:
+{'constant': [0, 1, 25, 65], 'ir_0': [0, 1]}
+c_isxdigit:
+{'constant': [0, 1, 48], 'ir_0': [0]}
+c_tolower:
+{'constant': [25, 32, 65]}
+c_toupper:
+{'constant': [25, 32, 97]}
+__libc_csu_init:
+{'constant': [0, 1, 8, 69237552], 'ir_1': [-443987883], 'ir_5': [0, 1, 2]}
+__libc_csu_fini:
+{'constant': []}
+atexit:
+{'constant': [67114336]}
+_fini:
+{'constant': []}

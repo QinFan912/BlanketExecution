@@ -1,0 +1,62 @@
+$x:
+{'constant': [67210688]}
+call_weak_fn:
+{'constant': [0, 67114864, 67211176], 'ir_0': [0]}
+deregister_tm_clones:
+{'constant': [False, 67211128, 67211512], 'ir_1': [0]}
+register_tm_clones:
+{'constant': [0, 67115428, 67211248, 67211512]}
+frame_dummy:
+{'constant': [67115376]}
+close_stdout_set_file_name:
+{'constant': []}
+close_stdout_set_ignore_EPIPE:
+{'constant': []}
+last_component:
+{'constant': [0, 1, 47], 'a0': [0, 1]}
+get_quoting_style:
+{'constant': [0, 67211544], 'a0': [0]}
+set_quoting_style:
+{'constant': [0, 67211544]}
+set_char_quoting:
+{'constant': [0, 1, 2, 5, 8, 27, 31, 62, 255, 67211544, 134217727, 18446744073709551612]}
+set_quoting_flags:
+{'constant': [0, 67211544], 'a0': [0]}
+exchange:
+{'constant': [0, 1, 3, 32, 61, 63, 4294967295, 18446744069414584320, 18446744073709551608], 's_40': [0, 1, 2]}
+c_isalnum:
+{'constant': [0, 1, 9, 25, 48, 65, 90, 97, 67138708], 'a0': [0, 1]}
+c_isalpha:
+{'constant': [0, 1, 65, 90, 67138768], 'a0': [0, 1]}
+c_isascii:
+{'constant': [0, 1, 127], 'a0': [0, 1]}
+c_isblank:
+{'constant': [0, 1, 9, 32, 255, 67138864], 'a0': [0, 1]}
+c_iscntrl:
+{'constant': [0, 1, 31, 67138928], 'a0': [0, 1]}
+c_isdigit:
+{'constant': [0, 1, 9, 48], 'a0': [0, 1]}
+c_isgraph:
+{'constant': [0, 1, 33, 93], 'a0': [0, 1]}
+c_islower:
+{'constant': [0, 1, 25, 97], 'a0': [0, 1]}
+c_isprint:
+{'constant': [0, 1, 32, 94], 'a0': [0, 1]}
+c_ispunct:
+{'constant': [0, 1, 3, 14, 33, 58, 64, 91, 96, 123, 67139196], 'a0': [0, 1]}
+c_isspace:
+{'constant': [0, 1, 9, 13, 67139252], 'a0': [0, 1]}
+c_isupper:
+{'constant': [0, 1, 25, 65], 'a0': [0, 1]}
+c_isxdigit:
+{'constant': [0, 1, 5, 9, 48, 65, 70, 97, 67139372], 'a0': [0, 1]}
+c_tolower:
+{'constant': [25, 32, 65]}
+c_toupper:
+{'constant': [25, 32, 97]}
+__libc_csu_fini:
+{'constant': []}
+atexit:
+{'constant': [67114576]}
+_fini:
+{'constant': []}

@@ -1,0 +1,978 @@
+_init:
+{'ir_0': []}
+sub_402b30:
+{'ir_0': []}
+sub_402b50:
+{'ir_0': []}
+_ftext:
+{}
+sub_402b8c:
+{'ir_0': []}
+hlt:
+{}
+deregister_tm_clones:
+{'ir_0': []}
+register_tm_clones:
+{'ir_0': [], 'ir_1': [0]}
+__do_global_dtors_aux:
+{'ir_0': [], 'ir_6': [0, 1, 2, 3, 1852143205], 'ir_5': [0], 'ir_18': [0, 4, 8]}
+frame_dummy:
+{}
+emit_mandatory_arg_note:
+{'ir_1': []}
+emit_backup_suffix_note:
+{'ir_1': []}
+emit_ancillary_info:
+{'ir_1': [], 'ir_7': [0], 'ir_10': [3, 56], 'ir_11': [0, 1526726656], 'ir_3': [5]}
+se_const:
+{}
+usage:
+{'ir_2': [], 'ir_5': [0, 1], 'ir_14': [0, 47], 'ir_41': [0], 'ir_4': [0, 4]}
+re_protect:
+{'ir_3': [], 'ir_9': [0, 1], 'ir_5': [0, 4], 'ir_34': [0, 47]}
+make_dir_parents_private:
+{'ir_3': [], 'ir_9': [0, 1, 18, 20, 47, 448, 511, 16384], 'ir_6': [0, 20, 47], 'ir_5': [0, 4, 176], 'ir_36': [0, 1, 47, 160], 'ir_7': [0, 160]}
+target_directory_operand:
+{'ir_2': [], 'ir_8': [0, 1, 2, 16384], 'ir_33': [0, 1], 'ir_4': [1, 4], 'ir_5': [0]}
+do_copy:
+{'ir_2': [], 'ir_8': [0, 1, 32768], 'ir_4': [0, 1, 4], 'ir_5': [0], 'ir_24': [0, 1, 68], 'ir_7': [1], 'ir_6': [0, 68]}
+cp_option_init:
+{'ir_1': [], 'ir_10': [2]}
+decode_preserve_arg:
+{'ir_1': [], 'ir_4': [44], 'ir_6': [0], 'ir_5': [1836016741]}
+main:
+{'ir_3': [], 'ir_5': [0, 1, 4, 6], 'ir_7': [0, 1, 2, 3, 4, 16384], 'ir_48': [0, 1634886504], 'ir_57': [0, 1], 'ir_50': [0, 1, 1635087471, 1852143205], 'ir_6': [0]}
+dot_or_dotdot:
+{'ir_1': [0, 1, 2, 46, 47]}
+ptr_align:
+{}
+is_nul:
+{'ir_1': [], 'ir_5': [0, 1], 'ir_3': [0]}
+is_ENOTSUP:
+{}
+extent_scan_free:
+{'ir_1': []}
+io_blksize:
+{'ir_4': [512, 131072]}
+ignorable_ctx_err:
+{'ir_2': [0, 1, 61, 122]}
+restorecon:
+{'ir_1': [], 'ir_5': [0]}
+defaultcon:
+{'ir_1': []}
+follow_fstatat:
+{'ir_9': [], 'ir_11': [0], 'ir_31': [0, 1], 'ir_15': [0, 1, 8192]}
+utimens_symlink:
+{'ir_1': [], 'ir_7': [0, 89]}
+punch_hole:
+{'ir_1': [], 'ir_10': [3], 'ir_7': [0, 89]}
+create_hole:
+{'ir_3': [], 'ir_8': [0, 1], 'ir_5': [0, 4]}
+sparse_copy:
+{'ir_9': [], 'ir_12': [0], 'ir_11': [0, 4], 'ir_15': [0, 1, 4], 'ir_26': [0, 1]}
+clone_file:
+{'ir_1': []}
+write_zeros:
+{'ir_5': [], 'ir_10': [0, 1, 131072], 'ir_14': [0, 1], 'ir_7': [0, 131072], 'ir_3': [131072], 'ir_4': [0], 'ir_20': [0, 1024, 131072]}
+extent_copy:
+{'ir_3': [], 'ir_14': [0, 1], 'ir_6': [3], 'ir_5': [0, 4], 'ir_9': [0, 1, 3], 'ir_8': [0]}
+is_ancestor:
+{'ir_2': [0, 1], 'ir_18': [0]}
+errno_unsupported:
+{'ir_2': [0, 1, 61, 122]}
+copy_attr:
+{'ir_4': [1]}
+copy_dir:
+{'ir_3': [], 'ir_16': [0, 68], 'ir_5': [0, 4], 'ir_8': [0, 1, 3], 'ir_6': [2]}
+set_owner:
+{'ir_3': [], 'ir_9': [0, 1, 22], 'ir_5': [0, 4]}
+set_author:
+{}
+set_process_security_ctx:
+{'ir_3': [], 'ir_9': [0, 1], 'ir_5': [0, 4], 'ir_219': [0]}
+set_file_security_ctx:
+{'ir_3': [], 'ir_7': [0, 1], 'ir_6': [4], 'ir_5': [0]}
+fchmod_or_lchmod:
+{'ir_1': []}
+is_probably_sparse:
+{'ir_1': [0, 1, 32768], 'ir_11': [511], 'ir_12': [0]}
+copy_reg:
+{'ir_4': [], 'ir_10': [0, 2, 131072], 'ir_7': [0, 131072], 'ir_6': [0, 4], 'ir_20': [0]}
+same_file_ok:
+{'ir_1': [], 'ir_7': [0, 1, 2, 40960], 'ir_12': [0, 1], 'ir_3': [0]}
+writable_destination:
+{'ir_1': [], 'ir_5': [0, 1, 40960], 'ir_4': [2]}
+overwrite_ok:
+{'ir_4': [], 'ir_21': [0], 'ir_6': [0, 4]}
+dest_info_init:
+{'ir_1': [], 'ir_7': [0], 'ir_3': [61]}
+src_info_init:
+{'ir_1': [], 'ir_7': [0], 'ir_3': [61]}
+abandon_move:
+{'ir_1': [], 'ir_6': [0, 1, 2, 3, 4], 'ir_5': [1780]}
+emit_verbose:
+{'ir_2': [], 'ir_5': [4], 'ir_4': [0, 1, 4, 10]}
+restore_default_fscreatecon_or_die:
+{'ir_2': [], 'ir_4': [0, 1]}
+create_hard_link:
+{'ir_3': [], 'ir_5': [0, 1, 4], 'ir_8': [0, 1, 1024], 'ir_6': [4]}
+should_dereference:
+{'ir_2': [0, 1, 3, 4]}
+source_is_dst_backup:
+{'ir_1': [], 'ir_6': [0, 1], 'ir_3': [0]}
+copy_internal:
+{'ir_9': [], 's_3b0': [0, 1, 17, 256, 438, 511], 'ir_14': [0, 1, 2, 3, 4, 17, 18, 22, 47, 90, 256, 438, 448, 511, 4096, 8192, 16384, 24576, 32768, 40960, 49152], 'ir_13': [0, 1], 'ir_11': [0, 1, 4], 'ir_15': [0, 1, 256], 'ir_12': [0, 3, 4], 'ir_8': [0]}
+valid_options:
+{'ir_1': [], 'ir_7': [2986, 2987, 2988, 2989, 2990, 2993], 'ir_4': [1, 2, 3]}
+copy:
+{'ir_1': [], 'ir_6': [0], 'ir_5': [3011]}
+cp_options_default:
+{'ir_1': [], 'ir_4': [68], 'ir_5': [0]}
+chown_failure_ok:
+{'ir_1': [], 'ir_4': [0, 1, 22]}
+owner_failure_ok:
+{'ir_1': [], 'ir_4': [0, 1, 22]}
+cached_umask:
+{'ir_1': [], 'ir_6': [0]}
+src_to_dest_hash:
+{'ir_1': [], 'ir_11': [0]}
+src_to_dest_compare:
+{'ir_2': [0, 1]}
+src_to_dest_free:
+{'ir_1': []}
+forget_created:
+{'ir_1': [], 'ir_9': [0]}
+src_to_dest_lookup:
+{'ir_1': [], 'ir_9': [0]}
+remember_copied:
+{'ir_1': [], 'ir_3': [0, 24], 'ir_7': [0]}
+hash_init:
+{'ir_1': [], 'ir_9': [0], 'ir_10': [103]}
+forget_all:
+{'ir_1': [], 'ir_5': [0]}
+extent_need_sync:
+{'ir_0': [1]}
+extent_scan_init:
+{'ir_2': [0], 'ir_0': [34048]}
+extent_scan_read:
+{'ir_3': [], 'ir_14': [24, 127, 142, 4096], 'ir_15': [0], 'ir_6': [0, 1]}
+samedir_template:
+{'ir_1': [], 'ir_10': [0]}
+try_link:
+{'ir_1': []}
+force_linkat:
+{'ir_1': [], 'ir_7': [17], 'ir_3': [0]}
+try_symlink:
+{'ir_1': []}
+force_symlinkat:
+{'ir_1': [], 'ir_7': [17], 'ir_3': [0]}
+copy_acl:
+{'ir_3': [], 'ir_5': [0]}
+set_acl:
+{'ir_3': [], 'ir_5': [0]}
+areadlink_with_size:
+{'ir_1': [], 'ir_9': [0, 128, 1024], 'ir_5': [0, 1, 34, 128, 256, 1025, 8192], 'ir_3': [0, 128], 'ir_37': [128]}
+__argmatch_die:
+{'ir_1': [], 'ir_3': [1]}
+argmatch:
+{'ir_1': [], 'ir_7': [0, 1]}
+argmatch_invalid:
+{'ir_2': [], 'ir_5': [0, 8], 'ir_4': [0, 1]}
+argmatch_valid:
+{'ir_2': [], 'ir_7': [0, 1], 'ir_4': [0, 10]}
+__xargmatch_internal:
+{}
+argmatch_to_argument:
+{'ir_1': [], 'ir_7': [0]}
+set_simple_backup_suffix:
+{'ir_1': []}
+check_extension:
+{'ir_1': [], 'ir_28': [0, 46, 255], 'ir_6': [0, 14], 'ir_4': [3]}
+numbered_backup:
+{'ir_7': [], 'ir_24': [0, 1, 46], 'ir_11': [0, 1, 2, 3, 4], 'ir_13': [0, 1, 2, 3, 12, 57, 126], 'ir_9': [0]}
+backupfile_internal:
+{'ir_1': [], 'ir_7': [0, 1, 2, 17], 'ir_3': [0], 'ir_15': [0, 1, 2, 3], 'ir_5': [126]}
+backup_file_rename:
+{'ir_1': [], 'ir_6': [1]}
+find_backup_file_name:
+{'ir_1': [], 'ir_6': [0]}
+get_version:
+{'ir_1': [], 'ir_5': [2], 'ir_17': [1852796517]}
+xget_version:
+{'ir_1': []}
+buffer_lcm:
+{'ir_3': [8192]}
+close_stdin_set_file_name:
+{'ir_1': []}
+close_stdin:
+{'ir_2': [], 'ir_6': [0, 1], 'ir_14': [0]}
+close_stdout_set_file_name:
+{'ir_1': []}
+close_stdout_set_ignore_EPIPE:
+{'ir_1': []}
+close_stdout:
+{'ir_2': [], 'ir_6': [0, 1], 'ir_4': [0, 1, 32]}
+dir_name:
+{'ir_1': []}
+dir_len:
+{'ir_1': [], 'ir_4': [0, 1, 47], 'ir_6': [0]}
+mdir_name:
+{'ir_1': [], 'ir_7': [0]}
+last_component:
+{'ir_1': [0, 1, 47]}
+base_len:
+{'ir_1': [], 'ir_5': [47]}
+strip_trailing_slashes:
+{'ir_1': []}
+fdadvise:
+{'ir_1': []}
+fadvise:
+{'ir_1': [], 'ir_4': [0]}
+open_safer:
+{'ir_1': [], 'ir_5': [0]}
+record_file:
+{'ir_3': [], 'ir_5': [24], 'ir_2': [0]}
+seen_file:
+{'ir_1': [], 'ir_20': [0]}
+ftypelet:
+{'ir_1': [45, 63, 98, 99, 100, 108, 112, 115, 4096, 8192, 16384, 24576, 32768, 40960, 49152]}
+strmode:
+{'ir_0': [34048], 'ir_5': [83, 84, 114, 115, 116, 119, 120], 'ir_6': [32]}
+filemodestring:
+{}
+file_name_concat:
+{'ir_1': []}
+mfile_name_concat:
+{'ir_1': [], 'ir_7': [0, 47], 'ir_16': [0]}
+full_write:
+{'ir_1': [], 'ir_6': [0, 28]}
+hash_get_n_buckets:
+{}
+hash_get_n_buckets_used:
+{}
+hash_get_n_entries:
+{}
+hash_get_max_bucket_length:
+{'s_18': [0, 1, 2, 3], 'ir_1': [0, 1], 'ir_5': [1, 2]}
+hash_table_ok:
+{'s_18': [0, 1, 2, 3], 'ir_5': [0], 'ir_1': [0, 1]}
+hash_print_statistics:
+{'ir_1': [], 'ir_41': [0]}
+safe_hasher:
+{'ir_1': []}
+hash_lookup:
+{'ir_6': [0]}
+hash_get_first:
+{'ir_1': [], 'ir_4': [0]}
+hash_get_next:
+{'ir_6': [0]}
+hash_get_entries:
+{'ir_3': [0]}
+hash_do_for_each:
+{'ir_4': [0]}
+hash_string:
+{'ir_2': [0]}
+is_prime:
+{'s_10': [3, 4, 5, 6, 7, 9, 25, 49], 'ir_2': [3, 9, 25, 49], 'ir_1': [3, 5, 9]}
+next_prime:
+{'ir_2': [11]}
+hash_reset_tuning:
+{'ir_3': []}
+raw_hasher:
+{'ir_1': [], 'ir_4': [3]}
+raw_comparator:
+{}
+check_tuning:
+{'s_10': [], 'ir_11': [0], 'ir_1': [0, 1]}
+compute_bucket_size:
+{'ir_9': [0, 1], 'ir_4': [0], 'ir_14': []}
+hash_initialize:
+{'ir_1': [], 'ir_3': [40], 'ir_7': [0], 'ir_4': [8]}
+hash_clear:
+{}
+hash_free:
+{'ir_1': []}
+allocate_entry:
+{'ir_1': [], 'ir_3': [8]}
+free_entry:
+{}
+hash_find_entry:
+{'ir_5': [0]}
+transfer_entries:
+{'ir_4': [0, 1]}
+hash_rehash:
+{'ir_1': [], 'ir_5': [0, 1], 'ir_4': [8], 'ir_3': [0]}
+hash_insert_if_absent:
+{'ir_1': [], 'ir_6': [0, 1], 'ir_13': [0]}
+hash_insert:
+{'ir_1': [], 'ir_5': [0]}
+hash_delete:
+{'ir_1': [], 'ir_5': [0], 'ir_8': [1]}
+triple_hash:
+{'ir_7': [], 'ir_6': [0]}
+triple_hash_no_name:
+{'ir_1': [], 'ir_11': [0]}
+triple_compare:
+{'ir_1': [], 'ir_5': [0, 1]}
+triple_compare_ino_str:
+{'ir_1': [], 'ir_5': [0, 1]}
+triple_free:
+{'ir_1': []}
+opendirat:
+{'ir_1': [], 'ir_8': [0]}
+set_program_name:
+{'ir_1': [], 'ir_9': [1, 47], 'ir_4': [1], 'ir_8': [3, 7, 55]}
+qcopy_acl:
+{'ir_1': [], 'ir_3': [0]}
+qset_acl:
+{'ir_1': [], 'ir_5': [4], 'ir_4': [0]}
+clone_quoting_options:
+{'ir_1': [], 'ir_11': [48]}
+get_quoting_style:
+{'ir_1': [0]}
+set_quoting_style:
+{}
+set_char_quoting:
+{}
+set_quoting_flags:
+{'ir_2': [0]}
+set_custom_quoting:
+{'ir_1': [], 'ir_10': [10]}
+quoting_options_from_style:
+{'ir_1': [], 'ir_5': [10], 'ir_7': [0, 48], 'ir_17': [48], 'ir_3': [0]}
+gettext_quote:
+{'ir_1': [], 'ir_6': [9, 96]}
+quotearg_buffer_restyled:
+{'ir_2': [], 'ir_8': [0, 1, 2, 3, 4, 5, 10, 48, 63, 97, 98, 102, 110, 114, 116, 118], 'ir_26': [0, 1, 2, 3, 5, 34, 39, 48, 63, 92], 'ir_6': [0, 8], 'ir_5': [0]}
+quotearg_buffer:
+{'ir_1': [], 'ir_7': [0]}
+quotearg_alloc:
+{'ir_3': [0]}
+quotearg_alloc_mem:
+{'ir_1': [], 'ir_7': [0]}
+quotearg_free:
+{'ir_1': [], 'ir_3': [0, 1], 'ir_8': [1, 2, 3]}
+quotearg_n_options:
+{'ir_1': [], 'ir_7': [1], 'ir_20': [0]}
+quotearg_n:
+{'ir_3': []}
+quotearg_n_mem:
+{'ir_4': []}
+quotearg:
+{'ir_1': [0]}
+quotearg_mem:
+{'ir_1': [0]}
+quotearg_n_style:
+{'ir_1': [], 'ir_3': [0]}
+quotearg_n_style_mem:
+{'ir_1': [], 'ir_3': [0]}
+quotearg_style:
+{'ir_1': [0]}
+quotearg_style_mem:
+{'ir_1': [0]}
+quotearg_char_mem:
+{'ir_1': [], 'ir_10': [0], 'ir_5': [1, 48]}
+quotearg_char:
+{'ir_2': []}
+quotearg_colon:
+{'ir_2': [58]}
+quotearg_colon_mem:
+{'ir_3': [58]}
+quotearg_n_style_colon:
+{'ir_1': [], 'ir_3': [0], 'ir_5': [1, 48], 'ir_4': [58]}
+quotearg_n_custom:
+{'ir_5': []}
+quotearg_n_custom_mem:
+{'ir_1': [], 'ir_10': [0], 'ir_5': [48]}
+quotearg_custom:
+{'ir_1': [0]}
+quotearg_custom_mem:
+{'ir_1': [0]}
+quote_n_mem:
+{'ir_4': []}
+quote_mem:
+{'ir_1': [0]}
+quote_n:
+{'ir_3': []}
+quote:
+{'ir_1': [0]}
+errno_fail:
+{'ir_1': []}
+renameatu:
+{'ir_1': [], 'ir_3': [0, 2, 17, 20, 21, 122, 4351], 'ir_7': [0, 2, 22, 79, 89, 122, 16384], 'ir_27': [0]}
+safe_write:
+{'ir_1': [], 'ir_9': [4, 22]}
+same_name:
+{'ir_4': []}
+same_nameat:
+{'ir_1': [], 'ir_7': [0, 1], 'ir_29': [0], 'ir_6': [256]}
+direntry_cmp_name:
+{'ir_1': []}
+direntry_cmp_inode:
+{'ir_2': [0, 1]}
+streamsavedir:
+{'ir_2': [], 'ir_6': [0, 1, 2, 46], 'ir_4': [0, 1], 'ir_65': [1, 16], 'ir_1': [0]}
+savedir:
+{'ir_1': [], 'ir_6': [0]}
+getcon:
+{'ir_1': []}
+freecon:
+{}
+getfscreatecon:
+{'ir_1': []}
+setfscreatecon:
+{'ir_1': []}
+matchpathcon:
+{'ir_1': []}
+getfilecon:
+{'ir_1': []}
+lgetfilecon:
+{'ir_1': []}
+fgetfilecon:
+{'ir_1': []}
+setfilecon:
+{'ir_1': []}
+lsetfilecon:
+{'ir_1': []}
+fsetfilecon:
+{'ir_1': []}
+security_check_context:
+{'ir_1': []}
+security_check_context_raw:
+{'ir_1': []}
+setexeccon:
+{'ir_1': []}
+security_compute_create:
+{'ir_1': []}
+string_to_security_class:
+{'ir_1': [], 'ir_4': [0]}
+matchpathcon_init_prefix:
+{'ir_1': []}
+get_stat_atime_ns:
+{}
+get_stat_ctime_ns:
+{}
+get_stat_mtime_ns:
+{}
+get_stat_birthtime_ns:
+{'ir_1': [0]}
+get_stat_atime:
+{}
+get_stat_ctime:
+{}
+get_stat_mtime:
+{}
+get_stat_birthtime:
+{'s_10': []}
+stat_time_normalize:
+{}
+statat:
+{'ir_1': [], 'ir_6': [0]}
+lstatat:
+{'ir_1': [], 'ir_6': [256]}
+check_x_suffix:
+{'ir_1': []}
+try_tempname_len:
+{'ir_1': [], 'ir_7': [1], 'ir_3': [0], 'ir_20': [0, 1, 2], 'ir_6': [61]}
+try_file:
+{'ir_1': [], 'ir_11': [384]}
+try_dir:
+{'ir_1': [], 'ir_4': [448]}
+try_nocreate:
+{'ir_1': [], 'ir_5': [0, 2, 79], 'ir_3': [0]}
+gen_tempname_len:
+{'ir_1': [], 'ir_8': [1, 2], 'ir_5': [327]}
+gen_tempname:
+{'ir_5': [6]}
+try_tempname:
+{'ir_5': [6]}
+fd_safer:
+{'ir_1': []}
+dev_info_hash:
+{'ir_1': [], 'ir_11': [0]}
+dev_info_compare:
+{}
+utimecmp:
+{'ir_1': []}
+utimecmpat:
+{'ir_5': [], 'ir_11': [0, 1, 2, 10, 20], 'ir_7': [0, 16], 'ir_29': [0, 1, 10, 20, 100], 'ir_8': [0], 'ir_10': [256]}
+lutimensat:
+{'ir_1': [], 'ir_6': [256]}
+validate_timespec:
+{'ir_1': [], 'ir_4': [1, 2], 'ir_5': [0, 1]}
+update_timespec:
+{'ir_2': [], 'ir_6': [0, 1], 'ir_4': [0]}
+fdutimens:
+{'ir_2': [], 'ir_7': [0, 1, 2, 3, 89], 'ir_4': [0], 'ir_17': [0, 1], 'ir_1': [0, 8]}
+utimens:
+{'ir_1': []}
+lutimens:
+{'ir_2': [], 'ir_6': [0, 2, 3, 89, 40960], 'ir_4': [0], 'ir_16': [0, 1], 'ir_94': [256], 'ir_1': [0, 8]}
+version_etc_arn:
+{'ir_1': [], 'ir_6': [2020], 'ir_3': [10]}
+version_etc_ar:
+{}
+version_etc_va:
+{'ir_1': [], 'ir_7': [0, 1], 'ir_13': [0]}
+version_etc:
+{'ir_1': [], 'ir_7': [0]}
+emit_bug_reporting_address:
+{'ir_1': [], 'ir_6': [10]}
+can_write_any_file:
+{'ir_1': [], 'ir_3': [0, 1], 'ir_13': [1]}
+xnmalloc:
+{'ir_1': [], 'ir_3': [0, 1], 'ir_15': [0]}
+xnrealloc:
+{'ir_1': [], 'ir_3': [0, 1], 'ir_16': [0]}
+x2nrealloc:
+{'ir_1': [], 'ir_10': [64], 'ir_3': [0, 1], 'ir_33': [0]}
+xcharalloc:
+{}
+xmalloc:
+{'ir_1': []}
+xrealloc:
+{'ir_1': [], 'ir_5': [0]}
+x2realloc:
+{'ir_3': [1]}
+xzalloc:
+{'ir_2': [1]}
+xcalloc:
+{'ir_1': [], 'ir_3': [0, 1], 'ir_15': [0]}
+xmemdup:
+{'ir_1': []}
+xstrdup:
+{'ir_1': []}
+xalloc_die:
+{'ir_2': [], 'ir_1': [1], 'ir_4': [0, 10], 'ir_15': [0], 'ir_7': [0, 1]}
+yesno:
+{'ir_1': [], 'ir_7': [0], 'ir_3': [0, 10]}
+clear_ungetc_buffer_preserving_position:
+{'ir_1': [], 'ir_8': [0]}
+rpl_fflush:
+{'ir_1': []}
+freadahead:
+{'ir_1': [0]}
+rpl_fseeko:
+{'ir_1': [], 'ir_6': [0]}
+exchange:
+{'s_28': [0, 1, 2]}
+process_long_option:
+{'ir_2': [], 'ir_8': [0, 1, 45, 61, 63], 'ir_4': [0, 10], 'ir_13': [0, 1], 'ir_5': [0]}
+_getopt_initialize:
+{'ir_1': [], 'ir_7': [43, 45], 'ir_10': [1, 2]}
+_getopt_internal_r:
+{'ir_2': [], 'ir_8': [1, 43, 45, 58, 59, 63, 87]}
+rpl_getopt_internal:
+{'ir_1': [], 'ir_8': [0, 1]}
+rpl_getopt:
+{'ir_4': [1], 'ir_5': [0]}
+rpl_getopt_long:
+{'ir_1': []}
+_getopt_long_r:
+{'ir_1': []}
+rpl_getopt_long_only:
+{'ir_1': []}
+_getopt_long_only_r:
+{'ir_1': []}
+lchmod:
+{'ir_1': [], 'ir_4': [2752512], 'ir_5': [2, 40960], 'ir_16': [4096], 'ir_3': [0]}
+rpl_mbrtowc:
+{'ir_1': [], 'ir_7': [1], 'ir_3': [0]}
+free_permission_context:
+{}
+get_permissions:
+{'ir_1': [], 'ir_5': [4], 'ir_4': [0]}
+chmod_or_fchmod:
+{'ir_1': []}
+set_permissions:
+{'ir_1': [], 'ir_6': [0, 1]}
+rotl64:
+{'ir_7': [0], 'ir_9': []}
+rotr64:
+{'ir_7': [0], 'ir_9': []}
+rotl32:
+{}
+rotr32:
+{}
+rotl_sz:
+{}
+rotr_sz:
+{}
+rotl16:
+{'ir_2': [16]}
+rotr16:
+{'ir_2': [16]}
+rotl8:
+{'ir_2': [8]}
+rotr8:
+{'ir_2': [8]}
+c_strcasecmp:
+{'ir_3': [], 'ir_9': [0]}
+close_stream:
+{'ir_1': [], 'ir_5': [0, 9]}
+opendir_safer:
+{'ir_1': [], 'ir_5': [0], 'ir_23': [3], 'ir_24': [1030]}
+gettime:
+{'ir_1': [], 'ir_3': [0]}
+current_timespec:
+{'ir_1': [], 'ir_3': [0]}
+hard_locale:
+{'ir_1': [], 'ir_7': [257], 'ir_15': [0], 'ir_4': [0, 1]}
+hash_pjw:
+{'s_10': [0]}
+locale_charset:
+{'ir_1': [], 'ir_3': [14], 'ir_4': [0]}
+openat_safer:
+{'ir_1': [], 'ir_6': [0]}
+randint_new:
+{'ir_1': [], 'ir_3': [24], 'ir_12': [0]}
+randint_all_new:
+{'ir_1': [], 'ir_7': [0]}
+randint_get_source:
+{}
+shift_left:
+{}
+randint_genmax:
+{'ir_3': [], 'ir_6': [1, 255], 'ir_7': [0, 1], 'ir_18': [0]}
+randint_free:
+{'ir_1': [], 'ir_4': [24]}
+randint_all_free:
+{'ir_1': []}
+randread_error:
+{'ir_4': [], 'ir_3': [1], 'ir_6': [1, 2076]}
+simple_new:
+{'ir_1': [], 'ir_3': [2076]}
+get_nonce:
+{'ir_1': [], 'ir_4': [0], 'ir_19': [0, 4, 8]}
+randread_new:
+{'ir_1': [], 'ir_4': [0, 1024], 'ir_3': [0]}
+randread_set_handler:
+{}
+randread_set_handler_arg:
+{}
+readsource:
+{'ir_2': [], 'ir_5': [1], 'ir_1': [0]}
+readisaac:
+{'ir_1': [], 'ir_6': [1024]}
+randread:
+{}
+randread_free:
+{'ir_1': [], 'ir_6': [2076], 'ir_4': [0]}
+just:
+{}
+ind:
+{}
+isaac_refill:
+{'ir_0': [34048]}
+isaac_seed:
+{'ir_2': [1]}
+setlocale_null_androidfix:
+{'ir_1': [], 'ir_4': [0]}
+setlocale_null_unlocked:
+{'ir_1': [], 'ir_9': [0, 22, 34]}
+setlocale_null_r:
+{}
+setlocale_null:
+{}
+dup_safer:
+{'ir_1': [], 'ir_4': [3], 'ir_5': [0]}
+rpl_fclose:
+{'ir_1': [], 'ir_5': [0]}
+rpl_fcntl:
+{'ir_1': [], 'ir_12': [0, 1, 3, 4, 10, 11, 23, 24, 1024, 1025, 1026, 1030, 1033, 1034], 'ir_3': [0]}
+rpl_fcntl_DUPFD:
+{'ir_1': [], 'ir_4': [0]}
+rpl_fcntl_DUPFD_CLOEXEC:
+{'ir_1': [], 'ir_5': [0, 22], 'ir_4': [1, 2, 1030], 'ir_19': [0, 1]}
+c_isalnum:
+{'ir_1': [0, 1]}
+c_isalpha:
+{'ir_1': [0, 1]}
+c_isascii:
+{'ir_1': [0, 1]}
+c_isblank:
+{'ir_2': [0, 1, 9, 32]}
+c_iscntrl:
+{'ir_1': [0, 1], 'ir_2': [127]}
+c_isdigit:
+{'ir_1': [0, 1]}
+c_isgraph:
+{'ir_1': [0, 1]}
+c_islower:
+{'ir_1': [0, 1]}
+c_isprint:
+{'ir_1': [0, 1]}
+c_ispunct:
+{'ir_1': [0, 1]}
+c_isspace:
+{'ir_1': [0, 1], 'ir_2': [32]}
+c_isupper:
+{'ir_1': [0, 1]}
+c_isxdigit:
+{'ir_1': [0]}
+c_tolower:
+{}
+c_toupper:
+{}
+fopen_safer:
+{'ir_1': [], 'ir_7': [0]}
+__udivdi3:
+{'ir_6': [0, 1], 'ir_64': [32]}
+__umoddi3:
+{'ir_394': [32], 'ir_4': [0, 1]}
+__libc_csu_init:
+{}
+__libc_csu_fini:
+{}
+atexit:
+{'ir_5': [0]}
+stat64:
+{'ir_7': [3]}
+fstat64:
+{'ir_7': [3]}
+lstat64:
+{'ir_7': [3]}
+fstatat64:
+{'ir_11': [3]}
+__mknod:
+{'ir_5': [], 'ir_10': [1]}
+__do_global_ctors_aux:
+{'ir_0': [], 'ir_2': [0]}
+_MIPS_STUBS_:
+{'ir_5': [270]}
+sub_425ca0:
+{'ir_5': [269]}
+sub_425cb0:
+{'ir_5': [268]}
+sub_425cc0:
+{'ir_5': [267]}
+sub_425cd0:
+{'ir_5': [266]}
+sub_425ce0:
+{'ir_5': [265]}
+sub_425cf0:
+{'ir_5': [264]}
+sub_425d00:
+{'ir_5': [263]}
+sub_425d10:
+{'ir_5': [261]}
+sub_425d20:
+{'ir_5': [260]}
+sub_425d30:
+{'ir_5': [258]}
+sub_425d40:
+{'ir_5': [257]}
+sub_425d50:
+{'ir_5': [256]}
+sub_425d60:
+{'ir_5': [254]}
+sub_425d70:
+{'ir_5': [252]}
+sub_425d80:
+{'ir_5': [251]}
+sub_425d90:
+{'ir_5': [250]}
+sub_425da0:
+{'ir_5': [249]}
+sub_425db0:
+{'ir_5': [248]}
+sub_425dc0:
+{'ir_5': [247]}
+sub_425dd0:
+{'ir_5': [246]}
+sub_425de0:
+{'ir_5': [245]}
+sub_425df0:
+{'ir_5': [244]}
+sub_425e00:
+{'ir_5': [243]}
+sub_425e10:
+{'ir_5': [242]}
+sub_425e20:
+{'ir_5': [241]}
+sub_425e30:
+{'ir_5': [240]}
+sub_425e40:
+{'ir_5': [239]}
+sub_425e50:
+{'ir_5': [238]}
+sub_425e60:
+{'ir_5': [237]}
+sub_425e70:
+{'ir_5': [236]}
+sub_425e80:
+{'ir_5': [235]}
+sub_425e90:
+{'ir_5': [234]}
+sub_425ea0:
+{'ir_5': [233]}
+sub_425eb0:
+{'ir_5': [232]}
+sub_425ec0:
+{'ir_5': [231]}
+sub_425ed0:
+{'ir_5': [230]}
+sub_425ee0:
+{'ir_5': [229]}
+sub_425ef0:
+{'ir_5': [228]}
+sub_425f00:
+{'ir_5': [227]}
+sub_425f10:
+{'ir_5': [226]}
+sub_425f20:
+{'ir_5': [225]}
+sub_425f30:
+{'ir_5': [224]}
+sub_425f40:
+{'ir_5': [223]}
+sub_425f50:
+{'ir_5': [222]}
+sub_425f60:
+{'ir_5': [221]}
+sub_425f70:
+{'ir_5': [220]}
+sub_425f80:
+{'ir_5': [218]}
+sub_425f90:
+{'ir_5': [217]}
+sub_425fa0:
+{'ir_5': [216]}
+sub_425fb0:
+{'ir_5': [215]}
+sub_425fc0:
+{'ir_5': [214]}
+sub_425fd0:
+{'ir_5': [213]}
+sub_425fe0:
+{'ir_5': [212]}
+sub_425ff0:
+{'ir_5': [211]}
+sub_426000:
+{'ir_5': [210]}
+sub_426010:
+{'ir_5': [209]}
+sub_426020:
+{'ir_5': [208]}
+sub_426030:
+{'ir_5': [207]}
+sub_426040:
+{'ir_5': [205]}
+sub_426050:
+{'ir_5': [204]}
+sub_426060:
+{'ir_5': [203]}
+sub_426070:
+{'ir_5': [202]}
+sub_426080:
+{'ir_5': [201]}
+sub_426090:
+{'ir_5': [200]}
+sub_4260a0:
+{'ir_5': [199]}
+sub_4260b0:
+{'ir_5': [198]}
+sub_4260c0:
+{'ir_5': [197]}
+sub_4260d0:
+{'ir_5': [196]}
+sub_4260e0:
+{'ir_5': [195]}
+sub_4260f0:
+{'ir_5': [193]}
+sub_426100:
+{'ir_5': [192]}
+sub_426110:
+{'ir_5': [191]}
+sub_426120:
+{'ir_5': [190]}
+sub_426130:
+{'ir_5': [188]}
+sub_426140:
+{'ir_5': [187]}
+sub_426150:
+{'ir_5': [186]}
+sub_426160:
+{'ir_5': [185]}
+sub_426170:
+{'ir_5': [184]}
+sub_426180:
+{'ir_5': [183]}
+sub_426190:
+{'ir_5': [182]}
+sub_4261a0:
+{'ir_5': [181]}
+sub_4261b0:
+{'ir_5': [180]}
+sub_4261c0:
+{'ir_5': [179]}
+sub_4261d0:
+{'ir_5': [178]}
+sub_4261e0:
+{'ir_5': [177]}
+sub_4261f0:
+{'ir_5': [176]}
+sub_426200:
+{'ir_5': [175]}
+sub_426210:
+{'ir_5': [174]}
+sub_426220:
+{'ir_5': [173]}
+sub_426230:
+{'ir_5': [172]}
+sub_426240:
+{'ir_5': [171]}
+sub_426250:
+{'ir_5': [170]}
+sub_426260:
+{'ir_5': [169]}
+sub_426270:
+{'ir_5': [167]}
+sub_426280:
+{'ir_5': [165]}
+sub_426290:
+{'ir_5': [164]}
+sub_4262a0:
+{'ir_5': [163]}
+sub_4262b0:
+{'ir_5': [162]}
+sub_4262c0:
+{'ir_5': [161]}
+sub_4262d0:
+{'ir_5': [160]}
+sub_4262e0:
+{'ir_5': [159]}
+sub_4262f0:
+{'ir_5': [158]}
+sub_426300:
+{'ir_5': [157]}
+sub_426310:
+{'ir_5': [156]}
+sub_426320:
+{'ir_5': [155]}
+sub_426330:
+{'ir_5': [154]}
+sub_426340:
+{'ir_5': [153]}
+sub_426350:
+{'ir_5': [152]}
+sub_426360:
+{'ir_5': [151]}
+sub_426370:
+{'ir_5': [150]}
+sub_426380:
+{'ir_5': [149]}
+sub_426390:
+{'ir_5': [148]}
+sub_4263a0:
+{'ir_5': [147]}
+sub_4263b0:
+{'ir_5': [146]}
+sub_4263c0:
+{'ir_5': [145]}
+sub_4263d0:
+{'ir_5': [144]}
+_fini:
+{'ir_0': []}
+sub_426410:
+{'ir_0': []}

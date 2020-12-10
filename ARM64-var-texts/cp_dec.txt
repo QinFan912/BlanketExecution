@@ -1,0 +1,250 @@
+$x:
+{'constant': [67312472]}
+call_weak_fn:
+{'constant': [0, 67120800, 67313544], 'ir_0': [0]}
+deregister_tm_clones:
+{'constant': [False, 67313464, 67313936], 'ir_1': [0]}
+register_tm_clones:
+{'constant': [0, 67121972, 67313640, 67313936]}
+frame_dummy:
+{'constant': [67121920]}
+se_const:
+{'constant': []}
+sub_40050c0:
+{'constant': [0, 67130564, 67313944]}
+sub_4005128:
+{'constant': [67130564]}
+sub_4005158:
+{'constant': [67130564]}
+sub_4005160:
+{'constant': [67130564]}
+sub_400516c:
+{'constant': [67130564]}
+sub_4005180:
+{'constant': [67130564]}
+sub_400518c:
+{'constant': [67130564]}
+sub_4005198:
+{'constant': [67130564]}
+sub_40051a4:
+{'constant': [67130564]}
+sub_40051b0:
+{'constant': [67130564]}
+sub_40051bc:
+{'constant': [67130564]}
+sub_40051c8:
+{'constant': [67130564]}
+sub_400524c:
+{'constant': [1, 67130564]}
+sub_4005260:
+{'constant': [67130564]}
+sub_400526c:
+{'constant': [67130564]}
+sub_4005278:
+{'constant': [1, 67130564]}
+sub_400528c:
+{'constant': [67130564]}
+sub_4005380:
+{'constant': [67130564]}
+sub_400538c:
+{'constant': [67130564]}
+sub_4005398:
+{'constant': [67130564]}
+sub_40053a4:
+{'constant': [67130564]}
+sub_400542c:
+{'constant': [67130564]}
+$x:
+{'constant': [67135492]}
+$x:
+{'constant': [67129348]}
+dot_or_dotdot:
+{'constant': [0, 1, 2, 46, 47, 255, 67135600], 'a0': [0, 1, 2]}
+ptr_align:
+{'constant': [0, 1]}
+is_ENOTSUP:
+{'constant': [0, 1, 95, 255]}
+io_blksize:
+{'constant': [0, 32, 63, 512, 131071, 131072, 67136124, 4294967295, 18446744069414584320], 'a0': [512, 131071, 131072]}
+ignorable_ctx_err:
+{'constant': [0, 1, 61, 95, 255, 67136176], 'a0': [0, 1]}
+is_ancestor:
+{'constant': [0, 1]}
+errno_unsupported:
+{'constant': [0, 1, 61, 95, 255, 67140288], 'a0': [0, 1]}
+copy_attr:
+{'constant': [1]}
+set_author:
+{'constant': []}
+is_probably_sparse:
+{'constant': [0, 1, 9, 55, 63, 255, 511, 32768, 61440, 67142920, 36028797018963967, 18410715276690587648], 'a0': [0, 1]}
+should_dereference:
+{'constant': [0, 1, 3, 4, 255, 67149704], 'a0': [0, 1]}
+src_to_dest_hash:
+{'constant': []}
+src_to_dest_compare:
+{'constant': [0, 1, 255, 67160732], 'a0': [0, 1]}
+extent_need_sync:
+{'constant': [1]}
+sub_400dd00:
+{'constant': []}
+buffer_lcm:
+{'constant': [0, 8192, 67169860], 'a0': [8192]}
+close_stdin_set_file_name:
+{'constant': []}
+close_stdout_set_file_name:
+{'constant': []}
+close_stdout_set_ignore_EPIPE:
+{'constant': []}
+last_component:
+{'constant': [0, 1, 47], 'a0': [0, 1]}
+ftypelet:
+{'constant': [45, 63, 98, 99, 100, 108, 112, 115, 4096, 8192, 16384, 24576, 32768, 40960, 49152, 61440], 'a0': [45, 63, 98, 99, 100, 108, 112, 115]}
+hash_get_n_buckets:
+{'constant': []}
+hash_get_n_buckets_used:
+{'constant': []}
+hash_get_n_entries:
+{'constant': []}
+hash_get_max_bucket_length:
+{'constant': [0, 1, 8, 16], 'a0': [0, 1]}
+hash_table_ok:
+{'constant': [0, 1, 8, 16, 67174004], 'a0': [0, 1]}
+hash_get_entries:
+{'constant': [0, 1, 3, 16, 61, 18446744073709551608], 'a0': [0]}
+hash_string:
+{'constant': [0, 1, 5, 59, 18446744073709551584], 's_20': [0]}
+is_prime:
+{'constant': [0, 1, 2, 3, 62, 255, 18446744073709551612], 'a0': [9]}
+hash_reset_tuning:
+{'constant': [67239024, 67239032, 67239040], 'a0': [0]}
+raw_comparator:
+{'constant': [0, 1, 255]}
+check_tuning:
+{'constant': [0, 1, 67239024, 1036831949, 1065353216], 'a0': [0, 1]}
+free_entry:
+{'constant': [0]}
+triple_hash_no_name:
+{'constant': []}
+get_quoting_style:
+{'constant': [0, 67315144], 'a0': [0]}
+set_quoting_style:
+{'constant': [0, 67315144]}
+set_char_quoting:
+{'constant': [0, 1, 2, 5, 8, 27, 31, 62, 255, 67315144, 134217727, 18446744073709551612]}
+set_quoting_flags:
+{'constant': [0, 67315144], 'a0': [0]}
+direntry_cmp_inode:
+{'constant': [0, 1, 255, 4294967295], 'a0': []}
+freecon:
+{'constant': []}
+get_stat_atime_ns:
+{'constant': []}
+get_stat_ctime_ns:
+{'constant': []}
+get_stat_mtime_ns:
+{'constant': []}
+get_stat_birthtime_ns:
+{'constant': [0]}
+get_stat_atime:
+{'constant': []}
+get_stat_ctime:
+{'constant': []}
+get_stat_mtime:
+{'constant': []}
+get_stat_birthtime:
+{'constant': [18446744073709551615], 'ir_0': []}
+stat_time_normalize:
+{'constant': []}
+dev_info_hash:
+{'constant': []}
+dev_info_compare:
+{'constant': [0, 1, 255]}
+freadahead:
+{'constant': [0, 256, 67205068], 'a0': [0]}
+exchange:
+{'constant': [0, 1, 3, 32, 61, 63, 4294967295, 18446744069414584320, 18446744073709551608], 's_40': [0, 1, 2]}
+$x:
+{'constant': [67214832]}
+$x:
+{'constant': [67207176]}
+free_permission_context:
+{'constant': []}
+rotl64:
+{'constant': [0, 63, 64]}
+rotr64:
+{'constant': [0, 63, 64]}
+rotl32:
+{'constant': [0, 31, 32]}
+rotr32:
+{'constant': [0, 31, 32]}
+rotl_sz:
+{'constant': [63, 64]}
+rotr_sz:
+{'constant': [63, 64]}
+rotl16:
+{'constant': [16, 31, 65535]}
+rotr16:
+{'constant': [16, 31, 65535]}
+rotl8:
+{'constant': [8, 31, 255]}
+rotr8:
+{'constant': [8, 31, 255]}
+hash_pjw:
+{'constant': [0, 1, 9, 55, 255], 's_20': [0]}
+randint_get_source:
+{'constant': []}
+shift_left:
+{'constant': [8, 56, 18446744073709551360]}
+randread_set_handler:
+{'constant': []}
+randread_set_handler_arg:
+{'constant': []}
+just:
+{'constant': [18446744073709551615]}
+ind:
+{'constant': [2040]}
+c_isalnum:
+{'constant': [0, 1, 9, 25, 48, 65, 90, 97, 67226244], 'a0': [0, 1]}
+c_isalpha:
+{'constant': [0, 1, 65, 90, 67226304], 'a0': [0, 1]}
+c_isascii:
+{'constant': [0, 1, 127], 'a0': [0, 1]}
+c_isblank:
+{'constant': [0, 1, 9, 32, 255, 67226400], 'a0': [0, 1]}
+c_iscntrl:
+{'constant': [0, 1, 31, 67226464], 'a0': [0, 1]}
+c_isdigit:
+{'constant': [0, 1, 9, 48], 'a0': [0, 1]}
+c_isgraph:
+{'constant': [0, 1, 33, 93], 'a0': [0, 1]}
+c_islower:
+{'constant': [0, 1, 25, 97], 'a0': [0, 1]}
+c_isprint:
+{'constant': [0, 1, 32, 94], 'a0': [0, 1]}
+c_ispunct:
+{'constant': [0, 1, 3, 14, 33, 58, 64, 91, 96, 123, 67226732], 'a0': [0, 1]}
+c_isspace:
+{'constant': [0, 1, 9, 13, 67226788], 'a0': [0, 1]}
+c_isupper:
+{'constant': [0, 1, 25, 65], 'a0': [0, 1]}
+c_isxdigit:
+{'constant': [0, 1, 5, 9, 48, 65, 70, 97, 67226908], 'a0': [0, 1]}
+c_tolower:
+{'constant': [25, 32, 65]}
+c_toupper:
+{'constant': [25, 32, 97]}
+__libc_csu_fini:
+{'constant': []}
+atexit:
+{'constant': [67120144]}
+__stat:
+{'constant': [67121632]}
+__fstat:
+{'constant': [67121408]}
+__lstat:
+{'constant': [67121360]}
+fstatat:
+{'constant': [67121776]}
+_fini:
+{'constant': []}

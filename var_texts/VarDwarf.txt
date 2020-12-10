@@ -1,0 +1,2 @@
+addtwonum	int	0x64a	0	0	
+main	int	0x672	0	1	int	result	-1	2	0x684	0	0x687	0	

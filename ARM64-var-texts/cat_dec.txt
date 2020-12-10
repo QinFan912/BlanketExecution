@@ -1,0 +1,80 @@
+$x:
+{'constant': [67222912]}
+call_weak_fn:
+{'constant': [0, 67115536, 67223464], 'ir_0': [0]}
+deregister_tm_clones:
+{'constant': [False, 67223416, 67223848], 'ir_1': [0]}
+register_tm_clones:
+{'constant': [0, 67116164, 67223536, 67223848]}
+frame_dummy:
+{'constant': [67116112]}
+ptr_align:
+{'constant': [0, 1]}
+io_blksize:
+{'constant': [0, 32, 63, 512, 131071, 131072, 67116988, 4294967295, 18446744069414584320], 'a0': [512, 131071, 131072]}
+next_line_num:
+{'constant': [1, 48, 49, 56, 62, 255, 67223680, 67223704, 67223712, 67223720], 'ir_0': [32, 48, 538976288]}
+$x:
+{'constant': [67126040]}
+$x:
+{'constant': [67117064]}
+close_stdout_set_file_name:
+{'constant': []}
+close_stdout_set_ignore_EPIPE:
+{'constant': []}
+get_quoting_style:
+{'constant': [0, 67223896], 'a0': [0]}
+set_quoting_style:
+{'constant': [0, 67223896]}
+set_char_quoting:
+{'constant': [0, 1, 2, 5, 8, 27, 31, 62, 255, 67223896, 134217727, 18446744073709551612]}
+set_quoting_flags:
+{'constant': [0, 67223896], 'a0': [0]}
+xset_binary_mode_error:
+{'constant': []}
+exchange:
+{'constant': [0, 1, 3, 32, 61, 63, 4294967295, 18446744069414584320, 18446744073709551608], 's_40': [0, 1, 2]}
+$x:
+{'constant': [67149292]}
+$x:
+{'constant': [67141636]}
+__gl_setmode:
+{'constant': [0]}
+c_isalnum:
+{'constant': [0, 1, 9, 25, 48, 65, 90, 97, 67151376], 'a0': [0, 1]}
+c_isalpha:
+{'constant': [0, 1, 65, 90, 67151436], 'a0': [0, 1]}
+c_isascii:
+{'constant': [0, 1, 127], 'a0': [0, 1]}
+c_isblank:
+{'constant': [0, 1, 9, 32, 255, 67151532], 'a0': [0, 1]}
+c_iscntrl:
+{'constant': [0, 1, 31, 67151596], 'a0': [0, 1]}
+c_isdigit:
+{'constant': [0, 1, 9, 48], 'a0': [0, 1]}
+c_isgraph:
+{'constant': [0, 1, 33, 93], 'a0': [0, 1]}
+c_islower:
+{'constant': [0, 1, 25, 97], 'a0': [0, 1]}
+c_isprint:
+{'constant': [0, 1, 32, 94], 'a0': [0, 1]}
+c_ispunct:
+{'constant': [0, 1, 3, 14, 33, 58, 64, 91, 96, 123, 67151864], 'a0': [0, 1]}
+c_isspace:
+{'constant': [0, 1, 9, 13, 67151920], 'a0': [0, 1]}
+c_isupper:
+{'constant': [0, 1, 25, 65], 'a0': [0, 1]}
+c_isxdigit:
+{'constant': [0, 1, 5, 9, 48, 65, 70, 97, 67152040], 'a0': [0, 1]}
+c_tolower:
+{'constant': [25, 32, 65]}
+c_toupper:
+{'constant': [25, 32, 97]}
+__libc_csu_fini:
+{'constant': []}
+atexit:
+{'constant': [67115200]}
+__fstat:
+{'constant': [67115808]}
+_fini:
+{'constant': []}

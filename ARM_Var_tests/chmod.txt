@@ -1,0 +1,458 @@
+_init:
+{}
+_start:
+{'ir_2': [], 'ir_0': [-516948194], 's_8': [0]}
+sub_9264:
+{'ir_0': [-516948194]}
+call_weak_fn:
+{'ir_0': [1], 'ir_1': [0], 'ir_4': [2]}
+__do_global_dtors_aux:
+{'ir_2': [2], 'ir_3': [0], 'ir_1': [1]}
+frame_dummy:
+{'ir_2': [0], 'ir_4': [2]}
+emit_ancillary_info:
+{'ir_3': [], 'ir_1': [0, 5], 'ir_6': [0], 'ir_29': [2], 'ir_7': [3]}
+mode_changed:
+{'ir_9': [2], 'ir_11': [0], 'ir_5': [], 'ir_6': [0, 1], 'ir_10': [1], 'ir_3': [0, 4]}
+describe_change:
+{'ir_7': [2], 'ir_9': [0, 1, 2, 3], 'ir_10': [0], 'ir_5': [], 'ir_2': [4]}
+process_file:
+{'s_60': [0, 1, 2], 'ir_16': [2], 'ir_18': [0, 2, 11, 16384], 'ir_19': [0], 'ir_5': [0, 1, 2, 3], 'ir_3': [0, 1, 4], 'ir_4': [0, 3, 4]}
+process_files:
+{'ir_4': [0, 1], 'ir_7': [0], 'ir_12': [2], 'ir_1': [1]}
+usage:
+{'ir_4': [2], 'ir_6': [0], 'ir_1': [], 'ir_0': [1048876]}
+main:
+{'s_58': [0, 1, 2, 44], 'ir_3': [0, 1, 4, 6], 'ir_25': [0, 1, 2, 257, 258], 'ir_5': [0, 1, 1851877475], 'ir_39': [1, 2], 'ir_41': [0, 1, 2, 3, 48, 55, 61, 82, 88, 97, 99, 102, 103, 111, 114, 118, 120, 256, 257, 258], 'ir_42': [0], 'ir_40': [0, 1, 2], 'ir_4': [0, 1041]}
+chmodat:
+{'ir_7': [0]}
+lchmodat:
+{'ir_7': [256]}
+close_stdout_set_file_name:
+{}
+close_stdout_set_ignore_EPIPE:
+{}
+close_stdout:
+{'ir_2': [0, 1], 'ir_7': [2], 'ir_9': [0, 32], 'ir_10': [0]}
+ftypelet:
+{'ir_3': [2], 'ir_6': [0], 'ir_5': [-447008711, 4096, 8192, 16384, 24576], 'ir_1': [45, 63, 98, 99, 100, 108, 112, 115], 'ir_0': [45, 63, 100]}
+strmode:
+{'ir_12': [2], 'ir_14': [0], 's_10': [0, 32, 45, 114, 115, 116, 119, 120], 'ir_5': [83, 84, 114, 115, 116, 119, 120]}
+filemodestring:
+{}
+octal_to_mode:
+{}
+make_node_op_equals:
+{'ir_1': [32], 's_18': [0, 1, 61, 4095], 'ir_7': [0]}
+mode_compile:
+{'ir_5': [2], 'ir_7': [0, 4, 7, 32, 43, 44, 45, 47, 55, 61, 97, 103, 111, 117, 4095], 'ir_8': [0], 'ir_2': [0, 1, 2, 56, 121, 186, 316, 519, 1080, 2496, 3128, 4095], 'ir_1': [0, 1], 'ir_108': [16, 4095], 'ir_23': [0, 1, 56]}
+mode_create_from_ref:
+{'ir_2': [0], 'ir_4': [4095], 'ir_7': [2]}
+mode_adjust:
+{'ir_2': [0, 73, 146, 3072], 's_30': [0, 4095], 'ir_11': [2], 'ir_13': [0, 1, 2, 3, 43, 45, 61], 'ir_14': [0], 'ir_1': [0, 146, 292, 438]}
+set_program_name:
+{'ir_3': [2], 'ir_5': [0, 6], 'ir_6': [0], 'ir_11': [1, 47], 'ir_2': [0, 1919954734], 'ir_7': [3, 7, 55]}
+clone_quoting_options:
+{'ir_6': [2], 'ir_8': [0], 'ir_12': [48]}
+get_quoting_style:
+{'ir_2': [2], 'ir_4': [0]}
+set_quoting_style:
+{'ir_3': [2], 'ir_5': [0]}
+set_char_quoting:
+{'ir_6': [2], 'ir_8': [0]}
+set_quoting_flags:
+{'ir_3': [2], 'ir_5': [0]}
+set_custom_quoting:
+{'ir_5': [2], 'ir_7': [0], 'ir_3': [10]}
+quoting_options_from_style:
+{'s_48': [0], 'ir_30': [2], 'ir_32': [10]}
+gettext_quote:
+{'ir_7': [2], 'ir_10': [0], 'ir_9': [0, 9, 96], 'ir_6': [-83230720]}
+quotearg_buffer_restyled:
+{'s_80': [0, 1, 2, 3, 4, 5, 34, 36, 39, 48, 63, 92, 97, 98, 102, 110, 114, 116, 118], 'ir_5': [0, 1, 4, 48, 97, 98, 102, 110, 114, 116, 118], 'ir_13': [1, 2], 'ir_15': [0, 1, 2, 5, 10, 29, 33, 47, 57, 63, 126], 'ir_16': [0], 'ir_14': [0, 1, 2, 3], 'ir_4': [0, 1, 2, 3, 34, 39, 48, 63, 92]}
+quotearg_buffer:
+{'ir_6': [2], 'ir_8': [0]}
+quotearg_alloc:
+{'ir_3': [0]}
+quotearg_alloc_mem:
+{'ir_6': [2], 'ir_8': [0]}
+quotearg_free:
+{'ir_1': [0, 1, 8], 's_10': [1, 2, 3, 256], 'ir_6': [1, 2, 3], 'ir_7': [2], 'ir_9': [1], 'ir_10': [0], 'ir_16': [0, 8]}
+quotearg_n_options:
+{'ir_12': [2], 'ir_14': [0], 'ir_4': [1], 's_58': [1, 256], 'ir_5': [0, 1]}
+quotearg_n:
+{'ir_5': []}
+quotearg_n_mem:
+{}
+quotearg:
+{'ir_1': [0]}
+quotearg_mem:
+{'ir_1': [0]}
+quotearg_n_style:
+{'ir_4': []}
+quotearg_n_style_mem:
+{'ir_4': []}
+quotearg_style:
+{'ir_1': [0]}
+quotearg_style_mem:
+{'ir_1': [0]}
+quotearg_char_mem:
+{'ir_6': [], 'ir_1': [0], 'ir_3': [1]}
+quotearg_char:
+{'ir_2': []}
+quotearg_colon:
+{'ir_3': [58]}
+quotearg_colon_mem:
+{'ir_5': [58]}
+quotearg_n_style_colon:
+{'ir_4': [], 'ir_2': [58], 'ir_3': [1]}
+quotearg_n_custom:
+{'s_20': []}
+quotearg_n_custom_mem:
+{'s_48': [0], 'ir_6': []}
+quotearg_custom:
+{'ir_1': [0]}
+quotearg_custom_mem:
+{'ir_1': [0]}
+quote_n_mem:
+{}
+quote_mem:
+{'ir_1': [0]}
+quote_n:
+{'ir_5': []}
+quote:
+{'ir_1': [0]}
+get_root_dev_ino:
+{'ir_3': [0], 'ir_5': [], 'ir_8': [2]}
+version_etc_arn:
+{'ir_10': [2], 'ir_12': [0, 9], 'ir_13': [0], 'ir_8': [2020], 'ir_5': [10]}
+version_etc_ar:
+{'ir_4': [0], 's_28': [0, 1, 2], 'ir_11': [2]}
+version_etc_va:
+{'ir_4': [0, 1, 2], 'ir_7': [2], 'ir_9': [0, 9], 'ir_10': [0], 'ir_1': []}
+version_etc:
+{'s_30': []}
+emit_bug_reporting_address:
+{'ir_1': [], 'ir_3': [10]}
+xnmalloc:
+{'ir_1': [], 'ir_9': [2], 'ir_12': [0]}
+xnrealloc:
+{'ir_1': [], 'ir_10': [2], 'ir_13': [0]}
+x2nrealloc:
+{'ir_7': [2], 'ir_9': [0], 'ir_1': [64]}
+xcharalloc:
+{}
+xmalloc:
+{'ir_6': [2], 'ir_8': [0]}
+xrealloc:
+{'ir_4': [2], 'ir_6': [0]}
+x2realloc:
+{'ir_5': [1]}
+xzalloc:
+{'ir_3': [1]}
+xcalloc:
+{'ir_1': [], 'ir_9': [2], 'ir_12': [0]}
+xmemdup:
+{}
+xstrdup:
+{}
+xalloc_die:
+{'ir_1': [1], 'ir_9': [0, 512], 'ir_2': [512], 'ir_10': [41]}
+xfts_open:
+{'ir_11': [2], 'ir_13': [0, 22], 'ir_14': [0], 'ir_3': [41]}
+cycle_warning_required:
+{'ir_5': [2], 'ir_7': [0], 'ir_2': [0, 1]}
+orig_fchmodat:
+{}
+rpl_fchmodat:
+{'ir_6': [2], 'ir_8': [0, 2, 256], 'ir_9': [0], 'ir_3': [95], 'ir_4': [0, 4096], 'ir_1': [], 's_b0': [0, 95]}
+AD_compare:
+{'ir_10': [2], 'ir_13': [0], 'ir_2': [0, 1]}
+AD_hash:
+{'ir_3': [0]}
+setup_dir:
+{'ir_6': [2], 'ir_8': [0], 'ir_1': [0, 1, 31, 32], 'ir_2': [0, 1]}
+enter_dir:
+{'ir_7': [2], 'ir_9': [0], 'ir_1': [0, 1, 24], 'ir_3': [0, 1]}
+leave_dir:
+{'ir_9': [2, 5], 'ir_11': [0], 'ir_3': []}
+free_dir:
+{'ir_6': [2], 'ir_8': [0]}
+fd_ring_clear:
+{'ir_7': [2], 'ir_9': [0]}
+fts_set_stat_required:
+{'ir_6': [2], 'ir_8': [0, 11], 'ir_9': [0], 'ir_16': [1, 2]}
+cwd_advance_fd:
+{'ir_9': [1, 2], 'ir_12': [0], 'ir_11': [0, 100]}
+restore_initial_cwd:
+{'ir_5': [2], 'ir_7': [0], 'ir_2': [0, 1], 'ir_26': [], 'ir_27': [1]}
+diropen:
+{'ir_6': [2], 'ir_8': [0], 's_18': []}
+rpl_fts_open:
+{'s_40': [0, 1, 9, 11, 22], 'ir_14': [2], 'ir_16': [0, 1, 2, 47, 4096], 'ir_17': [0], 'ir_9': [0, 1, 22], 'ir_10': [0, 1, 11], 'ir_6': [0, 1], 'ir_7': [0, 1, 96]}
+fts_load:
+{'ir_5': [47], 'ir_22': [2], 'ir_24': [0]}
+rpl_fts_close:
+{'ir_7': [2], 'ir_9': [0]}
+dev_type_hash:
+{'ir_3': [0]}
+dev_type_compare:
+{'ir_10': [2], 'ir_13': [0]}
+filesystem_type:
+{'ir_10': [2], 'ir_12': [0], 'ir_1': [0, 13, 16]}
+dirent_inode_sort_may_be_useful:
+{'ir_7': [26985], 'ir_8': [2], 'ir_11': [0], 'ir_6': [0, 1]}
+leaf_optimization:
+{'ir_8': [2], 'ir_11': [0], 'ir_6': [0, 1, 2], 'ir_1': [0, 1], 'ir_7': [26985], 'ir_10': [0, 26985]}
+rpl_fts_read:
+{'ir_7': [1, 2], 'ir_9': [0, 1, 2, 4, 11, 12, 13, 47, 16384], 'ir_10': [0], 'ir_6': [0, 3, 6, 7], 'ir_32': [0, 1, 12], 'ir_31': [3]}
+rpl_fts_set:
+{'ir_5': [2], 'ir_7': [0, 1, 2, 3, 4], 'ir_8': [0], 'ir_4': [0, 1], 'ir_3': [22]}
+rpl_fts_children:
+{'ir_7': [2], 'ir_9': [0, 1, 9, 47, 4096], 'ir_10': [0], 'ir_23': [0, 1, 22], 'ir_6': [0, 2], 'ir_5': [1, 2]}
+fts_compare_ino:
+{'ir_10': [2], 'ir_13': [0], 'ir_2': []}
+set_stat_type:
+{'ir_4': [2], 'ir_6': [11], 'ir_7': [0], 'ir_2': [-447008711, 4096, 8192, 16384, 24576], 's_18': [-447008711, 0, 4096, 8192, 16384, 24576]}
+fts_build:
+{'ir_11': [2], 'ir_13': [0, 1, 2, 3, 4, 7, 11, 46, 47, 10000], 'ir_14': [0], 'ir_38': [0, 3, 4, 6, 7, 12, 36, 47], 'ir_124': [], 'ir_8': [0, 1, 4, 7, 10000], 'ir_12': [0, 1], 'ir_7': [0, 1, 1030]}
+$a:
+{'ir_9': [2], 'ir_11': [0, 1, 2, 46, 16384], 'ir_12': [0], 'ir_6': [0, 1, 3, 5, 8, 10, 12, 13, 104, 256], 'ir_5': [0, 104], 'ir_2': [3, 8, 12]}
+fts_compar:
+{}
+fts_sort:
+{'ir_12': [1, 2], 'ir_15': [0], 'ir_6': [0, 4]}
+fts_alloc:
+{'ir_13': [2], 'ir_15': [0], 's_20': [0, 3]}
+fts_lfree:
+{'ir_6': [2], 'ir_8': [0]}
+fts_palloc:
+{'ir_11': [2], 'ir_14': [0], 'ir_4': [0, 36], 'ir_3': [0, 1]}
+fts_padjust:
+{'ir_7': [2], 'ir_9': [0]}
+fts_maxarglen:
+{'ir_2': [0, 1], 'ir_5': [2], 'ir_7': [0], 'ir_1': [1]}
+fts_safe_changedir:
+{'ir_6': [2], 'ir_8': [0], 's_98': [0, 1, 2], 'ir_4': [0, 1], 'ir_2': [], 'ir_3': [1, 2]}
+exchange:
+{'ir_10': [2], 'ir_13': [0], 's_30': [0, 1, 2]}
+process_long_option:
+{'s_50': [0, 1], 'ir_11': [2], 'ir_13': [0, 1, 45, 61], 'ir_14': [0], 'ir_5': [0, 1, 63], 'ir_1': [], 'ir_2': [0, 10, 63]}
+_getopt_initialize:
+{'ir_7': [2], 'ir_9': [0, 43, 45], 'ir_10': [0], 'ir_3': [0, 1, 2]}
+_getopt_internal_r:
+{'ir_9': [2], 'ir_11': [0, 1, 43, 45, 58, 59, 87], 'ir_12': [0], 's_48': [0, 58, 63], 'ir_5': [58, 63], 'ir_2': [63], 'ir_1': []}
+rpl_getopt_internal:
+{'s_30': [0, 1], 'ir_3': [0]}
+rpl_getopt:
+{'s_28': [0, 1], 'ir_4': [0]}
+rpl_getopt_long:
+{'s_28': [0]}
+_getopt_long_r:
+{'s_28': [0]}
+rpl_getopt_long_only:
+{'s_28': [0, 1]}
+_getopt_long_only_r:
+{'s_28': [0, 1]}
+rpl_mbrtowc:
+{'ir_6': [1, 2], 'ir_8': [0, 3], 'ir_9': [0], 's_28': [0, 1], 'ir_4': [1]}
+c_strcasecmp:
+{'ir_7': [2], 'ir_10': [0]}
+close_stream:
+{'ir_5': [2], 'ir_7': [0, 9], 'ir_8': [0]}
+is_zero_or_power_of_two:
+{'ir_7': [2], 'ir_9': [0]}
+cycle_check_init:
+{'ir_2': []}
+cycle_check:
+{'ir_3': [0, 1], 'ir_6': [1, 2, 5], 'ir_8': [0], 'ir_4': [60], 'ir_7': [1]}
+open_safer:
+{'ir_8': [2], 'ir_10': [0]}
+hard_locale:
+{'ir_2': [0, 1], 'ir_4': [], 'ir_5': [257], 'ir_8': [2], 'ir_10': [0]}
+hash_get_n_buckets:
+{}
+hash_get_n_buckets_used:
+{}
+hash_get_n_entries:
+{}
+hash_get_max_bucket_length:
+{'ir_7': [2], 'ir_10': [0], 'ir_1': [0, 1], 'ir_5': [1, 2]}
+hash_table_ok:
+{'ir_8': [2], 'ir_11': [0], 'ir_1': [0, 1]}
+hash_print_statistics:
+{}
+safe_hasher:
+{}
+hash_lookup:
+{'ir_8': [2], 'ir_10': [0]}
+hash_get_first:
+{'ir_4': [2], 'ir_6': [0]}
+hash_get_next:
+{'ir_10': [2], 'ir_13': [0]}
+hash_get_entries:
+{'ir_9': [2], 'ir_12': [0]}
+hash_do_for_each:
+{'ir_10': [2], 'ir_13': [0]}
+hash_string:
+{'ir_3': [0], 'ir_7': [2]}
+is_prime:
+{'ir_4': [3, 9, 25, 49], 'ir_2': [1, 3, 5, 9], 'ir_8': [2], 'ir_9': [3, 5, 9, 25, 49], 'ir_11': [0], 'ir_14': [3, 5], 'ir_1': [1]}
+next_prime:
+{'ir_3': [1, 2], 'ir_5': [0, 1, 9], 'ir_6': [0], 'ir_2': [11]}
+hash_reset_tuning:
+{'ir_1': [0], 'ir_7': []}
+raw_hasher:
+{'ir_2': [3]}
+raw_comparator:
+{'ir_4': [2], 'ir_7': [0]}
+check_tuning:
+{'ir_5': [2], 'ir_8': [0], 'ir_13': [], 'ir_1': [0, 1]}
+compute_bucket_size:
+{'ir_7': [1, 2], 'ir_9': [0], 'ir_12': []}
+hash_initialize:
+{'ir_6': [2], 'ir_8': [0], 'ir_1': [0, 40], 'ir_2': [8]}
+hash_clear:
+{'ir_7': [2], 'ir_10': [0]}
+hash_free:
+{'ir_4': [2], 'ir_6': [0]}
+allocate_entry:
+{'ir_4': [2], 'ir_6': [0], 'ir_1': [8]}
+free_entry:
+{'s_10': [0]}
+hash_find_entry:
+{'ir_12': [2], 'ir_14': [0]}
+transfer_entries:
+{'ir_10': [2], 'ir_13': [0], 'ir_4': [0, 1]}
+hash_rehash:
+{'ir_9': [2], 'ir_11': [0], 'ir_3': [0, 1], 'ir_2': [8]}
+hash_insert_if_absent:
+{'ir_5': [2], 'ir_7': [0], 'ir_3': [], 'ir_4': [0, 1]}
+hash_insert:
+{'ir_3': [0], 'ir_6': [], 'ir_9': [1, 2], 'ir_11': [0, 1]}
+hash_delete:
+{'ir_6': [0], 'ir_3': [0, 1], 'ir_10': [2]}
+i_ring_init:
+{'s_18': [0, 1, 2], 'ir_3': [0, 1], 'ir_10': [2], 'ir_12': [3], 'ir_13': [0]}
+i_ring_empty:
+{}
+i_ring_push:
+{'ir_21': [2], 'ir_24': [0]}
+i_ring_pop:
+{'ir_5': [2], 'ir_7': [0], 'ir_11': [1]}
+locale_charset:
+{'ir_1': [14], 'ir_4': [2], 'ir_6': [0]}
+openat_safer:
+{'s_20': [0], 'ir_8': [2]}
+opendirat:
+{'ir_13': [2], 'ir_15': [0]}
+setlocale_null_androidfix:
+{'ir_3': [0]}
+setlocale_null_unlocked:
+{'ir_7': [2], 'ir_9': [0], 'ir_6': [0, 22, 34]}
+setlocale_null_r:
+{}
+setlocale_null:
+{}
+fd_safer:
+{'ir_3': [2], 'ir_5': [0, 2], 'ir_6': [0]}
+rpl_fclose:
+{'s_28': [0, 1], 'ir_2': [0], 'ir_7': [2], 'ir_1': []}
+rpl_fcntl:
+{'ir_8': [2], 'ir_10': [0, 1, 3, 4, 8, 10, 11, 1024, 1026, 1030, 1031, 1032], 'ir_11': [0], 'ir_1': [1026, 1030, 1031, 1032]}
+$a:
+{'ir_2': [0]}
+rpl_fcntl_DUPFD_CLOEXEC:
+{'ir_3': [0, 1], 'ir_5': [1, 2], 'ir_7': [0, 1, 22], 'ir_8': [0], 'ir_2': [1, 2, 1030], 'ir_11': [1], 'ir_1': []}
+clear_ungetc_buffer_preserving_position:
+{'ir_5': [2], 'ir_7': [0], 's_18': [1]}
+rpl_fflush:
+{'ir_3': [2], 'ir_5': [0]}
+rpl_fseeko:
+{'ir_8': [2], 'ir_11': [0], 'ir_2': []}
+rpl_nl_langinfo:
+{'ir_5': [2], 'ir_7': [11], 'ir_8': [0]}
+rotl64:
+{'ir_19': [2], 'ir_21': [0]}
+rotr64:
+{'ir_19': [2], 'ir_21': [0]}
+rotl32:
+{}
+rotr32:
+{}
+rotl_sz:
+{}
+rotr_sz:
+{}
+rotl16:
+{}
+rotr16:
+{}
+rotl8:
+{}
+rotr8:
+{}
+c_isalnum:
+{'ir_2': [2], 'ir_4': [9, 25, 65, 90], 'ir_5': [0], 'ir_1': [0, 1]}
+c_isalpha:
+{'ir_2': [2], 'ir_4': [25, 65, 90], 'ir_5': [0], 'ir_1': [0, 1]}
+c_isascii:
+{'ir_3': [2], 'ir_5': [127], 'ir_6': [0], 'ir_1': [0, 1]}
+c_isblank:
+{'ir_2': [2], 'ir_4': [9, 32], 'ir_5': [0], 'ir_1': [0, 1]}
+c_iscntrl:
+{'ir_2': [2], 'ir_4': [0, 31, 127], 'ir_5': [0], 'ir_1': [0, 1]}
+c_isdigit:
+{'ir_3': [2], 'ir_5': [9], 'ir_6': [0], 'ir_1': [0, 1]}
+c_isgraph:
+{'ir_3': [2], 'ir_5': [93], 'ir_6': [0], 'ir_1': [0, 1]}
+c_islower:
+{'ir_3': [2], 'ir_5': [25], 'ir_6': [0], 'ir_1': [0, 1]}
+c_isprint:
+{'ir_3': [2], 'ir_5': [94], 'ir_6': [0], 'ir_1': [0, 1]}
+c_ispunct:
+{'ir_2': [2], 'ir_4': [3, 14, 58, 64, 91, 96], 'ir_5': [0], 'ir_1': [0, 1]}
+c_isspace:
+{'ir_3': [2], 'ir_5': [0, 23], 'ir_6': [0], 'ir_1': [0, 1]}
+c_isupper:
+{'ir_3': [2], 'ir_5': [25], 'ir_6': [0], 'ir_1': [0, 1]}
+c_isxdigit:
+{'ir_3': [2], 'ir_5': [54], 'ir_6': [0], 'ir_1': [0, 1]}
+c_tolower:
+{'ir_3': [2], 'ir_5': [25], 'ir_6': [0]}
+c_toupper:
+{'ir_3': [2], 'ir_5': [25], 'ir_6': [0]}
+dup_safer:
+{'ir_3': [0], 'ir_4': [3]}
+__udivsi3:
+{'ir_2': [2, 5], 'ir_4': [0, 1], 'ir_5': [0], 'ir_7': [8]}
+__aeabi_uidivmod:
+{'ir_1': [2], 'ir_3': [0], 'ir_6': [8]}
+__aeabi_uldivmod:
+{'ir_1': [2], 'ir_3': [0], 's_10': [], 'ir_15': [8]}
+__aeabi_idiv0:
+{'ir_2': [8]}
+__gnu_ldivmod_helper:
+{'ir_21': [2], 'ir_24': [0]}
+__gnu_uldivmod_helper:
+{'ir_21': [2], 'ir_24': [0]}
+__divdi3:
+{'ir_10': [1, 2], 'ir_12': [0], 'ir_3': [], 'ir_18': [1]}
+__udivdi3:
+{'ir_12': [1, 2], 'ir_14': [0], 'ir_10': [0, 1]}
+__libc_csu_init:
+{'ir_5': [-442564576, -442552304], 'ir_1': [1, 4], 'ir_20': [2, 5], 'ir_21': [1, 2], 'ir_22': [0, 1], 'ir_6': [1, 2, 3], 'ir_23': [0]}
+__libc_csu_fini:
+{}
+atexit:
+{'ir_0': [1], 'ir_4': [0], 'ir_5': [2]}
+stat64:
+{'ir_0': [3]}
+fstat64:
+{'ir_0': [3]}
+lstat64:
+{'ir_0': [3]}
+fstatat64:
+{'ir_4': [3]}
+_fini:
+{}
