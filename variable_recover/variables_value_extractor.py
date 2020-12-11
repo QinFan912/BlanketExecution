@@ -189,12 +189,18 @@ class VariablesValueExtractor:
                 print("expr:", state.solver.eval(state.inspect.reg_write_expr))
                 expr = state.solver.eval(state.inspect.reg_write_expr)
                 save_block_info(expr, 257, state)
+                save_block_info(expr, 259, state)
+                save_block_info(expr, 371, state)
+
                 for va in var:
                     if isinstance(va, SimRegisterVariable):
                         if state.solver.eval(state.inspect.reg_write_offset) == va.reg:
                             if expr in mem_data:
                                 d = state.mem[expr].deref.int.concrete
                                 save_block_info(d, 257, state)
+                                save_block_info(d, 259, state)
+                                save_block_info(d, 371, state)
+
                                 var_dict[va.name].append(d)
                             elif expr >= min_addr:
                                 obj = p.loader.find_object_containing(addr=expr)
@@ -203,6 +209,9 @@ class VariablesValueExtractor:
                                     if sec:
                                         d = state.mem[expr].deref.int.concrete
                                         save_block_info(d, 257, state)
+                                        save_block_info(d, 259, state)
+                                        save_block_info(d, 371, state)
+
                                         var_dict[va.name].append(d)
                             else:
                                 var_dict[va.name].append(expr)
