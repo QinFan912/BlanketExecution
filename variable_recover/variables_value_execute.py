@@ -30,8 +30,8 @@ def main(argv):
     MIPS64_save_path = '/home/qinfan/PycharmProjects/angr/MIPS64-var-texts/' + file_name + "_dec.txt"
     MIPS64_data_path = '/home/qinfan/PycharmProjects/angr/data/MIPS64/' + file_name + "_data.txt"
 
-    # extractor = VariablesValueExtractor(file_name, X86_file_path, X86_save_path, X86_data_path)             # X86
-    extractor = VariablesValueExtractor(file_name, ARM32_file_path, ARM32_save_path, ARM32_data_path)       # ARM32
+    extractor = VariablesValueExtractor(file_name, X86_file_path, X86_save_path, X86_data_path)             # X86
+    # extractor = VariablesValueExtractor(file_name, ARM32_file_path, ARM32_save_path, ARM32_data_path)       # ARM32
     # extractor = VariablesValueExtractor(file_name, ARM64_file_path, ARM64_save_path, ARM64_data_path)       # ARM64
     # extractor = VariablesValueExtractor(file_name, MIPS32_file_path, MIPS32_save_path, MIPS32_data_path)    # MIPS32
     # extractor = VariablesValueExtractor(file_name, MIPS64_file_path, MIPS64_save_path, MIPS64_data_path)    # MIPS64

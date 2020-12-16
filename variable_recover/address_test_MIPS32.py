@@ -53,7 +53,6 @@ def main(argv):
             se = ob.find_section_containing(v)
             print(se)
             print(se.type)
-        # if '.data' in str(se):
         init_state = p.factory.blank_state(addr=v, mode="fastpath",
                                            add_options={angr.options.UNDER_CONSTRAINED_SYMEXEC,
                                                         angr.options.CALLLESS,
@@ -67,27 +66,7 @@ def main(argv):
                 res.append(d)
         except:
             print("error")
-        # c = init_state.mem[v].deref.string.concrete
-        # print(c.decode())
 
-        # a = b'\x9c\x8e\x01\x00'
-        # b = int.from_bytes(a, byteorder='little', signed=True)
-        # print(b)
-        # if p.loader.min_addr <= b <= p.loader.max_addr:
-        #     init_state = p.factory.blank_state(addr=b, mode="fastpath",
-        #                                        add_options={angr.options.UNDER_CONSTRAINED_SYMEXEC,
-        #                                                     angr.options.CALLLESS,
-        #                                                     angr.options.LAZY_SOLVES})
-        #     try:
-        #         c = init_state.solver.eval(init_state.memory.load(b, size=4), cast_to=bytes)
-        #         print(c)
-        #         d = c.decode().strip('\x00')
-        #         print(d)
-        #         if d:
-        #             res.append(d)
-        #             print(d)
-        #     except:
-        #         print("error")
     print(res)
 
 

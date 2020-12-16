@@ -92,9 +92,10 @@ def main(argv):
                                                             angr.options.CALLLESS,
                                                             angr.options.LAZY_SOLVES})
             try:
-                c = init_state.solver.eval(init_state.memory.load(b, size=4), cast_to=bytes)
-                print(c)
-                d = c.decode().strip('\x00')
+                c = init_state.solver.eval(init_state.memory.load(b, size=100), cast_to=bytes)
+                print("@@"*20, c)
+                print("!!"*10, c.decode().split(' ', 1)[0])
+                d = c.split(' ', 1)[0].decode().strip('\x00')
                 print(d)
                 if d:
                     res.append(d)

@@ -75,13 +75,13 @@ class VariablesValueExtractor:
                     with open(string_path + self.file_name + '@' + str(v) + '.txt', 'a') as f:
                         f.write(str(info) + '\n')
 
-        # 部分数字到字符串的恢复
+        # 部分数字到字符串的恢复,大小端的转换
         def string_recovery(x):
             command = "readelf -h " + self.file_path
             back = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
             print(back[0].decode())
 
-            if 'little endian' in back[0].decode():
+            if p.arch.memory_endness == 'Iend_LE':
                 y = x.to_bytes(4, byteorder='little')
             else:
                 y = x.to_bytes(4, byteorder='big')
@@ -95,8 +95,8 @@ class VariablesValueExtractor:
                 # skil all aligement functions
                 continue
 
-            # if func.name != 'copy_reg':
-            #     continue
+            if func.name != 'main':
+                continue
 
             init_state = p.factory.blank_state(addr=func.addr, mode="fastpath",
                                                add_options={angr.options.UNDER_CONSTRAINED_SYMEXEC,
@@ -163,9 +163,9 @@ class VariablesValueExtractor:
             # l = list(set(l))
             # var_dict['constant'] = l
 
-            # for cons in l[::-1]:
-            #     if min_addr <= cons <= max_addr:
-            #         l.remove(cons)
+            for cons in l[::-1]:
+                if min_addr <= cons <= max_addr:
+                    l.remove(cons)
 
             l1 = sorted(list(set(l)))
             var_dict['constant'] = l1
@@ -188,18 +188,18 @@ class VariablesValueExtractor:
                     return
                 print("expr:", state.solver.eval(state.inspect.reg_write_expr))
                 expr = state.solver.eval(state.inspect.reg_write_expr)
-                save_block_info(expr, 257, state)
-                save_block_info(expr, 259, state)
-                save_block_info(expr, 371, state)
+                # save_block_info(expr, 257, state)
+                # save_block_info(expr, 259, state)
+                # save_block_info(expr, 371, state)
 
                 for va in var:
                     if isinstance(va, SimRegisterVariable):
                         if state.solver.eval(state.inspect.reg_write_offset) == va.reg:
                             if expr in mem_data:
                                 d = state.mem[expr].deref.int.concrete
-                                save_block_info(d, 257, state)
-                                save_block_info(d, 259, state)
-                                save_block_info(d, 371, state)
+                                # save_block_info(d, 257, state)
+                                # save_block_info(d, 259, state)
+                                # save_block_info(d, 371, state)
 
                                 var_dict[va.name].append(d)
                             elif expr >= min_addr:
@@ -208,9 +208,9 @@ class VariablesValueExtractor:
                                     sec = obj.find_section_containing(addr=expr)
                                     if sec:
                                         d = state.mem[expr].deref.int.concrete
-                                        save_block_info(d, 257, state)
-                                        save_block_info(d, 259, state)
-                                        save_block_info(d, 371, state)
+                                        # save_block_info(d, 257, state)
+                                        # save_block_info(d, 259, state)
+                                        # save_block_info(d, 371, state)
 
                                         var_dict[va.name].append(d)
                             else:

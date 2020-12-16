@@ -39,6 +39,8 @@ def main(argv):
                          }
                      })
 
+    print(p.arch.memory_endness)
+
     '''
     # x = 1668444006
     # x = 1702258030
@@ -126,6 +128,8 @@ def main(argv):
             except:
                 print("error")
     print(res)
+
+    print(p.arch.memory_endness)
 
 
 if __name__ == "__main__":
