@@ -95,8 +95,8 @@ class VariablesValueExtractor:
                 # skil all aligement functions
                 continue
 
-            if func.name != 'main':
-                continue
+            # if func.name != 'main':
+            #     continue
 
             init_state = p.factory.blank_state(addr=func.addr, mode="fastpath",
                                                add_options={angr.options.UNDER_CONSTRAINED_SYMEXEC,
@@ -392,7 +392,7 @@ class VariablesValueExtractor:
 #
 #     # X86
 #     X86_file_path = "/home/qinfan/coreutils/coreutils-X86/src/" + file_name
-#     X86_save_path = '/home/qinfan/PycharmProjects/angr/var_texts/' + file_name + "_dec.txt"
+#     X86_save_path = '/home/qinfan/PycharmProjects/angr/X86-var-texts/' + file_name + "_dec.txt"
 #     X86_data_path = '/home/qinfan/PycharmProjects/angr/data/X86/' + file_name + "_data.txt"
 #
 #     extractor = VariablesValueExtractor(file_name, X86_file_path, X86_save_path, X86_data_path)

@@ -18,7 +18,7 @@ def main(argv):
     # file_path = '../variable_recover/global01'
 
     '''
-    save_path = '../var_texts/VarDwarf.txt'
+    save_path = '../X86-var-texts/VarDwarf.txt'
     with open(file_path, 'rb') as f:
         extractor = VariablesAddressExtractor(f, save_path)
         extractor.parse_address()
@@ -227,12 +227,12 @@ def main(argv):
             sm.move(from_stash='unsat', to_stash='active')
 
         # X86变量取值信息:
-        X86_path = '/home/qinfan/PycharmProjects/angr_test/var_texts/' + file_name + ".txt"
+        X86_path = '/home/qinfan/PycharmProjects/angr_test/X86-var-texts/' + file_name + ".txt"
         # with open(X86_path, 'a') as f:
         #     f.writelines(func.name + ":" + '\n' + str(var_dict) + '\n')
 
         # ARM变量取值信息:
-        arm_path = '/home/qinfan/PycharmProjects/angr_test/ARM_Var_tests/' + file_name + ".txt"
+        arm_path = '/home/qinfan/PycharmProjects/angr_test/ARM32-var-texts/' + file_name + ".txt"
         with open(arm_path, 'a') as f:
             f.writelines(func.name + ":" + '\n' + str(var_dict) + '\n')
 

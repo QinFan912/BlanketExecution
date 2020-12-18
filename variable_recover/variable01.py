@@ -21,7 +21,7 @@ def main(argv):
     # file_path = "/home/qinfan/coreutils/coreutils-8 (1).32/src/cat"
     # file_path = '/home/qinfan/Ccode/test/pppp'
     file_path = '../variable_recover/global01'
-    save_path = '../var_texts/VarDwarf.txt'
+    save_path = '../X86-var-texts/VarDwarf.txt'
     with open(file_path, 'rb') as f:
         extractor = VariablesAddressExtractor(f, save_path)
         extractor.parse_address()
@@ -193,11 +193,11 @@ def main(argv):
 
 
         # X86:
-        # with open('/home/qinfan/PycharmProjects/angr_test/var_texts/basename04.txt', 'a') as f:
+        # with open('/home/qinfan/PycharmProjects/angr_test/X86-var-texts/basename04.txt', 'a') as f:
         #     f.writelines(func.name + ":" + '\n' + str(var_dict) + '\n')
 
         # ARM:
-        with open('/home/qinfan/PycharmProjects/angr_test/var_texts/global.txt', 'a') as f:
+        with open('/home/qinfan/PycharmProjects/angr_test/X86-var-texts/global.txt', 'a') as f:
             f.writelines(func.name + ":" + '\n' + str(var_dict) + '\n')
 
         # print("final_dict:", block_dict)
@@ -220,7 +220,7 @@ def main(argv):
     print(gvar)
     print(gvar_dict)
     if gvar_dict:
-        with open('/home/qinfan/PycharmProjects/angr_test/var_texts/global.txt', 'a') as f:
+        with open('/home/qinfan/PycharmProjects/angr_test/X86-var-texts/global.txt', 'a') as f:
             f.writelines("Global Variables:" + '\n' + str(gvar_dict) + '\n')
     print("!!" * 50)
 

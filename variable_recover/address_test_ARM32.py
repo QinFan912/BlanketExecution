@@ -94,12 +94,11 @@ def main(argv):
             try:
                 c = init_state.solver.eval(init_state.memory.load(b, size=100), cast_to=bytes)
                 print("@@"*20, c)
-                print("!!"*10, c.decode().split(' ', 1)[0])
-                d = c.split(' ', 1)[0].decode().strip('\x00')
+                print("!!"*10, c.decode())
+                d = c.decode().strip('\x00').replace('\x00', ' ')
                 print(d)
-                if d:
-                    res.append(d)
-                    print(d)
+                res.append(d)
+                print(d)
             except:
                 print("error")
     print(res)

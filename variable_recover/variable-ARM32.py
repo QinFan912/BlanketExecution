@@ -16,13 +16,13 @@ def main(argv):
     file_path = "/home/qinfan/coreutils/coreutils-ARM32/src/" + file_name  # ARM32
 
     # arm32 save_path:
-    arm32_path = '/home/qinfan/PycharmProjects/angr/ARM_Var_tests/' + file_name + ".txt"
+    arm32_path = '/home/qinfan/PycharmProjects/angr/ARM32-var-texts/' + file_name + ".txt"
     if os.path.exists(arm32_path):
         print('{} already exists, removed!'.format(arm32_path))
         os.remove(arm32_path)
 
     '''
-    save_path = '../var_texts/VarDwarf.txt'
+    save_path = '../X86-var-texts/VarDwarf.txt'
     with open(file_path, 'rb') as f:
         extractor = VariablesAddressExtractor(f, save_path)
         extractor.parse_address()

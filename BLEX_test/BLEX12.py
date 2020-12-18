@@ -177,7 +177,7 @@ def main(argv):
                 state.solver.constraints.clear()
             sm.move(from_stash='unsat', to_stash='active')
 
-        # with open('/home/qinfan/PycharmProjects/angr_test/var_texts/basename03.txt', 'a') as f:
+        # with open('/home/qinfan/PycharmProjects/angr_test/X86-var-texts/basename03.txt', 'a') as f:
         #     f.writelines(func.name + ":" + '\n' + str(var_dict) + '\n')
 
         # print("final_dict:", block_dict)

@@ -18,19 +18,19 @@ def main(argv):
     # file_path = '../variable_recover/global01'
 
     # X86 save_path:
-    X86_path = '/home/qinfan/PycharmProjects/angr/var_texts/' + file_name + "_dec01.txt"
+    X86_path = '/home/qinfan/PycharmProjects/angr/X86-var-texts/' + file_name + "_dec01.txt"
     if os.path.exists(X86_path):
         print('{} already exists, removed!'.format(X86_path))
         os.remove(X86_path)
 
     # arm save_path:
-    # arm_path = '/home/qinfan/PycharmProjects/angr/ARM_Var_tests/' + file_name + "_dec01.txt"
+    # arm_path = '/home/qinfan/PycharmProjects/angr/ARM32-var-texts/' + file_name + "_dec01.txt"
     # if os.path.exists(arm_path):
     #     print('{} already exists, removed!'.format(arm_path))
     #     os.remove(arm_path)
 
     '''
-    save_path = '../var_texts/VarDwarf.txt'
+    save_path = '../X86-var-texts/VarDwarf.txt'
     with open(file_path, 'rb') as f:
         extractor = VariablesAddressExtractor(f, save_path)
         extractor.parse_address()
@@ -68,6 +68,9 @@ def main(argv):
             continue
         if func.alignment:
             # skil all aligement functions
+            continue
+
+        if func.name != 'main':
             continue
 
         try:
@@ -145,22 +148,38 @@ def main(argv):
             expr = state.solver.eval(state.inspect.reg_write_expr)
             for va in var:
                 if isinstance(va, SimRegisterVariable):
-                    if state.solver.eval(state.inspect.reg_write_offset) == va.reg:
-                        if expr in mem_data:
-                            d = state.mem[expr].deref.int.concrete
-                            var_dict[va.name].append(d)
-                        elif expr >= min_addr:
-                            obj = p.loader.find_object_containing(addr=expr)
-                            if obj:
-                                sec = obj.find_section_containing(addr=expr)
-                                if sec:
-                                    d = state.mem[expr].deref.int.concrete
-                                    var_dict[va.name].append(d)
-                        else:
-                            var_dict[va.name].append(expr)
-                        # var_dict[va.name] = list(set(var_dict[va.name]))
-                        new_list = sorted(list(set(var_dict[va.name])))
-                        var_dict[va.name] = new_list
+                    var_access = variable_manager.get_variable_accesses(va)
+
+                    for acc in var_access:
+                        if not acc.location.ins_addr == state.addr:
+                            continue
+
+                    # print("%%"*50)
+                    # print(var_access)
+                    # print(var_access[0].variable.name)
+                    # print(hex(var_access[0].location.ins_addr))
+                    #
+                    # print(va.name)
+                    # print(va.reg)
+                    # print(hex(state.addr))
+                    # print("%%"*50)
+
+                        if state.solver.eval(state.inspect.reg_write_offset) == va.reg:
+                            if expr in mem_data:
+                                d = state.mem[expr].deref.int.concrete
+                                var_dict[va.name].append(d)
+                            elif expr >= min_addr:
+                                obj = p.loader.find_object_containing(addr=expr)
+                                if obj:
+                                    sec = obj.find_section_containing(addr=expr)
+                                    if sec:
+                                        d = state.mem[expr].deref.int.concrete
+                                        var_dict[va.name].append(d)
+                            else:
+                                var_dict[va.name].append(expr)
+                            # var_dict[va.name] = list(set(var_dict[va.name]))
+                            new_list = sorted(list(set(var_dict[va.name])))
+                            var_dict[va.name] = new_list
 
         def track_stack(state):
             print("state %s is about to do a memory write" % state)

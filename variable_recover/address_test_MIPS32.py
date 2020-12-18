@@ -59,9 +59,9 @@ def main(argv):
                                                         angr.options.LAZY_SOLVES})
 
         try:
-            a = init_state.solver.eval(init_state.memory.load(v, size=4), cast_to=bytes)
+            a = init_state.solver.eval(init_state.memory.load(v, size=100), cast_to=bytes)
             print(a)
-            d = a.decode().strip('\x00')
+            d = a.decode().strip('\x00').replace('\x00', ' ')
             if d:
                 res.append(d)
         except:

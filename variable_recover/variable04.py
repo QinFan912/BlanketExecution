@@ -19,19 +19,19 @@ def main(argv):
     # file_path = '../variable_recover/global01'
 
     # X86 save_path:
-    # X86_path = '/home/qinfan/PycharmProjects/angr/var_texts/' + file_name + "_quchong.txt"
+    # X86_path = '/home/qinfan/PycharmProjects/angr/X86-var-texts/' + file_name + "_quchong.txt"
     # if os.path.exists(X86_path):
     #     print('{} already exists, removed!'.format(X86_path))
     #     os.remove(X86_path)
 
     # arm save_path:
-    arm_path = '/home/qinfan/PycharmProjects/angr/ARM_Var_tests/' + file_name + ".txt"
+    arm_path = '/home/qinfan/PycharmProjects/angr/ARM32-var-texts/' + file_name + ".txt"
     if os.path.exists(arm_path):
         print('{} already exists, removed!'.format(arm_path))
         os.remove(arm_path)
 
     '''
-    save_path = '../var_texts/VarDwarf.txt'
+    save_path = '../X86-var-texts/VarDwarf.txt'
     with open(file_path, 'rb') as f:
         extractor = VariablesAddressExtractor(f, save_path)
         extractor.parse_address()

@@ -12,7 +12,7 @@ def main(argv):
     base_addr = 0x4000000
 
     file_path = "/home/qinfan/coreutils/coreutils-8.32/src/basename"
-    save_path = '../var_texts/basenaem_g01.txt'
+    save_path = '../X86-var-texts/basenaem_g01.txt'
     with open(file_path, 'rb') as f:
         extractor = VariablesAddressExtractor(f, save_path)
         extractor.parse_address()
