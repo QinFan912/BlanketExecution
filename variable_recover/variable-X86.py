@@ -95,8 +95,8 @@ class VariablesValueExtractor:
                 # skil all aligement functions
                 continue
 
-            # if func.name != 'main':
-            #     continue
+            if func.name != 'main':
+                continue
 
             init_state = p.factory.blank_state(addr=func.addr, mode="fastpath",
                                                add_options={angr.options.UNDER_CONSTRAINED_SYMEXEC,
@@ -198,30 +198,35 @@ class VariablesValueExtractor:
 
                 for va in var:
                     if isinstance(va, SimRegisterVariable):
-                        if state.solver.eval(state.inspect.reg_write_offset) == va.reg:
-                            if expr in mem_data:
-                                d = state.mem[expr].deref.int.concrete
-                                # save_block_info(d, 257, state)
-                                # save_block_info(d, 259, state)
-                                # save_block_info(d, 371, state)
+                        var_access = var_manager.get_variable_accesses(va)
 
-                                var_dict[va.name].append(d)
-                            elif expr >= min_addr:
-                                obj = p.loader.find_object_containing(addr=expr)
-                                if obj:
-                                    sec = obj.find_section_containing(addr=expr)
-                                    if sec:
-                                        d = state.mem[expr].deref.int.concrete
-                                        # save_block_info(d, 257, state)
-                                        # save_block_info(d, 259, state)
-                                        # save_block_info(d, 371, state)
+                        for acc in var_access:
+                            if not acc.location.ins_addr == state.scratch.ins_addr:
+                                continue
+                            if state.solver.eval(state.inspect.reg_write_offset) == va.reg:
+                                if expr in mem_data:
+                                    d = state.mem[expr].deref.int.concrete
+                                    # save_block_info(d, 257, state)
+                                    # save_block_info(d, 259, state)
+                                    # save_block_info(d, 371, state)
 
-                                        var_dict[va.name].append(d)
-                            else:
-                                var_dict[va.name].append(expr)
+                                    var_dict[va.name].append(d)
+                                elif expr >= min_addr:
+                                    obj = p.loader.find_object_containing(addr=expr)
+                                    if obj:
+                                        sec = obj.find_section_containing(addr=expr)
+                                        if sec:
+                                            d = state.mem[expr].deref.int.concrete
+                                            # save_block_info(d, 257, state)
+                                            # save_block_info(d, 259, state)
+                                            # save_block_info(d, 371, state)
 
-                            new_list = sorted(list(set(var_dict[va.name])))
-                            var_dict[va.name] = new_list
+                                            var_dict[va.name].append(d)
+                                else:
+                                    var_dict[va.name].append(expr)
+
+                                new_list = sorted(list(set(var_dict[va.name])))
+                                var_dict[va.name] = new_list
 
             def track_stack(state):
                 print("state %s is about to do a memory write" % state)
@@ -397,7 +402,7 @@ if __name__ == '__main__':
 
     # X86
     X86_file_path = "/home/qinfan/coreutils/coreutils-X86/src/" + file_name
-    X86_save_path = '/home/qinfan/PycharmProjects/angr/X86-var-texts/' + file_name + ".txt"
+    X86_save_path = '/home/qinfan/PycharmProjects/angr/X86-var-texts/' + file_name + "_dec01.txt"
     X86_data_path = '/home/qinfan/PycharmProjects/angr/data/X86/' + file_name + "_data.txt"
 
     # ARM32
@@ -410,9 +415,9 @@ if __name__ == '__main__':
     MIPS32_save_path = '/home/qinfan/PycharmProjects/angr/MIPS32-var-texts/' + file_name + ".txt"
     MIPS32_data_path = '/home/qinfan/PycharmProjects/angr/data/MIPS32/' + file_name + "_data.txt"
 
-    # extractor = VariablesValueExtractor(file_name, X86_file_path, X86_save_path, X86_data_path)
+    extractor = VariablesValueExtractor(file_name, X86_file_path, X86_save_path, X86_data_path)
     # extractor = VariablesValueExtractor(file_name, ARM32_file_path, ARM32_save_path, ARM32_data_path)
-    extractor = VariablesValueExtractor(file_name, MIPS32_file_path, MIPS32_save_path, MIPS32_data_path)
+    # extractor = VariablesValueExtractor(file_name, MIPS32_file_path, MIPS32_save_path, MIPS32_data_path)
 
     print(extractor.not_cover)
     data_dict = extractor.value_result

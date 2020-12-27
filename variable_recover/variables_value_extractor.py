@@ -77,15 +77,21 @@ class VariablesValueExtractor:
 
         # 部分数字到字符串的恢复,大小端的转换
         def string_recovery(x):
-            command = "readelf -h " + self.file_path
-            back = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
-            print(back[0].decode())
-
+            # command = "readelf -h " + self.file_path
+            # back = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
+            # print(back[0].decode())
+            y = x
             if p.arch.memory_endness == 'Iend_LE':
-                y = x.to_bytes(4, byteorder='little')
+                try:
+                    y = x.to_bytes(4, byteorder='little').decode()
+                except:
+                    print("decode error!")
             else:
-                y = x.to_bytes(4, byteorder='big')
-            return y.decode()
+                try:
+                    y = x.to_bytes(4, byteorder='big').decode()
+                except:
+                    print("decode erroe")
+            return y
 
         for func in cfg.kb.functions.values():
             if func.is_simprocedure or func.is_plt:
@@ -95,7 +101,7 @@ class VariablesValueExtractor:
                 # skil all aligement functions
                 continue
 
-            # if func.name != 'main':
+            # if func.name != 'sub_b663':
             #     continue
 
             init_state = p.factory.blank_state(addr=func.addr, mode="fastpath",
@@ -124,13 +130,20 @@ class VariablesValueExtractor:
             # simplify it
             s = p.analyses.RegionSimplifier(rs.result)
 
-            codegen = p.analyses.StructuredCodeGenerator(func, s.result, cfg=cfg)
+            try:
+                codegen = p.analyses.StructuredCodeGenerator(func, s.result, cfg=cfg)
+            except:
+                continue
 
             # if dec.codegen is None:
             #     continue
             the_kb = dec.clinic.variable_kb
-            variable_manager = the_kb.variables[func.addr]
-            var = variable_manager.get_variables()
+            variable_manager = the_kb.variables[func.addr]      # after decompiler
+
+            v = p.analyses.VariableRecoveryFast(func, kb=kb)    # before decompiler
+            var_manager = v.variable_manager[func.addr]
+
+            var = var_manager.get_variables()
 
             l = list()
             var_dict = defaultdict(list)
@@ -187,37 +200,44 @@ class VariablesValueExtractor:
                     print("Expr is symbolic. skip.")
                     return
                 print("expr:", state.solver.eval(state.inspect.reg_write_expr))
-                expr = state.solver.eval(state.inspect.reg_write_expr)
+                expr1 = state.solver.eval(state.inspect.reg_write_expr)
+                expr = ctypes.c_int32(expr1).value
                 # save_block_info(expr, 257, state)
                 # save_block_info(expr, 259, state)
                 # save_block_info(expr, 371, state)
 
                 for va in var:
                     if isinstance(va, SimRegisterVariable):
-                        if state.solver.eval(state.inspect.reg_write_offset) == va.reg:
-                            if expr in mem_data:
-                                d = state.mem[expr].deref.int.concrete
-                                # save_block_info(d, 257, state)
-                                # save_block_info(d, 259, state)
-                                # save_block_info(d, 371, state)
+                        var_access = var_manager.get_variable_accesses(va)
 
-                                var_dict[va.name].append(d)
-                            elif expr >= min_addr:
-                                obj = p.loader.find_object_containing(addr=expr)
-                                if obj:
-                                    sec = obj.find_section_containing(addr=expr)
-                                    if sec:
-                                        d = state.mem[expr].deref.int.concrete
-                                        # save_block_info(d, 257, state)
-                                        # save_block_info(d, 259, state)
-                                        # save_block_info(d, 371, state)
+                        for acc in var_access:
+                            if not acc.location.ins_addr == state.scratch.ins_addr:
+                                continue
 
-                                        var_dict[va.name].append(d)
-                            else:
-                                var_dict[va.name].append(expr)
+                            if state.solver.eval(state.inspect.reg_write_offset) == va.reg:
+                                if expr in mem_data:
+                                    d = state.mem[expr].deref.int.concrete
+                                    # save_block_info(d, 257, state)
+                                    # save_block_info(d, 259, state)
+                                    # save_block_info(d, 371, state)
 
-                            new_list = sorted(list(set(var_dict[va.name])))
-                            var_dict[va.name] = new_list
+                                    var_dict[va.name].append(d)
+                                elif expr >= min_addr:
+                                    obj = p.loader.find_object_containing(addr=expr)
+                                    if obj:
+                                        sec = obj.find_section_containing(addr=expr)
+                                        if sec:
+                                            d = state.mem[expr].deref.int.concrete
+                                            # save_block_info(d, 257, state)
+                                            # save_block_info(d, 259, state)
+                                            # save_block_info(d, 371, state)
+
+                                            var_dict[va.name].append(d)
+                                else:
+                                    var_dict[va.name].append(expr)
+
+                                new_list = sorted(list(set(var_dict[va.name])))
+                                var_dict[va.name] = new_list
 
             def track_stack(state):
                 print("state %s is about to do a memory write" % state)
@@ -229,7 +249,9 @@ class VariablesValueExtractor:
                     print("Expr is symbolic. skip.")
                     return
 
-                expr = state.solver.eval(state.inspect.mem_write_expr)
+                expr1 = state.solver.eval(state.inspect.mem_write_expr)
+                expr = ctypes.c_int32(expr1).value
+
                 for va in var:
                     if isinstance(va, SimStackVariable):
                         # # 通过dwarf信息恢复变量名
@@ -239,6 +261,13 @@ class VariablesValueExtractor:
                         #             if va.addr == v[i][1]:
                         #                 va.name = v[i][0]
                         #                 print(va.name)
+
+                        # var_access = var_manager.get_variable_accesses(va)
+                        #
+                        # for acc in var_access:
+                        #     if not acc.location.ins_addr == state.scratch.ins_addr:
+                        #         continue
+
                         if state.solver.eval(state.regs.sp) - state.solver.eval(stack_base_addr) == va.addr:
                             if expr in mem_data:
                                 d = state.mem[expr].deref.int.concrete
@@ -337,7 +366,10 @@ class VariablesValueExtractor:
             for k, v in result.items():
                 for index, val in enumerate(v):
                     # 1094795585是'AAAA'的十进制数
+                    # 1515870810是'ZZZZ'的十进制数
+                    # 1633771873是'aaaa'的十进制数
                     # 2054847098是'zzzz'的十进制数
+                    # if 1094795585 <= val <= 1515870810 or 1633771873 <= val <= 2054847098:
                     if 1094795585 <= val <= 2054847098:
                         r = string_recovery(val)
                         v[index] = r
