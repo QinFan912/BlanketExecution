@@ -1,5 +1,5 @@
 rm@_init	
-rm@main	-1	0	1	2	3	4	28	45	73	97	105	108	6	0	4	0	1	3	4	5	12	2	1	91	1668444006	105	3	5	257	73	259	118	100	-1	371	256	102	-72540024	260	114	82	97	45	108	1702258030	
+rm@main	-1	0	1	2	3	4	28	45	73	82	97	102	105	108	6	0	4	0	1	3	4	5	12	2	1	91	forc	105	3	5	257	73	259	118	100	-1	371	256	102	-72540024	260	114	82	97	45	108	neve	
 rm@_start	
 rm@sub_99ec	-516948194	
 rm@call_weak_fn	1	0	2	
@@ -13,9 +13,9 @@ rm@cache_fstatat.constprop.3	-2	-1	0	1	4	31	48	2	-1	0	256	3	-2	-1	256	4	-2
 rm@prompt	0	1	2	3	4	5	13	46	47	16384	-1	2	0	-1	0	5	3	4	10	46	16384	21	512	-72540024	1	13	
 rm@sub_a42c	
 rm@sub_a438	
-rm@rm	0	1	2	4	6	8	12	16	46	47	72	168	536	600	2	0	2	4	1	12	6	5	3	0	1	2	3	21	4	46	609	1986097780	47	
+rm@rm	0	1	2	4	6	8	12	16	46	47	72	168	536	600	2	0	2	4	1	12	6	5	3	0	1	2	3	21	4	46	609	trav	47	
 rm@__argmatch_die	1	
-rm@argmatch	-2	-1	0	1	4	2	0	-1	0	1	2	1	2	-1	0	0	1	1	
+rm@argmatch	-1	0	1	4	2	0	-1	0	1	2	1	2	-1	0	0	1	1	
 rm@argmatch_invalid	0	1	5	8	
 rm@sub_adf3	5	
 rm@argmatch_valid	0	1	4	10	-72540024	5	0	2	0	1	2	10	0	1	1	1	2	
@@ -27,14 +27,13 @@ rm@close_stdout_set_file_name
 rm@close_stdout_set_ignore_EPIPE	
 rm@close_stdout	0	-72540024	2	5	1	32	
 rm@last_component	0	1	47	2	47	0	
-rm@base_len	1	8	2	1	0	47	
+rm@base_len	8	2	1	0	47	
 rm@file_type	0	48	4096	8192	16384	24576	2	5	0	5	2	16384	24576	8192	4096	
 rm@file_name_concat	2	0	
 rm@mfile_name_concat	0	1	46	47	2	0	47	
-rm@set_program_name	0	1	4	6	2	0	1	55	47	1768697391	1919954734	6	7	3	
+rm@set_program_name	0	1	4	6	2	0	1	55	47	/.li	./pr	6	7	3	
 rm@sub_b4f4	
 rm@quoting_options_from_style	0	4	10	0	2	10	
-rm@gettext_quote.part.1	-33	0	9	45	48	49	51	56	66	70	71	84	85	96	2	85	0	84	71	9	70	66	45	49	56	48	96	51	132227072	
 rm@quotearg_n_options	0	1	3	8	256	2	0	1	115668	-268435454	
 rm@clone_quoting_options	0	2	48	
 rm@get_quoting_style	0	2	
@@ -87,16 +86,13 @@ rm@xzalloc	1
 rm@xmemdup	
 rm@xstrdup	
 rm@xalloc_die	5	0	1	
-rm@xfts_open	22	512	2	0	22	41	1600072232	
-rm@cycle_warning_required	0	1	16	17	2	16	0	17	1	
+rm@xfts_open	22	512	2	0	22	41	(*__	
 rm@yesno	0	1	10	0	10	2	
 rm@freadahead	0	256	2	5	0	5	
 rm@rpl_fseeko	-17	-1	0	4	80	2	0	-1	
 rm@AD_compare	0	1	8	2	0	
 rm@AD_hash	8	0	
 rm@dev_type_hash	0	
-rm@dev_type_compare	0	1	2	0	
-rm@fts_compare_ino	-1	0	1	168	2	0	-1	
 rm@fts_lfree	0	2	
 rm@leave_dir	0	4	8	16	72	168	2	0	2	5	5	
 rm@leaf_optimization	0	1	2	2	0	26985	-11317950	1	
@@ -105,7 +101,6 @@ rm@fd_ring_clear	0	2
 rm@fts_sort	0	1	2	4	40	2	0	1	-1073741823	4	
 rm@free_dir	0	2	
 rm@setup_dir	0	1	2	0	32	31	1	
-rm@enter_dir	0	1	2	4	8	72	168	2	0	24	1	
 rm@fts_palloc	0	1	36	256	2	0	0	36	1	
 rm@sub_ec30	
 rm@rpl_fts_set	0	1	4	22	2	4	0	22	1	
@@ -118,15 +113,13 @@ rm@rpl_getopt_long	0
 rm@_getopt_long_r	0	
 rm@rpl_getopt_long_only	1	0	1	
 rm@_getopt_long_only_r	0	1	0	
-rm@rpl_mbrtowc	-2	0	2	0	1	3	
+rm@rpl_mbrtowc	0	2	1	3	
 rm@cycle_check_init	0	4	16	0	
-rm@cycle_check	0	1	4	8	16	96	2	5	0	60	5	0	1	2	1	
 rm@open_safer	0	64	5	
 rm@hard_locale	0	1	67	257	2	0	67	1	
 rm@raw_hasher	3	29	
 rm@raw_comparator	0	2	
 rm@check_tuning	0	1	2	0	1	
-rm@compute_bucket_size	0	1	2	3	8	9	16	2	0	9	1	-1431655765	3	16	24	9	25	3	5	25	5	-536870911	24	
 rm@safe_hasher	3	24	
 rm@hash_find_entry	0	1	2	0	
 rm@transfer_entries	0	1	4	8	2	0	1	8	
@@ -140,31 +133,27 @@ rm@hash_lookup	0	2
 rm@hash_get_first	-8	0	7	8	2	0	
 rm@hash_get_next	0	8	2	0	
 rm@hash_get_entries	0	1	2	4	8	2	0	0	1	2	1	2	1	
-rm@hash_do_for_each	0	2	
+rm@hash_do_for_each	0	1	2	0	
 rm@hash_string	0	1	5	2	0	
 rm@hash_reset_tuning	0	
 rm@hash_initialize	0	3	2	0	40	8	
 rm@hash_clear	0	4	8	2	0	
 rm@hash_free	0	8	2	0	
 rm@hash_rehash	0	1	3	20	2	0	1	8	
-rm@hash_insert_if_absent	-1	0	1	2	0	1	8	-1	
-rm@hash_insert	0	1	2	
+rm@hash_insert_if_absent	0	1	2	0	1	8	-1	
+rm@hash_insert	1	0	2	
 rm@hash_delete	0	1	1	2	0	
 rm@i_ring_init	0	1	0	1	
 rm@i_ring_empty	
 rm@i_ring_push	0	1	2	3	2	0	
 rm@i_ring_pop	0	1	2	3	2	0	
-rm@locale_charset	0	14	2	
 rm@openat_safer	5	
 rm@opendirat	0	2304	2	0	
-rm@setlocale_null_r	0	1	34	0	2	22	34	
 rm@setlocale_null	0	
 rm@fd_safer	2	0	
-rm@rpl_fclose	-1	0	1	2	0	1	-1	
 rm@rpl_fcntl	-1	0	1	3	10	11	22	1024	2	0	1030	10	3	1026	1	22	8	1024	1031	1032	1031	4	1032	11	-1	
 rm@rpl_nl_langinfo	2	11	0	
 rm@dup_safer	0	3	
-rm@__udivsi3	0	1	2	3	4	31	32	255	2	1	0	2	5	5	
 rm@__aeabi_uidivmod	2	0	
 rm@__aeabi_uldivmod	0	2	
 rm@__aeabi_idiv0	8	

@@ -202,9 +202,9 @@ class VariablesValueExtractor:
                 print("expr:", state.solver.eval(state.inspect.reg_write_expr))
                 expr1 = state.solver.eval(state.inspect.reg_write_expr)
                 expr = ctypes.c_int32(expr1).value
-                # save_block_info(expr, 257, state)
-                # save_block_info(expr, 259, state)
-                # save_block_info(expr, 371, state)
+                save_block_info(expr, -65608, state)
+                save_block_info(expr, -65656, state)
+                save_block_info(expr, -65688, state)
 
                 for va in var:
                     if isinstance(va, SimRegisterVariable):
@@ -217,9 +217,9 @@ class VariablesValueExtractor:
                             if state.solver.eval(state.inspect.reg_write_offset) == va.reg:
                                 if expr in mem_data:
                                     d = state.mem[expr].deref.int.concrete
-                                    # save_block_info(d, 257, state)
-                                    # save_block_info(d, 259, state)
-                                    # save_block_info(d, 371, state)
+                                    save_block_info(expr, -65608, state)
+                                    save_block_info(expr, -65656, state)
+                                    save_block_info(expr, -65688, state)
 
                                     var_dict[va.name].append(d)
                                 elif expr >= min_addr:
@@ -228,9 +228,9 @@ class VariablesValueExtractor:
                                         sec = obj.find_section_containing(addr=expr)
                                         if sec:
                                             d = state.mem[expr].deref.int.concrete
-                                            # save_block_info(d, 257, state)
-                                            # save_block_info(d, 259, state)
-                                            # save_block_info(d, 371, state)
+                                            save_block_info(expr, -65608, state)
+                                            save_block_info(expr, -65656, state)
+                                            save_block_info(expr, -65688, state)
 
                                             var_dict[va.name].append(d)
                                 else:
@@ -377,7 +377,7 @@ class VariablesValueExtractor:
             with open(self.save_path, 'a') as f:
                 f.writelines(func.name + ":" + '\n' + str(result) + '\n')
 
-            _result = copy.deepcopy(result_int)
+            _result = copy.deepcopy(result)
             self.save_value(_result, func.name)
 
             block_cover = 0

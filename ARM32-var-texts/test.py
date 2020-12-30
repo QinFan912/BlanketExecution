@@ -1,3 +1,4 @@
+import ctypes
 import os
 import sys
 import pprint
@@ -69,6 +70,8 @@ def main(argv):
 
         codegen = p.analyses.StructuredCodeGenerator(func, s.result, cfg=cfg)
 
+        print(codegen.text)
+
         print(codegen.posmap)
         for k, v in codegen.posmap.items():
             print(k, v)
@@ -106,3 +109,7 @@ def main(argv):
 
 if __name__ == "__main__":
     main(sys.argv)
+    print(ctypes.c_uint32(-130).value)
+    print(ctypes.c_uint32(-65608).value)        # 4294901688        FFFFFFB8
+    print(ctypes.c_uint32(-65656).value)        # 4294901640        FFFFFF88
+    print(ctypes.c_uint32(-65688).value)        # 4294901608        FFFFFF68

@@ -7,13 +7,13 @@ sub_401af4:
 _ftext:
 {'constant': []}
 sub_401b2c:
-{'constant': [-8, 16, 20, 24, 32], 'ir_0': []}
+{'constant': [-8, 16, 20, 24, 32], 'ir_0': [], 'ir_6': [-8]}
 hlt:
 {'constant': []}
 deregister_tm_clones:
-{'constant': [0, 224], 'ir_0': []}
+{'constant': [0, 224], 'ir_4': []}
 register_tm_clones:
-{'constant': [0, 224], 'ir_0': [], 'ir_6': [0]}
+{'constant': [0, 224], 'ir_6': [0], 'ir_9': []}
 __do_global_dtors_aux:
 {'constant': [0, 1, 2, 31820, 31824, 32500], 'ir_1': [], 'ir_6': [0], 'ir_16': [1], 'ir_20': [4, 8], 'ir_24': [2, 3], 'ir_21': ['forc']}
 frame_dummy:
@@ -29,7 +29,7 @@ usage:
 rm_option_init:
 {'constant': [0, 4, 255], 'ir_1': [], 'ir_6': [4], 'ir_12': [0]}
 main:
-{'constant': [-131, -130, -1, 0, 1, 2, 3, 4, 6, 31, 73, 74, 82, 100, 102, 105, 106, 114, 118, 128, 129, 130, 131, 132, 255, 371, 1073741823], 'ir_3': [], 'ir_19': [6], 'ir_52': ['forc'], 'ir_64': [105], 'ir_293': [3], 'ir_83': [129], 'ir_66': [73], 'ir_417': [0], 'ir_362': [1], 'ir_157': [131], 'ir_85': [118], 'ir_68': [100], 'ir_498': [2], 'ir_86': [128], 'ir_69': [102], 'ir_159': [132], 'ir_87': [114], 'ir_70': [82], 'ir_504': [4], 'ir_523': [371], 'ir_103': ['neve'], 'ir_131': [5]}
+{'constant': [-131, -130, -1, 0, 1, 2, 3, 4, 6, 31, 73, 74, 82, 100, 102, 105, 106, 114, 118, 128, 129, 130, 131, 132, 255, 371, 1073741823], 'ir_3': [], 'ir_19': [6], 'ir_52': ['forc'], 'ir_62': [-1], 'ir_64': [105], 'ir_293': [3], 'ir_83': [129], 'ir_66': [73], 'ir_417': [0], 'ir_362': [1], 'ir_157': [131], 'ir_85': [118], 'ir_68': [100], 'ir_304': [-131], 'ir_498': [2], 'ir_86': [128], 'ir_69': [102], 'ir_305': [-130], 'ir_159': [132], 'ir_87': [114], 'ir_70': [82], 'ir_504': [4], 'ir_523': [371], 'ir_103': ['neve'], 'ir_131': [5]}
 dot_or_dotdot:
 {'constant': [0, 1, 2, 46, 47, 255], 'ir_3': [46], 'ir_4': [0], 'ir_10': [2], 'ir_21': [1], 'ir_17': [47], 'ir_23': [0, 1]}
 readdir_ignoring_dot_and_dotdot:
@@ -37,13 +37,13 @@ readdir_ignoring_dot_and_dotdot:
 is_empty_dir:
 {'constant': [-2147483648, 0, 1, 255, 198784], 'ir_1': [], 'ir_6': [198784], 'ir_14': [0]}
 cache_fstatat:
-{'constant': [-2147483648, -2, -1, 0, 31], 'ir_3': [], 'ir_48': [0]}
+{'constant': [-2147483648, -2, -1, 0, 31], 'ir_3': [], 'ir_12': [-1], 'ir_48': [0], 'ir_30': [-2]}
 cache_stat_init:
-{'constant': [-1], 'ir_2': []}
+{'constant': [-1]}
 write_protected_non_symlink:
-{'constant': [-1, 0, 1, 2, 13, 512, 40960, 61440], 'ir_1': [], 'ir_11': [256], 'ir_10': [0], 'ir_27': [40960], 'ir_29': [512], 'ir_30': [2], 'ir_45': [13], 'ir_48': [1]}
+{'constant': [-1, 0, 1, 2, 13, 512, 40960, 61440], 'ir_1': [], 'ir_11': [256], 'ir_10': [0], 'ir_27': [40960], 'ir_17': [-1], 'ir_29': [512], 'ir_30': [2], 'ir_45': [13], 'ir_48': [1]}
 prompt:
-{'constant': [-2147483648, -1, 0, 1, 2, 3, 4, 5, 10, 21, 255, 256, 16384, 40960, 61440], 'ir_4': [], 'ir_22': [2], 'ir_30': [4], 'ir_52': [5], 'ir_49': [3], 'ir_307': [0], 'ir_68': [10], 'ir_88': [256], 'ir_97': [40960], 'ir_103': [16384], 'ir_135': [21], 'ir_130': [1]}
+{'constant': [-2147483648, -1, 0, 1, 2, 3, 4, 5, 10, 21, 255, 256, 16384, 40960, 61440], 'ir_4': [], 'ir_22': [2], 'ir_30': [4], 'ir_52': [5], 'ir_49': [3], 'ir_307': [0], 'ir_68': [10], 'ir_112': [-1, 0], 'ir_88': [256], 'ir_97': [40960], 'ir_103': [16384], 'ir_135': [21], 'ir_130': [1]}
 nonexistent_file_errno:
 {'constant': [0, 1, 2, 20, 21, 22, 88], 'ir_2': [20], 'ir_10': [1], 'ir_6': [22], 'ir_4': [2], 'ir_7': [88], 'ir_9': [0]}
 ignorable_missing:
@@ -63,13 +63,13 @@ __argmatch_die:
 sub_404f30:
 {'constant': []}
 argmatch:
-{'constant': [-2, -1, 0, 1, 2], 'ir_1': [], 'ir_90': [0], 'ir_89': [0, 1]}
+{'constant': [-2, -1, 0, 1, 2], 'ir_1': [], 'ir_90': [0], 'ir_91': [-1], 'ir_93': [-2], 'ir_89': [0, 1]}
 argmatch_invalid:
-{'constant': [-1, 0], 'ir_2': [], 'ir_27': [8], 'ir_28': [0], 'ir_35': [1]}
+{'constant': [-1, 0], 'ir_2': [], 'ir_8': [-1], 'ir_27': [8], 'ir_28': [0], 'ir_35': [1]}
 argmatch_valid:
 {'constant': [0, 1, 2, 10], 'ir_2': [], 'ir_27': [0, 1], 'ir_108': [10], 'ir_35': [0]}
 __xargmatch_internal:
-{'constant': [-2147483648, -1]}
+{'constant': [-2147483648]}
 argmatch_to_argument:
 {'constant': [0, 1, 2], 'ir_1': [], 'ir_36': [0]}
 close_stdin_set_file_name:
@@ -93,9 +93,9 @@ file_name_concat:
 mfile_name_concat:
 {'constant': [0, 1, 46, 47, 255], 'ir_1': [], 'ir_42': [47], 'ir_59': [0]}
 priv_set_remove_linkdir:
-{'constant': [-1], 'ir_0': []}
+{'constant': [-1]}
 priv_set_restore_linkdir:
-{'constant': [-1], 'ir_0': []}
+{'constant': [-1]}
 set_program_name:
 {'constant': [0, 1, 3, 7, 47, 55], 'ir_1': [], 'ir_19': [47], 'ir_8': [55], 'ir_9': [1], 'ir_36': [7], 'ir_52': [3]}
 clone_quoting_options:
@@ -125,7 +125,7 @@ quotearg_free:
 quotearg_n_options:
 {'constant': [-2147483648, 0, 1, 3, 4, 268435454], 'ir_1': [], 'ir_38': [1], 'ir_40': [0]}
 quotearg_n:
-{'constant': []}
+{'constant': [], 'ir_5': [-1]}
 quotearg_n_mem:
 {'constant': []}
 quotearg:
@@ -143,15 +143,15 @@ quotearg_style_mem:
 quotearg_char_mem:
 {'constant': [48], 'ir_1': [], 'ir_22': [1], 'ir_31': [0]}
 quotearg_char:
-{'constant': []}
+{'constant': [], 'ir_6': [-1]}
 quotearg_colon:
 {'constant': [], 'ir_2': [58]}
 quotearg_colon_mem:
 {'constant': [], 'ir_3': [58]}
 quotearg_n_style_colon:
-{'constant': [-1, 48], 'ir_1': [], 'ir_16': [48], 'ir_24': [1], 'ir_25': [58], 'ir_37': [0]}
+{'constant': [-1, 48], 'ir_1': [], 'ir_16': [48], 'ir_24': [1], 'ir_25': [58], 'ir_31': [-1], 'ir_37': [0]}
 quotearg_n_custom:
-{'constant': []}
+{'constant': [], 'ir_5': [-1]}
 quotearg_n_custom_mem:
 {'constant': [48], 'ir_1': [], 'ir_34': [0]}
 quotearg_custom:
@@ -163,7 +163,7 @@ quote_n_mem:
 quote_mem:
 {'constant': [], 'ir_5': [0]}
 quote_n:
-{'constant': []}
+{'constant': [], 'ir_3': [-1]}
 quote:
 {'constant': [], 'ir_3': [0]}
 get_root_dev_ino:
@@ -215,7 +215,7 @@ yesno:
 rpl_fflush:
 {'constant': [0], 'ir_1': []}
 rpl_fseeko:
-{'constant': [-17, -1, 0], 'ir_1': [], 'ir_47': [0]}
+{'constant': [-17, -1, 0], 'ir_1': [], 'ir_33': [-1], 'ir_47': [0]}
 AD_compare:
 {'constant': [0, 1, 255], 'ir_28': [0, 1], 'ir_26': [1]}
 AD_hash:
@@ -231,13 +231,13 @@ dev_type_hash:
 dev_type_compare:
 {'constant': [1, 255]}
 dirent_inode_sort_may_be_useful:
-{'constant': [-11317950, 0, 1, 26985, 16914836], 'ir_6': [26985], 'ir_14': [0], 'ir_8': [], 'ir_13': [1]}
+{'constant': [-11317950, 0, 1, 26985, 16914836], 'ir_6': [26985], 'ir_14': [0], 'ir_8': [], 'ir_11': [-11317950], 'ir_13': [1]}
 leaf_optimization:
-{'constant': [-11317950, 0, 1, 2, 26985, 40864, 40865, 'SFAO', 'XFSB'], 'ir_6': [40864], 'ir_26': [0], 'ir_14': [], 'ir_11': [26985], 'ir_23': [2], 'ir_22': [1]}
+{'constant': [-11317950, 0, 1, 2, 26985, 40864, 40865, 'SFAO', 'XFSB'], 'ir_6': [40864], 'ir_26': [0], 'ir_14': [], 'ir_11': [26985], 'ir_23': [2], 'ir_12': [-11317950], 'ir_22': [1]}
 rpl_fts_set:
 {'constant': [0, 1, 2, 3, 4, 22, 65535], 'ir_1': [], 'ir_20': [0], 'ir_8': [1], 'ir_11': [2], 'ir_14': [3], 'ir_16': [4]}
 fts_compare_ino:
-{'constant': [-1, 0, 1, 255], 'ir_16': [], 'ir_25': [1], 'ir_35': [0, 1], 'ir_32': [0]}
+{'constant': [-1, 0, 1, 255], 'ir_16': [-1], 'ir_25': [1], 'ir_35': [0, 1], 'ir_32': [0]}
 set_stat_type:
 {'constant': [0, 2, 13, 4096, 8192, 16384, 24576, 32768, 40960, 49152], 'ir_19': [0]}
 fts_compar:
@@ -257,11 +257,11 @@ fts_maxarglen:
 exchange:
 {'constant': [0, 1, 2]}
 process_long_option:
-{'constant': [-1, 0, 1, 2, 4, 10, 16, 45, 58, 61, 63], 'ir_2': [], 'ir_14': [61], 'ir_62': [0], 'ir_180': [45], 'ir_272': [1], 'ir_222': [63], 'ir_394': [0, 1], 'ir_431': [10]}
+{'constant': [-1, 0, 1, 2, 4, 10, 16, 45, 58, 61, 63], 'ir_2': [], 'ir_14': [61], 'ir_62': [0], 'ir_180': [45], 'ir_272': [1], 'ir_222': [63], 'ir_223': [-1], 'ir_394': [0, 1], 'ir_431': [10]}
 _getopt_initialize:
 {'constant': [0, 1, 2, 43, 45], 'ir_1': [], 'ir_21': [45], 'ir_28': [43], 'ir_23': [2], 'ir_55': [1]}
 _getopt_internal_r:
-{'constant': [-1, 0, 1, 2, 43, 45, 58, 59, 63, 87], 'ir_2': [], 'ir_27': [45], 'ir_44': [58], 'ir_30': [43], 'ir_73': [1], 'ir_388': [63], 'ir_357': [59], 'ir_395': [87], 'ir_473': [58, 63]}
+{'constant': [0, 1, 2, 43, 45, 58, 59, 87], 'ir_2': [], 'ir_11': [-1], 'ir_27': [45], 'ir_44': [58], 'ir_30': [43], 'ir_73': [1], 'ir_388': [63], 'ir_357': [59], 'ir_395': [87], 'ir_473': [58, 63]}
 rpl_getopt_internal:
 {'constant': [], 'ir_11': [1], 'ir_34': [0]}
 rpl_getopt:
@@ -275,13 +275,13 @@ rpl_getopt_long_only:
 _getopt_long_only_r:
 {'constant': []}
 rpl_mbrtowc:
-{'constant': [-2, 0, 1, 255], 'ir_1': [], 'ir_14': [1], 'ir_53': [0]}
+{'constant': [-2, 0, 1, 255], 'ir_1': [], 'ir_14': [1], 'ir_15': [-2], 'ir_53': [0]}
 c_strcasecmp:
 {'constant': [0, 1], 'ir_3': [], 'ir_9': [0]}
 close_stream:
-{'constant': [-1, 0, 1, 9], 'ir_1': [], 'ir_39': [0], 'ir_31': [9]}
+{'constant': [-1, 0, 1, 9], 'ir_1': [], 'ir_48': [-1], 'ir_39': [0], 'ir_31': [9]}
 is_zero_or_power_of_two:
-{'constant': [1, 255], 'ir_4': []}
+{'constant': [1, 255], 'ir_4': [-1]}
 cycle_check_init:
 {'constant': [0, 9827862], 'ir_2': [0], 'ir_5': []}
 cycle_check:
@@ -315,7 +315,7 @@ hash_string:
 is_prime:
 {'constant': [0, 1, 2, 3, 255], 's_10': [3, 4, 5, 6, 7, 9, 25, 49], 'ir_2': [3], 'ir_3': [9], 'ir_5': [9, 25, 49], 'ir_9': [3, 5]}
 next_prime:
-{'constant': [-1, 0, 1, 2, 10, 255], 'ir_6': [11], 'ir_9': []}
+{'constant': [-1, 0, 1, 2, 10, 255], 'ir_6': [11], 'ir_9': [-1]}
 hash_reset_tuning:
 {'constant': [0], 'ir_10': []}
 raw_hasher:
@@ -339,7 +339,7 @@ transfer_entries:
 hash_rehash:
 {'constant': [0, 1, 3, 8, 255], 'ir_1': [], 'ir_14': [0], 'ir_21': [8], 'ir_18': [1]}
 hash_insert:
-{'constant': [-1, 0], 'ir_1': [], 'ir_15': [0]}
+{'constant': [-1, 0], 'ir_1': [], 'ir_14': [-1], 'ir_15': [0]}
 i_ring_init:
 {'constant': [0, 1, 2, 4], 'ir_3': [1]}
 i_ring_empty:
@@ -363,17 +363,17 @@ setlocale_null:
 fd_safer:
 {'constant': [-2147483648, 0, 3], 'ir_1': []}
 rpl_fclose:
-{'constant': [-2147483648, -1, 0], 'ir_1': [], 'ir_27': [0]}
+{'constant': [-2147483648, -1, 0], 'ir_1': [], 'ir_27': [0], 'ir_34': [-1]}
 rpl_fcntl:
 {'constant': [0, 1, 2, 3, 4, 10, 11, 23, 24, 25, 1024, 1025, 1026, 1030, 1032, 1033], 'ir_1': [], 'ir_12': [1030], 'ir_85': [0], 'ir_14': [24], 'ir_16': [3], 'ir_33': [1033], 'ir_30': [1025], 'ir_22': [10], 'ir_18': [1], 'ir_35': [1034], 'ir_31': [1026], 'ir_32': [1024], 'ir_26': [11], 'ir_24': [4], 'ir_27': [23]}
 rpl_fcntl_DUPFD:
 {'constant': [0], 'ir_1': []}
 rpl_fcntl_DUPFD_CLOEXEC:
-{'constant': [-2147483648, -1, 0, 1, 2, 22, 1030], 'ir_1': [], 'ir_5': [0], 'ir_8': [1030], 'ir_26': [1], 'ir_44': [0, 1], 'ir_20': [22], 'ir_57': [2]}
+{'constant': [-2147483648, -1, 0, 1, 2, 22, 1030], 'ir_1': [], 'ir_5': [0], 'ir_8': [1030], 'ir_26': [1], 'ir_44': [0, 1], 'ir_45': [-1], 'ir_20': [22], 'ir_57': [2]}
 rotl64:
-{'constant': [-1, 0, 1, 31, 32, 63], 'ir_24': [0], 'ir_29': []}
+{'constant': [-1, 0, 1, 31, 32, 63], 'ir_24': [0], 'ir_29': [-1]}
 rotr64:
-{'constant': [-1, 0, 1, 31, 32, 63], 'ir_24': [0], 'ir_29': []}
+{'constant': [-1, 0, 1, 31, 32, 63], 'ir_24': [0], 'ir_29': [-1]}
 rotl32:
 {'constant': [0, 31, 32]}
 rotr32:
@@ -439,7 +439,7 @@ lstat64:
 fstatat64:
 {'constant': [3, 110080], 'ir_14': [3]}
 __do_global_ctors_aux:
-{'constant': [-1, 4, 32488], 'ir_0': [], 'ir_10': [0]}
+{'constant': [-1, 4, 32488], 'ir_0': [], 'ir_1': [-1], 'ir_10': [0]}
 _MIPS_STUBS_:
 {'constant': [], 'ir_5': [162]}
 sub_415390:
