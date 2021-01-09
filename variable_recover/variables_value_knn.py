@@ -1,4 +1,5 @@
 import operator
+from math import log
 
 import numpy as np
 
@@ -10,7 +11,13 @@ class VarlablesValueKNN:
 
         self.dataName = []
         self.dataValue = []
-        self.test_data = []
+        self.dataValueWeight = []
+
+        self.testData = []
+        self.testDataWeight = []
+
+        self.weight = dict()
+
         self.distance = dict()
         self.sorted_distance = dict()
 
@@ -18,6 +25,7 @@ class VarlablesValueKNN:
         self.sorted_similar = dict()
 
         # self.calculate_distance()
+        self.weight_setting()
         self.calculate_similar_value()
 
     def load_data(self):
@@ -30,6 +38,7 @@ class VarlablesValueKNN:
             l = []
             for i in dataline[1:]:
                 l.append(i)
+                self.dataValueWeight.append(i)
             self.dataValue.append(list(set(l)))
 
     def load_test_data(self):
@@ -37,11 +46,12 @@ class VarlablesValueKNN:
             datas = f.readlines()
         for data in datas:
             dataline = data.strip().split('\t')
-            if '_ftext' in dataline[0]:
+            if 'main' in dataline[0]:
                 l = []
                 for i in dataline[1:]:
                     l.append(i)
-                self.test_data = list(set(l))
+                self.testData = list(set(l))
+                self.testDataWeight = l
 
     def calculate_distance(self):
         self.load_data()
@@ -50,7 +60,7 @@ class VarlablesValueKNN:
         # self.normalized_data(self.test_data)
         # self.normalized_data(self.dataValue)
 
-        test_array = np.array(self.test_data)
+        test_array = np.array(self.testData)
         for index, d in enumerate(self.dataValue):
             train_array = np.array(d)
             dis = np.sqrt(np.sum(np.power((train_array - test_array), 2)))
@@ -59,27 +69,57 @@ class VarlablesValueKNN:
         self.sorted_distance = sorted(self.distance.items(), key=lambda x: x[1])
 
     def calculate_similar_value(self):
+        for index, data_list in enumerate(self.dataValue):
+            count = 0
+            for v in self.testData:
+                if v in data_list:
+                    count += self.weight[v]
+            self.similar[self.dataName[index]] = count  # round(count / len(self.testData), 3)
+        self.sorted_similar = sorted(self.similar.items(), key=lambda x: x[1], reverse=True)
+
+    def weight_setting(self):
         self.load_data()
         self.load_test_data()
 
-        for index, data_list in enumerate(self.dataValue):
-            count = 0
-            for v in self.test_data:
-                if v in data_list:
-                    count += 1
-            self.similar[self.dataName[index]] = round(count / len(self.test_data), 3)
-        self.sorted_similar = sorted(self.similar.items(), key=lambda x: x[1], reverse=True)
+        dataSet = set(self.dataValueWeight)
+        total = len(self.dataValueWeight)
+        totalWeight = 0
+        countDict = dict()
 
-    def normalized_data(self, arr):
-        maxValue = np.max(arr)
-        minValue = np.min(arr)
-        for index, i in enumerate(arr):
-            arr[index] = (i - minValue) / (maxValue - minValue)
+        # for i in dataSet:
+        #     countDict[i] = self.dataValueWeight.count(i)
+        #     self.weight[i] = round(((total - countDict[i]) / total) * log(total / (countDict[i] + 1)) / 10, 4)
+        #     totalWeight += self.weight[i]
+        # print(totalWeight)
+
+        for i in dataSet:
+            countDict[i] = self.dataValueWeight.count(i)
+            self.weight[i] = round(
+                (((total - countDict[i]) / total) * log(total / (countDict[i])) / 10), 4)
+        countDict = sorted(countDict.items(), key=lambda x: x[1], reverse=True)
+        print(countDict)
 
 
 if __name__ == '__main__':
-    test_path = '/home/qinfan/PycharmProjects/angr/data/MIPS32/rm_data-O3.txt'
+    test_path = '/home/qinfan/PycharmProjects/angr/data/X86/rm_data.txt'
+    data_path = '/home/qinfan/PycharmProjects/angr/data/ARM32/rm_data.txt'
 
+    knn = VarlablesValueKNN(test_path, data_path)
+
+    print(knn.testData)
+    print(knn.testDataWeight)
+    print(knn.dataValue)
+    print(knn.dataValueWeight)
+    print(knn.weight)
+
+    print(knn.weight["0"])
+    print(knn.weight["1"])
+    print(knn.weight["2"])
+    print(knn.weight["rm"])
+
+    print("knn similarity:", knn.similar['rm@main'])
+
+'''
     data_path1 = '/home/qinfan/PycharmProjects/angr/data/ARM32/rm_data.txt'
     data_path2 = '/home/qinfan/PycharmProjects/angr/data/ARM32/rm_data-O2.txt'
     data_path3 = '/home/qinfan/PycharmProjects/angr/data/ARM32/rm_data-O3.txt'
@@ -112,21 +152,22 @@ if __name__ == '__main__':
     print(k1.similar['rm@_ftext'])
     print(k2.similar['rm@_ftext'])
 
-    print(k1.test_data)
-    print(len(k1.test_data))
+    print(k1.testData)
+    print(len(k1.testData))
+'''
 
-    # print(knn1.test_data)
-    # print(knn1.dataValue)
-    # print(knn1.dataName)
-    # print(knn1.similar)
-    # print(knn1.similar['rm@main'])
-    # print(knn1.sorted_similar)
+# print(knn1.test_data)
+# print(knn1.dataValue)
+# print(knn1.dataName)
+# print(knn1.similar)
+# print(knn1.similar['rm@main'])
+# print(knn1.sorted_similar)
 
-    # print("@@" * 50)
-    # knn2 = VarlablesValueKNN(test_path, data_path2)
-    # print(knn2.test_data)
-    # print(knn2.dataValue)
-    # print(knn2.dataName)
-    # print(knn2.similar)
-    # print(knn2.similar['rm@main'])
-    # print(knn2.sorted_similar)
+# print("@@" * 50)
+# knn2 = VarlablesValueKNN(test_path, data_path2)
+# print(knn2.test_data)
+# print(knn2.dataValue)
+# print(knn2.dataName)
+# print(knn2.similar)
+# print(knn2.similar['rm@main'])
+# print(knn2.sorted_similar)

@@ -118,27 +118,29 @@ class VariablesValueExtractor:
             except:
                 continue
 
-            # convert function blocks to AIL blocks
-            clinic = p.analyses.Clinic(func)
-
-            # recover regions
-            ri = p.analyses.RegionIdentifier(func, graph=clinic.graph)
-
-            # structure it
-            rs = p.analyses.RecursiveStructurer(ri.region)
-
-            # simplify it
-            s = p.analyses.RegionSimplifier(rs.result)
+            # # convert function blocks to AIL blocks
+            # clinic = p.analyses.Clinic(func)
+            #
+            # # recover regions
+            # ri = p.analyses.RegionIdentifier(func, graph=clinic.graph)
+            #
+            # # structure it
+            # rs = p.analyses.RecursiveStructurer(ri.region)
+            #
+            # # simplify it
+            # s = p.analyses.RegionSimplifier(rs.result)
 
             try:
-                codegen = p.analyses.StructuredCodeGenerator(func, s.result, cfg=cfg)
+                codegen = dec.codegen
+                # codegen = p.analyses.StructuredCodeGenerator(func, s.result, cfg=cfg)
             except:
                 continue
 
-            # if dec.codegen is None:
-            #     continue
-            the_kb = dec.clinic.variable_kb
-            variable_manager = the_kb.variables[func.addr]      # after decompiler
+            if codegen is None:
+                continue
+
+            # the_kb = dec.clinic.variable_kb
+            # variable_manager = the_kb.variables[func.addr]      # after decompiler
 
             v = p.analyses.VariableRecoveryFast(func, kb=kb)    # before decompiler
             var_manager = v.variable_manager[func.addr]
@@ -153,28 +155,14 @@ class VariablesValueExtractor:
                         c = ctypes.c_int32(v.obj.value).value
                         l.append(c)
 
-            # 过滤常量中的地址值......
-            # for cons in l:
-            #     if not isinstance(cons, int):
-            #         continue
-            #     if cons in mem_data:
-            #         s = init_state.copy()
-            #         s.regs._ip = cons
-            #         a = s.solver.eval(s.memory.load(addr=cons, size=4),
-            #         cast_to=bytes).decode('utf-8', errors='ignore')
-            #         l = [a if x == cons else x for x in l]
-            #     elif cons >= min_addr:
-            #         ob = p.loader.find_object_containing(addr=cons)
-            #         if ob:
-            #             se = ob.find_section_containing(addr=cons)
-            #             if se:
-            #                 s = init_state.copy()
-            #                 s.regs._ip = cons
-            #                 a = s.solver.eval(s.memory.load(addr=cons, size=4),
-            #                 cast_to=bytes).decode('utf-8', errors='ignore')
-            #                 l = [a if x == cons else x for x in l]
-            # l = list(set(l))
-            # var_dict['constant'] = l
+            for k, v in codegen.posmap.items():
+                if isinstance(v.obj, CConstant):
+                    if v.obj.reference_values:
+                        x = v.obj.reference_values
+                        for i, j in x.items():
+                            if not isinstance(j, int):
+                                y = j.content.decode()
+                                var_dict['string'].append(y)
 
             for cons in l[::-1]:
                 if min_addr <= cons <= max_addr:
@@ -202,9 +190,9 @@ class VariablesValueExtractor:
                 print("expr:", state.solver.eval(state.inspect.reg_write_expr))
                 expr1 = state.solver.eval(state.inspect.reg_write_expr)
                 expr = ctypes.c_int32(expr1).value
-                save_block_info(expr, -65608, state)
-                save_block_info(expr, -65656, state)
-                save_block_info(expr, -65688, state)
+                # save_block_info(expr, -65608, state)
+                # save_block_info(expr, -65656, state)
+                # save_block_info(expr, -65688, state)
 
                 for va in var:
                     if isinstance(va, SimRegisterVariable):
@@ -217,9 +205,9 @@ class VariablesValueExtractor:
                             if state.solver.eval(state.inspect.reg_write_offset) == va.reg:
                                 if expr in mem_data:
                                     d = state.mem[expr].deref.int.concrete
-                                    save_block_info(expr, -65608, state)
-                                    save_block_info(expr, -65656, state)
-                                    save_block_info(expr, -65688, state)
+                                    # save_block_info(expr, -65608, state)
+                                    # save_block_info(expr, -65656, state)
+                                    # save_block_info(expr, -65688, state)
 
                                     var_dict[va.name].append(d)
                                 elif expr >= min_addr:
@@ -228,9 +216,9 @@ class VariablesValueExtractor:
                                         sec = obj.find_section_containing(addr=expr)
                                         if sec:
                                             d = state.mem[expr].deref.int.concrete
-                                            save_block_info(expr, -65608, state)
-                                            save_block_info(expr, -65656, state)
-                                            save_block_info(expr, -65688, state)
+                                            # save_block_info(expr, -65608, state)
+                                            # save_block_info(expr, -65656, state)
+                                            # save_block_info(expr, -65688, state)
 
                                             var_dict[va.name].append(d)
                                 else:
@@ -364,6 +352,8 @@ class VariablesValueExtractor:
 
             # 字符串的恢复
             for k, v in result.items():
+                if k == 'string':
+                    continue
                 for index, val in enumerate(v):
                     # 1094795585是'AAAA'的十进制数
                     # 1515870810是'ZZZZ'的十进制数
