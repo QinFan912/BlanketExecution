@@ -51,24 +51,21 @@ def main(argv):
         if func.name != 'main':
             continue
 
-        try:
-            dec = p.analyses.Decompiler(func, cfg=cfg)
-        except:
-            continue
+        dec = p.analyses.Decompiler(func, cfg=cfg)
 
-        # convert function blocks to AIL blocks
-        clinic = p.analyses.Clinic(func)
+        # # convert function blocks to AIL blocks
+        # clinic = p.analyses.Clinic(func)
 
-        # recover regions
-        ri = p.analyses.RegionIdentifier(func, graph=clinic.graph)
+        # # recover regions
+        # ri = p.analyses.RegionIdentifier(func, graph=clinic.graph)
 
-        # structure it
-        rs = p.analyses.RecursiveStructurer(ri.region)
+        # # structure it
+        # rs = p.analyses.RecursiveStructurer(ri.region)
 
-        # simplify it
-        s = p.analyses.RegionSimplifier(rs.result)
+        # # simplify it
+        # s = p.analyses.RegionSimplifier(rs.result)
 
-        codegen = p.analyses.StructuredCodeGenerator(func, s.result, cfg=cfg)
+        codegen = dec.codegen #p.analyses.StructuredCodeGenerator(func, s.result, cfg=cfg)
 
         print(codegen.text)
 
