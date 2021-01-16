@@ -14,8 +14,8 @@ def main(argv):
 
     file_name = "rm"
     # file_path = "/home/qinfan/coreutils/coreutils-ARM32/src/" + file_name            # X86
-    file_path = "/home/qinfan/coreutils/coreutils-X86-O2/src/" + file_name            # X86
-    # file_path = "/home/qinfan/coreutils/coreutils-MIPS32/src/" + file_name            # X86
+    # file_path = "/home/qinfan/coreutils/coreutils-X86/src/" + file_name            # X86
+    file_path = "/home/qinfan/coreutils/coreutils-MIPS32/src/" + file_name            # X86
 
     p = angr.Project(file_path, auto_load_libs=False,
                      load_options={
@@ -55,18 +55,17 @@ def main(argv):
 
         # # convert function blocks to AIL blocks
         # clinic = p.analyses.Clinic(func)
-        #
+
         # # recover regions
         # ri = p.analyses.RegionIdentifier(func, graph=clinic.graph)
-        #
+
         # # structure it
         # rs = p.analyses.RecursiveStructurer(ri.region)
-        #
+
         # # simplify it
         # s = p.analyses.RegionSimplifier(rs.result)
 
-        codegen = dec.codegen
-        # codegen = p.analyses.StructuredCodeGenerator(func, s.result, cfg=cfg)
+        codegen = dec.codegen #p.analyses.StructuredCodeGenerator(func, s.result, cfg=cfg)
 
         print(codegen.text)
 
@@ -107,7 +106,7 @@ def main(argv):
 
 if __name__ == "__main__":
     main(sys.argv)
-    # print(ctypes.c_uint32(-130).value)
-    # print(ctypes.c_uint32(-65608).value)        # 4294901688        FFFFFFB8
-    # print(ctypes.c_uint32(-65656).value)        # 4294901640        FFFFFF88
-    # print(ctypes.c_uint32(-65688).value)        # 4294901608        FFFFFF68
+    print(ctypes.c_uint32(-130).value)
+    print(ctypes.c_uint32(-65608).value)        # 4294901688        FFFFFFB8
+    print(ctypes.c_uint32(-65656).value)        # 4294901640        FFFFFF88
+    print(ctypes.c_uint32(-65688).value)        # 4294901608        FFFFFF68
