@@ -1,0 +1,211 @@
+false@_init		0	123128		
+false@sub_401000			
+false@sub_401024			
+false@_ftext		/usr/local/share/locale	--help	--version		0	1	2		1			6		
+false@__start			
+false@sub_40118c		-8	16	20	24	32			-8		
+false@hlt			
+false@deregister_tm_clones		0	1	3904		1			
+false@register_tm_clones		0	3904		0			
+false@__do_global_dtors_aux		0	1	2	4	28616	29232	29236			0		1		4	8		2	3		
+false@frame_dummy		0	3904		0			
+false@emit_ancillary_info.constprop.0		false	
+%s online help: <%s>
+	en_	
+%s online help: <%s>
+	en_	Full documentation <%s%s>
+	or available locally via: info '(coreutils) %s%s'
+	Report any translation bugs to <https://translationproject.org/team/>
+	Full documentation <%s%s>
+	or available locally via: info '(coreutils) %s%s'
+		0	8	16	23748			sha2	sha3		0		5		1		3		
+false@usage		Usage: %s [ignored command line arguments]
+  or:  %s OPTION
+	Exit with a status code indicating failure.	      --help     display this help and exit
+	      --version  output version information and exit
+	
+NOTE: your shell may have its own version of %s, which usually supersedes
+the version described here.  Please refer to your shell's documentation
+for details about the options it supports.
+			5		0		1		
+false@close_stdout_set_file_name			
+false@close_stdout_set_ignore_EPIPE			
+false@close_stdout		%s: %s	%s		0	32	24580			0		5		1		32		
+false@set_program_name		lt-		0	1	4	6	7	24656			55		1		47		7		3		
+false@quoting_options_from_style		0	10		10			
+false@strcaseeq9		1			
+false@strcaseeq8		0	1	223			0		1		
+false@strcaseeq7		0	1	223			0		1		
+false@strcaseeq6		0	1	223			0		1		
+false@strcaseeq5		0	1	223			0		1		
+false@strcaseeq4		0	1	223			0		1		
+false@strcaseeq3		0	1	223			0		1		
+false@strcaseeq2		0	1	223			0		1		
+false@strcaseeq1		0	1	223			0		1		
+false@strcaseeq0.constprop.0		0	1	223			0		1		
+false@gettext_quote		0	9	96			5		0		56		84		85		70		48		51		66		49		71		96		9		
+false@quotearg_buffer_restyled		0	1	30	31	102	110	116	118			0		1		61477		0	1		2		10		5		0	1	2		-1885208452		1	2		-1		341836454		97		98		102		110		118		114		116		39		4		92		1	3	4		36		3		63		48		-2		268500519		1	2	3		-1884094388		34		
+false@sub_4029dc			
+false@sub_402da8			0		
+false@sub_402db8			-1		0		
+false@sub_402de0			2		0		
+false@sub_402e1c			2		0		
+false@sub_402e3c			2		0		
+false@sub_402eac			1		0		
+false@sub_402ec0			0		
+false@sub_402ed0			
+false@sub_402ed8			0		
+false@sub_402ee4			102		
+false@sub_402ef0			118		
+false@sub_402efc			110		
+false@sub_402f08			116		
+false@sub_402f10			0		
+false@sub_402f18			0		
+false@sub_403428			1		
+false@sub_403430			1		
+false@sub_40343c			1		
+false@sub_403444			1		
+false@quotearg_n_options		-2147483648	0	1	3	28832	28848	65535	268369920			0		256		
+false@clone_quoting_options		0			48		
+false@get_quoting_style		0		
+false@set_quoting_style		0		
+false@set_char_quoting		0	1	2	5	8	31	255		
+false@set_quoting_flags		0		
+false@set_custom_quoting		0	10	40	44			10		
+false@quotearg_buffer		0			
+false@quotearg_alloc_mem		0			
+false@quotearg_alloc			0		
+false@quotearg_free		1	2	8	12	256	28832	28848			1		2	3	4		0		604110850		256		
+false@quotearg_n			-1		
+false@quotearg_n_mem			
+false@quotearg			0		
+false@quotearg_mem			0		
+false@quotearg_n_style			0		-1		
+false@quotearg_n_style_mem			0		-1		
+false@quotearg_style			0		-1		
+false@quotearg_style_mem			0		
+false@quotearg_char_mem		16			0		1		-1		
+false@quotearg_char			-1		
+false@quotearg_colon			58		
+false@quotearg_colon_mem			58		
+false@quotearg_n_style_colon		16			0		1		58		-1		
+false@quotearg_n_custom_mem		16			0		
+false@quotearg_n_custom			-1		
+false@quotearg_custom			0		
+false@quotearg_custom_mem			0		
+false@quote_n_mem			
+false@quote_mem			0		
+false@quote_n			-1		
+false@quote			0		
+false@version_etc_arn		(C)	License GPLv3+: GNU GPL version 3 or later <%s>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+	Written by %s, %s, %s,
+and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, and %s.
+	Written by %s, %s, %s,
+%s, and %s.
+	Written by %s, %s, %s,
+%s, %s, and %s.
+	Written by %s, %s, and %s.
+	Written by %s and %s.
+	Written by %s.
+		0	2	5	10			1		5		0		2020		10		
+false@version_etc_ar		0	1	4		1	2	3		
+false@version_etc_va		0	1	4			0	1	2		10		1	2		0		
+false@version_etc			0		
+false@emit_bug_reporting_address		Report bugs to: %s
+	%s home page: <%s>
+	General help using GNU software: <%s>
+			10		5		0		1		
+false@xmalloc		0			
+false@xnmalloc		-2147483648	0			
+false@xcharalloc			
+false@xrealloc		0			
+false@xnrealloc		-2147483648	0			
+false@x2nrealloc		-2147483648	0	1	64			64		0		
+false@x2realloc			1		
+false@xcalloc		-2147483648	0			
+false@xzalloc			1		
+false@xmemdup			
+false@xstrdup			
+false@xalloc_die		memory exhausted	%s			5		0		1		
+false@rpl_mbrtowc		-2	0	1			0		1		-2		
+false@c_isalnum		0	1	10	26	48	65	91	97		0		1		
+false@c_isalpha		0	1	26	65	91	97		0		1		
+false@c_isascii		128		
+false@c_isblank		1	9	32		32		1		
+false@c_iscntrl		-2147483648	0	1	32		0		1		127		
+false@c_isdigit		10	48		
+false@c_isgraph		33	94		
+false@c_islower		26	97		
+false@c_isprint		32	95		
+false@c_ispunct		0	1	4	15	33	58	65	91	97	123		0		1		
+false@c_isspace		0	1	9	24	31		0		
+false@c_isupper		26	65		
+false@c_isxdigit		0	1	2	48	55		0		
+false@c_tolower		0	26	32	65		
+false@c_toupper		0	26	32	97		
+false@c_strcasecmp		0	1	255	3904			0		
+false@close_stream		-1	0	9			-1		
+false@hard_locale		POSIX		0			257		
+false@locale_charset		0			14		
+false@setlocale_null_androidfix			0		
+false@setlocale_null_unlocked		0	1	22	34			22		34		0		
+false@setlocale_null_r			
+false@setlocale_null			
+false@rpl_fclose		-2147483648	-1	0			0		1		-1		
+false@rpl_fflush		0			
+false@rpl_fseeko		-17	-1	0			-1		0		
+false@__libc_csu_init		0	1	4	104496		0	1		1		
+false@__libc_csu_fini			
+false@atexit			0		
+false@__do_global_ctors_aux		-1	4			-1		0		
+false@_MIPS_STUBS_			84		
+false@sub_4059d0			83		
+false@sub_4059e0			81		
+false@sub_4059f0			79		
+false@sub_405a00			78		
+false@sub_405a10			77		
+false@sub_405a20			75		
+false@sub_405a30			74		
+false@sub_405a40			73		
+false@sub_405a50			72		
+false@sub_405a60			71		
+false@sub_405a70			70		
+false@sub_405a80			69		
+false@sub_405a90			68		
+false@sub_405aa0			67		
+false@sub_405ab0			66		
+false@sub_405ac0			65		
+false@sub_405ad0			64		
+false@sub_405ae0			63		
+false@sub_405af0			62		
+false@sub_405b00			61		
+false@sub_405b10			60		
+false@sub_405b20			59		
+false@sub_405b30			57		
+false@sub_405b40			56		
+false@sub_405b50			55		
+false@sub_405b60			54		
+false@sub_405b70			53		
+false@sub_405b80			52		
+false@sub_405b90			51		
+false@sub_405ba0			49		
+false@sub_405bb0			48		
+false@sub_405bc0			46		
+false@sub_405bd0			45		
+false@sub_405be0			44		
+false@sub_405bf0			42		
+false@sub_405c00			40		
+false@sub_405c10			39		
+false@sub_405c20			37		
+false@sub_405c30			36		
+false@sub_405c40			35		
+false@sub_405c50			34		
+false@_fini			
+false@sub_405c90			

@@ -1,12 +1,12 @@
 rm@_init	0	20	4	-65544	8	
 rm@sub_4015c0	
-rm@main	coreutils	/usr/local/share/locale	coreutils	dfirvIR	you may not abbreviate the --no-preserve-root option	--interactive	rm	GNU coreutils	Paul Rubin	David MacKenzie	all	unrecognized --preserve-root argument: %s	missing operand	/	failed to get attributes of %s	%s: remove %lu argument recursively? 	%s: remove %lu arguments recursively? 	%s: remove %lu argument? 	%s: remove %lu arguments? 	Try '%s ./%s' to remove the file %s.
-	-131	-130	-1	0	1	2	3	4	8	16	45	73	105	129	131	1	0	1	3	4	5	19	0	6	forc	7	-1	105	5	17	73	129	-65768	20	2	-131	100	118	131	4	200	8	3	371	-130	102	128	82	114	132	neve	45	-65736	
+rm@main	coreutils	/usr/local/share/locale	coreutils	dfirvIR	/	/	failed to get attributes of %s	failed to get attributes of %s	missing operand	%s: remove %lu argument recursively? 	%s: remove %lu arguments recursively? 	%s: remove %lu argument? 	%s: remove %lu arguments? 	all	all	unrecognized --preserve-root argument: %s	rm	GNU coreutils	Paul Rubin	David MacKenzie	--no-preserve-root	you may not abbreviate the --no-preserve-root option	--interactive	--interactive	Try '%s ./%s' to remove the file %s.
+	-131	-130	-1	0	1	2	3	4	8	24	45	73	105	129	131	132	1	0	1	3	4	5	19	0	6	forc	7	-1	105	5	17	73	129	-65768	20	2	-131	100	118	131	4	200	8	3	371	-130	102	128	82	114	132	neve	45	-65736	
 rm@_start	-65528	20	-65536	0	
 rm@_dl_relocate_static_pie	
-rm@deregister_tm_clones	0	7	7	8	14	0	20	
+rm@deregister_tm_clones	0	7	8	14	20	
 rm@register_tm_clones	0	36	20	
-rm@__do_global_dtors_aux	0	1	5	0	1	
+rm@__do_global_dtors_aux	0	5	1	
 rm@frame_dummy	0	8	20	
 rm@usage	Usage: %s [OPTION]... [FILE]...
 	Remove (unlink) the FILE(s).
@@ -43,46 +43,57 @@ use one of these commands:
 Note that if you use rm to remove a file, it might be possible to recover
 some of its contents, given sufficient expertise and/or time.  For greater
 assurance that the contents are truly unrecoverable, consider using shred.
-	en_	Full documentation <%s%s>
+	
+%s online help: <%s>
+	en_	
+%s online help: <%s>
+	en_	en_	Full documentation <%s%s>
 	en_	en_	Report any translation bugs to <https://translationproject.org/team/>
 	en_	en_	en_	Full documentation <%s%s>
 	en_	en_	en_	en_	or available locally via: info '(coreutils) %s%s'
 	Try '%s --help' for more information.
-	0	1	3	5	16	5	0	19	1	-65688	-65672	0	1	2	3	0	1	2	0	109	114	0	91	99	114	20	-65672	3	8	
+	0	5	19	1	-65688	-65672	0	1	2	3	0	1	2	0	109	114	0	91	99	114	20	-65672	3	8	
 rm@excise	removed %s
 	removed directory %s
-	cannot remove %s	0	1	2	4	5	7	13	20	22	30	39	63	84	1	30	0	19	5	2	20	4	7	30	-65736	160	17	256	1	6	39	3276800	22	84	13	8	
-rm@cache_fstatat.constprop.3	-2	-1	0	8	-1	256	1	20	0	19	-2	
-rm@prompt	%s: descend into write-protected directory %s? 	%s: descend into directory %s? 	cannot remove %s	cannot remove %s	%s: remove %s %s? 	%s: remove write-protected %s %s? 	0	1	2	3	4	5	13	21	31	46	255	40960	61440	-1	0	1	2	3	4	20	0	19	198912	8	7	5	3	2	4	-65784	200	17	-65752	46	40960	21	1	47	512	16384	13	
+	cannot remove %s	0	1	2	4	13	20	22	30	39	84	1	30	0	19	5	2	20	4	7	30	-65736	160	17	256	1	6	39	3276800	22	84	13	8	
+rm@cache_fstatat.constprop.3	-1	0	8	-1	256	1	20	0	19	-2	
+rm@prompt	%s: descend into write-protected directory %s? 	%s: descend into write-protected directory %s? 	%s: descend into directory %s? 	%s: descend into directory %s? 	cannot remove %s	cannot remove %s	%s: remove %s %s? 	%s: remove write-protected %s %s? 	cannot remove %s	0	1	3	5	13	46	40960	61440	-1	0	1	2	3	4	20	0	19	198912	8	7	5	3	2	4	-65784	200	17	-65752	46	40960	21	1	47	512	16384	13	
+rm@rm	WARNING: Circular directory structure.
+This almost certainly means that you have a corrupted file system.
+NOTIFY YOUR SYSTEM MANAGER.
+The following directory is part of the cycle:
+  %s
+	traversal failed: %s	skipping %s, since it's on a different device	..	..	.	.	refusing to remove %s or %s directory: skipping %s	unexpected failure: fts_info=%d: %s
+please report to %s	/	it is dangerous to operate recursively on %s (same as %s)	it is dangerous to operate recursively on %s	failed to stat %s: skipping %s	skipping %s, since it's on a different device	cannot remove %s	fts_read failed	fts_close failed	0	1	2	3	4	6	8	46	48	56	112	0	1	0	8	20	2	4	3	600	4	-65784	200	6	13	19	5	198912	-65756	2	1	7	46	21	17	609	47	-1	0	1	2	-1	0	1	0	47	-65752	
 rm@__argmatch_die	1	
-rm@argmatch	-2	-1	0	1	3	8	8	-65584	40	-1	20	0	4	-65624	-1	0	1	19	0	1	2	1	2	0	1	1	
-rm@argmatch_invalid	ambiguous argument %s for %s	invalid argument %s for %s	-1	5	8	-1	5	19	0	1	
-rm@argmatch_valid	Valid arguments are:	0	1	3	10	0	5	19	0	1	2	20	0	1	8	4	1	-65592	10	1	10	1	2	
-rm@__xargmatch_internal	-1	8	-65584	20	0	4	-65592	
-rm@argmatch_to_argument	0	8	20	0	19	
+rm@argmatch	0	8	8	-65584	40	-1	20	0	4	-65624	-1	0	1	19	0	1	2	1	2	0	1	1	
+rm@argmatch_invalid	ambiguous argument %s for %s	ambiguous argument %s for %s	invalid argument %s for %s	invalid argument %s for %s	-1	8	5	19	0	1	
+rm@argmatch_valid	Valid arguments are:	0	8	0	5	19	0	1	2	20	0	1	8	4	1	-65592	10	1	10	1	2	
+rm@__xargmatch_internal	8	-65584	20	0	4	-65592	
+rm@argmatch_to_argument	0	20	19	
 rm@close_stdin_set_file_name	
-rm@close_stdin	error closing file	%s: %s	%s	0	8	-65552	20	19	1	17	5	4	-65560	
+rm@close_stdin	error closing file	%s	%s: %s	0	8	-65552	20	19	1	17	5	4	-65560	
 rm@close_stdout_set_file_name	
 rm@close_stdout_set_ignore_EPIPE	
 rm@close_stdout	write error	%s: %s	%s	0	8	-65552	19	5	4	-65560	1	20	7	32	
-rm@last_component	0	1	47	5	47	17	0	19	1	
+rm@last_component	0	47	5	47	17	0	19	1	
 rm@base_len	1	47	8	1	5	47	
 rm@file_type	0	4096	8192	16384	24576	32768	40960	49152	61440	5	7	32768	8	0	16384	19	40960	24576	8192	4096	49152	
 rm@file_name_concat	0	8	-65536	20	4	-65544	
-rm@mfile_name_concat	0	1	46	47	8	-65584	24	4	20	0	5	47	19	-65608	
-rm@set_program_name	0	1	3	4	6	7	20	0	55	1	47	8	6	4	5	6	7	4	5	6	5	46	47	108	1	2	3	1	2	108	116	
-rm@quoting_options_from_style	0	1	7	8	4	5	6	7	0	-65608	-65600	-65592	-65584	7	10	4	5	6	-65600	-65592	-65584	20	4	-65608	72	
-rm@quotearg_n_options	1	16	31	2147483647	8	-65584	40	19	0	7	1	4	-65624	256	32	
-rm@clone_quoting_options	0	20	56	
-rm@get_quoting_style	0	20	
-rm@set_quoting_style	0	20	
-rm@set_char_quoting	0	1	4	8	31	32	19	0	
-rm@set_quoting_flags	0	4	20	0	
-rm@set_custom_quoting	0	10	20	0	10	4	-65544	8	
-rm@quotearg_buffer	0	20	8	-65608	4	-65640	56	
-rm@quotearg_alloc_mem	0	1	19	0	4	-65672	32	8	-65640	20	56	
+rm@mfile_name_concat	0	1	47	8	-65584	24	4	20	0	5	47	19	-65608	
+rm@set_program_name	0	6	20	0	55	1	47	8	6	4	5	6	7	4	5	6	5	46	47	108	1	2	3	1	2	108	116	
+rm@quoting_options_from_style	0	8	4	5	6	7	0	-65608	-65600	-65592	-65584	7	10	4	5	6	-65600	-65592	-65584	20	4	-65608	72	
+rm@quotearg_n_options	16	2147483647	8	-65584	40	19	0	7	1	4	-65624	256	32	
+rm@clone_quoting_options	20	0	56	
+rm@get_quoting_style	20	0	
+rm@set_quoting_style	20	0	
+rm@set_char_quoting	4	32	19	0	
+rm@set_quoting_flags	20	0	
+rm@set_custom_quoting	20	0	10	4	-65544	8	
+rm@quotearg_buffer	20	0	8	-65608	4	-65640	56	
+rm@quotearg_alloc_mem	19	0	4	-65672	32	8	-65640	20	56	
 rm@quotearg_alloc	19	0	
-rm@quotearg_free	1	2	16	24	40	256	1	7	8	-16	0	1	4	16	-72540024	./pr	-72540024	256	
+rm@quotearg_free	1	16	1	7	8	-16	0	1	4	16	-72540024	./pr	-72540024	256	
 rm@quotearg_n	-1	
 rm@quotearg_n_mem	
 rm@quotearg	-1	19	0	
@@ -91,7 +102,7 @@ rm@quotearg_n_style	-65800	-65624	19	0	-1	20	4	72
 rm@quotearg_n_style_mem	-65976	-65800	-65624	19	0	-65800	-65624	20	4	64	-1	
 rm@quotearg_style	19	0	-1	
 rm@quotearg_style_mem	19	0	
-rm@quotearg_char_mem	1	4	8	31	32	0	-65680	-65608	19	20	4	72	-65672	1	-1	
+rm@quotearg_char_mem	4	32	0	-65680	-65608	19	20	4	72	-65672	1	-1	
 rm@quotearg_char	-1	0	
 rm@quotearg_colon	58	-1	
 rm@quotearg_colon_mem	58	
@@ -110,6 +121,7 @@ This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 	Written by %s.
 	Written by %s and %s.
+	Written by %s and %s.
 	Written by %s, %s, and %s.
 	Written by %s, %s, %s,
 and %s.
@@ -122,92 +134,91 @@ and %s.
 	Written by %s, %s, %s,
 %s, %s, %s, %s,
 and %s.
-	0	5	8	9	20	0	1	19	5	2020	10	8	9	4	-65624	40	
-rm@version_etc_ar	0	1	3	0	1	2	3	8	0	1	2	3	
-rm@version_etc_va	0	1	8	47	0	1	2	19	0	7	47	20	-65640	1	2	8	10	4	104	
+	0	8	9	20	0	1	19	5	2020	10	8	9	4	-65624	40	
+rm@version_etc_ar	0	1	0	1	2	3	8	0	1	2	3	
+rm@version_etc_va	0	1	47	0	1	2	19	0	7	47	20	-65640	1	2	8	10	4	104	
 rm@version_etc	0	17	-65720	-65528	32	48	19	-65752	-65720	20	4	216	
 rm@emit_bug_reporting_address	Report bugs to: %s
 	%s home page: <%s>
 	General help using GNU software: <%s>
 	8	-65536	10	5	19	0	1	4	-65544	
-rm@can_write_any_file	0	1	5	0	8	-65536	1	4	-65544	
+rm@can_write_any_file	0	5	8	-65536	1	4	-65544	
 rm@xmalloc	0	20	
 rm@xnmalloc	0	20	4	-65560	-65544	8	
 rm@xcharalloc	
 rm@xrealloc	0	20	19	
 rm@xnrealloc	0	20	4	-65552	-65544	8	
-rm@x2nrealloc	0	1	2	128	20	0	8	52	
-rm@x2realloc	0	1	2	128	SUUU	20	0	128	8	4	-65568	-65544	
+rm@x2nrealloc	0	2	20	0	8	52	
+rm@x2realloc	0	2	SUUU	20	0	128	8	4	-65568	-65544	
 rm@xcalloc	0	20	4	-65552	-65544	8	
 rm@xzalloc	1	
 rm@xmemdup	8	-65552	4	-65560	
 rm@xstrdup	
 rm@xalloc_die	memory exhausted	%s	5	19	0	1	
-rm@xfts_open	0	22	512	19	0	20	4	-65544	8	7	22	41	
-rm@yesno	0	1	10	10	-65560	-65568	0	19	20	5	4	-65576	32	
-rm@rpl_fseeko	-17	-1	0	8	0	-1	19	
+rm@xfts_open	0	22	19	0	20	4	-65544	8	7	22	41	
+rm@yesno	1	10	10	-65560	-65568	0	19	20	5	4	-65576	32	
+rm@rpl_fseeko	-1	0	8	0	-1	19	
 rm@AD_compare	0	8	
-rm@AD_hash	0	19	
-rm@dev_type_hash	0	19	
+rm@AD_hash	19	0	
+rm@dev_type_hash	19	0	
 rm@dev_type_compare	8	
-rm@fts_compare_ino	-1	1	8	-1	
-rm@fts_sort	-1	0	1	8	40	8	-1	20	0	32	4	-65576	1	
-rm@fts_alloc	-8	0	3	264	272	20	0	4	-65576	8	0	3	3	
+rm@fts_compare_ino	8	-1	
+rm@fts_sort	-1	1	2	8	8	-1	20	0	32	4	-65576	1	
+rm@fts_alloc	0	3	20	0	4	-65576	8	3	
 rm@fts_lfree	0	20	4	-65560	8	
 rm@fd_ring_clear	0	17	19	
-rm@filesystem_type	0	1	2	31	0	17	20	4	-65720	152	19	13	-65704	16	8	
-rm@leaf_optimization	-11317950	0	1	2	26985	40864	sIeR	OAFS	BSFX	8	-65536	2	4	-65544	26985	0	40864	-11317950	20	1	
-rm@cwd_advance_fd	-100	0	1	4	31	96	7	-100	17	0	19	4	-65560	8	
-rm@restore_initial_cwd	0	2	4	96	17	0	19	1	-100	4	-65560	8	
-rm@fts_palloc.isra.2	0	1	36	256	8	20	0	0	36	1	19	
-rm@rpl_fts_close	-1	0	1	2	4	31	63	96	20	0	8	17	19	4	-65560	-1	
-rm@rpl_fts_set	0	1	4	22	7	4	19	0	8	-65536	22	1	-65544	
-rm@rpl_fts_children	-4097	0	1	2	4	9	22	31	32	47	4096	19	0	0	22	17	6	9	1	20	7	4096	8	2	5	47	1	2	
-rm@rpl_mbrtowc	-3	0	1	-65588	20	0	8	-3	4	-65592	24	19	17	1	
-rm@cycle_check_init	0	
-rm@cycle_check	0	1	7	20	0	60	1	19	8	
-rm@open_safer	0	64	0	-65592	-65528	16	17	19	-65592	20	4	-65624	88	
-rm@hard_locale	0	1	2	6	257	-65816	19	0	-1	0	1	2	-65816	-65815	-65814	-65813	-1	0	1	5	0	67	80	-65815	-65814	-65813	20	4	272	4	5	6	-65816	-65815	-65814	4	5	79	80	-65815	-65814	
-rm@next_prime	-1431655765	-1	1	2	3	8	9	11	16	8	9	11	-1	-1431655765	11	13	3	4	9	12	3	16	24	32	9	25	49	3	5	7	2	3	1	2	20	0	13	25	49	5	7	24	32	1	4	
+rm@filesystem_type	0	17	20	4	-65720	152	19	13	-65704	16	8	
+rm@leaf_optimization	-11317950	26985	40864	sIeR	OAFS	BSFX	8	-65536	2	4	-65544	26985	0	40864	-11317950	20	1	
+rm@cwd_advance_fd	-100	0	7	-100	17	0	19	4	-65560	8	
+rm@restore_initial_cwd	0	17	19	1	-100	4	-65560	8	
+rm@fts_palloc.isra.2	0	8	20	0	36	1	19	
+rm@rpl_fts_close	0	20	8	17	19	4	-65560	-1	
+rm@rpl_fts_set	4	7	19	0	8	-65536	22	1	-65544	
+rm@rpl_fts_children	-4097	0	1	9	47	4096	19	0	0	22	17	6	9	1	20	7	4096	8	2	5	47	1	2	
+rm@rpl_mbrtowc	-3	0	-65588	20	0	8	-3	4	-65592	24	19	17	1	
+rm@cycle_check_init	
+rm@cycle_check	0	7	20	60	1	19	8	
+rm@open_safer	0	-65592	-65528	16	17	19	-65592	20	4	-65624	88	
+rm@hard_locale	0	257	-65816	19	-1	0	1	2	-65816	-65815	-65814	-65813	-1	0	1	5	0	67	80	-65815	-65814	-65813	20	4	272	4	5	6	-65816	-65815	-65814	4	5	79	80	-65815	-65814	
+rm@next_prime	-1	0	1	9	8	9	11	-1	-1431655765	11	13	3	4	9	12	3	16	24	32	9	25	49	3	5	7	2	3	1	2	20	0	13	25	49	5	7	24	32	1	4	
 rm@raw_hasher	0	8	44	0	
 rm@raw_comparator	8	
 rm@safe_hasher	16	
 rm@hash_find_entry	0	20	19	8	17	
-rm@check_tuning.isra.0	0	1	6	69	1036831949	1063675494	1065353216	1066192077	8	1	0	19	
-rm@transfer_entries	0	1	16	8	20	0	4	-65592	1	17	16	19	
+rm@check_tuning.isra.0	0	1	6	69	1036831949	8	1	0	19	
+rm@transfer_entries	0	32	8	20	0	4	-65592	1	17	16	19	
 rm@hash_get_n_buckets	
 rm@hash_get_n_buckets_used	
 rm@hash_get_n_entries	
-rm@hash_get_max_bucket_length	0	1	16	0	1	2	8	0	1	2	3	4	20	1	2	2	3	4	
-rm@hash_table_ok	0	1	16	0	1	8	0	1	1	2	3	4	20	2	3	4	
-rm@hash_print_statistics	0	1	16	0	1	2	8	0	1	19	1	2	3	4	20	1	2	2	3	4	
+rm@hash_get_max_bucket_length	0	32	0	1	2	8	0	1	2	3	4	20	1	2	2	3	4	
+rm@hash_table_ok	0	32	0	1	8	0	1	1	2	3	4	20	2	3	4	
+rm@hash_print_statistics	2	0	1	2	8	0	1	19	1	2	3	4	20	1	2	2	3	4	
 rm@hash_lookup	0	1	20	0	19	8	
-rm@hash_get_first	0	16	8	0	4	-65544	20	
-rm@hash_get_next	0	16	8	-65552	20	0	4	-65560	
-rm@hash_get_entries	0	1	8	16	8	0	1	20	0	19	1	2	2	
-rm@hash_do_for_each	0	1	16	8	20	0	19	4	-65592	
-rm@hash_string	0	1	31	0	17	
-rm@hash_reset_tuning	0	1061997773	1065353216	1068826100	
-rm@hash_initialize	0	1	16	40	   _	1602224128	80	20	0	19	4	-65592	8	17	5	48	1	0	1	16	
-rm@hash_clear	0	16	72	8	0	20	
-rm@hash_free	0	16	8	0	20	
-rm@hash_rehash	0	1	16	   _	1602224128	0	5	20	48	8	19	1	0	1	4	-65656	96	16	17	
-rm@hash_insert_if_absent	-1	0	1	6	40	69	   _	1602224128	0	20	19	-65576	8	4	16	1	-1	5	17	
-rm@hash_insert	-1	0	-65560	19	0	7	-1	20	4	16	
-rm@hash_delete	0	1	6	40	69	   _	1	-65576	0	1	19	0	20	8	4	16	
-rm@i_ring_init	0	1	
+rm@hash_get_first	0	8	4	-65544	20	
+rm@hash_get_next	0	48	8	-65552	20	0	4	-65560	
+rm@hash_get_entries	0	2	8	32	8	0	1	20	0	19	1	2	2	
+rm@hash_do_for_each	0	1	32	8	20	0	19	4	-65592	
+rm@hash_reset_tuning	
+rm@hash_initialize	0	2	16	80	20	0	19	4	-65592	8	17	5	48	1	0	1	16	
+rm@hash_clear	0	32	8	0	20	
+rm@hash_free	0	8	20	
+rm@hash_rehash	0	2	16	0	5	20	48	8	19	1	0	1	4	-65656	96	16	17	
+rm@hash_insert_if_absent	0	1	2	6	69	0	20	19	-65576	8	4	16	1	-1	5	17	
+rm@hash_insert	-1	-65560	19	0	7	20	4	16	
+rm@hash_delete	0	1	2	6	69	1	-65576	0	1	19	0	20	8	4	16	
+rm@i_ring_init	
 rm@i_ring_empty	
-rm@i_ring_push	0	1	3	4	7	19	0	
-rm@i_ring_pop	0	1	3	4	5	0	7	1	19	
-rm@openat_safer	0	64	0	-65592	-65528	24	17	19	-65592	20	4	-65624	88	
-rm@opendirat	0	1	31	19	0	20	
-rm@setlocale_null_r	0	1	0	8	-65568	20	22	4	-65576	34	19	
+rm@i_ring_push	4	7	19	0	
+rm@i_ring_pop	0	4	5	0	7	1	19	
+rm@openat_safer	0	-65592	-65528	24	17	19	-65592	20	4	-65624	88	
+rm@opendirat	0	19	20	
+rm@setlocale_null_r	0	8	-65568	20	22	4	-65576	34	19	
 rm@setlocale_null	19	0	
 rm@fd_safer	2	7	4	-65576	8	
-rm@rpl_fclose	-1	0	1	31	19	0	1	8	-1	
-rm@rpl_fcntl	-1	0	1	3	11	16	22	31	47	1024	1025	1026	1030	1031	1033	1034	-65608	-65528	-1	1	16	24	19	0	-65712	-65608	7	1030	11	20	4	-65640	80	3	1031	1033	-1	22	1	8	1025	16	47	1026	1034	-65528	9	1024	2	10	
+rm@rpl_fclose	-1	0	19	0	1	8	-1	
+rm@rpl_fcntl	0	1	3	11	16	22	47	1024	1025	1026	1030	1031	1033	1034	-65608	-65528	-1	1	16	24	19	0	-65712	-65608	7	1030	11	20	4	-65640	80	3	1031	1033	-1	22	1	8	1025	16	47	1026	1034	-65528	9	1024	2	10	
 rm@dup_safer	3	0	19	
-rm@__libc_csu_init	0	1	8	1626216639	36	1	2	20	0	19	0	1	2	4	-65592	8	1	2	
+rm@__libc_csu_init	0	8	1626216639	36	1	2	20	0	19	0	1	2	4	-65592	8	1	2	
 rm@__libc_csu_fini	
 rm@atexit	0	19	
 rm@_fini	4	-65544	8	

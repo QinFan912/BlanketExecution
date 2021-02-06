@@ -1,0 +1,119 @@
+sum@_init		0		20		4		-65544		8		
+sum@sub_4001630			
+sum@_start			-65528		20		-65536		0		
+sum@deregister_tm_clones		0		prog		8		20		
+sum@register_tm_clones		0		prog		36		20		
+sum@__do_global_dtors_aux		0	1		5		0		8		69246984		1		
+sum@frame_dummy			
+sum@emit_stdin_note		\nWith no FILE, or when FILE is -, read standard input.\n			8		-65552		4		-65560		
+sum@emit_ancillary_info		\n%s online help: <%s>\n	en_	Report any translation bugs to <https://translationproject.org/team/>\n	Full documentation <%s%s>\n	"or available locally via: info '(coreutils) %s%s'\n"		0	16		-65688	-65672	-65656	0		19		0		-65688		20		5		8		3			4		-65736		184		
+sum@usage		Usage: %s [OPTION]... [FILE]...\n	Print checksum and block counts for each FILE.\n	\n  -r              use BSD sum algorithm, use 1K blocks\n  -s, --sysv      use System V sum algorithm, use 512 bytes blocks\n	      --help     display this help and exit\n	      --version  output version information and exit\n	"Try '%s --help' for more information.\n"		0		7			
+sum@bsd_sum_file		r	%s	%s	%05d %5s	 %s	%s		-1	0	1	32768	65535		0	1	2		19		0		5			8		3		2		7		-1		20		4		-66280		728		17		-66232		1024		1		10		
+sum@sysv_sum_file		%s	%s	%s	%d %s	 %s		-1	0	1		0	1	2		19		0		5		7		-1		3		-73768		8192		8		17		-74424		512		1		20		4		-74488		8936		10		
+sum@main		coreutils	/usr/local/share/locale	coreutils	rs	sum	GNU coreutils	Kayvan Aghaiepour	David MacKenzie	%s		-131	-130	-1	0	1	8	114	115		8		-65552		56		6			0		1		0	1	2	3		sysv		7		-1		-130		1	2	3		-65608		-131		114		17		4		8	16		-65624		16		115		19		3		
+sum@close_stdout_set_file_name			
+sum@close_stdout_set_ignore_EPIPE			
+sum@close_stdout		write error	%s: %s	%s		0	1	32		8		-65552		24			19		0		1		17		4		-65576		20		7		32		
+sum@fdadvise			8		-65544		48		
+sum@fadvise		0		8		
+sum@group_number		-1	0	1	126	255		-1	0		19		0		-65624		5		8		126		-1		20		4		-65688		136		
+sum@default_block_size		POSIXLY_CORRECT		0	512	1024		20		0		1024		512		
+sum@humblock		BLOCK_SIZE	BLOCKSIZE	eEgGkKmMpPtTyYzZ0		0	1	4	32	39	66	105	128	256		0	1	4	132	388	420		0		8		5		39		4		1		huma		7		-65560		19		20		47		0	388	420		57		66		105		420		
+sum@human_options		0	4		8		-65544		48		20		0		4		
+sum@set_program_name		/.libs/	lt-		0	1	3	6	7		8		0			55		1		47		6		4		7		19		3		
+sum@clone_quoting_options		0		8		-65544		32		56		
+sum@get_quoting_style		0		8		
+sum@set_quoting_style		0		8		
+sum@set_char_quoting		0	4	5	8		8		0		19		
+sum@set_quoting_flags		0		8		
+sum@set_custom_quoting		0	10		8		0		10		
+sum@quoting_options_from_style		0	10		0		7		10		20		
+sum@gettext_quote		UTF-8	GB18030		0	9	96		8		-65544		32		19		0		5		96		7		9		
+sum@quotearg_buffer		0		8		-65624		4		-65656		32		
+sum@quotearg_alloc			8		-65544		32		0		
+sum@quotearg_alloc_mem		0	1		8		0		-65608		4		1		-65640		32		
+sum@quotearg_free		1	16	256		8		-65544		16		1	2	3	256		1		7		1	2	3		16	32		4			
+sum@quotearg_n_options		0	1	8	16	2147483646		8		-65544		80		7		0		1		-65624		1	256			5		16		4		-65656		32		
+sum@quotearg_n			8		-65544		16		-1		
+sum@quotearg_n_mem			8		-65544		32		
+sum@quotearg			8		-65544		16		0		
+sum@quotearg_mem			8		-65544		16		0		
+sum@quotearg_n_style			19		0		-65608		-1		20		
+sum@quotearg_n_style_mem			19		0		-65608		20		
+sum@quotearg_style			8		-65544		16		0		
+sum@quotearg_style_mem			8		-65544		32		0		
+sum@quotearg_char_mem			0		19		-65608		1		20		
+sum@quotearg_char			8		-65544		16		-1		
+sum@quotearg_colon			8		-65544		16		58		
+sum@quotearg_colon_mem			8		-65544		16		58		
+sum@quotearg_n_style_colon			19		0		-65688		-65608		1		58		-1		20		
+sum@quotearg_n_custom			8		-65544		32		-1		
+sum@quotearg_n_custom_mem			0		19		-65608		20		
+sum@quotearg_custom			8		-65544		32		0		
+sum@quotearg_custom_mem			8		-65544		32		0		
+sum@quote_n_mem			8		-65544		32		
+sum@quote_mem			8		-65544		16		0		
+sum@quote_n			8		-65544		16		-1		
+sum@quote			8		-65544		16		0		
+sum@safe_read		0	4	22	63	2146435072		8		-65544		48		0		7		4		22			
+sum@version_etc_arn		%s (%s) %s\n	%s %s\n	(C)	Copyright %s %d Free Software Foundation, Inc.	License GPLv3+: GNU GPL version 3 or later <%s>.\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n	Written by %s.\n	Written by %s and %s.\n	Written by %s, %s, and %s.\n	Written by %s, %s, %s,\nand %s.\n	Written by %s, %s, %s,\n%s, and %s.\n	Written by %s, %s, %s,\n%s, %s, and %s.\n	Written by %s, %s, %s,\n%s, %s, %s, and %s.\n	Written by %s, %s, %s,\n%s, %s, %s, %s,\nand %s.\n	Written by %s, %s, %s,\n%s, %s, %s, %s,\n%s, and %s.\n	Written by %s, %s, %s,\n%s, %s, %s, %s,\n%s, %s, and others.\n		0	4		8		0		2020		10		9		4		-65672		-65720		48		-65720	-65672		-65752	-65704		32		-65736	-65688		16		-65768	-65720		
+sum@version_etc_ar		0	1	3		8		-65544		64		0	1	2		0	8	16		20		0		0	1		
+sum@version_etc_va		0	1	3	8	9	47	96		0	1		19		0		8		9		7		47		-65640		4		20		
+sum@version_etc		0		17		-65720	-65528	32	48		19		-65752		20		
+sum@emit_bug_reporting_address		Report bugs to: %s\n	%s home page: <%s>\n	General help using GNU software: <%s>\n			10		0		
+sum@xnmalloc		0	1		0		48		1		20		17		52		
+sum@xnrealloc		0	1		0		48		1		20		17		52		
+sum@x2nrealloc		0	1	128		8		0		48		52		1		20		17		
+sum@xcharalloc			8		-65544		16		
+sum@xmalloc		0		8		-65544		32		
+sum@xrealloc		0		8		
+sum@x2realloc			8		-65544		16		1		
+sum@xzalloc			8		-65544		16		1		
+sum@xcalloc		0	1		0		48		1		20		17		8		
+sum@xmemdup			8		-65544		16		
+sum@xstrdup		1		8		-65544		16		
+sum@xalloc_die		memory exhausted	%s			0		1		
+sum@xset_binary_mode_error			
+sum@xset_binary_mode		0		8		-65544		16		19		
+sum@bkm_scale		-1	0	1		0		48		1		0	1		20		-1		52		
+sum@bkm_scale_by_power		0	1		8		-65544		32		0		19		
+sum@rpl_fclose		-1	0		8		-65544		32		7		0		19		1		-1		
+sum@rpl_fflush		0		8		19		
+sum@rpl_fseeko		-17	-1	0		8		20		0		-1		19		
+sum@rpl_mbrtowc		-3	0	1		-65564		0		8		-3		20		17		1		
+sum@__argmatch_die			1		
+sum@sub_4006a1f			
+sum@argmatch		-2	-1	0	1	3	8		8		-65544		64		-1	0	1	2		0	8	16		20		0		5		4		0	8		-1		19		-2		0	1		52		
+sum@argmatch_invalid		invalid argument %s for %s	ambiguous argument %s for %s		-1		8		1		0		4		-65608		56		
+sum@argmatch_valid		Valid arguments are:	, %s	\n  - %s		0	1	3	8		8		-65552		56		0	1			0	8		20		0		10		4		-65608		52		19		
+sum@__xargmatch_internal		-1	0	63		8		-65544		64		0		
+sum@argmatch_to_argument		0	1	3	8		8		-65544		48		0	1	2		0	8	16		20		0		52		0	1		19		0	8		4		
+sum@__gl_setmode		0		
+sum@set_binary_mode			8		-65544		
+sum@c_strcasecmp		0	1		8		0		4		-65592		32		5		
+sum@close_stream		0	1	9		8		-65544		32		20		0		19		5		17		-1		7		9		
+sum@hard_locale		C	POSIX	C	POSIX		0	1			19		0		-65816		257		20		1		
+sum@locale_charset		0		8		-65544		16		14		17		
+sum@setlocale_null_androidfix			8		-65544		32		0		
+sum@setlocale_null_unlocked		0	1	22		8		-65544		48		0		22		34		4		
+sum@setlocale_null_r			8		-65544		32		
+sum@setlocale_null			8		-65544		16		
+sum@c_isalnum		0	1	9	25	48	65	90	97		7		90		65		25		9		1		0		
+sum@c_isalpha		0	1	65	90		7		65		0		90		1		25		
+sum@c_isascii		0	1	127		7		127		1		0		
+sum@c_isblank		0	1	9	32		7		32		1		9		19		0	1		0		
+sum@c_iscntrl		0	1	31		19		0		7		31		1		127		
+sum@c_isdigit		0	1	9	48		7		9		1		0		
+sum@c_isgraph		0	1	33	93		7		93		1		0		
+sum@c_islower		0	1	25	97		7		25		1		0		
+sum@c_isprint		0	1	32	94		7		94		1		0		
+sum@c_ispunct		0	1	3	14	33	58	64	91	96	123		7		64		58		91		14		1		0		96		3		
+sum@c_isspace		0	1	9	13		7		9		0		13		1		32		
+sum@c_isupper		0	1	25	65		7		25		1		0		
+sum@c_isxdigit		0	1		7		54		4		0		
+sum@c_tolower		25	32	65		7		25		3		32		
+sum@c_toupper		25	32	97		7		25		32		
+sum@__libc_csu_init		0	1	8		-443987883		36		1		2		20		0		19		0	1	2		4		-65592		8		1	2		
+sum@__libc_csu_fini			
+sum@atexit			69246984		19		0		
+sum@_fini			4		-65544		8		

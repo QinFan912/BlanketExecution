@@ -1,0 +1,133 @@
+unexpand@_init	0	20	4	-65544	8	
+unexpand@sub_4011b0	
+unexpand@main	coreutils	/usr/local/share/locale	coreutils	,0123456789at:	unexpand	GNU coreutils	David MacKenzie	tab stop value is too large	input line is too long	write error	input line is too long	write error	-131	-130	-1	0	1	2	8	9	10	44	63	97	116	255	-1717986919	0	0	1	9	19	6	tabs	7	-1	17	63	0	1	1	48	-130	116	44	128	-131	97	20	8	5	4	-65640	56	-65609	-65608	10	9	
+unexpand@_start	-65528	20	-65536	0	
+unexpand@_dl_relocate_static_pie	
+unexpand@deregister_tm_clones	0	7	7	8	14	0	20	
+unexpand@register_tm_clones	0	36	20	
+unexpand@__do_global_dtors_aux	0	1	5	0	1	
+unexpand@frame_dummy	0	8	20	
+unexpand@usage	Usage: %s [OPTION]... [FILE]...
+	Convert blanks in each FILE to tabs, writing to standard output.
+	
+With no FILE, or when FILE is -, read standard input.
+	
+Mandatory arguments to long options are mandatory for short options too.
+	  -a, --all        convert all blanks, instead of just initial blanks
+      --first-only  convert only leading sequences of blanks (overrides -a)
+  -t, --tabs=N     have tabs N characters apart instead of 8 (enables -a)
+	      --help     display this help and exit
+	      --version  output version information and exit
+	
+%s online help: <%s>
+	
+%s online help: <%s>
+	en_	Full documentation <%s%s>
+	en_	en_	Report any translation bugs to <https://translationproject.org/team/>
+	en_	en_	en_	Full documentation <%s%s>
+	en_	en_	en_	en_	or available locally via: info '(coreutils) %s%s'
+	Try '%s --help' for more information.
+	0	1	9	16	5	0	19	1	-65688	-65672	6	7	8	9	6	7	8	101	110	117	0	91	99	117	20	-65672	3	8	
+unexpand@set_extend_size	'/' specifier only allowed with the last value	0	1	8	0	1	5	19	
+unexpand@set_increment_size	'+' specifier only allowed with the last value	0	1	8	0	1	5	19	
+unexpand@add_tab_stop	0	1	2	3	8	16	0	1	20	0	8	1	1	16	16	48	0	16	0	128	4	-65560	-1431655767	128	32	8	128	4	64	
+unexpand@parse_tab_stops	'/' specifier not at start of number: %s	'+' specifier not at start of number: %s	tab size contains invalid character(s): %s	0123456789	tab stop is too large %s	0	1	5	44	47	48	17	0	4	-65608	24	0	1	19	5	44	47	43	1	7	9	-1717986919	8	0	1	16	
+unexpand@finalize_tab_stops	tab sizes must be ascending	tab size cannot be 0	'/' specifier is mutually exclusive with '+'	'/' specifier is mutually exclusive with '+'	tab size cannot be 0	0	1	2	3	8	0	20	8	5	19	0	1	2	3	0	1	8	4	-65544	1	1	2	3	
+unexpand@get_next_tab_column	0	1	3	8	0	20	8	4	1	
+unexpand@set_file_list	0	20	-2132672467	
+unexpand@next_file	%s	-	%s	r	%s	0	1	2	8	32	20	0	1	8	16	-1	0	1	2	-1	0	1	5	0	45	226	341	17	19	1	2	3	3	2	4	-65576	24	8	
+unexpand@cleanup_file_list_stdin	-	0	5	8	-65536	19	4	-65544	1	
+unexpand@emit_tab_list_info	  -t, --tabs=LIST  use comma separated list of tab positions
+	                     The last specified position can be prefixed with '/'
+                     to specify a tab size to use after the last
+                     explicitly specified tab stop.  Also a prefix of '+'
+                     can be used to align remaining tab stops relative to
+                     the last specified tab stop instead of the first column
+	5	19	0	
+unexpand@close_stdout_set_file_name	
+unexpand@close_stdout_set_ignore_EPIPE	
+unexpand@close_stdout	write error	%s: %s	%s	0	8	-65552	19	5	4	-65560	1	20	7	32	
+unexpand@fdadvise	
+unexpand@fadvise	0	20	19	
+unexpand@set_program_name	0	1	3	4	6	7	20	0	55	1	47	8	6	4	5	6	7	4	5	6	5	46	47	108	1	2	3	1	2	108	116	
+unexpand@quoting_options_from_style	0	1	7	8	4	5	6	7	0	-65608	-65600	-65592	-65584	7	10	4	5	6	-65600	-65592	-65584	20	4	-65608	72	
+unexpand@quotearg_n_options	0	1	8	16	2147483647	8	-65584	40	19	0	7	1	4	-65624	256	32	
+unexpand@clone_quoting_options	0	20	56	
+unexpand@get_quoting_style	0	20	
+unexpand@set_quoting_style	0	20	
+unexpand@set_char_quoting	0	1	4	8	31	32	19	0	
+unexpand@set_quoting_flags	0	4	20	0	
+unexpand@set_custom_quoting	0	10	20	0	10	4	-65544	8	
+unexpand@quotearg_buffer	0	20	8	-65608	4	-65640	56	
+unexpand@quotearg_alloc_mem	0	1	19	0	4	-65672	32	8	-65640	20	56	
+unexpand@quotearg_alloc	19	0	
+unexpand@quotearg_free	1	2	16	24	256	1	7	8	-16	0	1	4	16	-72540024	./pr	-72540024	256	
+unexpand@quotearg_n	-1	
+unexpand@quotearg_n_mem	
+unexpand@quotearg	-1	19	0	
+unexpand@quotearg_mem	19	0	
+unexpand@quotearg_n_style	-65800	-65624	19	0	-1	20	4	72	
+unexpand@quotearg_n_style_mem	-65976	-65800	-65624	19	0	-65800	-65624	20	4	64	-1	
+unexpand@quotearg_style	19	0	-1	
+unexpand@quotearg_style_mem	19	0	
+unexpand@quotearg_char_mem	4	8	32	0	-65680	-65608	19	20	4	72	-65672	1	-1	
+unexpand@quotearg_char	-1	0	
+unexpand@quotearg_colon	58	-1	
+unexpand@quotearg_colon_mem	58	
+unexpand@quotearg_n_style_colon	-65688	19	0	-65624	-1	20	4	136	
+unexpand@quotearg_n_custom_mem	0	0	10	20	-65680	-65608	4	72	-1	
+unexpand@quotearg_n_custom	-1	
+unexpand@quotearg_custom	-1	19	0	
+unexpand@quotearg_custom_mem	19	0	
+unexpand@quote_n_mem	
+unexpand@quote_mem	19	0	
+unexpand@quote_n	-1	
+unexpand@quote	-1	19	0	
+unexpand@version_etc_arn	(C)	License GPLv3+: GNU GPL version 3 or later <%s>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+	Written by %s.
+	Written by %s and %s.
+	Written by %s, %s, and %s.
+	Written by %s, %s, %s,
+and %s.
+	Written by %s, %s, %s,
+%s, and %s.
+	Written by %s, %s, %s,
+%s, %s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+and %s.
+	0	5	8	9	20	0	1	19	5	2020	10	8	9	4	-65624	40	
+unexpand@version_etc_ar	0	1	3	0	1	2	3	8	0	1	2	3	
+unexpand@version_etc_va	0	1	8	47	0	1	2	19	0	7	47	20	-65640	1	2	8	10	4	104	
+unexpand@version_etc	0	17	-65720	-65528	32	48	19	-65752	-65720	20	4	216	
+unexpand@emit_bug_reporting_address	Report bugs to: %s
+	%s home page: <%s>
+	General help using GNU software: <%s>
+	8	-65536	10	5	19	0	1	4	-65544	
+unexpand@xmalloc	0	20	
+unexpand@xnmalloc	0	20	4	-65560	-65544	8	
+unexpand@xcharalloc	
+unexpand@xrealloc	0	20	19	
+unexpand@xnrealloc	0	20	4	-65552	-65544	8	
+unexpand@x2nrealloc	0	1	2	128	20	0	8	52	
+unexpand@x2realloc	0	1	2	128	SUUU	20	0	128	8	4	-65568	-65544	
+unexpand@xcalloc	0	20	4	-65552	-65544	8	
+unexpand@xzalloc	1	
+unexpand@xmemdup	8	-65552	4	-65560	
+unexpand@xstrdup	
+unexpand@xalloc_die	memory exhausted	%s	5	19	0	1	
+unexpand@xstrndup	0	8	-65536	20	4	-65544	
+unexpand@rpl_fclose	-1	0	19	0	1	8	-1	
+unexpand@rpl_fseeko	-17	-1	0	8	0	-1	19	
+unexpand@rpl_mbrtowc	-3	0	1	-65588	20	0	8	-3	4	-65592	24	19	17	1	
+unexpand@hard_locale	0	1	2	6	257	-65816	19	0	-1	0	1	2	-65816	-65815	-65814	-65813	-1	0	1	5	0	67	80	-65815	-65814	-65813	20	4	272	4	5	6	-65816	-65815	-65814	4	5	79	80	-65815	-65814	
+unexpand@setlocale_null_r	0	1	22	34	0	8	-65568	20	22	4	-65576	34	19	
+unexpand@setlocale_null	19	0	
+unexpand@__libc_csu_init	0	1	8	1618876607	36	1	2	20	0	19	0	1	2	4	-65592	8	1	2	
+unexpand@__libc_csu_fini	
+unexpand@atexit	0	19	
+unexpand@_fini	4	-65544	8	

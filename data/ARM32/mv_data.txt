@@ -1,0 +1,389 @@
+mv@_init	
+mv@_start	
+mv@sub_9e5c	-516948194	
+mv@call_weak_fn	1	0	2	
+mv@__do_global_dtors_aux	0	1	2	0	1	
+mv@frame_dummy	0	2	
+mv@emit_mandatory_arg_note	
+mv@emit_backup_suffix_note	
+mv@emit_ancillary_info	0	8	0	2	5	3	
+mv@rm_option_init	0	1	5	1	2	0	4	
+mv@cp_option_init	0	1	2	4	0	2	
+mv@target_directory_operand	0	1	2	16384	2	0	16384	1	4	
+mv@do_move	0	2	3	4	0	2	4	3	239	
+mv@movefile	0	2	
+mv@usage	0	2	1049092	
+mv@main	0	1	2	83	84	90	98	102	105	110	116	118	256	16384	-1	0	1	2	3	6	back	1	0	2	102	116	83	4	118	105	90	3	457	110	98	-100	16384	256	84	0	1	
+mv@dot_or_dotdot	0	1	2	46	47	2	46	0	0	1	1	47	
+mv@readdir_ignoring_dot_and_dotdot	0	1	2	0	
+mv@is_empty_dir	0	1	2	0	
+mv@cache_fstatat	-2	-1	0	4	31	48	96	-1	2	0	4	-1	0	-2	-2	-1	
+mv@cache_stat_init	-1	4	48	-1	
+mv@write_protected_non_symlink	-1	0	1	13	2	0	256	-1	0	-1	512	13	1	
+mv@nonexistent_file_errno	0	1	2	20	22	84	2	20	0	1	0	1	22	84	
+mv@ignorable_missing	0	1	2	0	1	
+mv@fts_skip_tree	4	
+mv@excise	0	1	2	4	13	17	20	21	30	39	2	0	0	512	512	30	2	4	4	39	1	13	21	20	17	
+mv@rm_fts	0	1	2	4	6	12	16	21	39	72	168	2	12	0	6	3	1	4	0	1	2	3	21	39	0	1	21	39	21	39	
+mv@rm	0	2	3	4	64	536	2	4	536	600	2	0	2	4	536	600	600	4	3	609	
+mv@dot_or_dotdot	0	1	2	46	47	2	46	0	0	1	1	47	
+mv@ptr_align	0	1	
+mv@extent_scan_free	0	
+mv@io_blksize	0	512	536870912	2	0	512	
+mv@ignorable_ctx_err	0	1	61	95	2	95	0	1	61	0	1	
+mv@restorecon	0	95	95	0	
+mv@defaultcon	-1	95	95	-1	
+mv@utimens_symlink	0	38	2	0	38	
+mv@punch_hole	0	38	0	3	2	38	
+mv@create_hole	0	1	1	4	0	2	
+mv@sparse_copy	0	1	4	31	0	1	0	5	2	1	4	2	5	-2147483648	
+mv@sub_d12f	
+mv@clone_file	
+mv@write_zeros	0	1	1024	0	2	1	5	4	0	1	-481099776	1024	
+mv@extent_copy	0	1	3	8	-1	0	1	0	2	4	1	0	1	3	5	
+mv@is_ancestor	0	1	8	16	96	2	0	0	1	1	
+mv@errno_unsupported	0	1	61	95	2	95	0	1	61	0	1	
+mv@copy_attr	1	
+mv@copy_dir	0	1	3	68	1	0	1	2	2	0	3	4	0	1	
+mv@set_author	
+mv@set_process_security_ctx	0	1	2	0	1	4	
+mv@set_file_security_ctx	0	1	2	0	1	4	
+mv@fchmod_or_lchmod	0	2	
+mv@is_probably_sparse	0	1	2	0	4	1	
+mv@same_file_ok	0	1	2	96	2	0	0	1	1	
+mv@writable_destination	0	1	2	0	1	
+mv@overwrite_ok	0	1	2	0	4	
+mv@dest_info_init	61	0	
+mv@src_info_init	61	0	
+mv@abandon_move	0	1	2	3	4	2	0	1780	1	3	0	1	4	
+mv@emit_verbose	0	4	1	2	10	
+mv@restore_default_fscreatecon_or_die	0	2	1	
+mv@create_hard_link	0	1	2	0	-1	0	1024	-100	1024	1	4	
+mv@should_dereference	0	1	3	4	2	4	0	1	3	0	1	
+mv@source_is_dst_backup	0	1	96	0	2	0	1	1	
+mv@valid_options	0	1	2	3	2	0	3	2986	1	2987	2988	2990	2989	2993	
+mv@copy	0	2	0	1	3011	
+mv@cp_options_default	-1	0	1	68	0	2	-1	
+mv@chown_failure_ok	0	1	22	2	1	0	0	1	22	
+mv@owner_failure_ok	0	1	22	2	1	0	0	1	22	
+mv@cached_umask	-1	1	0	
+mv@src_to_dest_hash	0	
+mv@src_to_dest_compare	0	1	8	2	0	0	1	1	
+mv@src_to_dest_free	
+mv@forget_created	0	2	
+mv@src_to_dest_lookup	0	2	
+mv@remember_copied	0	4	8	24	0	2	
+mv@hash_init	0	103	2	
+mv@forget_all	0	
+mv@extent_need_sync	1	
+mv@extent_scan_init	0	4	8	0	
+mv@extent_scan_read	0	1	3	4	8	16	71	72	4096	0	-1071618549	2	5	2	5	1	24	127	0	1	-1	142	72	-1	0	71	
+mv@sub_135f7	
+mv@samedir_template	0	9	256	2	256	0	9	
+mv@try_link	
+mv@force_linkat	-1	0	1	17	2	0	17	-1	0	6	-1	
+mv@try_symlink	
+mv@force_symlinkat	-1	0	1	17	2	0	17	-1	0	6	-1	
+mv@copy_acl	1	2	0	
+mv@set_acl	0	2	
+mv@areadlink_with_size	0	1	12	34	128	1024	8192	0	12	128	256	1024	1025	8192	1024	8192	2	0	1025	1025	8192	128	34	1	-1073741823	-2147483646	256	12	
+mv@set_simple_backup_suffix	0	2	
+mv@check_extension	-1	0	1	14	255	0	254	255	2	14	0	255	3	1	
+mv@numbered_backup	0	1	2	3	4	9	12	19	46	48	57	126	1	2	3	46	48	126	2	0	5	12	48	57	1	9	126	1	2	3	4	-1073741823	3	
+mv@backupfile_internal	-100	-1	0	1	2	3	8	9	12	17	0	2	8	-100	-1	0	1	9	12	1	3	-1	126	-100	-1	-100	12	17	
+mv@backup_file_rename	1	
+mv@find_backup_file_name	0	2	
+mv@get_version	0	2	2	0	4	none	
+mv@xget_version	0	2	
+mv@buffer_lcm	0	8192	2	0	8192	
+mv@close_stdin_set_file_name	
+mv@close_stdin	0	1	2	0	1	
+mv@close_stdout_set_file_name	
+mv@close_stdout_set_ignore_EPIPE	
+mv@close_stdout	0	1	32	2	0	1	32	
+mv@dir_name	0	2	
+mv@dir_len	0	1	47	0	2	47	0	1	1	
+mv@mdir_name	0	1	46	2	0	
+mv@last_component	0	1	47	0	2	47	1	
+mv@base_len	1	47	0	2	1	47	
+mv@fdadvise	
+mv@fadvise	0	2	
+mv@record_file	0	4	8	16	96	2	0	24	
+mv@seen_file	0	1	2	0	
+mv@file_type	0	48	4096	8192	16384	24576	2	5	0	2	16384	5	24576	8192	4096	
+mv@ftypelet	45	63	98	99	100	108	112	115	4096	8192	16384	24576	2	0	16384	45	24576	100	45	63	100	8192	98	99	4096	108	112	63	115	
+mv@filemodestring	
+mv@file_name_concat	0	2	
+mv@mfile_name_concat	0	1	46	47	2	0	47	0	46	
+mv@full_write	0	28	2	0	1	28	
+mv@hash_get_n_buckets	
+mv@hash_get_n_buckets_used	
+mv@hash_get_n_entries	
+mv@hash_get_max_bucket_length	0	1	8	2	0	1	1	2	
+mv@hash_table_ok	0	1	8	2	0	1	0	1	
+mv@hash_print_statistics	
+mv@hash_lookup	0	2	
+mv@hash_get_first	0	8	2	0	
+mv@hash_get_next	0	8	2	0	
+mv@hash_get_entries	0	1	2	8	2	0	
+mv@hash_do_for_each	0	1	8	2	0	
+mv@hash_string	0	1	5	0	2	
+mv@next_prime	0	1	2	9	10	2	9	0	11	1	
+mv@hash_reset_tuning	0	
+mv@raw_hasher	3	
+mv@compute_bucket_size	0	1	2	0	1	-536870911	
+mv@hash_initialize	0	1	3	2	0	40	8	
+mv@hash_clear	0	8	2	0	
+mv@hash_free	0	8	2	0	
+mv@allocate_entry	0	2	8	
+mv@free_entry	0	
+mv@hash_find_entry	0	2	
+mv@transfer_entries	0	1	8	2	0	1	0	1	
+mv@hash_insert_if_absent	-1	0	1	2	0	1	-1	
+mv@hash_insert	0	1	2	
+mv@hash_delete	0	1	1	2	0	
+mv@triple_hash	8	0	
+mv@triple_hash_no_name	8	0	
+mv@triple_compare	0	1	8	16	2	0	0	1	1	
+mv@triple_compare_ino_str	0	1	8	16	2	0	0	1	1	
+mv@triple_free	
+mv@opendirat	0	2304	2	0	
+mv@priv_set_remove_linkdir	-1	
+mv@priv_set_restore_linkdir	-1	
+mv@set_program_name	0	1	3	6	7	2	0	47	1	55	6	./pr	7	3	
+mv@qcopy_acl	-2	0	2	0	-2	
+mv@qset_acl	
+mv@clone_quoting_options	0	2	48	
+mv@get_quoting_style	0	2	
+mv@set_quoting_style	0	2	
+mv@set_char_quoting	0	1	2	5	8	31	32	255	2	0	
+mv@set_quoting_flags	0	2	
+mv@set_custom_quoting	0	10	2	0	10	
+mv@quoting_options_from_style	0	4	8	10	12	16	0	2	10	
+mv@gettext_quote	0	9	96	2	0	96	9	32112640	
+mv@quotearg_buffer	0	2	
+mv@quotearg_alloc	0	
+mv@quotearg_alloc_mem	0	1	2	0	
+mv@quotearg_free	1	3	4	256	1	1	2	3	256	1	2	3	2	0	0	8	
+mv@quotearg_n_options	0	1	3	268435454	2	0	1	1	256	
+mv@quotearg_n	-1	
+mv@quotearg_n_mem	
+mv@quotearg	0	
+mv@quotearg_mem	0	
+mv@quotearg_n_style	-1	
+mv@quotearg_n_style_mem	
+mv@quotearg_style	0	
+mv@quotearg_style_mem	0	
+mv@quotearg_char_mem	1	0	
+mv@quotearg_char	-1	
+mv@quotearg_colon	58	
+mv@quotearg_colon_mem	58	
+mv@quotearg_n_style_colon	58	1	-1	
+mv@quotearg_n_custom	-1	
+mv@quotearg_n_custom_mem	0	
+mv@quotearg_custom	0	
+mv@quotearg_custom_mem	0	
+mv@quote_n_mem	
+mv@quote_mem	0	
+mv@quote_n	-1	
+mv@quote	0	
+mv@errno_fail	-1	
+mv@renameatu	-2	-1	0	1	2	22	38	47	75	95	16384	-1	0	1	20	22	-1	2	0	22	38	95	17	75	1	16384	20	21	
+mv@get_root_dev_ino	0	4	8	2	0	
+mv@safe_write	0	4	22	2146435072	2	0	4	22	
+mv@same_name	-100	
+mv@same_nameat	0	1	256	2	0	0	1	1	256	
+mv@direntry_cmp_name	
+mv@direntry_cmp_inode	-1	0	1	8	2	0	-1	
+mv@streamsavedir	0	1	2	4	8	19	46	0	1	2	0	46	1	16	
+mv@savedir	0	2	
+mv@getcon	-1	95	95	-1	
+mv@freecon	
+mv@getfscreatecon	-1	95	95	-1	
+mv@setfscreatecon	-1	95	95	-1	
+mv@matchpathcon	-1	95	95	-1	
+mv@getfilecon	-1	95	95	-1	
+mv@lgetfilecon	-1	95	95	-1	
+mv@fgetfilecon	-1	95	95	-1	
+mv@setfilecon	-1	95	95	-1	
+mv@lsetfilecon	-1	95	95	-1	
+mv@fsetfilecon	-1	95	95	-1	
+mv@security_check_context	-1	95	95	-1	
+mv@security_check_context_raw	-1	95	95	-1	
+mv@setexeccon	-1	95	95	-1	
+mv@security_compute_create	-1	95	95	-1	
+mv@string_to_security_class	0	95	95	0	
+mv@matchpathcon_init_prefix	-1	95	95	-1	
+mv@get_stat_atime_ns	
+mv@get_stat_ctime_ns	
+mv@get_stat_mtime_ns	
+mv@get_stat_birthtime_ns	0	
+mv@get_stat_atime	72	
+mv@get_stat_ctime	88	
+mv@get_stat_mtime	80	
+mv@get_stat_birthtime	-1	
+mv@stat_time_normalize	
+mv@statat	0	
+mv@lstatat	256	
+mv@try_tempname_len	-1	0	1	17	22	-1	-1	0	1	2	17	22	2	0	22	0	1	2	61	17	
+mv@try_file	-196	194	384	
+mv@try_dir	448	
+mv@try_nocreate	-1	0	2	17	75	2	0	17	75	-1	-1	0	
+mv@gen_tempname_len	0	1	2	2	1	0	327	
+mv@gen_tempname	6	
+mv@try_tempname	6	
+mv@fd_safer	0	2	2	0	
+mv@dev_info_hash	0	
+mv@utimecmp	-100	
+mv@lutimensat	256	
+mv@validate_timespec	-1	0	1	8	22	999999999	1	-1073741823	0	-1073741822	2	22	-1	-1	1	2	0	1	1	2	
+mv@update_timespec	0	1	8	1	-1073741822	0	-1073741823	0	1	
+mv@fdutimens	-1	0	1	2	3	6	8	9	31	38	2	0	-1	0	1	9	38	-1	9	3	-100	1	-1073741822	38	8	
+mv@utimens	-1	
+mv@lutimens	-1	0	1	2	3	38	2	0	-1	0	1	38	-1	-100	256	3	1	-1073741822	38	8	
+mv@version_etc_arn	0	9	2	0	2020	10	9	
+mv@version_etc_ar	0	1	2	0	2	
+mv@version_etc_va	0	1	2	4	9	44	0	0	1	2	2	9	
+mv@version_etc	
+mv@emit_bug_reporting_address	10	
+mv@can_write_any_file	0	1	1	2	0	
+mv@xnmalloc	2	0	
+mv@xnrealloc	2	0	
+mv@x2nrealloc	0	1	2	0	64	
+mv@xcharalloc	
+mv@xmalloc	0	2	
+mv@xrealloc	0	2	
+mv@x2realloc	1	
+mv@xzalloc	1	
+mv@xcalloc	0	2	
+mv@xmemdup	
+mv@xstrdup	1	
+mv@xalloc_die	1	0	
+mv@xfts_open	0	22	512	2	0	22	41	
+mv@yesno	0	1	10	0	2	10	
+mv@rpl_fflush	0	2	
+mv@rpl_fseeko	-17	-1	0	4	80	2	0	-1	
+mv@AD_compare	0	1	8	2	0	0	1	1	
+mv@AD_hash	8	0	
+mv@setup_dir	0	1	2	0	32	31	1	
+mv@enter_dir	0	1	2	4	8	72	96	2	0	24	1	0	1	
+mv@leave_dir	0	4	8	16	72	96	168	2	0	2	5	5	
+mv@free_dir	0	2	
+mv@fd_ring_clear	0	1	2	0	
+mv@fts_set_stat_required	0	1	2	4	11	120	2	11	0	1	
+mv@fts_load	0	1	176	47	2	0	
+mv@dev_type_hash	0	
+mv@dirent_inode_sort_may_be_useful	-11317950	0	1	26985	16914836	26985	2	0	0	1	-11317950	1	
+mv@leaf_optimization	-11317950	0	1	2	26985	OAFS	BSFX	2	0	0	1	26985	-11317950	1	
+mv@rpl_fts_set	0	1	2	3	4	22	2	0	0	1	1	3	4	22	
+mv@fts_compare_ino	-1	0	1	168	2	0	-1	
+mv@set_stat_type	0	1	11	4096	8192	16384	24576	2	11	0	0	4096	8192	16384	24576	16384	24576	4096	8192	
+mv@fts_compar	
+mv@fts_sort	0	1	2	4	40	2	0	1	-1073741823	4	
+mv@fts_alloc	-16	0	3	176	192	2	0	0	3	
+mv@fts_lfree	0	2	
+mv@fts_palloc	0	1	36	256	2	0	0	36	1	0	1	36	
+mv@fts_maxarglen	0	1	4	0	2	1	
+mv@process_long_option	-1	0	1	2	16	45	58	61	63	-1	0	1	2	0	61	45	1	63	-1	0	1	10	
+mv@_getopt_initialize	0	1	2	43	45	2	0	0	1	2	45	43	1	
+mv@_getopt_internal_r	-1	0	1	2	43	45	58	59	63	87	2	0	0	58	63	-1	-1	63	45	58	43	1	63	59	87	58	63	
+mv@rpl_getopt_internal	4	0	1	0	
+mv@rpl_getopt	0	1	0	
+mv@rpl_getopt_long	0	
+mv@_getopt_long_r	0	
+mv@rpl_getopt_long_only	0	1	
+mv@_getopt_long_only_r	0	1	
+mv@lchmod	-1	0	2	95	2	0	4096	95	-1	
+mv@rpl_mbrtowc	-2	0	1	2	0	0	1	1	-2	-2	1	3	
+mv@free_permission_context	
+mv@get_permissions	0	1	0	
+mv@chmod_or_fchmod	1	0	
+mv@set_permissions	-1	0	1	1	2	0	-1	0	-1	
+mv@__argmatch_die	1	
+mv@sub_22f5c	
+mv@argmatch	-2	-1	0	1	2	-1	0	1	2	0	2	-1	-2	-1	0	-2	1	0	1	
+mv@argmatch_invalid	1	0	8	
+mv@argmatch_valid	0	1	2	0	2	0	1	10	
+mv@__xargmatch_internal	-1	0	2	0	
+mv@argmatch_to_argument	0	1	2	0	2	
+mv@rotl64	0	31	32	64	255	2	0	
+mv@rotr64	0	31	32	64	255	2	0	
+mv@rotl16	16	31	32	255	
+mv@rotr16	16	31	32	255	
+mv@rotl8	8	31	32	255	
+mv@rotr8	8	31	32	255	
+mv@c_strcasecmp	0	1	2	0	
+mv@close_stream	-1	0	1	9	2	0	-1	-1	0	9	
+mv@cycle_check_init	0	4	16	
+mv@cycle_check	0	1	4	8	16	96	9827862	2	5	0	5	60	1	2	0	1	
+mv@opendir_safer	0	2	2	0	1030	3	
+mv@gettime	0	
+mv@current_timespec	
+mv@hard_locale	0	1	257	2	0	1	
+mv@hash_pjw	0	1	9	23	0	2	
+mv@i_ring_init	0	1	2	3	0	1	2	0	2	3	0	1	
+mv@i_ring_empty	
+mv@i_ring_push	0	1	2	3	2	0	
+mv@i_ring_pop	0	1	2	3	2	0	1	
+mv@locale_charset	0	14	2	
+mv@randint_new	0	4	8	16	24	
+mv@randint_all_new	0	2	
+mv@randint_get_source	
+mv@shift_left	8	
+mv@randint_free	24	
+mv@randint_all_free	
+mv@randread_error	0	2	1	
+mv@simple_new	2076	
+mv@get_nonce	0	4	8	0	2	8	4	
+mv@randread_new	0	12	16	2048	2	0	1024	2048	
+mv@randread_set_handler	
+mv@randread_set_handler_arg	
+mv@readsource	0	1	1	2	0	
+mv@randread	0	12	2	0	
+mv@randread_free	0	2076	2	
+mv@just	-1	
+mv@ind	1020	
+mv@isaac_seed	0	1	2	3	4	5	6	7	8	9	10	11	16	255	0	0	8	16	2	255	7	15	
+mv@setlocale_null_androidfix	0	
+mv@setlocale_null_unlocked	0	1	22	34	2	0	22	0	22	34	34	
+mv@setlocale_null_r	
+mv@setlocale_null	
+mv@dup_safer	0	3	
+mv@explicit_bzero	0	
+mv@rpl_fclose	-1	0	-1	0	1	0	2	-1	
+mv@rpl_fcntl	0	1	3	4	8	10	11	1024	1026	1030	1031	1032	2	0	1030	10	1026	3	1024	8	1	1031	1032	11	4	
+mv@$a	0	
+mv@rpl_fcntl_DUPFD_CLOEXEC	-1	0	1	22	0	2	1030	1	-1	1	22	0	1	-1	
+mv@rpl_nl_langinfo	11	10200	2	11	0	
+mv@c_isalnum	0	1	9	25	65	90	96	97	194	2	90	0	25	65	0	1	1	9	
+mv@c_isalpha	0	1	65	90	2	65	0	0	1	90	1	25	
+mv@c_isascii	0	1	127	2	127	0	0	1	1	
+mv@c_isblank	0	1	9	32	2	32	0	1	9	0	1	
+mv@c_iscntrl	0	1	31	2	0	0	1	31	1	127	
+mv@c_isdigit	0	1	9	48	2	9	0	0	1	1	
+mv@c_isgraph	0	1	33	93	2	93	0	0	1	1	
+mv@c_islower	0	1	25	97	2	25	0	0	1	1	
+mv@c_isprint	0	1	32	94	2	94	0	0	1	1	
+mv@c_ispunct	0	1	3	14	58	64	66	91	96	246	2	64	0	91	58	0	1	96	1	14	3	
+mv@c_isspace	0	1	9	23	31	32	255	8388639	2	23	0	0	1	1	
+mv@c_isupper	0	1	25	65	2	25	0	0	1	1	
+mv@c_isxdigit	0	1	48	54	2	54	0	1	0	1	
+mv@c_tolower	25	32	65	2	25	0	
+mv@c_toupper	25	32	97	2	25	0	
+mv@fopen_safer	0	2	2	0	
+mv@__aeabi_uidivmod	2	0	
+mv@__aeabi_idiv	2	0	
+mv@__aeabi_idivmod	2	0	
+mv@__aeabi_uldivmod	0	2	
+mv@__aeabi_idiv0	8	
+mv@__gnu_ldivmod_helper	2	0	
+mv@__gnu_uldivmod_helper	2	0	
+mv@__libc_csu_init	0	1	4	-442564576	4	1	4	1	5	0	-442552304	1	2	3	2	1	2	
+mv@__libc_csu_fini	
+mv@atexit	1	0	2	
+mv@stat64	3	
+mv@fstat64	3	
+mv@lstat64	3	
+mv@fstatat64	3	
+mv@__mknod	1	
+mv@_fini	

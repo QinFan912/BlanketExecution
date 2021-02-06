@@ -1,0 +1,196 @@
+factor@_init	0	20	4	-65544	8	
+factor@sub_4001620	
+factor@_start	-65528	20	-65536	0	
+factor@deregister_tm_clones	0	8	20	
+factor@register_tm_clones	0	36	20	
+factor@__do_global_dtors_aux	0	1	5	0	8	69283848	1	
+factor@frame_dummy	
+factor@emit_ancillary_info	
+%s online help: <%s>
+	en_	Report any translation bugs to <https://translationproject.org/team/>
+	Full documentation <%s%s>
+	or available locally via: info '(coreutils) %s%s'
+	0	16	-65688	-65672	-65656	0	19	0	-65688	20	5	8	3	4	-65736	184	
+factor@mod2	0	1	63	8	0	419	0	1	7	
+factor@gcd_odd	0	1	2	63	20	0	8	36	4	1	
+factor@gcd2_odd	0	1	63	20	0	483	8	
+factor@factor_insert_multiplicity	0	1	3	8	16	224	7	1	0	8	3	4	
+factor@factor_insert_large	0	8	1	20	565	
+factor@factor_insert_refind	0	1	8	-65544	40	0	1	2	7	1	
+factor@factor_using_division	0	1	3	4	8	16	32	48	63	64	80	96	112	667	20	0	8	0	1	3	5	8	29	3	64	2	7	667	0	8	1	4	5	6	26	841	
+factor@mulredc	8	4	
+factor@mulredc2	0	20	999	1000	1001	8	16	
+factor@powm	0	1	20	0	8	
+factor@powm2	0	1	64	8	-65544	112	63	64	7	0	20	4	-65672	16	
+factor@millerrabin	0	1	8	-65544	80	1	1	2	3	7	0	
+factor@millerrabin2	0	1	1	2	19	0	-65592	8	1	20	7	4	
+factor@prime2_p	Lucas prime test failure.  This should not happen	0	1	2	3	24	63	64	128	667	0	1	2	3	6	62	63	64	126	127	128	0	8	20	3	64	1	127	128	126	127	2	16	-65928	-65896	-65864	-65880	17	-65816	7	0	1	667	5	-65848	4	-65832	-65824	63	64	62	63	6	36	52	
+factor@factor_using_pollard_rho2	0	1	2	63	64	128	0	1	2	64	126	127	128	0	8	1	127	128	126	127	20	16	2	-65768	12	-65776	32	0	1	52	17	-65800	-65792	-65784	
+factor@factor	0	1	0	20	8	1	-65552	17	
+factor@strto2uintmax	-1717986919	0	1	2	4	9	10	32	43	48	61	63	0	1	4	5	32	4	1	43	7	0	20	
+factor@lbuf_alloc	0	20	1024	
+factor@lbuf_flush	write error	%s	8	0	1	4	-65576	24	
+factor@lbuf_putc	-1	0	1	10	511	512	0	-511	-510	0	1	509	510	511	512	5	10	1	-1	7	-1	0	1	19	8	511	4	510	511	511	512	-511	-510	
+factor@lbuf_putint	1	20	48	1	2	48	19	0	-65576	8	20	1	2	0	1	
+factor@print_uintmaxes	-1600431533	0	1	2	9	11	64	1953125	999999999	1000000000	8	0	0	1	63	64	2460	7	63	64	9	
+factor@print_factors_single	0	1	2	8	0	1	2	19	0	58	-65816	7	0	1	20	10	32	4	2	
+factor@print_factors	%s is not a valid positive integer	%s is too large	-1	0	1	19	0	-65576	-65584	8	7	1	17	36	20	4	-65608	56	
+factor@usage	Usage: %s [NUMBER]...
+  or:  %s OPTION
+	Print the prime factors of each specified integer NUMBER.  If none
+are specified on the command line, read them from standard input.
+
+	      --help     display this help and exit
+	      --version  output version information and exit
+	Try '%s --help' for more information.
+	0	7	
+factor@do_stdin	
+	 	-1	0	1	1	19	0	-65576	3	8	-1	20	
+factor@main	coreutils	/usr/local/share/locale	coreutils	Niels Moller	Torbjorn Granlund	factor	GNU coreutils	Paul Rubin	-131	-130	-1	0	1	8	128	8	-65552	40	6	0	-deb	7	-1	1	-130	0	1	2	3	128	1	2	3	-131	19	8	16	4	17	-65608	16	
+factor@close_stdout_set_file_name	
+factor@close_stdout_set_ignore_EPIPE	
+factor@close_stdout	write error	%s: %s	%s	0	1	32	8	-65552	24	19	0	1	17	4	-65576	20	7	32	
+factor@full_write	-1	0	28	8	-65544	64	0	28	0	-1	
+factor@umaxtostr	-858993459	0	1	3	10	20	48	0	8	
+factor@set_program_name	/.libs/	lt-	0	1	3	6	7	8	0	55	1	47	6	4	7	19	3	
+factor@mbsstr_trimmed_wordbounded	0	1	2	8	0	1	19	0	2	17	8	20	1	4	-65688	-65684	5	-65624	-65620	
+factor@proper_name	%s (%s)	0	4	8	-65552	40	4	-65592	17	0	
+factor@proper_name_utf8	UTF-8	UTF-8	UTF-8	%s (%s)	0	4	11	8	-65552	120	0	19	4	11	17	-65672	63	20	
+factor@clone_quoting_options	0	8	-65544	32	56	
+factor@get_quoting_style	0	8	
+factor@set_quoting_style	0	8	
+factor@set_char_quoting	0	4	5	8	8	0	19	
+factor@set_quoting_flags	0	8	
+factor@set_custom_quoting	0	10	8	0	10	
+factor@quoting_options_from_style	0	10	0	7	10	20	
+factor@gettext_quote	UTF-8	GB18030	0	9	96	8	-65544	32	19	0	5	96	7	9	
+factor@quotearg_buffer	0	8	-65624	4	-65656	32	
+factor@quotearg_alloc	8	-65544	32	0	
+factor@quotearg_alloc_mem	0	1	8	0	-65608	4	1	-65640	32	
+factor@quotearg_free	1	16	256	8	-65544	16	1	2	3	256	1	7	1	2	3	16	32	4	0	
+factor@quotearg_n_options	0	1	8	16	2147483646	8	-65544	80	7	0	1	-65624	1	256	5	16	4	-65656	32	
+factor@quotearg_n	8	-65544	16	-1	
+factor@quotearg_n_mem	8	-65544	32	
+factor@quotearg	8	-65544	16	0	
+factor@quotearg_mem	8	-65544	16	0	
+factor@quotearg_n_style	19	0	-65608	-1	20	
+factor@quotearg_n_style_mem	19	0	-65608	20	
+factor@quotearg_style	8	-65544	16	0	
+factor@quotearg_style_mem	8	-65544	32	0	
+factor@quotearg_char_mem	0	19	-65608	1	20	
+factor@quotearg_char	8	-65544	16	-1	
+factor@quotearg_colon	8	-65544	16	58	
+factor@quotearg_colon_mem	8	-65544	16	58	
+factor@quotearg_n_style_colon	19	0	-65688	-65608	1	58	-1	20	
+factor@quotearg_n_custom	8	-65544	32	-1	
+factor@quotearg_n_custom_mem	0	19	-65608	20	
+factor@quotearg_custom	8	-65544	32	0	
+factor@quotearg_custom_mem	8	-65544	32	0	
+factor@quote_n_mem	8	-65544	32	
+factor@quote_mem	8	-65544	16	0	
+factor@quote_n	8	-65544	16	-1	
+factor@quote	8	-65544	16	0	
+factor@init_tokenbuffer	0	
+factor@get_nth_bit	0	1	3	6	63	20	0	
+factor@set_nth_bit	1	8	16	63	64	1	20	0	
+factor@readtoken	0	1	0	1	2	19	0	-65592	32	8	4	7	17	-1	-65616	1	20	
+factor@readtokens	-1	0	1	8	64	-65592	0	1	64	-65592	8	0	4	1	64	-1	-65648	20	-65704	152	
+factor@safe_write	0	4	22	63	2146435072	8	-65544	48	0	7	4	22	
+factor@trim2	0	1	2	8192	0	1	2	19	0	8	1	7	20	17	4	-65640	12	-65628	-65688	136	2	
+factor@version_etc_arn	%s (%s) %s
+	%s %s
+	(C)	Copyright %s %d Free Software Foundation, Inc.	License GPLv3+: GNU GPL version 3 or later <%s>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+	Written by %s.
+	Written by %s and %s.
+	Written by %s, %s, and %s.
+	Written by %s, %s, %s,
+and %s.
+	Written by %s, %s, %s,
+%s, and %s.
+	Written by %s, %s, %s,
+%s, %s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+%s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+%s, %s, and others.
+	0	4	8	0	2020	10	9	4	-65672	-65720	48	-65720	-65672	-65752	-65704	32	-65768	-65720	-65736	-65688	16	
+factor@version_etc_ar	0	1	3	8	-65544	64	0	1	2	0	8	16	20	0	0	1	
+factor@version_etc_va	0	1	3	8	9	47	96	0	1	19	0	8	9	7	47	-65640	4	20	
+factor@version_etc	0	17	-65720	-65528	32	48	19	-65752	20	
+factor@emit_bug_reporting_address	Report bugs to: %s
+	%s home page: <%s>
+	General help using GNU software: <%s>
+	10	0	
+factor@xnmalloc	0	1	0	48	1	20	17	52	
+factor@xnrealloc	0	1	0	48	1	20	17	52	
+factor@x2nrealloc	0	1	128	8	0	48	52	1	20	17	
+factor@xcharalloc	8	-65544	16	
+factor@xmalloc	0	8	-65544	32	
+factor@xrealloc	0	8	
+factor@x2realloc	8	-65544	16	1	
+factor@xzalloc	8	-65544	16	1	
+factor@xcalloc	0	1	0	48	1	20	17	8	
+factor@xmemdup	8	-65544	16	
+factor@xstrdup	1	8	-65544	16	
+factor@xalloc_die	memory exhausted	%s	0	1	
+factor@xmem_cd_iconv	0	12	8	-65544	64	7	0	12	
+factor@xstr_cd_iconv	0	12	8	-65544	32	0	7	12	
+factor@xstr_iconv	0	12	8	-65544	48	0	7	12	
+factor@rpl_mbrtowc	-3	0	1	-65564	0	8	-3	20	17	1	
+factor@c_strcasecmp	0	1	8	0	4	-65592	32	5	
+factor@close_stream	0	1	9	8	-65544	32	20	0	19	5	17	-1	7	9	
+factor@hard_locale	C	POSIX	C	POSIX	0	1	19	0	-65816	257	20	1	
+factor@locale_charset	0	8	-65544	16	14	17	
+factor@mbiter_multi_next	-2	-1	0	1	12	44	17	0	8	-1	4	12	0	1	-2	19	20	142	169	170	
+factor@mbiter_multi_reloc	4	
+factor@mbiter_multi_copy	0	12	24	17	0	4	12	8	24	
+factor@knuth_morris_pratt	0	1	2	3	8	4000	0	1	2	3	0	48	8	1	20	17	4000	16	32	4	2	3	5	2	
+factor@mbsstr	0	1	2	9	-1	0	1	2	19	0	8	1	17	4	-65880	-65876	20	5	0	1	9	0	5	-65816	-65812	-65752	-65748	-65968	7	-1	0	-65624	-65620	-65688	
+factor@mbuiter_multi_next	-2	-1	0	1	4	36	17	0	4	-65576	24	0	1	19	8	-1	150	-2	20	178	179	
+factor@mbuiter_multi_reloc	4	
+factor@mbuiter_multi_copy	0	4	16	17	0	4	8	16	
+factor@setlocale_null_androidfix	8	-65544	32	0	
+factor@setlocale_null_unlocked	0	1	22	8	-65544	48	0	22	34	4	
+factor@setlocale_null_r	8	-65544	32	
+factor@setlocale_null	8	-65544	16	
+factor@mem_cd_iconv	-1	0	7	12	22	-69656	0	12	4096	19	0	20	-69728	-69736	-69744	-69720	8	-1	7	22	
+factor@str_cd_iconv	-1	0	1	2	7	12	16	22	-1	0	12	19	0	8	4	1	-65672	-65680	-65688	-65664	20	-1	7	22	
+factor@str_iconv	-1	0	12	17	0	8	19	12	-1	
+factor@strnlen1	0	1	8	-65544	32	0	4	1	
+factor@rpl_fclose	-1	0	8	-65544	32	7	0	19	1	-1	
+factor@rpl_fflush	0	8	19	
+factor@rpl_fseeko	-17	-1	0	8	20	0	-1	19	
+factor@c_isalnum	0	1	9	25	48	65	90	97	7	90	65	25	9	1	0	
+factor@c_isalpha	0	1	65	90	7	65	0	90	1	25	
+factor@c_isascii	0	1	127	7	127	1	0	
+factor@c_isblank	0	1	9	32	7	32	1	9	19	0	1	0	
+factor@c_iscntrl	0	1	31	19	0	7	31	1	127	
+factor@c_isdigit	0	1	9	48	7	9	1	0	
+factor@c_isgraph	0	1	33	93	7	93	1	0	
+factor@c_islower	0	1	25	97	7	25	1	0	
+factor@c_isprint	0	1	32	94	7	94	1	0	
+factor@c_ispunct	0	1	3	14	33	58	64	91	96	123	7	64	58	91	14	1	0	96	3	
+factor@c_isspace	0	1	9	13	7	9	0	13	1	32	
+factor@c_isupper	0	1	25	65	7	25	1	0	
+factor@c_isxdigit	0	1	7	54	4	0	
+factor@c_tolower	25	32	65	7	25	3	32	
+factor@c_toupper	25	32	97	7	25	32	
+factor@mmalloca	-32	0	1	16	32	8	0	1	
+factor@freea	0	15	16	20	0	4	
+factor@mb_width_aux	0	8	-65544	32	7	19	
+factor@mb_copy	0	24	8	17	0	
+factor@is_basic	0	1	2	5	31	19	0	
+factor@mbslen	0	1	19	0	8	1	4	-65624	-65620	20	17	
+factor@__libc_csu_init	0	1	8	-443987883	36	1	2	20	0	19	0	1	2	4	-65592	8	1	2	
+factor@__libc_csu_fini	
+factor@atexit	69283848	19	0	
+factor@_fini	4	-65544	8	

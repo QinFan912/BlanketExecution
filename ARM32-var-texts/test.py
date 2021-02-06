@@ -6,16 +6,16 @@ from collections import defaultdict
 import angr
 from angr.analyses.decompiler.structured_codegen import CConstant, CExpression, CFunction, CDirtyExpression, CVariable, \
     CBinaryOp, CStatements, CUnsupportedStatement, CIfElse
-from angr.sim_variable import SimRegisterVariable, SimStackVariable
+from angr.sim_variable import SimRegisterVariable, SimStackVariable, SimVariable, SimConstantVariable
 
 
 def main(argv):
     base_addr = 0x4000000
 
-    file_name = "rm"
-    # file_path = "/home/qinfan/coreutils/coreutils-ARM32/src/" + file_name            # X86
+    file_name = "unexpand"
+    file_path = "/home/qinfan/coreutils/coreutils-ARM32/src/" + file_name            # X86
     # file_path = "/home/qinfan/coreutils/coreutils-X86/src/" + file_name            # X86
-    file_path = "/home/qinfan/coreutils/coreutils-MIPS32/src/" + file_name            # X86
+    # file_path = "/home/qinfan/coreutils/coreutils-MIPS32/src/" + file_name            # X86
 
     p = angr.Project(file_path, auto_load_libs=False,
                      load_options={
@@ -53,6 +53,10 @@ def main(argv):
 
         dec = p.analyses.Decompiler(func, cfg=cfg)
 
+        # try:
+        #     dec = p.analyses.Decompiler(func, cfg=cfg)
+        # except:
+        #     continue
         # # convert function blocks to AIL blocks
         # clinic = p.analyses.Clinic(func)
 
@@ -72,6 +76,9 @@ def main(argv):
         print(codegen.posmap)
         for k, v in codegen.posmap.items():
             print(k, v)
+        print("stmt_posmap " * 10)
+        for k, v in codegen.stmt_posmap.items():
+            print(k, v)
 
         # if dec.codegen is None:
         #     continue
@@ -81,13 +88,28 @@ def main(argv):
         var_dict = defaultdict(list)
 
         l = list()
-        for k, v in codegen.posmap.items():
+        for k, v in codegen.stmt_posmap.items():
+
+            if isinstance(v.obj, CVariable):
+                print("!!")
+                print(v.obj.variable)
+                print(v.obj.variable_type)
+                if isinstance(v.obj.variable, SimVariable):
+                    print("yes " * 50)
+                    print(v.obj.variable.name)
+                print("!!")
+
             if isinstance(v.obj, CConstant):
                 print(v.obj.value)
                 print(v.obj.reference_values)
+                print(v.obj.variable)
+                print(v.obj.tags)
+                print("@@@")
+
                 if v.obj.reference_values:
                     x = v.obj.reference_values
                     for i, j in x.items():
+                        print("!!"*666)
                         print(i)
                         print(type(j))
                         if not isinstance(j, int):

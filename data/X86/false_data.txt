@@ -1,0 +1,96 @@
+false@_init		0		20		4		-65544		8		
+false@sub_4001140			
+false@_start			-65528		20		-65536		0		
+false@deregister_tm_clones		0		8		20		
+false@register_tm_clones		0		36		20		
+false@__do_global_dtors_aux		0	1		5		0		8		69234696		1		
+false@frame_dummy			
+false@emit_ancillary_info		\n%s online help: <%s>\n	en_	Report any translation bugs to <https://translationproject.org/team/>\n	Full documentation <%s%s>\n	"or available locally via: info '(coreutils) %s%s'\n"		0	16		-65688	-65672	-65656	0		19		0		-65688		20		5		8		3			4		-65736		184		
+false@usage		Usage: %s [ignored command line arguments]\n  or:  %s OPTION\n	Exit with a status code indicating failure.	%s\n\n	      --help     display this help and exit\n	      --version  output version information and exit\n	"\nNOTE: your shell may have its own version of %s, which usually supersedes\nthe version described here.  Please refer to your shell's documentation\nfor details about the options it supports.\n"			8		-65560		16		0		
+false@main		coreutils	/usr/local/share/locale	coreutils	--help	--version	false	GNU coreutils	Jim Meyering		0	1	2		7		2		1		6		4		8		19		0			
+false@close_stdout_set_file_name			
+false@close_stdout_set_ignore_EPIPE			
+false@close_stdout		write error	%s: %s	%s		0	1	32		8		-65552		24			19		0		1		17		4		-65576		20		7		32		
+false@set_program_name		/.libs/	lt-		0	1	3	6	7		8		0			55		1		47		6		4		7		19		3		
+false@clone_quoting_options		0		8		-65544		32		56		
+false@get_quoting_style		0		8		
+false@set_quoting_style		0		8		
+false@set_char_quoting		0	4	5	8		8		0		19		
+false@set_quoting_flags		0		8		
+false@set_custom_quoting		0	10		8		0		10		
+false@quoting_options_from_style		0	10		0		7		10		20		
+false@gettext_quote		UTF-8	GB18030		0	9	96		8		-65544		32		19		0		5		96		7		9		
+false@quotearg_buffer		0		8		-65624		4		-65656		32		
+false@quotearg_alloc			8		-65544		32		0		
+false@quotearg_alloc_mem		0	1		8		0		-65608		4		1		-65640		32		
+false@quotearg_free		1	16	256		8		-65544		16		1	2	3	256		1		7		1	2	3		16	32		4		0		
+false@quotearg_n_options		0	1	8	16	2147483646		8		-65544		80		7		0		1		-65624		1	256			5		16		4		-65656		32		
+false@quotearg_n			8		-65544		16		-1		
+false@quotearg_n_mem			8		-65544		32		
+false@quotearg			8		-65544		16		0		
+false@quotearg_mem			8		-65544		16		0		
+false@quotearg_n_style			19		0		-65608		-1		20		
+false@quotearg_n_style_mem			19		0		-65608		20		
+false@quotearg_style			8		-65544		16		0		
+false@quotearg_style_mem			8		-65544		32		0		
+false@quotearg_char_mem			0		19		-65608		1		20		
+false@quotearg_char			8		-65544		16		-1		
+false@quotearg_colon			8		-65544		16		58		
+false@quotearg_colon_mem			8		-65544		16		58		
+false@quotearg_n_style_colon			19		0		-65688		-65608		1		58		-1		20		
+false@quotearg_n_custom			8		-65544		32		-1		
+false@quotearg_n_custom_mem			0		19		-65608		20		
+false@quotearg_custom			8		-65544		32		0		
+false@quotearg_custom_mem			8		-65544		32		0		
+false@quote_n_mem			8		-65544		32		
+false@quote_mem			8		-65544		16		0		
+false@quote_n			8		-65544		16		-1		
+false@quote			8		-65544		16		0		
+false@version_etc_arn		%s (%s) %s\n	%s %s\n	(C)	Copyright %s %d Free Software Foundation, Inc.	License GPLv3+: GNU GPL version 3 or later <%s>.\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n	Written by %s.\n	Written by %s and %s.\n	Written by %s, %s, and %s.\n	Written by %s, %s, %s,\nand %s.\n	Written by %s, %s, %s,\n%s, and %s.\n	Written by %s, %s, %s,\n%s, %s, and %s.\n	Written by %s, %s, %s,\n%s, %s, %s, and %s.\n	Written by %s, %s, %s,\n%s, %s, %s, %s,\nand %s.\n	Written by %s, %s, %s,\n%s, %s, %s, %s,\n%s, and %s.\n	Written by %s, %s, %s,\n%s, %s, %s, %s,\n%s, %s, and others.\n		0	4		8		0		2020		10		9		4		-65672		-65720		48		-65720	-65672		-65752	-65704		32		-65736	-65688		16		-65768	-65720		
+false@version_etc_ar		0	1	3		8		-65544		64		0	1	2		0	8	16		20		0		0	1		
+false@version_etc_va		0	1	3	8	9	47	96		0	1		19		0		8		9		7		47		-65640		4		20		
+false@version_etc		0		17		-65720	-65528	32	48		19		-65752		20		
+false@emit_bug_reporting_address		Report bugs to: %s\n	%s home page: <%s>\n	General help using GNU software: <%s>\n			10		0		
+false@xnmalloc		0	1		0		48		1		20		17		52		
+false@xnrealloc		0	1		0		48		1		20		17		52		
+false@x2nrealloc		0	1	128		8		0		48		52		1		20		17		
+false@xcharalloc			8		-65544		16		
+false@xmalloc		0		8		-65544		32		
+false@xrealloc		0		8		
+false@x2realloc			8		-65544		16		1		
+false@xzalloc			8		-65544		16		1		
+false@xcalloc		0	1		0		48		1		20		17		8		
+false@xmemdup			8		-65544		16		
+false@xstrdup		1		8		-65544		16		
+false@xalloc_die		memory exhausted	%s			0		1		
+false@rpl_mbrtowc		-3	0	1		-65564		0		8		-3		20		17		1		
+false@c_strcasecmp		0	1		8		0		4		-65592		32		5		
+false@close_stream		0	1	9		8		-65544		32		20		0		19		5		17		-1		7		9		
+false@hard_locale		C	POSIX	C	POSIX		0	1			19		0		-65816		257		20		1		
+false@locale_charset		0		8		-65544		16		14		17		
+false@setlocale_null_androidfix			8		-65544		32		0		
+false@setlocale_null_unlocked		0	1	22		8		-65544		48		0		22		34		4		
+false@setlocale_null_r			8		-65544		32		
+false@setlocale_null			8		-65544		16		
+false@rpl_fclose		-1	0		8		-65544		32		7		0		19		1		-1		
+false@rpl_fflush		0		8		19		
+false@rpl_fseeko		-17	-1	0		8		20		0		-1		19		
+false@c_isalnum		0	1	9	25	48	65	90	97		7		90		65		25		9		1		0		
+false@c_isalpha		0	1	65	90		7		65		0		90		1		25		
+false@c_isascii		0	1	127		7		127		1		0		
+false@c_isblank		0	1	9	32		7		32		1		9		19		0	1		0		
+false@c_iscntrl		0	1	31		19		0		7		31		1		127		
+false@c_isdigit		0	1	9	48		7		9		1		0		
+false@c_isgraph		0	1	33	93		7		93		1		0		
+false@c_islower		0	1	25	97		7		25		1		0		
+false@c_isprint		0	1	32	94		7		94		1		0		
+false@c_ispunct		0	1	3	14	33	58	64	91	96	123		7		64		58		91		14		1		0		96		3		
+false@c_isspace		0	1	9	13		7		9		0		13		1		32		
+false@c_isupper		0	1	25	65		7		25		1		0		
+false@c_isxdigit		0	1		7		54		4		0		
+false@c_tolower		25	32	65		7		25		3		32		
+false@c_toupper		25	32	97		7		25		32		
+false@__libc_csu_init		0	1	8		-443987883		36		1		2		20		0		19		0	1	2		4		-65592		8		1	2		
+false@__libc_csu_fini			
+false@atexit			69234696		19		0		
+false@_fini			4		-65544		8		

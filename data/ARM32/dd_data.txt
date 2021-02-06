@@ -1,0 +1,132 @@
+dd@_init	
+dd@_start	
+dd@sub_9474	-516948194	
+dd@call_weak_fn	1	0	2	
+dd@__do_global_dtors_aux	2	0	1	
+dd@frame_dummy	0	2	
+dd@to_uchar	
+dd@select_plural	-1	0	2	
+dd@$d	
+dd@ptr_align	
+dd@emit_ancillary_info	
+%s online help: <%s>
+	en_	Report any translation bugs to <https://translationproject.org/team/>
+	Full documentation <%s%s>
+	or available locally via: info '(coreutils) %s%s'
+	or available locally via: info '(coreutils) %s%s'
+	0	2	5	3	
+dd@usable_st_size	2	0	1	0	1	
+dd@maybe_close_stdout	0	1	2	
+dd@nl_error	0	2	10	
+dd@usage	Usage: %s [OPERAND]...
+  or:  %s OPTION
+	Copy a file, converting and formatting according to the operands.
+
+  bs=BYTES        read and write up to BYTES bytes at a time (default: 512);
+                  overrides ibs and obs
+  cbs=BYTES       convert BYTES bytes at a time
+  conv=CONVS      convert the file as per the comma separated symbol list
+  count=N         copy only N input blocks
+  ibs=BYTES       read up to BYTES bytes at a time (default: 512)
+	  if=FILE         read from FILE instead of stdin
+  iflag=FLAGS     read as per the comma separated symbol list
+  obs=BYTES       write BYTES bytes at a time (default: 512)
+  of=FILE         write to FILE instead of stdout
+  oflag=FLAGS     write as per the comma separated symbol list
+  seek=N          skip N obs-sized blocks at start of output
+  skip=N          skip N ibs-sized blocks at start of input
+  status=LEVEL    The LEVEL of information to print to stderr;
+                  'none' suppresses everything but error messages,
+                  'noxfer' suppresses the final transfer statistics,
+                  'progress' shows periodic transfer statistics
+	
+N and BYTES may be followed by the following multiplicative suffixes:
+c=1, w=2, b=512, kB=1000, K=1024, MB=1000*1000, M=1024*1024, xM=M,
+GB=1000*1000*1000, G=1024*1024*1024, and so on for T, P, E, Z, Y.
+Binary prefixes can be used, too: KiB=K, MiB=M, and so on.
+
+Each CONV symbol may be:
+
+	  ascii     from EBCDIC to ASCII
+  ebcdic    from ASCII to EBCDIC
+  ibm       from ASCII to alternate EBCDIC
+  block     pad newline-terminated records with spaces to cbs-size
+  unblock   replace trailing spaces in cbs-size records with newline
+  lcase     change upper case to lower case
+  ucase     change lower case to upper case
+  sparse    try to seek rather than write all-NUL output blocks
+  swab      swap every pair of input bytes
+  sync      pad every input block with NULs to ibs-size; when used
+            with block or unblock, pad with spaces rather than NULs
+	  excl      fail if the output file already exists
+  nocreat   do not create the output file
+  notrunc   do not truncate the output file
+  noerror   continue after read errors
+  fdatasync  physically write output file data before finishing
+  fsync     likewise, but also write metadata
+	
+Each FLAG symbol may be:
+
+  append    append mode (makes sense only for output; conv=notrunc suggested)
+	  direct    use direct I/O for data
+	  directory  fail unless a directory
+	  dsync     use synchronized I/O for data
+	  sync      likewise, but also for metadata
+	  fullblock  accumulate full blocks of input (iflag only)
+	  nonblock  use non-blocking I/O
+	  noatime   do not update access time
+	  nocache   Request to drop cache.  See also oflag=sync
+	  noctty    do not assign controlling terminal from file
+	  count_bytes  treat 'count=N' as a byte count (iflag only)
+	  skip_bytes  treat 'skip=N' as a byte count (iflag only)
+	  seek_bytes  treat 'seek=N' as a byte count (oflag only)
+	
+Sending a %s signal to a running 'dd' process makes it
+print I/O statistics to standard error and then resume copying.
+
+Options are:
+
+	      --help     display this help and exit
+	      --version  output version information and exit
+	Try '%s --help' for more information.
+	Try '%s --help' for more information.
+	0	2	1048916	
+dd@alloc_ibuf	memory exhausted by input buffer of size %llu bytes (%s)	0	2	4	3	0	1	497	1	
+dd@translate_charset	255	0	0	1	2	2	1	
+dd@print_xfer_stats	Infinity	%s B/s	%llu bytes (%s) copied, %s, %s	%llu bytes (%s) copied, %s, %s	%llu bytes (%s, %s) copied, %s, %s	%llu bytes (%s, %s) copied, %s, %s	%llu byte copied, %s, %s	%llu bytes copied, %s, %s	%llu byte copied, %s, %s	%*s	0	465	497	654	5	0	0	1	654	1	465	497	4	654	2	13	3	24	10	
+dd@sub_a51c	
+dd@print_stats	%llu+%llu records in
+%llu+%llu records out
+	%llu+%llu records in
+%llu+%llu records out
+	%llu truncated record
+	%llu truncated records
+	%llu truncated record
+	0	1	2	3	2	1	0	2	5	10	5	
+dd@interrupt_handler	
+dd@siginfo_handler	1	
+dd@install_signal_handlers	POSIXLY_CORRECT	2	0	10	1	128	-1073741824	0	
+dd@iclose	0	1	4	9	2	0	-1	0	4	-1	9	
+dd@cleanup	closing input file %s	closing output file %s	0	1	0	2	1	4	
+dd@process_signals	0	2	-1	0	
+dd@finish_up	
+dd@quit	
+dd@cache_round	0	2	5	5	2	
+dd@sub_ab7b	
+dd@invalidate_cache	0	-2	-1	0	1	4	29	2	5	1	-2	-1	4	5	-2	-1	0	-1	0	29	-2	0	
+dd@iread_fullblock	0	2	
+dd@write_output	writing to %s	0	1	2	4	
+dd@ifdatasync	0	4	2	0	4	
+dd@ifd_reopen	0	4	2	0	4	
+dd@ifstat	0	4	2	0	4	
+dd@ifsync	0	4	2	0	4	
+dd@iftruncate	0	4	2	0	4	
+dd@operand_matches	0	2	1	0	1	
+dd@parse_symbols	1	0	44	2	8	
+dd@parse_integer	0x	warning: %s is a zero multiplier; use %s if that is intended	0x	00x	0	1	2	120	10	2	0	2	5	120	5	1	
+dd@operand_is	61	
+dd@translate_buffer	0	2	
+dd@swab_buffer	0	2	0	1	
+dd@advance_input_offset	2	0	1	
+dd@skip_via_lseek	warning: working around lseek kernel bug for file (%s)
+  of mt_type=0x%0lx -- see <sys/mtio.h> for the list of types	-2145620734	2	0	-2145620734	-1	0	4	-2145620734	-1	3	1	-1	

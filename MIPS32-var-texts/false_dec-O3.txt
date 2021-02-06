@@ -1,0 +1,348 @@
+_init:
+{'constant': [0, 123128]}
+sub_401000:
+{'constant': []}
+sub_401024:
+{'constant': []}
+_ftext:
+{'string': ['/usr/local/share/locale', '--help', '--version'], 'constant': [0, 1, 2], 'ir_2': [1], 'ir_4': [], 'ir_17': [6]}
+__start:
+{'constant': []}
+sub_40118c:
+{'constant': [-8, 16, 20, 24, 32], 'ir_0': [], 'ir_6': [-8]}
+hlt:
+{'constant': []}
+deregister_tm_clones:
+{'constant': [0, 1, 3904], 'ir_4': [1], 'ir_6': []}
+register_tm_clones:
+{'constant': [0, 3904], 'ir_4': [0], 'ir_9': []}
+__do_global_dtors_aux:
+{'constant': [0, 1, 2, 4, 28616, 29232, 29236], 'ir_1': [], 'ir_6': [0], 'ir_16': [1], 'ir_20': [4, 8], 'ir_24': [2, 3]}
+frame_dummy:
+{'constant': [0, 3904], 'ir_2': [0], 'ir_3': []}
+emit_ancillary_info.constprop.0:
+{'string': ['false', '\n%s online help: <%s>\n', 'en_', '\n%s online help: <%s>\n', 'en_', 'Full documentation <%s%s>\n', "or available locally via: info '(coreutils) %s%s'\n", 'Report any translation bugs to <https://translationproject.org/team/>\n', 'Full documentation <%s%s>\n', "or available locally via: info '(coreutils) %s%s'\n"], 'constant': [0, 8, 16, 23908], 'ir_0': [], 'ir_7': ['sha2', 'sha3'], 'ir_24': [0], 'ir_50': [5], 'ir_59': [1], 'ir_71': [3]}
+usage:
+{'string': ['Usage: %s [ignored command line arguments]\n  or:  %s OPTION\n', 'Exit with a status code indicating failure.', '      --help     display this help and exit\n', '      --version  output version information and exit\n', "\nNOTE: your shell may have its own version of %s, which usually supersedes\nthe version described here.  Please refer to your shell's documentation\nfor details about the options it supports.\n"], 'constant': [], 'ir_4': [5], 'ir_13': [0], 'ir_14': [1]}
+close_stdout_set_file_name:
+{'constant': []}
+close_stdout_set_ignore_EPIPE:
+{'constant': []}
+close_stdout:
+{'string': ['%s: %s', '%s'], 'constant': [0, 32, 24740], 'ir_0': [], 'ir_10': [0], 'ir_29': [5], 'ir_71': [1], 'ir_15': [32]}
+set_program_name:
+{'string': ['lt-'], 'constant': [0, 1, 4, 6, 7, 24816], 'ir_0': [], 'ir_58': [55], 'ir_59': [1], 'ir_8': [47], 'ir_22': [7], 'ir_33': [3]}
+quoting_options_from_style:
+{'constant': [0, 10], 'ir_0': [10], 'ir_5': []}
+strcaseeq9:
+{'constant': [1], 'ir_0': []}
+strcaseeq8:
+{'constant': [0, 1, 223], 'ir_0': [], 'ir_31': [0], 'ir_41': [1]}
+strcaseeq7:
+{'constant': [0, 1, 223], 'ir_0': [], 'ir_34': [0], 'ir_47': [1]}
+strcaseeq6:
+{'constant': [0, 1, 223], 'ir_0': [], 'ir_36': [0], 'ir_52': [1]}
+strcaseeq5:
+{'constant': [0, 1, 223], 'ir_0': [], 'ir_38': [0], 'ir_56': [1]}
+strcaseeq4:
+{'constant': [0, 1, 223], 'ir_0': [], 'ir_40': [0], 'ir_60': [1]}
+strcaseeq3:
+{'constant': [0, 1, 223], 'ir_0': [], 'ir_41': [0], 'ir_61': [1]}
+strcaseeq2:
+{'constant': [0, 1, 223], 'ir_0': [], 'ir_42': [0], 'ir_62': [1]}
+strcaseeq1:
+{'constant': [0, 1, 223], 'ir_0': [], 'ir_43': [0], 'ir_63': [1]}
+strcaseeq0.constprop.0:
+{'constant': [0, 1, 223], 'ir_0': [], 'ir_41': [0], 'ir_63': [1]}
+gettext_quote:
+{'constant': [0, 9, 96], 'ir_0': [], 'ir_3': [5], 'ir_8': [0], 'ir_21': [56], 'ir_25': [84], 'ir_26': [85], 'ir_27': [70], 'ir_31': [48], 'ir_47': [51], 'ir_49': [66], 'ir_50': [49], 'ir_51': [71], 'ir_33': [96], 'ir_55': [9]}
+quotearg_buffer_restyled:
+{'constant': [0, 1, 11, 30, 31], 'ir_36': [], 'ir_44': [0], 'ir_80': [1], 'ir_87': [47141], 'ir_211': [0, 1], 'ir_212': [2], 'ir_206': [5], 'ir_102': [10], 'ir_127': [0, 1, 2], 'ir_539': [-1885208448], 'ir_132': [1, 2], 'ir_269': [341836449], 'ir_552': [-1], 'ir_1423': [4], 'ir_1446': [2, 4], 'ir_397': [97], 'ir_519': [110], 'ir_517': [118], 'ir_416': [116], 'ir_279': [114], 'ir_277': [98], 'ir_408': [102], 'ir_1500': [39], 'ir_978': [92], 'ir_981': [36], 'ir_157': [1, 3, 4], 'ir_379': [3], 'ir_288': [63], 'ir_488': [48], 'ir_581': [-2], 'ir_1347': [0, 39], 'ir_265': [268500522], 'ir_762': [1, 2, 3], 'ir_597': [41988133], 'ir_309': [34]}
+sub_4029fc:
+{'constant': []}
+sub_402dc0:
+{'constant': [], 'ir_0': [0]}
+sub_402dd0:
+{'constant': [], 'ir_0': [-1], 'ir_1': [0]}
+sub_402df8:
+{'constant': [], 'ir_0': [2], 'ir_2': [0]}
+sub_402e34:
+{'constant': [], 'ir_0': [2], 'ir_1': [0]}
+sub_402e54:
+{'constant': [], 'ir_0': [2], 'ir_1': [0]}
+sub_402ec4:
+{'constant': [], 'ir_0': [1], 'ir_1': [0]}
+sub_402ed8:
+{'constant': [], 'ir_0': [0]}
+sub_402ee8:
+{'constant': []}
+sub_402ef0:
+{'constant': [], 'ir_0': [0]}
+sub_402efc:
+{'constant': [], 'ir_0': [102]}
+sub_402f08:
+{'constant': [], 'ir_0': [118]}
+sub_402f14:
+{'constant': [], 'ir_0': [110]}
+sub_402f20:
+{'constant': [], 'ir_0': [116]}
+sub_402f28:
+{'constant': [], 'ir_0': [0]}
+sub_402f30:
+{'constant': [], 'ir_1': [0]}
+sub_403434:
+{'constant': [], 'ir_0': [1]}
+sub_40343c:
+{'constant': [], 'ir_1': [1]}
+sub_403448:
+{'constant': [], 'ir_0': [1]}
+sub_403450:
+{'constant': [], 'ir_0': [1]}
+quotearg_n_options:
+{'constant': [-2147483648, 0, 1, 3, 28832, 28848, 65535, 268369920], 'ir_0': [], 'ir_42': [0], 'ir_49': [256]}
+clone_quoting_options:
+{'constant': [0], 'ir_0': [], 'ir_20': [48]}
+get_quoting_style:
+{'constant': [0]}
+set_quoting_style:
+{'constant': [0]}
+set_char_quoting:
+{'constant': [0, 1, 2, 5, 8, 31, 255]}
+set_quoting_flags:
+{'constant': [0]}
+set_custom_quoting:
+{'constant': [0, 10, 40, 44], 'ir_0': [], 'ir_7': [10]}
+quotearg_buffer:
+{'constant': [0], 'ir_0': []}
+quotearg_alloc_mem:
+{'constant': [0], 'ir_0': []}
+quotearg_alloc:
+{'constant': [], 'ir_2': [0]}
+quotearg_free:
+{'constant': [1, 2, 8, 12, 256, 28832, 28848], 'ir_2': [], 'ir_11': [1], 'ir_15': [2, 3, 4], 'ir_18': [0], 'ir_14': [604110850], 'ir_36': [256]}
+quotearg_n:
+{'constant': [], 'ir_1': [-1]}
+quotearg_n_mem:
+{'constant': []}
+quotearg:
+{'constant': [], 'ir_2': [0]}
+quotearg_mem:
+{'constant': [], 'ir_4': [0]}
+quotearg_n_style:
+{'constant': [], 'ir_14': [0], 'ir_16': [-1]}
+quotearg_n_style_mem:
+{'constant': [], 'ir_17': [0], 'ir_11': [-1]}
+quotearg_style:
+{'constant': [], 'ir_4': [0], 'ir_1': [-1]}
+quotearg_style_mem:
+{'constant': [], 'ir_6': [0]}
+quotearg_char_mem:
+{'constant': [16], 'ir_0': [], 'ir_17': [0], 'ir_27': [1], 'ir_12': [-1]}
+quotearg_char:
+{'constant': [], 'ir_2': [-1]}
+quotearg_colon:
+{'constant': [], 'ir_0': [58]}
+quotearg_colon_mem:
+{'constant': [], 'ir_0': [58]}
+quotearg_n_style_colon:
+{'constant': [16], 'ir_0': [], 'ir_16': [0], 'ir_30': [1], 'ir_31': [58], 'ir_34': [-1]}
+quotearg_n_custom_mem:
+{'constant': [16], 'ir_0': [], 'ir_18': [0]}
+quotearg_n_custom:
+{'constant': [], 'ir_0': [-1]}
+quotearg_custom:
+{'constant': [], 'ir_6': [0]}
+quotearg_custom_mem:
+{'constant': [], 'ir_9': [0]}
+quote_n_mem:
+{'constant': []}
+quote_mem:
+{'constant': [], 'ir_4': [0]}
+quote_n:
+{'constant': [], 'ir_0': [-1]}
+quote:
+{'constant': [], 'ir_2': [0]}
+version_etc_arn:
+{'string': ['(C)', 'License GPLv3+: GNU GPL version 3 or later <%s>.\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n', 'Written by %s, %s, %s,\nand %s.\n', 'Written by %s, %s, %s,\n%s, %s, %s, %s,\nand %s.\n', 'Written by %s, %s, %s,\n%s, %s, %s, and %s.\n', 'Written by %s, %s, %s,\n%s, and %s.\n', 'Written by %s, %s, %s,\n%s, %s, and %s.\n', 'Written by %s, %s, and %s.\n', 'Written by %s and %s.\n', 'Written by %s.\n'], 'constant': [0, 2, 5, 10], 'ir_0': [], 'ir_24': [1], 'ir_38': [5], 'ir_41': [0], 'ir_42': [2020], 'ir_50': [10]}
+version_etc_ar:
+{'constant': [0, 1, 4], 'ir_4': [1, 2, 3]}
+version_etc_va:
+{'constant': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 'ir_0': [], 'ir_7': [0], 'ir_30': [1], 'ir_29': [2], 'ir_28': [3], 'ir_27': [4], 'ir_26': [5], 'ir_25': [6], 'ir_24': [7], 'ir_20': [8], 'ir_17': [9]}
+version_etc:
+{'constant': [], 'ir_6': [0]}
+emit_bug_reporting_address:
+{'string': ['Report bugs to: %s\n', '%s home page: <%s>\n', 'General help using GNU software: <%s>\n'], 'constant': [], 'ir_2': [10], 'ir_10': [5], 'ir_14': [0], 'ir_17': [1]}
+xmalloc:
+{'constant': [0], 'ir_0': []}
+xnmalloc:
+{'constant': [-2147483648, 0], 'ir_6': []}
+xcharalloc:
+{'constant': []}
+xrealloc:
+{'constant': [0], 'ir_0': []}
+xnrealloc:
+{'constant': [-2147483648, 0], 'ir_6': []}
+x2nrealloc:
+{'constant': [-2147483648, 0, 1, 64], 'ir_0': [], 'ir_25': [64], 'ir_10': [0]}
+x2realloc:
+{'constant': [], 'ir_0': [1]}
+xcalloc:
+{'constant': [-2147483648, 0], 'ir_6': []}
+xzalloc:
+{'constant': [], 'ir_0': [1]}
+xmemdup:
+{'constant': []}
+xstrdup:
+{'constant': []}
+xalloc_die:
+{'string': ['memory exhausted', '%s'], 'constant': [], 'ir_3': [5], 'ir_7': [0], 'ir_10': [1]}
+rpl_mbrtowc:
+{'constant': [-2, 0, 1], 'ir_0': [], 'ir_8': [0], 'ir_18': [1], 'ir_11': [-2]}
+c_isalnum:
+{'constant': [0, 1, 10, 26, 48, 65, 91, 97], 'ir_12': [0], 'ir_10': [1]}
+c_isalpha:
+{'constant': [0, 1, 26, 65, 91, 97], 'ir_9': [0], 'ir_11': [1]}
+c_isascii:
+{'constant': [128]}
+c_isblank:
+{'constant': [1, 9, 32], 'ir_0': [32], 'ir_6': [1]}
+c_iscntrl:
+{'constant': [-2147483648, 0, 1, 32], 'ir_5': [0], 'ir_7': [1], 'ir_2': [127]}
+c_isdigit:
+{'constant': [10, 48]}
+c_isgraph:
+{'constant': [33, 94]}
+c_islower:
+{'constant': [26, 97]}
+c_isprint:
+{'constant': [32, 95]}
+c_ispunct:
+{'constant': [0, 1, 4, 15, 33, 58, 65, 91, 97, 123], 'ir_16': [0], 'ir_14': [1]}
+c_isspace:
+{'constant': [0, 1, 9, 24, 31], 'ir_11': [0]}
+c_isupper:
+{'constant': [26, 65]}
+c_isxdigit:
+{'constant': [0, 1, 2, 48, 55], 'ir_11': [0]}
+c_tolower:
+{'constant': [0, 26, 32, 65]}
+c_toupper:
+{'constant': [0, 26, 32, 97]}
+c_strcasecmp:
+{'constant': [0, 1, 255, 3904], 'ir_2': [], 'ir_43': [0]}
+close_stream:
+{'constant': [-1, 0, 9], 'ir_0': [], 'ir_36': [-1]}
+hard_locale:
+{'string': ['POSIX'], 'constant': [0], 'ir_0': [], 'ir_3': [257]}
+locale_charset:
+{'constant': [0], 'ir_0': [], 'ir_5': [14]}
+setlocale_null_androidfix:
+{'constant': [], 'ir_3': [0]}
+setlocale_null_unlocked:
+{'constant': [0, 1, 22, 34], 'ir_0': [], 'ir_47': [22], 'ir_19': [34], 'ir_37': [0]}
+setlocale_null_r:
+{'constant': []}
+setlocale_null:
+{'constant': []}
+rpl_fclose:
+{'constant': [-2147483648, -1, 0], 'ir_0': [], 'ir_18': [0], 'ir_21': [1], 'ir_25': [-1]}
+rpl_fflush:
+{'constant': [0], 'ir_0': []}
+rpl_fseeko:
+{'constant': [-17, -1, 0], 'ir_0': [], 'ir_33': [-1], 'ir_36': [0]}
+__libc_csu_init:
+{'constant': [0, 1, 4, 104336], 'ir_24': [0, 1], 'ir_26': [1]}
+__libc_csu_fini:
+{'constant': []}
+atexit:
+{'constant': [], 'ir_5': [0]}
+__do_global_ctors_aux:
+{'constant': [-1, 4], 'ir_0': [], 'ir_1': [-1], 'ir_10': [0]}
+_MIPS_STUBS_:
+{'constant': [], 'ir_5': [84]}
+sub_405a70:
+{'constant': [], 'ir_5': [83]}
+sub_405a80:
+{'constant': [], 'ir_5': [81]}
+sub_405a90:
+{'constant': [], 'ir_5': [79]}
+sub_405aa0:
+{'constant': [], 'ir_5': [78]}
+sub_405ab0:
+{'constant': [], 'ir_5': [77]}
+sub_405ac0:
+{'constant': [], 'ir_5': [75]}
+sub_405ad0:
+{'constant': [], 'ir_5': [74]}
+sub_405ae0:
+{'constant': [], 'ir_5': [73]}
+sub_405af0:
+{'constant': [], 'ir_5': [72]}
+sub_405b00:
+{'constant': [], 'ir_5': [71]}
+sub_405b10:
+{'constant': [], 'ir_5': [70]}
+sub_405b20:
+{'constant': [], 'ir_5': [69]}
+sub_405b30:
+{'constant': [], 'ir_5': [68]}
+sub_405b40:
+{'constant': [], 'ir_5': [67]}
+sub_405b50:
+{'constant': [], 'ir_5': [66]}
+sub_405b60:
+{'constant': [], 'ir_5': [65]}
+sub_405b70:
+{'constant': [], 'ir_5': [64]}
+sub_405b80:
+{'constant': [], 'ir_5': [63]}
+sub_405b90:
+{'constant': [], 'ir_5': [62]}
+sub_405ba0:
+{'constant': [], 'ir_5': [61]}
+sub_405bb0:
+{'constant': [], 'ir_5': [60]}
+sub_405bc0:
+{'constant': [], 'ir_5': [59]}
+sub_405bd0:
+{'constant': [], 'ir_5': [57]}
+sub_405be0:
+{'constant': [], 'ir_5': [56]}
+sub_405bf0:
+{'constant': [], 'ir_5': [55]}
+sub_405c00:
+{'constant': [], 'ir_5': [54]}
+sub_405c10:
+{'constant': [], 'ir_5': [53]}
+sub_405c20:
+{'constant': [], 'ir_5': [52]}
+sub_405c30:
+{'constant': [], 'ir_5': [51]}
+sub_405c40:
+{'constant': [], 'ir_5': [49]}
+sub_405c50:
+{'constant': [], 'ir_5': [48]}
+sub_405c60:
+{'constant': [], 'ir_5': [46]}
+sub_405c70:
+{'constant': [], 'ir_5': [45]}
+sub_405c80:
+{'constant': [], 'ir_5': [44]}
+sub_405c90:
+{'constant': [], 'ir_5': [42]}
+sub_405ca0:
+{'constant': [], 'ir_5': [40]}
+sub_405cb0:
+{'constant': [], 'ir_5': [39]}
+sub_405cc0:
+{'constant': [], 'ir_5': [37]}
+sub_405cd0:
+{'constant': [], 'ir_5': [36]}
+sub_405ce0:
+{'constant': [], 'ir_5': [35]}
+sub_405cf0:
+{'constant': [], 'ir_5': [34]}
+_fini:
+{'constant': []}
+sub_405d30:
+{'constant': []}

@@ -1,0 +1,117 @@
+env@_init		0		20		4		-65544		8		
+env@sub_40018c0			
+env@_start			-65528		20		-65536		0		
+env@deregister_tm_clones		0		8		20		
+env@register_tm_clones		0		36		20		
+env@__do_global_dtors_aux		0	1		5		0		8		69251080		1		
+env@frame_dummy			
+env@initialize_exit_failure		1		7		
+env@emit_mandatory_arg_note		\nMandatory arguments to long options are mandatory for short options too.\n			8		-65552		4		-65560		
+env@emit_ancillary_info		\n%s online help: <%s>\n	en_	Report any translation bugs to <https://translationproject.org/team/>\n	Full documentation <%s%s>\n	"or available locally via: info '(coreutils) %s%s'\n"		0	16		-65688	-65672	-65656	0		19		0		-65688		20		5		8		3			4		-65736		184		
+env@usage		Usage: %s [OPTION]... [-] [NAME=VALUE]... [COMMAND [ARG]...]\n	Set each NAME to VALUE in the environment and run COMMAND.\n	  -i, --ignore-environment  start with an empty environment\n  -0, --null           end each output line with NUL, not newline\n  -u, --unset=NAME     remove variable from the environment\n	  -C, --chdir=DIR      change working directory to DIR\n	  -S, --split-string=S  process and split S into separate arguments;\n                        used to pass multiple arguments on shebang lines\n	      --block-signal[=SIG]    block delivery of SIG signal(s) to COMMAND\n	      --default-signal[=SIG]  reset handling of SIG signal(s) to the default\n	      --ignore-signal[=SIG]   set handling of SIG signals(s) to do nothing\n	      --list-signal-handling  list non default signal handling to stderr\n	  -v, --debug          print verbose information for each processing step\n	      --help     display this help and exit\n	      --version  output version information and exit\n	\nA mere - implies -i.  If no COMMAND, print the resulting environment.\n	"\nSIG may be a signal name like 'PIPE', or a signal number like '13'.\nWithout SIG, all known signals are included.  Multiple signals can be\ncomma-separated.\n"	"Try '%s --help' for more information.\n"		0		7			
+env@append_unset_var		1	8		0		8		1		32		
+env@unset_envvars		unset:    %s\n	cannot unset %s		0	1	8		8		-65560		16		0	1		0		4		-65576		17		0	8			19		125		
+env@valid_escape_sequence		0	1	35	36	95	99	102	110	114	116	118		5		99		1		102		19		0	1		0		110		114		116		118		35		36		95		34		39		92		
+env@escape_char		9	10	11	12	13		7		16		4		210		13		9		11		12		10		
+env@scan_varname		0	1	3	36	95	123	125		8		0		221		5		36		123		4		2		17		95		3		1		125		
+env@extract_varname		0	1	2		8		-65544		32		0		4		1		
+env@validate_split_str		no terminating quote in -S string	only ${VARNAME} expansion is supported, error at: %s	"'\\c' must not appear in double-quoted -S string"	invalid backslash at end of string in -S	"invalid sequence '\\%c' in -S"		0	1	2	34	36	39	92	95	99	8192		0	1	2		8		0		280		17		4		1		19		5		-65624		72		125		7		36		34		39		92		0	1		99		308		303		95		
+env@build_argv		replacing ${%s} with null string\n	expanding ${%s} into %s\n	 \t		0	1	2	6	7	8	9	32	34	35	36	39	89	92	95	99	8192	DUMM		0	1	32	89		0		8		395		17		-65604		-65600		4		7		19		32		6		35		20		39		5		34		92		1		9		0	1		36		95		99		125			
+env@parse_split_string		split -S:  %s\n	 into:    %s\n	     &    %s\n		0	1	2	8	8192		8		-65544		64		19		0		17		4		1		7		20		0	1			
+env@parse_signal_action_params		,	%s: invalid signal	,		0	1	2	3	4	64		1	2	3	4		0		8		7		1	2	3		64		-65592		1	2		19		20		5		4		-65640		88		4	8		2		1		3		
+env@reset_signal_handlers		failed to get signal action for signal %d	failed to set signal action for signal %d	Reset signal %s (%d) to %s%s\n		0	1	2	4	64		0	1	2	3		19		0		7		1	2	3		64		4	8		20		2		4		-65768		216		1		17		0	1		-65752		5		-65592		125			
+env@parse_block_signal_params		,	%s: invalid signal	,		0	1		1		0		8		5		17		20		4		-65640		88		-65592		7		
+env@set_signal_proc_mask		failed to get signal process mask	signal %s (%d) mask set to %s\n	failed to set signal process mask		0	1	64		0	1	2		19		0		-65720		7		1	2		64		1		125		2		20		4		-65736		184		17		8		-65592			
+env@list_signal_handling		failed to get signal process mask	%-10s (%2d): %s%s%s\n		0	1	64		1	2		19		0		-65880		7		64		-65752		1		125		20		8		0	73		17		0	66		-65592		-65912			4		-65928		16		
+env@initialize_signals		0	1	4	64		8		-65544		16		260		0	1	2		7		64		0	4		
+env@main		coreutils	/usr/local/share/locale	coreutils	+C:iS:u:v0 \t	env	GNU coreutils	Richard Mlynarik	David MacKenzie	"invalid option -- '%c'"	use -[v]S to pass options in shebang lines	-	setenv:   %s\n	cannot set %s	cannot specify --null (-0) with command	must specify command with --chdir (-C)	%s%c	chdir:    %s\n	cannot change directory to %s	executing: %s\n	   arg[%d]= %s\n	%s	use -[v]S to pass options in shebang lines		-131	-130	-1	0	1	2	3	8	9	32	48	67	83	105	117	118	127	128	130	131		8		-65560		64		0	1	2	8	126	127		6		125		0		igno		7		-1		1		83		4		5		0	1		-65624		-65612		19		9		128		17		2			1	2		-131		48		117		130		61		-130		67		118		-65640		16		32		105		131		20		10		0	10		127		126	127		
+env@operand2sig		abcdefghijklmnopqrstuvwxyz	%s: invalid signal		-1	0	1	9	32	48	71	73	83	127	254	255		-1	0	127	255		7		9		-65600		10		8		17		0		-1		-65608		19		20		254		5		83		127		127	255		255		73		71		4		-65624		72		
+env@c_isalnum		0	1	9	25	48	65	90	97		7		90		65		25		9		1		0		
+env@c_isalpha		0	1	65	90		7		65		0		90		1		25		
+env@c_isascii		0	1	127		7		127		1		0		
+env@c_isblank		0	1	9	32		7		32		1		9		19		0	1		0		
+env@c_iscntrl		0	1	31		19		0		7		31		1		127		
+env@c_isdigit		0	1	9	48		7		9		1		0		
+env@c_isgraph		0	1	33	93		7		93		1		0		
+env@c_islower		0	1	25	97		7		25		1		0		
+env@c_isprint		0	1	32	94		7		94		1		0		
+env@c_ispunct		0	1	3	14	33	58	64	91	96	123		7		64		58		91		14		1		0		96		3		
+env@c_isspace		0	1	9	13		7		9		0		13		1		32		
+env@c_isupper		0	1	25	65		7		25		1		0		
+env@c_isxdigit		0	1		7		54		4		0		
+env@c_tolower		25	32	65		7		25		3		32		
+env@c_toupper		25	32	97		7		25		32		
+env@close_stdout_set_file_name			
+env@close_stdout_set_ignore_EPIPE			
+env@close_stdout		write error	%s: %s	%s		0	1	32		8		-65552		24			19		0		1		17		4		-65576		20		7		32		
+env@set_program_name		/.libs/	lt-		0	1	3	6	7		8		0			55		1		47		6		4		7		19		3		
+env@clone_quoting_options		0		8		-65544		32		56		
+env@get_quoting_style		0		8		
+env@set_quoting_style		0		8		
+env@set_char_quoting		0	4	5	8		8		0		19		
+env@set_quoting_flags		0		8		
+env@set_custom_quoting		0	10		8		0		10		
+env@quoting_options_from_style		0	10		0		7		10		20		
+env@gettext_quote		UTF-8	GB18030		0	9	96		8		-65544		32		19		0		5		96		7		9		
+env@quotearg_buffer		0		8		-65624		4		-65656		32		
+env@quotearg_alloc			8		-65544		32		0		
+env@quotearg_alloc_mem		0	1		8		0		-65608		4		1		-65640		32		
+env@quotearg_free		1	16	256		8		-65544		16		1	2	3	256		1		7		1	2	3		16	32		4		0		
+env@quotearg_n_options		0	1	8	16	2147483646		8		-65544		80		7		0		1		-65624		1	256			5		16		4		-65656		32		
+env@quotearg_n			8		-65544		16		-1		
+env@quotearg_n_mem			8		-65544		32		
+env@quotearg			8		-65544		16		0		
+env@quotearg_mem			8		-65544		16		0		
+env@quotearg_n_style			19		0		-65608		-1		20		
+env@quotearg_n_style_mem			19		0		-65608		20		
+env@quotearg_style			8		-65544		16		0		
+env@quotearg_style_mem			8		-65544		32		0		
+env@quotearg_char_mem			0		19		-65608		1		20		
+env@quotearg_char			8		-65544		16		-1		
+env@quotearg_colon			8		-65544		16		58		
+env@quotearg_colon_mem			8		-65544		16		58		
+env@quotearg_n_style_colon			19		0		-65688		-65608		1		58		-1		20		
+env@quotearg_n_custom			8		-65544		32		-1		
+env@quotearg_n_custom_mem			0		19		-65608		20		
+env@quotearg_custom			8		-65544		32		0		
+env@quotearg_custom_mem			8		-65544		32		0		
+env@quote_n_mem			8		-65544		32		
+env@quote_mem			8		-65544		16		0		
+env@quote_n			8		-65544		16		-1		
+env@quote			8		-65544		16		0		
+env@version_etc_arn		%s (%s) %s\n	%s %s\n	(C)	Copyright %s %d Free Software Foundation, Inc.	License GPLv3+: GNU GPL version 3 or later <%s>.\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n	Written by %s.\n	Written by %s and %s.\n	Written by %s, %s, and %s.\n	Written by %s, %s, %s,\nand %s.\n	Written by %s, %s, %s,\n%s, and %s.\n	Written by %s, %s, %s,\n%s, %s, and %s.\n	Written by %s, %s, %s,\n%s, %s, %s, and %s.\n	Written by %s, %s, %s,\n%s, %s, %s, %s,\nand %s.\n	Written by %s, %s, %s,\n%s, %s, %s, %s,\n%s, and %s.\n	Written by %s, %s, %s,\n%s, %s, %s, %s,\n%s, %s, and others.\n		0	4		8		0		2020		10		9		4		-65672		-65720		48		-65720	-65672		-65752	-65704		32		-65736	-65688		16		-65768	-65720		
+env@version_etc_ar		0	1	3		8		-65544		64		0	1	2		0	8	16		20		0		0	1		
+env@version_etc_va		0	1	3	8	9	47	96		0	1		19		0		8		9		7		47		-65640		4		20		
+env@version_etc		0		17		-65720	-65528	32	48		19		-65752		20		
+env@emit_bug_reporting_address		Report bugs to: %s\n	%s home page: <%s>\n	General help using GNU software: <%s>\n			10		0		
+env@xnmalloc		0	1		0		48		1		20		17		52		
+env@xnrealloc		0	1		0		48		1		20		17		52		
+env@x2nrealloc		0	1	128		8		0		48		52		1		20		17		
+env@xcharalloc			8		-65544		16		
+env@xmalloc		0		8		-65544		32		
+env@xrealloc		0		8		
+env@x2realloc			8		-65544		16		1		
+env@xzalloc			8		-65544		16		1		
+env@xcalloc		0	1		0		48		1		20		17		8		
+env@xmemdup			8		-65544		16		
+env@xstrdup		1		8		-65544		16		
+env@xalloc_die		memory exhausted	%s			0		1		
+env@rpl_mbrtowc		-3	0	1		-65564		0		8		-3		20		17		1		
+env@str2signum		RTMIN	RTMAX		-1	0	1	2	4	5	9	12	34	48	63	64		0	1	2		7		9		-65584		10		17		0		34		8		64		-1		20		4		0	12		19		32		0	6		1	2		5		3		
+env@str2sig		-1	0		8		-65544		16		19		0		-1		
+env@sig2str		%+d		-1	0	1	2	4	5	12	34	78	88	RTMA	RTMI		8		-65544		48		0	1	2	78	88		7		0	1	2		34		0	12		1	2		4		0		-1		
+env@c_strcasecmp		0	1		8		0		4		-65592		32		5		
+env@close_stream		0	1	9		8		-65544		32		20		0		19		5		17		-1		7		9		
+env@hard_locale		C	POSIX	C	POSIX		0	1			19		0		-65816		257		20		1		
+env@locale_charset		0		8		-65544		16		14		17		
+env@setlocale_null_androidfix			8		-65544		32		0		
+env@setlocale_null_unlocked		0	1	22		8		-65544		48		0		22		34		4		
+env@setlocale_null_r			8		-65544		32		
+env@setlocale_null			8		-65544		16		
+env@rpl_fclose		-1	0		8		-65544		32		7		0		19		1		-1		
+env@rpl_fflush		0		8		19		
+env@rpl_fseeko		-17	-1	0		8		20		0		-1		19		
+env@__libc_csu_init		0	1	8		-443987883		36		1		2		20		0		19		0	1	2		4		-65592		8		1	2		
+env@__libc_csu_fini			
+env@atexit			69251080		19		0		
+env@_fini			4		-65544		8		

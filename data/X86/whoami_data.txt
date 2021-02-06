@@ -1,0 +1,137 @@
+whoami@_init	0	20	4	-65544	8	
+whoami@sub_40012d0	
+whoami@_start	-65528	20	-65536	0	
+whoami@deregister_tm_clones	0	8	20	
+whoami@register_tm_clones	0	36	20	
+whoami@__do_global_dtors_aux	0	5	8	69238792	1	
+whoami@frame_dummy	
+whoami@emit_ancillary_info	
+%s online help: <%s>
+	en_	Report any translation bugs to <https://translationproject.org/team/>
+	Full documentation <%s%s>
+	or available locally via: info '(coreutils) %s%s'
+	0	-65688	-65672	-65656	0	19	-65688	20	5	8	3	4	-65736	184	
+whoami@usage	Usage: %s [OPTION]...
+	Print the user name associated with the current effective user ID.
+Same as id -un.
+
+	      --help     display this help and exit
+	      --version  output version information and exit
+	Try '%s --help' for more information.
+	0	7	
+whoami@main	coreutils	/usr/local/share/locale	coreutils	whoami	GNU coreutils	cannot find name for user ID %lu	cannot find name for user ID %lu	extra operand %s	8	-65560	32	-1	0	6	-65592	0	1	7	4	-1	19	
+whoami@close_stdout_set_file_name	
+whoami@close_stdout_set_ignore_EPIPE	
+whoami@close_stdout	write error	%s: %s	%s	0	32	8	-65552	24	19	0	1	17	4	-65576	20	7	32	
+whoami@parse_long_options	-1	0	2	104	118	17	0	-65720	-65528	0	48	7	2	help	20	-1	104	118	-65752	
+whoami@parse_gnu_standard_options_only	-1	0	104	118	17	0	-65720	-65520	0	1	48	5	help	7	-1	20	104	118	-65752	1	
+whoami@set_program_name	/.libs/	lt-	lt-	0	6	8	0	55	1	47	6	4	7	19	3	
+whoami@clone_quoting_options	0	8	-65544	32	56	
+whoami@get_quoting_style	0	8	
+whoami@set_quoting_style	0	8	
+whoami@set_char_quoting	0	4	8	0	19	
+whoami@set_quoting_flags	0	8	
+whoami@set_custom_quoting	0	8	10	
+whoami@quoting_options_from_style	10	0	7	20	
+whoami@gettext_quote	UTF-8	GB18030	0	9	96	8	-65544	32	19	0	5	96	7	9	
+whoami@quotearg_buffer	0	8	-65624	4	-65656	32	
+whoami@quotearg_alloc	8	-65544	32	0	
+whoami@quotearg_alloc_mem	0	8	-65608	4	1	-65640	32	
+whoami@quotearg_free	16	8	-65544	1	2	3	256	1	7	1	2	3	16	32	4	0	
+whoami@quotearg_n_options	0	16	2147483646	8	-65544	80	7	0	1	-65624	1	256	5	16	4	-65656	32	
+whoami@quotearg_n	8	-65544	16	-1	
+whoami@quotearg_n_mem	8	-65544	32	
+whoami@quotearg	8	-65544	16	0	
+whoami@quotearg_mem	8	-65544	16	0	
+whoami@quotearg_n_style	19	0	-65608	-1	20	
+whoami@quotearg_n_style_mem	19	0	-65608	20	
+whoami@quotearg_style	8	-65544	16	0	
+whoami@quotearg_style_mem	8	-65544	32	0	
+whoami@quotearg_char_mem	0	19	-65608	1	20	
+whoami@quotearg_char	8	-65544	16	-1	
+whoami@quotearg_colon	8	-65544	16	58	
+whoami@quotearg_colon_mem	8	-65544	16	58	
+whoami@quotearg_n_style_colon	19	0	-65688	-65608	1	58	-1	20	
+whoami@quotearg_n_custom	8	-65544	32	-1	
+whoami@quotearg_n_custom_mem	0	19	-65608	20	
+whoami@quotearg_custom	8	-65544	32	0	
+whoami@quotearg_custom_mem	8	-65544	32	0	
+whoami@quote_n_mem	8	-65544	32	
+whoami@quote_mem	8	-65544	16	0	
+whoami@quote_n	8	-65544	16	-1	
+whoami@quote	8	-65544	16	0	
+whoami@version_etc_arn	%s (%s) %s
+	%s %s
+	(C)	Copyright %s %d Free Software Foundation, Inc.	License GPLv3+: GNU GPL version 3 or later <%s>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+	Written by %s.
+	Written by %s and %s.
+	Written by %s, %s, and %s.
+	Written by %s, %s, %s,
+and %s.
+	Written by %s, %s, %s,
+%s, and %s.
+	Written by %s, %s, %s,
+%s, %s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+%s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+%s, %s, and others.
+	0	4	8	0	2020	10	9	4	-65672	-65720	48	-65720	-65672	-65736	-65688	16	-65752	-65704	32	-65768	-65720	
+whoami@version_etc_ar	8	-65544	64	0	1	2	0	8	16	20	0	0	1	
+whoami@version_etc_va	8	9	47	96	0	1	19	0	8	9	7	47	-65640	4	20	
+whoami@version_etc	0	17	-65720	-65528	32	48	19	-65752	20	
+whoami@emit_bug_reporting_address	Report bugs to: %s
+	%s home page: <%s>
+	General help using GNU software: <%s>
+	10	0	
+whoami@xnmalloc	0	48	1	20	17	52	
+whoami@xnrealloc	0	48	1	20	17	52	
+whoami@x2nrealloc	0	8	48	52	1	20	17	
+whoami@xcharalloc	8	-65544	16	
+whoami@xmalloc	0	8	-65544	32	
+whoami@xrealloc	0	8	
+whoami@x2realloc	8	-65544	16	1	
+whoami@xzalloc	8	-65544	16	1	
+whoami@xcalloc	0	48	1	20	17	8	
+whoami@xmemdup	8	-65544	16	
+whoami@xstrdup	8	-65544	16	
+whoami@xalloc_die	memory exhausted	%s	0	1	
+whoami@rpl_mbrtowc	-3	0	-65564	0	8	-3	20	17	1	
+whoami@c_strcasecmp	0	8	4	-65592	32	5	
+whoami@hard_locale	C	POSIX	C	POSIX	0	19	-65816	257	20	0	1	1	
+whoami@locale_charset	0	8	-65544	16	14	17	
+whoami@setlocale_null_androidfix	8	-65544	32	0	
+whoami@setlocale_null_unlocked	0	1	8	-65544	48	0	22	34	4	
+whoami@setlocale_null_r	8	-65544	32	
+whoami@setlocale_null	8	-65544	16	
+whoami@rpl_fclose	-1	8	-65544	32	-1	0	7	0	19	1	
+whoami@rpl_fflush	0	8	19	
+whoami@rpl_fseeko	-1	0	8	20	0	-1	19	
+whoami@c_isalnum	9	25	65	90	7	90	65	25	9	1	0	
+whoami@c_isalpha	65	90	7	65	0	90	1	25	
+whoami@c_isascii	127	7	1	0	
+whoami@c_isblank	9	32	7	32	1	9	19	0	1	0	
+whoami@c_iscntrl	31	19	0	7	1	127	
+whoami@c_isdigit	9	48	7	9	1	0	
+whoami@c_isgraph	33	93	7	93	1	0	
+whoami@c_islower	25	97	7	25	1	0	
+whoami@c_isprint	32	94	7	94	1	0	
+whoami@c_ispunct	3	14	58	64	91	96	7	64	58	91	14	1	0	96	3	
+whoami@c_isspace	9	13	7	9	0	13	1	32	
+whoami@c_isupper	25	65	7	25	1	0	
+whoami@c_isxdigit	7	54	4	0	
+whoami@c_tolower	25	65	7	25	3	32	
+whoami@c_toupper	25	97	7	25	32	
+whoami@__libc_csu_init	0	8	-443987883	36	1	2	20	0	19	0	1	2	4	-65592	8	1	2	
+whoami@__libc_csu_fini	
+whoami@atexit	69238792	19	0	
+whoami@_fini	4	-65544	8	

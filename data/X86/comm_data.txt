@@ -1,0 +1,178 @@
+comm@_init	0	20	4	-65544	8	
+comm@sub_4001510	
+comm@_start	-65528	20	-65536	0	
+comm@deregister_tm_clones	0	8	20	
+comm@register_tm_clones	0	36	20	
+comm@__do_global_dtors_aux	0	5	8	69246984	1	
+comm@frame_dummy	
+comm@emit_ancillary_info	
+%s online help: <%s>
+	en_	Report any translation bugs to <https://translationproject.org/team/>
+	Full documentation <%s%s>
+	or available locally via: info '(coreutils) %s%s'
+	0	-65688	-65672	-65656	0	19	-65688	20	5	8	3	4	-65736	184	
+comm@usage	Usage: %s [OPTION]... FILE1 FILE2
+	Compare sorted files FILE1 and FILE2 line by line.
+	
+When FILE1 or FILE2 (not both) is -, read standard input.
+	
+With no options, produce three-column output.  Column one contains
+lines unique to FILE1, column two contains lines unique to FILE2,
+and column three contains lines common to both files.
+	
+  -1              suppress column 1 (lines unique to FILE1)
+  -2              suppress column 2 (lines unique to FILE2)
+  -3              suppress column 3 (lines that appear in both files)
+	
+  --check-order     check that the input is correctly sorted, even
+                      if all input lines are pairable
+  --nocheck-order   do not check that the input is correctly sorted
+	  --output-delimiter=STR  separate columns with STR
+	  --total           output a summary
+	  -z, --zero-terminated    line delimiter is NUL, not newline
+	      --help     display this help and exit
+	      --version  output version information and exit
+	
+Note, comparisons honor the rules specified by 'LC_COLLATE'.
+	
+Examples:
+  %s -12 file1 file2  Print only lines present in both file1 and file2.
+  %s -3 file1 file2  Print lines in file1 not in file2, and vice versa.
+	Try '%s --help' for more information.
+	0	7	
+comm@writeline	0	2	3	7	2	1	17	0	3	
+comm@check_order	file %d is not in sorted order	0	1	2	0	7	2	1	17	
+comm@compare_files	r	%s	%s	%s	%s	total	%s%s%s%s%s%s%s%c	1	3	4	8	12	24	96	400	480	496	498	-65880	-65856	-1	0	1	2	19	0	7	0	1	1	0	1	2	3	20	-65880	0	24	4	-65880	-65856	-65592	-1	1	17	8	2	10	0	8	-65624	-1	-65656	-65688	-66104	
+comm@main	coreutils	/usr/local/share/locale	coreutils	123z	comm	GNU coreutils	Richard M. Stallman	David MacKenzie	multiple output delimiters specified	input is not in sorted order	extra operand %s	missing operand after %s	missing operand	-131	-130	-1	8	49	50	51	122	128	129	130	131	8	-65552	40	6	3	0	1	2	0	chec	7	-1	20	51	1	2	-130	129	4	24	17	-65592	-131	49	122	130	-65608	16	50	128	131	19	
+comm@close_stdout_set_file_name	
+comm@close_stdout_set_ignore_EPIPE	
+comm@close_stdout	write error	%s: %s	%s	0	32	8	-65552	24	19	0	1	17	4	-65576	20	7	32	
+comm@fdadvise	8	-65544	48	
+comm@fadvise	0	8	
+comm@fopen_safer	0	2	8	-65544	48	0	7	2	19	
+comm@hard_locale	C	POSIX	C	POSIX	0	19	-65816	257	20	0	1	1	
+comm@umaxtostr	0	3	10	0	8	
+comm@initbuffer	8	-65544	16	24	0	
+comm@readlinebuffer	8	-65544	16	10	
+comm@readlinebuffer_delim	-1	0	4	19	0	7	-1	8	5	
+comm@freebuffer	8	-65544	16	
+comm@memcmp2	0	8	7	-1	1	
+comm@set_program_name	/.libs/	lt-	lt-	0	6	8	0	55	1	47	6	4	7	19	3	
+comm@clone_quoting_options	0	8	-65544	32	56	
+comm@get_quoting_style	0	8	
+comm@set_quoting_style	0	8	
+comm@set_char_quoting	0	4	8	0	19	
+comm@set_quoting_flags	0	8	
+comm@set_custom_quoting	0	8	10	
+comm@quoting_options_from_style	10	0	7	20	
+comm@gettext_quote	UTF-8	GB18030	0	9	96	8	-65544	32	19	0	5	96	7	9	
+comm@quotearg_buffer	0	8	-65624	4	-65656	32	
+comm@quotearg_alloc	8	-65544	32	0	
+comm@quotearg_alloc_mem	0	8	-65608	4	1	-65640	32	
+comm@quotearg_free	16	8	-65544	1	2	3	256	1	7	1	2	3	16	32	4	0	
+comm@quotearg_n_options	0	16	2147483646	8	-65544	80	7	0	1	-65624	1	256	5	16	4	-65656	32	
+comm@quotearg_n	8	-65544	16	-1	
+comm@quotearg_n_mem	8	-65544	32	
+comm@quotearg	8	-65544	16	0	
+comm@quotearg_mem	8	-65544	16	0	
+comm@quotearg_n_style	19	0	-65608	-1	20	
+comm@quotearg_n_style_mem	19	0	-65608	20	
+comm@quotearg_style	8	-65544	16	0	
+comm@quotearg_style_mem	8	-65544	32	0	
+comm@quotearg_char_mem	0	19	-65608	1	20	
+comm@quotearg_char	8	-65544	16	-1	
+comm@quotearg_colon	8	-65544	16	58	
+comm@quotearg_colon_mem	8	-65544	16	58	
+comm@quotearg_n_style_colon	19	0	-65688	-65608	1	58	-1	20	
+comm@quotearg_n_custom	8	-65544	32	-1	
+comm@quotearg_n_custom_mem	0	19	-65608	20	
+comm@quotearg_custom	8	-65544	32	0	
+comm@quotearg_custom_mem	8	-65544	32	0	
+comm@quote_n_mem	8	-65544	32	
+comm@quote_mem	8	-65544	16	0	
+comm@quote_n	8	-65544	16	-1	
+comm@quote	8	-65544	16	0	
+comm@setlocale_null_androidfix	8	-65544	32	0	
+comm@setlocale_null_unlocked	0	1	8	-65544	48	0	22	34	4	
+comm@setlocale_null_r	8	-65544	32	
+comm@setlocale_null	8	-65544	16	
+comm@dup_safer	8	-65544	16	3	0	
+comm@version_etc_arn	%s (%s) %s
+	%s %s
+	(C)	Copyright %s %d Free Software Foundation, Inc.	License GPLv3+: GNU GPL version 3 or later <%s>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+	Written by %s.
+	Written by %s and %s.
+	Written by %s, %s, and %s.
+	Written by %s, %s, %s,
+and %s.
+	Written by %s, %s, %s,
+%s, and %s.
+	Written by %s, %s, %s,
+%s, %s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+%s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+%s, %s, and others.
+	0	4	8	0	2020	10	9	4	-65672	-65720	48	-65720	-65672	-65752	-65704	32	-65768	-65720	-65736	-65688	16	
+comm@version_etc_ar	8	-65544	64	0	1	2	0	8	16	20	0	0	1	
+comm@version_etc_va	8	9	47	96	0	1	19	0	8	9	7	47	-65640	4	20	
+comm@version_etc	0	17	-65720	-65528	32	48	19	-65752	20	
+comm@emit_bug_reporting_address	Report bugs to: %s
+	%s home page: <%s>
+	General help using GNU software: <%s>
+	10	0	
+comm@xnmalloc	0	48	1	20	17	52	
+comm@xnrealloc	0	48	1	20	17	52	
+comm@x2nrealloc	0	8	48	52	1	20	17	
+comm@xcharalloc	8	-65544	16	
+comm@xmalloc	0	8	-65544	32	
+comm@xrealloc	0	8	
+comm@x2realloc	8	-65544	16	1	
+comm@xzalloc	8	-65544	16	1	
+comm@xcalloc	0	48	1	20	17	8	
+comm@xmemdup	8	-65544	16	
+comm@xstrdup	8	-65544	16	
+comm@xalloc_die	memory exhausted	%s	0	1	
+comm@collate_error	string comparison failed	Set LC_ALL='C' to work around the problem.	The strings compared were %s and %s.	8	-65560	48	0	1	4	-65608	
+comm@xmemcoll	0	8	-65544	48	7	
+comm@xmemcoll0	0	1	8	-65544	48	7	0	
+comm@rpl_fclose	-1	8	-65544	32	-1	0	7	0	19	1	
+comm@rpl_fcntl	0	1	3	4	8	9	10	11	47	1024	1025	1026	1030	1031	1033	17	0	-65720	-65528	-65520	-1	16	24	48	19	16	7	47	1030	-65704	3	8	24	11	20	1031	1033	1	1025	1026	1034	4	9	1024	10	
+comm@rpl_fcntl_DUPFD	8	-65544	32	0	
+comm@rpl_fcntl_DUPFD_CLOEXEC	22	0	19	1030	7	-1	1	0	1	-1	1	2	
+comm@rpl_fflush	0	8	19	
+comm@rpl_fseeko	-1	0	8	20	0	-1	19	
+comm@rpl_mbrtowc	-3	0	-65564	0	8	-3	20	17	1	
+comm@c_strcasecmp	0	8	4	-65592	32	5	
+comm@locale_charset	0	8	-65544	16	14	17	
+comm@strcoll_loop	8	-65544	64	0	7	1	19	0	1	4	
+comm@memcoll	0	8	4	19	
+comm@memcoll0	0	8	19	
+comm@c_isalnum	9	25	65	90	7	90	65	25	9	1	0	
+comm@c_isalpha	65	90	7	65	0	90	1	25	
+comm@c_isascii	127	7	1	0	
+comm@c_isblank	9	32	7	32	1	9	19	0	1	0	
+comm@c_iscntrl	31	19	0	7	1	127	
+comm@c_isdigit	9	48	7	9	1	0	
+comm@c_isgraph	33	93	7	93	1	0	
+comm@c_islower	25	97	7	25	1	0	
+comm@c_isprint	32	94	7	94	1	0	
+comm@c_ispunct	3	14	58	64	91	96	7	64	58	91	14	1	0	96	3	
+comm@c_isspace	9	13	7	9	0	13	1	32	
+comm@c_isupper	25	65	7	25	1	0	
+comm@c_isxdigit	7	54	4	0	
+comm@c_tolower	25	65	7	25	3	32	
+comm@c_toupper	25	97	7	25	32	
+comm@__libc_csu_init	0	8	-443987883	36	1	2	20	0	19	0	1	2	4	-65592	8	1	2	
+comm@__libc_csu_fini	
+comm@atexit	69246984	19	0	
+comm@_fini	4	-65544	8	

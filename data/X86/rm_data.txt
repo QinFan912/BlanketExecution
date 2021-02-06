@@ -52,14 +52,14 @@ assurance that the contents are truly unrecoverable, consider using shred.
 	Try '%s --help' for more information.
 	0	7	
 rm@rm_option_init	0	4	8	-65544	16	0	19	
-rm@main	coreutils	/usr/local/share/locale	coreutils	dfirvIR	missing operand	/	failed to get attributes of %s	%s: remove %lu argument recursively? 	%s: remove %lu arguments recursively? 	%s: remove %lu argument? 	%s: remove %lu arguments? 	--no-preserve-root	you may not abbreviate the --no-preserve-root option	all	unrecognized --preserve-root argument: %s	--interactive	rm	GNU coreutils	Paul Rubin	David MacKenzie	-131	-130	-1	0	1	2	3	4	8	73	82	100	102	105	114	118	128	129	131	132	0	1	2	3	4	5	19	0	6	-65608	forc	7	-1	1	105	17	8	5	73	129	20	2	-131	100	118	131	3	4	-65656	-130	102	128	-65688	32	82	114	132	371	neve	
+rm@main	coreutils	/usr/local/share/locale	coreutils	dfirvIR	/	failed to get attributes of %s	%s: remove %lu argument recursively? 	%s: remove %lu arguments recursively? 	%s: remove %lu argument? 	%s: remove %lu arguments? 	missing operand	--interactive	all	unrecognized --preserve-root argument: %s	--no-preserve-root	you may not abbreviate the --no-preserve-root option	rm	GNU coreutils	Paul Rubin	David MacKenzie	-131	-130	-1	0	1	2	3	4	8	73	82	100	102	105	114	118	128	129	131	132	0	1	2	3	4	5	19	0	6	-65608	forc	7	-1	1	105	17	8	5	73	129	20	2	-131	100	118	131	3	4	-65656	-130	102	128	-65688	32	82	114	132	371	neve	
 rm@dot_or_dotdot	0	1	2	46	47	5	46	0	2	1	47	19	0	1	
 rm@readdir_ignoring_dot_and_dotdot	0	1	19	8	-65544	32	0	4	19	17	
-rm@is_empty_dir	0	1	31	8	-65544	48	198912	0	7	
+rm@is_empty_dir	0	8	-65544	48	198912	7	
 rm@cache_fstatat	-2	-1	0	8	-1	20	0	19	-2	4	-65592	40	
 rm@cache_stat_init	-1	
 rm@write_protected_non_symlink	-1	0	1	13	40960	61440	8	-65544	32	17	0	256	19	7	40960	-1	512	2	13	1	
-rm@prompt	cannot remove %s	%s: descend into write-protected directory %s? 	%s: descend into directory %s? 	cannot remove %s	%s: remove write-protected %s %s? 	%s: remove %s %s? 	-1	0	1	2	3	4	5	10	21	31	16384	40960	61440	-65720	-1	0	2	3	4	10	21	8	0	-65720	5	4	20	7	3	2	17	-65832	272	10	-1	0	256	19	40960	16384	1	
+rm@prompt	cannot remove %s	%s: descend into write-protected directory %s? 	%s: descend into directory %s? 	cannot remove %s	%s: remove write-protected %s %s? 	%s: remove %s %s? 	-1	0	1	2	3	4	5	10	21	16384	40960	61440	-65720	-1	0	2	3	4	10	21	8	0	-65720	5	4	20	7	3	2	17	-65832	272	10	-1	0	256	19	40960	16384	1	
 rm@nonexistent_file_errno	0	1	2	20	22	84	7	20	1	2	22	84	0	
 rm@ignorable_missing	0	1	17	0	19	1	
 rm@fts_skip_tree	8	-65544	32	4	
@@ -67,7 +67,7 @@ rm@mark_ancestor_dirs	0	1	20	0	1
 rm@excise	removed directory %s
 	removed %s
 	cannot remove %s	0	1	2	4	13	17	20	21	30	39	0	30	512	0	5	0	512	512	19	17	2	4	7	30	20	-65720	-65768	208	6	39	1	13	21	
-rm@rm_fts	cannot remove %s	..	refusing to remove %s or %s directory: skipping %s	it is dangerous to operate recursively on %s (same as %s)	it is dangerous to operate recursively on %s	use --no-preserve-root to override this failsafe	..	failed to stat %s: skipping %s	skipping %s, since it's on a different device	and --preserve-root=all is in effect	WARNING: Circular directory structure.
+rm@rm_fts	..	refusing to remove %s or %s directory: skipping %s	it is dangerous to operate recursively on %s (same as %s)	it is dangerous to operate recursively on %s	use --no-preserve-root to override this failsafe	..	failed to stat %s: skipping %s	skipping %s, since it's on a different device	and --preserve-root=all is in effect	cannot remove %s	WARNING: Circular directory structure.
 This almost certainly means that you have a corrupted file system.
 NOTIFY YOUR SYSTEM MANAGER.
 The following directory is part of the cycle:
@@ -95,7 +95,7 @@ rm@file_name_concat	0	8	-65544	48
 rm@mfile_name_concat	0	1	2	46	47	8	-65544	96	4	0	46	47	0	5	47	0	1	1	0	46	
 rm@priv_set_remove_linkdir	-1	
 rm@priv_set_restore_linkdir	-1	
-rm@set_program_name	/.libs/	lt-	0	3	6	7	8	0	55	1	47	6	4	7	19	3	
+rm@set_program_name	/.libs/	lt-	0	1	3	6	7	8	0	55	1	47	6	4	7	19	3	
 rm@clone_quoting_options	0	8	-65544	32	56	
 rm@get_quoting_style	0	8	
 rm@set_quoting_style	0	8	
@@ -108,7 +108,7 @@ rm@quotearg_buffer	0	8	-65624	4	-65656	32
 rm@quotearg_alloc	8	-65544	32	0	
 rm@quotearg_alloc_mem	0	1	8	0	-65608	4	1	-65640	32	
 rm@quotearg_free	1	16	256	8	-65544	16	1	2	3	256	1	7	1	2	3	16	32	4	0	
-rm@quotearg_n_options	0	1	8	16	31	2147483646	8	-65544	80	7	0	1	-65624	1	256	5	16	4	-65656	32	
+rm@quotearg_n_options	0	1	8	16	2147483646	8	-65544	80	7	0	1	-65624	1	256	5	16	4	-65656	32	
 rm@quotearg_n	8	-65544	16	-1	
 rm@quotearg_n_mem	8	-65544	32	
 rm@quotearg	8	-65544	16	0	
@@ -212,8 +212,8 @@ rm@hard_locale	C	POSIX	C	POSIX	0	1	19	0	-65816	257	20	1
 rm@hash_get_n_buckets	
 rm@hash_get_n_buckets_used	
 rm@hash_get_n_entries	
-rm@hash_get_max_bucket_length	0	1	8	16	0	1	2	3	8	20	0	1	2	
-rm@hash_table_ok	0	1	8	16	0	1	2	3	8	20	0	4	1	
+rm@hash_get_max_bucket_length	0	1	16	0	1	2	3	8	20	0	1	2	
+rm@hash_table_ok	0	1	16	0	1	2	3	8	20	0	4	1	
 rm@hash_print_statistics	# entries:         %lu
 	# buckets:         %lu
 	# buckets used:    %lu (%.2f%%)
@@ -221,14 +221,12 @@ rm@hash_print_statistics	# entries:         %lu
 	8	-65544	48	0	20	1	
 rm@hash_lookup	0	8	-65544	32	20	
 rm@hash_get_first	0	16	20	0	8	4	16	
-rm@hash_get_next	0	8	16	8	-65544	32	20	0	
+rm@hash_get_next	0	16	8	-65544	32	20	0	
 rm@hash_get_entries	0	1	8	16	0	1	8	20	0	
 rm@hash_do_for_each	0	1	16	8	-65544	64	0	20	
-rm@hash_string	0	1	31	0	5	
 rm@is_prime	0	1	3	4	3	4	5	6	7	9	25	49	52	3	9	9	25	49	8	20	0	
 rm@next_prime	-1	0	1	2	9	10	8	9	10	11	13	15	20	11	0	11	13	15	-1	11	13	17	
 rm@hash_reset_tuning	0	
-rm@raw_hasher	0	8	-65544	32	3	
 rm@raw_comparator	8	
 rm@check_tuning	0	1	6	69	1065353216	8	1	0	
 rm@compute_bucket_size	0	1	   _	1602224128	17	0	20	48	8	1	
@@ -248,16 +246,16 @@ rm@i_ring_empty
 rm@i_ring_push	0	1	3	4	7	19	0	
 rm@i_ring_pop	0	1	3	4	8	-65544	32	17	0	7	1	19	
 rm@locale_charset	0	8	-65544	16	14	17	
-rm@opendirat	0	1	31	592128	19	0	7	8	
+rm@opendirat	0	592128	19	0	7	8	
 rm@setlocale_null_androidfix	8	-65544	32	0	
 rm@setlocale_null_unlocked	0	1	22	8	-65544	48	0	22	34	4	
 rm@setlocale_null_r	8	-65544	32	
 rm@setlocale_null	8	-65544	16	
-rm@fd_safer	0	1	2	31	7	0	2	
-rm@rpl_fclose	-1	0	1	31	8	-65544	32	-1	0	7	0	19	1	-1	
+rm@fd_safer	0	2	7	0	2	
+rm@rpl_fclose	-1	0	8	-65544	32	7	0	19	1	-1	
 rm@rpl_fcntl	0	1	3	4	8	9	10	11	16	47	1024	1025	1026	1030	1031	1033	17	0	-65720	-65528	-65520	-1	16	24	48	19	16	7	47	1030	-65704	3	8	24	11	20	1031	1033	1	1025	1026	1034	4	9	1024	10	
 rm@rpl_fcntl_DUPFD	8	-65544	32	0	
-rm@rpl_fcntl_DUPFD_CLOEXEC	-1	0	1	22	31	0	19	1030	7	-1	1	0	1	-1	22	1	2	
+rm@rpl_fcntl_DUPFD_CLOEXEC	-1	0	1	22	0	19	1030	7	-1	1	0	1	-1	22	1	2	
 rm@rotl64	63	64	
 rm@rotr64	63	64	
 rm@rotl32	31	32	
@@ -280,7 +278,7 @@ rm@c_isprint	0	1	32	94	7	94	1	0
 rm@c_ispunct	0	1	3	14	33	58	64	91	96	123	7	64	58	91	14	1	0	96	3	
 rm@c_isspace	0	1	9	13	7	9	0	13	1	32	
 rm@c_isupper	0	1	25	65	7	25	1	0	
-rm@c_isxdigit	0	1	48	7	54	4	0	
+rm@c_isxdigit	0	1	7	54	4	0	
 rm@c_tolower	25	32	65	7	25	3	32	
 rm@c_toupper	25	32	97	7	25	32	
 rm@dup_safer	8	-65544	16	3	0	

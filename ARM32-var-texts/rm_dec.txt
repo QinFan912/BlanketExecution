@@ -15,15 +15,15 @@ select_plural:
 $d:
 {'constant': []}
 emit_ancillary_info:
-{'string': ['\n%s online help: <%s>\n', 'en_', 'Report any translation bugs to <https://translationproject.org/team/>\n', 'Full documentation <%s%s>\n', "or available locally via: info '(coreutils) %s%s'\n"], 'constant': [0, 8], 'ir_16': [], 'ir_23': [0], 'ir_29': [2], 'ir_77': [5], 'ir_87': [3]}
+{'constant': [0, 5, 8], 'ir_16': [], 'ir_23': [0], 'ir_29': [2], 'ir_77': [5], 'ir_87': [3]}
 diagnose_leading_hyphen:
-{'string': ["Try '%s ./%s' to remove the file %s.\n"], 'constant': [0, 1, 2, 45], 'ir_7': [1], 's_98': [1, 2], 'ir_10': [2], 'ir_13': [0], 'ir_23': [45], 'ir_37': [], 'ir_63': [3], 'ir_67': [4]}
+{'constant': [0, 1, 2, 45], 'ir_7': [1], 's_98': [1, 2], 'ir_10': [2], 'ir_13': [0], 'ir_23': [45], 'ir_37': [], 'ir_63': [3], 'ir_67': [4]}
 usage:
-{'string': ['Usage: %s [OPTION]... [FILE]...\n', 'Remove (unlink) the FILE(s).\n\n  -f, --force           ignore nonexistent files and arguments, never prompt\n  -i                    prompt before every removal\n', '  -I                    prompt once before removing more than three files, or\n                          when removing recursively; less intrusive than -i,\n                          while still giving protection against most mistakes\n      --interactive[=WHEN]  prompt according to WHEN: never, once (-I), or\n                          always (-i); without WHEN, prompt always\n', '      --one-file-system  when removing a hierarchy recursively, skip any\n                          directory that is on a file system different from\n                          that of the corresponding command line argument\n', "      --no-preserve-root  do not treat '/' specially\n      --preserve-root[=all]  do not remove '/' (default);\n                              with 'all', reject any command line argument\n                              on a separate device from its parent\n", '  -r, -R, --recursive   remove directories and their contents recursively\n  -d, --dir             remove empty directories\n  -v, --verbose         explain what is being done\n', '      --help     display this help and exit\n', '      --version  output version information and exit\n', '\nBy default, rm does not remove directories.  Use the --recursive (-r or -R)\noption to remove each listed directory, too, along with all of its contents.\n', "\nTo remove a file whose name starts with a '-', for example '-foo',\nuse one of these commands:\n  %s -- -foo\n\n  %s ./-foo\n", '\nNote that if you use rm to remove a file, it might be possible to recover\nsome of its contents, given sufficient expertise and/or time.  For greater\nassurance that the contents are truly unrecoverable, consider using shred.\n', "Try '%s --help' for more information.\n"], 'constant': [0], 'ir_4': [2], 'ir_8': [], 'ir_132': [1048900]}
+{'constant': [0], 'ir_4': [2], 'ir_8': [], 'ir_132': [1048900]}
 rm_option_init:
 {'constant': [0, 1, 4], 'ir_15': [0], 'ir_19': [2]}
 main:
-{'string': ['coreutils', '/usr/local/share/locale', 'coreutils', 'dfirvIR', 'failed to get attributes of %s', '%s: remove %llu argument? ', '%s: remove %llu arguments? ', '%s: remove %llu argument recursively? ', '%s: remove %llu arguments recursively? ', 'missing operand', 'rm', 'GNU coreutils', 'all', 'unrecognized --preserve-root argument: %s', '--no-preserve-root', 'you may not abbreviate the --no-preserve-root option', '--interactive'], 'constant': [0, 1, 2, 3, 4, 31, 73, 82, 100, 102, 105, 114, 118, 256, 257, 259, 260], 's_68': [0, 1, 2, 3, 4, 5], 'ir_11': [6], 'ir_21': [], 'ir_29': ['forc'], 'ir_32': [1], 'ir_35': [0], 'ir_37': [2], 'ir_39': [105], 'ir_80': [257], 'ir_47': [73], 'ir_196': [259], 'ir_92': [118], 'ir_55': [100], 'ir_348': [3], 'ir_96': [256], 'ir_59': [102], 'ir_573': [4], 'ir_208': [260], 'ir_100': [114], 'ir_63': [82], 'ir_584': [371], 'ir_130': ['neve']}
+{'constant': [0, 1, 2, 3, 4, 31, 73, 82, 100, 102, 105, 114, 118, 256, 257, 259, 260, 371], 's_68': [0, 1, 2, 3, 4, 5], 'ir_11': [6], 'ir_21': [], 'ir_29': ['forc'], 'ir_32': [1], 'ir_35': [0], 'ir_37': [2], 'ir_39': [105], 'ir_80': [257], 'ir_47': [73], 'ir_196': [259], 'ir_92': [118], 'ir_55': [100], 'ir_348': [3], 'ir_96': [256], 'ir_59': [102], 'ir_573': [4], 'ir_208': [260], 'ir_100': [114], 'ir_63': [82], 'ir_584': [371], 'ir_130': ['neve']}
 dot_or_dotdot:
 {'constant': [0, 1, 2, 46, 47], 'ir_3': [2], 'ir_5': [46], 'ir_6': [0], 'ir_41': [0, 1], 'ir_37': [1], 'ir_29': [47]}
 readdir_ignoring_dot_and_dotdot:
@@ -36,22 +36,18 @@ cache_stat_init:
 {'constant': [-1, 4, 48], 'ir_2': [-1]}
 write_protected_non_symlink:
 {'constant': [-1, 0, 1, 13], 'ir_6': [2], 'ir_8': [0], 'ir_14': [256], 'ir_59': [-1, 0], 'ir_36': ['core'], 'ir_21': [-1], 'ir_42': [512], 'ir_55': [13], 'ir_58': [1]}
-prompt:
-{'string': ['cannot remove %s', '%s: descend into write-protected directory %s? ', '%s: descend into directory %s? ', '%s: remove write-protected %s %s? ', '%s: remove %s %s? ', 'cannot remove %s'], 'constant': [-1, 0, 1, 2, 3, 4, 5, 10, 21, 16384], 'ir_16': [2], 'ir_18': [0], 'ir_24': [], 's_c0': [-1, 0, 4, 10, 21], 'ir_33': [4], 'ir_73': [5], 'ir_68': [3], 'ir_414': [2, 3], 'ir_115': [10], 'ir_185': [-1, 0], 'ir_158': [256], 'ir_181': [-1], 'ir_170': ['core'], 'ir_178': [16384], 'ir_246': [21], 'ir_229': [1]}
 nonexistent_file_errno:
 {'constant': [0, 1, 2, 20, 22, 84], 'ir_2': [2], 'ir_4': [20], 'ir_5': [0], 'ir_31': [1], 'ir_37': [0, 1], 'ir_20': [22], 'ir_24': [84]}
 ignorable_missing:
 {'constant': [0, 1], 'ir_5': [2], 'ir_7': [0], 'ir_24': [1]}
 fts_skip_tree:
 {'constant': [], 'ir_5': [4]}
-mark_ancestor_dirs:
-{'constant': [0, 1], 'ir_5': [2], 'ir_7': [0], 'ir_16': [1]}
 excise:
-{'string': ['removed directory %s\n', 'removed %s\n', 'cannot remove %s'], 'constant': [0, 1, 2, 4, 13, 17, 20, 21, 30, 39], 'ir_8': [2], 'ir_10': [0], 'ir_21': [0, 512], 'ir_13': [512], 'ir_73': [30], 'ir_79': [], 'ir_227': [2, 4], 'ir_51': [4], 'ir_142': [39], 'ir_181': [1], 'ir_187': [13], 'ir_149': [21], 'ir_162': [20], 'ir_169': [17]}
+{'constant': [0, 1, 2, 4, 13, 17, 20, 21, 30, 39], 'ir_8': [2], 'ir_10': [0], 'ir_21': [0, 512], 'ir_13': [512], 'ir_73': [30], 'ir_79': [], 'ir_227': [2, 4], 'ir_51': [4], 'ir_142': [39], 'ir_181': [1], 'ir_187': [13], 'ir_149': [21], 'ir_162': [20], 'ir_169': [17]}
 rm_fts:
-{'string': ['cannot remove %s', 'refusing to remove %s or %s directory: skipping %s', '..', 'it is dangerous to operate recursively on %s', 'it is dangerous to operate recursively on %s (same as %s)', 'use --no-preserve-root to override this failsafe', '..', 'failed to stat %s: skipping %s', "skipping %s, since it's on a different device", 'and --preserve-root=all is in effect', "skipping %s, since it's on a different device", 'traversal failed: %s', 'WARNING: Circular directory structure.\nThis almost certainly means that you have a corrupted file system.\nNOTIFY YOUR SYSTEM MANAGER.\nThe following directory is part of the cycle:\n  %s\n', 'unexpected failure: fts_info=%d: %s\nplease report to %s'], 'constant': [0, 1, 2, 4, 6, 12, 16, 21, 39, 72, 168], 'ir_10': [2], 'ir_12': [12], 'ir_13': [0], 'ir_39': [6], 'ir_561': [3], 's_b8': [0, 1, 2, 3, 21, 39], 'ir_508': [1], 'ir_112': [4], 'ir_196': [21], 'ir_197': [39], 'ir_127': [0, 1], 'ir_209': [21, 39], 'ir_396': []}
+{'constant': [0, 1, 2, 4, 6, 12, 16, 21, 39, 72, 168], 'ir_10': [2], 'ir_12': [12], 'ir_13': [0], 'ir_39': [6], 'ir_561': [3], 's_b8': [0, 1, 2, 3, 21, 39], 'ir_508': [1], 'ir_112': [4], 'ir_196': [21], 'ir_197': [39], 'ir_127': [0, 1], 'ir_209': [21, 39], 'ir_396': []}
 rm:
-{'string': ['fts_read failed', 'fts_close failed'], 'constant': [0, 2, 3, 4, 64, 536], 's_30': [2, 4, 536, 600], 'ir_7': [2], 'ir_9': [0], 'ir_148': [2, 4], 'ir_22': [536, 600], 'ir_18': [600], 'ir_59': [4], 'ir_44': [3], 'ir_95': [609]}
+{'constant': [0, 2, 3, 4, 64, 536], 's_30': [2, 4, 536, 600], 'ir_7': [2], 'ir_9': [0], 'ir_148': [2, 4], 'ir_22': [536, 600], 'ir_18': [600], 'ir_59': [4], 'ir_44': [3], 'ir_95': [609]}
 __argmatch_die:
 {'constant': [], 'ir_1': [1]}
 sub_b594:
@@ -59,9 +55,9 @@ sub_b594:
 argmatch:
 {'constant': [-2, -1, 0, 1, 2], 's_28': [-1, 0, 1, 2], 'ir_6': [0], 'ir_16': [2], 'ir_113': [-1], 'ir_120': [-2, -1, 0], 'ir_119': [-2], 'ir_48': [1], 'ir_107': [0, 1]}
 argmatch_invalid:
-{'string': ['invalid argument %s for %s', 'ambiguous argument %s for %s'], 'constant': [], 'ir_6': [1], 'ir_9': [0], 'ir_20': [8]}
+{'constant': [0], 'ir_6': [1], 'ir_20': [8]}
 argmatch_valid:
-{'string': ['Valid arguments are:'], 'constant': [0, 1, 2], 'ir_6': [0], 'ir_11': [], 'ir_22': [2], 'ir_26': [0, 1], 'ir_103': [10]}
+{'constant': [0, 1, 2, 10], 'ir_6': [0], 'ir_11': [], 'ir_22': [2], 'ir_26': [0, 1], 'ir_103': [10]}
 __xargmatch_internal:
 {'constant': [-1, 0], 'ir_11': [2], 'ir_13': [0]}
 argmatch_to_argument:
@@ -69,19 +65,19 @@ argmatch_to_argument:
 close_stdin_set_file_name:
 {'constant': []}
 close_stdin:
-{'string': ['error closing file', '%s: %s', '%s'], 'constant': [0, 1], 'ir_3': [], 'ir_8': [2], 'ir_10': [0], 'ir_102': [1]}
+{'constant': [0, 1], 'ir_3': [], 'ir_8': [2], 'ir_10': [0], 'ir_102': [1]}
 close_stdout_set_file_name:
 {'constant': []}
 close_stdout_set_ignore_EPIPE:
 {'constant': []}
 close_stdout:
-{'string': ['write error', '%s: %s', '%s'], 'constant': [0, 1, 32], 'ir_2': [], 'ir_7': [2], 'ir_9': [0], 'ir_13': [1], 'ir_24': [32]}
+{'constant': [0, 1, 32], 'ir_2': [], 'ir_7': [2], 'ir_9': [0], 'ir_13': [1], 'ir_24': [32]}
 last_component:
 {'constant': [0, 1, 47], 'ir_2': [0], 'ir_5': [2], 'ir_7': [47], 'ir_25': [1]}
 base_len:
 {'constant': [1, 47], 'ir_2': [0], 'ir_7': [2], 'ir_9': [1], 'ir_18': [47]}
 file_type:
-{'string': ['socket', 'weird file', 'fifo', 'character special file', 'block special file', 'symbolic link', 'directory', 'regular empty file', 'regular file'], 'constant': [0, 48, 4096, 8192, 16384, 24576], 'ir_5': [2, 5], 'ir_8': [0], 'ir_29': [2], 'ir_31': [16384], 'ir_13': [5], 'ir_45': ['core'], 'ir_55': [24576], 'ir_65': [8192], 'ir_75': [4096]}
+{'constant': [0, 48, 4096, 8192, 16384, 24576], 'ir_5': [2, 5], 'ir_8': [0], 'ir_29': [2], 'ir_31': [16384], 'ir_13': [5], 'ir_45': ['core'], 'ir_55': [24576], 'ir_65': [8192], 'ir_75': [4096]}
 file_name_concat:
 {'constant': [0], 'ir_9': [2]}
 mfile_name_concat:
@@ -91,7 +87,7 @@ priv_set_remove_linkdir:
 priv_set_restore_linkdir:
 {'constant': [-1]}
 set_program_name:
-{'string': ['/.libs/', 'lt-'], 'constant': [0, 3, 6, 7], 'ir_3': [2], 'ir_5': [0], 'ir_16': [47], 'ir_8': [], 'ir_11': [1], 'ir_12': [55], 'ir_32': [6], 'ir_70': ['./pr'], 'ir_38': [7], 'ir_57': [3]}
+{'constant': [0, 3, 6, 7], 'ir_3': [2], 'ir_5': [0], 'ir_16': [47], 'ir_8': [], 'ir_11': [1], 'ir_12': [55], 'ir_32': [6], 'ir_70': ['./pr'], 'ir_38': [7], 'ir_57': [3]}
 clone_quoting_options:
 {'constant': [0], 'ir_6': [2], 'ir_14': [48]}
 get_quoting_style:
@@ -107,7 +103,7 @@ set_custom_quoting:
 quoting_options_from_style:
 {'constant': [0, 4, 8, 10, 12, 16], 's_48': [0], 'ir_30': [2], 'ir_32': [10]}
 gettext_quote:
-{'string': ['UTF-8', 'GB18030'], 'constant': [0, 9, 96], 'ir_7': [2], 'ir_10': [0], 'ir_25': [96], 'ir_58': [9], 'ir_51': [65377072]}
+{'constant': [0, 9, 96], 'ir_7': [2], 'ir_10': [0], 'ir_25': [96], 'ir_58': [9], 'ir_51': [65377072]}
 quotearg_buffer:
 {'constant': [0], 'ir_6': [2]}
 quotearg_alloc:
@@ -123,19 +119,19 @@ quotearg_n:
 quotearg_n_mem:
 {'constant': []}
 quotearg:
-{'constant': [], 'ir_2': [0]}
+{'constant': [0]}
 quotearg_mem:
-{'constant': [], 'ir_3': [0]}
+{'constant': [0]}
 quotearg_n_style:
 {'constant': [], 'ir_11': [-1]}
 quotearg_n_style_mem:
 {'constant': []}
 quotearg_style:
-{'constant': [], 'ir_3': [0]}
+{'constant': [0]}
 quotearg_style_mem:
-{'constant': [], 'ir_4': [0]}
+{'constant': [0]}
 quotearg_char_mem:
-{'constant': [], 'ir_28': [1], 'ir_31': [0]}
+{'constant': [0], 'ir_13': [], 'ir_28': [1]}
 quotearg_char:
 {'constant': [], 'ir_6': [-1]}
 quotearg_colon:
@@ -149,17 +145,17 @@ quotearg_n_custom:
 quotearg_n_custom_mem:
 {'constant': [], 's_48': [0]}
 quotearg_custom:
-{'constant': [], 'ir_4': [0]}
+{'constant': [0]}
 quotearg_custom_mem:
-{'constant': [], 'ir_6': [0]}
+{'constant': [0]}
 quote_n_mem:
 {'constant': []}
 quote_mem:
-{'constant': [], 'ir_3': [0]}
+{'constant': [0]}
 quote_n:
 {'constant': [], 'ir_5': [-1]}
 quote:
-{'constant': [], 'ir_2': [0]}
+{'constant': [0]}
 get_root_dev_ino:
 {'constant': [0, 4, 8], 'ir_3': [], 'ir_8': [2], 'ir_10': [0]}
 statat:
@@ -167,7 +163,7 @@ statat:
 lstatat:
 {'constant': [], 'ir_7': [256]}
 version_etc_arn:
-{'string': ['%s (%s) %s\n', '%s %s\n', '(C)', 'Copyright %s %d Free Software Foundation, Inc.', 'License GPLv3+: GNU GPL version 3 or later <%s>.\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n', 'Written by %s, %s, %s,\n%s, %s, %s, %s,\n%s, %s, and others.\n', 'Written by %s, %s, %s,\n%s, %s, %s, %s,\n%s, and %s.\n', 'Written by %s, %s, %s,\n%s, %s, and %s.\n', 'Written by %s, %s, %s,\n%s, and %s.\n', 'Written by %s and %s.\n', 'Written by %s, %s, %s,\n%s, %s, %s, %s,\nand %s.\n', 'Written by %s, %s, %s,\n%s, %s, %s, and %s.\n', 'Written by %s, %s, %s,\nand %s.\n', 'Written by %s, %s, and %s.\n', 'Written by %s.\n'], 'constant': [0, 9], 'ir_10': [2], 'ir_12': [0], 'ir_38': [2020], 'ir_40': [10], 'ir_56': [9]}
+{'constant': [0, 9], 'ir_10': [2], 'ir_12': [0], 'ir_38': [2020], 'ir_40': [10], 'ir_56': [9]}
 version_etc_ar:
 {'constant': [0, 1, 2], 'ir_5': [0], 'ir_11': [2]}
 version_etc_va:
@@ -175,15 +171,15 @@ version_etc_va:
 version_etc:
 {'constant': []}
 emit_bug_reporting_address:
-{'string': ['Report bugs to: %s\n', '%s home page: <%s>\n', 'General help using GNU software: <%s>\n'], 'constant': [], 'ir_3': [10]}
+{'constant': [], 'ir_3': [10]}
 can_write_any_file:
 {'constant': [0, 1], 'ir_3': [1], 'ir_5': [2], 'ir_7': [0]}
 xnmalloc:
-{'constant': [], 'ir_9': [2], 'ir_12': [0]}
+{'constant': [2147483647], 'ir_3': [], 'ir_9': [2], 'ir_12': [0]}
 xnrealloc:
-{'constant': [], 'ir_10': [2], 'ir_13': [0]}
+{'constant': [2147483647], 'ir_4': [], 'ir_10': [2], 'ir_13': [0]}
 x2nrealloc:
-{'constant': [0, 1], 'ir_7': [2], 'ir_9': [0], 'ir_49': [], 'ir_16': [64]}
+{'constant': [0, 1, 64, 'TUUU', 2147483647], 'ir_7': [2], 'ir_9': [0], 'ir_49': [], 'ir_16': [64]}
 xcharalloc:
 {'constant': []}
 xmalloc:
@@ -195,13 +191,13 @@ x2realloc:
 xzalloc:
 {'constant': [], 'ir_3': [1]}
 xcalloc:
-{'constant': [0], 'ir_3': [], 'ir_9': [2]}
+{'constant': [2147483647], 'ir_3': [], 'ir_9': [2], 'ir_12': [0]}
 xmemdup:
 {'constant': []}
 xstrdup:
 {'constant': [1]}
 xalloc_die:
-{'string': ['memory exhausted', '%s'], 'constant': [], 'ir_4': [1], 'ir_9': [0]}
+{'constant': [], 'ir_4': [1], 'ir_9': [0]}
 xfts_open:
 {'constant': [0, 22, 512], 'ir_11': [2], 'ir_13': [0], 'ir_20': [22], 'ir_24': [41]}
 yesno:
@@ -215,9 +211,9 @@ AD_compare:
 AD_hash:
 {'constant': [8], 'ir_9': [0]}
 setup_dir:
-{'constant': [0, 1], 'ir_6': [2], 'ir_8': [0], 'ir_25': [32], 'ir_11': [31], 'ir_57': [1]}
+{'constant': [0, 1, 31, 32], 'ir_6': [2], 'ir_8': [0], 'ir_25': [32], 'ir_11': [31], 'ir_57': [1], 'ir_65': [0, 1]}
 enter_dir:
-{'constant': [0, 1, 2, 4, 8, 72, 96], 'ir_7': [2], 'ir_9': [0], 'ir_13': [24], 'ir_90': [1], 'ir_99': [0, 1]}
+{'constant': [0, 1, 2, 4, 8, 24, 72, 96], 'ir_7': [2], 'ir_9': [0], 'ir_13': [24], 'ir_90': [1], 'ir_99': [0, 1]}
 leave_dir:
 {'constant': [0, 4, 8, 16, 72, 96, 168], 'ir_9': [2], 'ir_11': [0], 'ir_21': [], 'ir_51': [2, 5], 'ir_60': [5]}
 free_dir:
@@ -250,18 +246,14 @@ fts_lfree:
 {'constant': [0], 'ir_6': [2]}
 fts_palloc:
 {'constant': [0, 1, 36, 256], 'ir_11': [2], 'ir_14': [0], 's_18': [0, 36], 'ir_41': [1], 'ir_58': [0, 1], 'ir_23': [36]}
-fts_padjust:
-{'constant': [0, 176], 'ir_7': [2], 'ir_9': [0]}
 fts_maxarglen:
 {'constant': [0, 1, 4], 'ir_2': [0], 'ir_5': [2], 'ir_26': [1]}
-exchange:
-{'constant': [0, 1, 2], 'ir_10': [2], 'ir_13': [0]}
 process_long_option:
-{'string': ["%s: option '%s%s' is ambiguous; possibilities:", " '%s%s'", "%s: option '%s%s' is ambiguous\n", "%s: unrecognized option '%s%s'\n", "%s: option '%s%s' doesn't allow an argument\n", "%s: option '%s%s' requires an argument\n"], 'constant': [-1, 0, 1, 2, 16, 45, 58, 61, 63], 's_50': [-1, 0, 1], 'ir_11': [2], 'ir_13': [0], 'ir_19': [61], 'ir_288': [45], 'ir_399': [1], 'ir_337': [63], 'ir_311': [], 'ir_338': [-1], 'ir_537': [0, 1], 'ir_578': [10]}
+{'constant': [-1, 0, 1, 2, 16, 45, 58, 61, 63], 's_50': [-1, 0, 1], 'ir_11': [2], 'ir_13': [0], 'ir_19': [61], 'ir_288': [45], 'ir_399': [1], 'ir_337': [63], 'ir_311': [], 'ir_338': [-1], 'ir_537': [0, 1], 'ir_578': [10]}
 _getopt_initialize:
-{'string': ['POSIXLY_CORRECT'], 'constant': [0, 1, 2, 43, 45], 'ir_7': [2], 'ir_9': [0], 's_18': [0, 1, 2], 'ir_27': [45], 'ir_37': [43], 'ir_81': [1]}
+{'constant': [0, 1, 2, 43, 45], 'ir_7': [2], 'ir_9': [0], 's_18': [0, 1, 2], 'ir_27': [45], 'ir_37': [43], 'ir_81': [1]}
 _getopt_internal_r:
-{'string': ['--', "%s: option requires an argument -- '%c'\n", "%s: option requires an argument -- '%c'\n", "%s: invalid option -- '%c'\n"], 'constant': [-1, 0, 1, 2, 43, 45, 58, 59, 87], 'ir_9': [2], 'ir_11': [0], 's_48': [0, 58, 63], 'ir_13': [-1], 'ir_820': [-1, 63], 'ir_43': [45], 'ir_71': [58], 'ir_49': [43], 'ir_123': [1], 'ir_575': [63], 'ir_556': [], 'ir_549': [59], 'ir_583': [87], 'ir_686': [58, 63]}
+{'constant': [-1, 0, 1, 2, 43, 45, 58, 59, 63, 87], 'ir_9': [2], 'ir_11': [0], 's_48': [0, 58, 63], 'ir_13': [-1], 'ir_820': [-1, 63], 'ir_43': [45], 'ir_71': [58], 'ir_49': [43], 'ir_123': [1], 'ir_575': [63], 'ir_556': [], 'ir_549': [59], 'ir_583': [87], 'ir_686': [58, 63]}
 rpl_getopt_internal:
 {'constant': [4], 's_30': [0, 1], 'ir_27': [0]}
 rpl_getopt:
@@ -285,7 +277,7 @@ cycle_check_init:
 cycle_check:
 {'constant': [0, 1, 4, 8, 16, 96, 9827862], 'ir_5': [], 'ir_6': [2, 5], 'ir_9': [0], 'ir_19': [5], 'ir_12': [60], 'ir_66': [1], 'ir_33': [2], 'ir_111': [0, 1]}
 hard_locale:
-{'string': ['POSIX'], 'constant': [0, 1], 'ir_2': [], 'ir_5': [257], 'ir_8': [2], 'ir_10': [0], 'ir_40': [1]}
+{'constant': [0, 1], 'ir_2': [], 'ir_5': [257], 'ir_8': [2], 'ir_10': [0], 'ir_40': [1]}
 hash_get_n_buckets:
 {'constant': []}
 hash_get_n_buckets_used:
@@ -293,11 +285,11 @@ hash_get_n_buckets_used:
 hash_get_n_entries:
 {'constant': []}
 hash_get_max_bucket_length:
-{'constant': [0, 1, 4, 8], 'ir_7': [2], 'ir_10': [0], 'ir_18': [1], 'ir_33': [1, 2]}
+{'constant': [0, 1, 8], 'ir_7': [2], 'ir_10': [0], 'ir_18': [1], 'ir_33': [1, 2]}
 hash_table_ok:
-{'constant': [0, 1, 4, 8], 'ir_8': [2], 'ir_11': [0], 'ir_21': [1], 'ir_73': [0, 1]}
+{'constant': [0, 1, 8], 'ir_8': [2], 'ir_11': [0], 'ir_21': [1], 'ir_73': [0, 1]}
 hash_print_statistics:
-{'string': ['# entries:         %lu\n', '# buckets:         %lu\n', '# buckets used:    %lu (%.2f%%)\n', 'max bucket length: %lu\n'], 'constant': []}
+{'constant': []}
 safe_hasher:
 {'constant': [3, 8, 24]}
 hash_lookup:
@@ -305,7 +297,7 @@ hash_lookup:
 hash_get_first:
 {'constant': [0, 8], 'ir_4': [2], 'ir_6': [0]}
 hash_get_next:
-{'constant': [0, 4, 8], 'ir_10': [2], 'ir_13': [0]}
+{'constant': [0, 8], 'ir_10': [2], 'ir_13': [0]}
 hash_get_entries:
 {'constant': [0, 1, 2, 8], 'ir_9': [2], 'ir_12': [0]}
 hash_do_for_each:
@@ -315,21 +307,19 @@ hash_string:
 next_prime:
 {'constant': [0, 1, 2, 9, 10], 'ir_3': [2], 'ir_5': [9], 'ir_6': [0], 'ir_9': [11], 'ir_12': [1]}
 hash_reset_tuning:
-{'constant': [0], 'ir_7': []}
+{'constant': [], 'ir_6': [0]}
 raw_hasher:
-{'constant': [], 'ir_5': [3]}
-check_tuning:
-{'constant': [0, 1], 'ir_5': [2], 'ir_8': [0], 'ir_13': [], 'ir_9': [1]}
+{'constant': [3]}
 compute_bucket_size:
 {'constant': [0, 1], 'ir_7': [2], 'ir_9': [0], 'ir_19': [], 'ir_43': [1], 'ir_45': [-536870911]}
 hash_initialize:
-{'constant': [0, 1, 3], 'ir_6': [2], 'ir_8': [0], 'ir_19': [40], 'ir_60': [8]}
+{'constant': [0, 3, 40], 'ir_6': [2], 'ir_8': [0], 'ir_19': [40], 'ir_60': [8]}
 hash_clear:
 {'constant': [0, 8], 'ir_7': [2], 'ir_10': [0]}
 hash_free:
 {'constant': [0, 8], 'ir_4': [2], 'ir_6': [0]}
 allocate_entry:
-{'constant': [0], 'ir_4': [2], 'ir_13': [8]}
+{'constant': [0, 8], 'ir_4': [2], 'ir_6': [0], 'ir_13': [8]}
 free_entry:
 {'constant': [0]}
 hash_find_entry:
@@ -353,7 +343,7 @@ i_ring_push:
 i_ring_pop:
 {'constant': [0, 1, 2, 3], 'ir_5': [2], 'ir_7': [0], 'ir_33': [1]}
 locale_charset:
-{'constant': [0], 'ir_1': [14], 'ir_4': [2]}
+{'constant': [0, 14], 'ir_1': [14], 'ir_4': [2], 'ir_6': [0]}
 opendirat:
 {'constant': [0, 2304], 'ir_13': [2], 'ir_15': [0]}
 setlocale_null_androidfix:
@@ -369,7 +359,7 @@ fd_safer:
 rpl_fclose:
 {'constant': [-1, 0], 's_28': [-1, 0, 1], 'ir_3': [0], 'ir_7': [2], 'ir_29': [-1]}
 rpl_fcntl:
-{'constant': [0, 1, 3, 4, 8, 10, 11, 1024, 1026, 1030, 1031], 'ir_8': [2], 'ir_10': [0], 'ir_149': [], 'ir_12': [1030], 'ir_20': [10], 'ir_70': [1026], 'ir_28': [3], 'ir_83': [1024], 'ir_56': [8], 'ir_36': [1], 'ir_100': [1031], 'ir_105': [1032], 'ir_92': [11], 'ir_64': [4]}
+{'constant': [0, 1, 3, 4, 8, 10, 11, 1024, 1026, 1030, 1031, 1032], 'ir_8': [2], 'ir_10': [0], 'ir_149': [], 'ir_12': [1030], 'ir_20': [10], 'ir_70': [1026], 'ir_28': [3], 'ir_83': [1024], 'ir_56': [8], 'ir_36': [1], 'ir_100': [1031], 'ir_105': [1032], 'ir_92': [11], 'ir_64': [4]}
 $a:
 {'constant': [], 'ir_4': [0]}
 rpl_fcntl_DUPFD_CLOEXEC:
@@ -389,9 +379,9 @@ rotl8:
 rotr8:
 {'constant': [8, 31, 32, 255]}
 c_isalnum:
-{'constant': [0, 1, 9, 25, 48, 65, 90, 97], 'ir_2': [2], 'ir_4': [90], 'ir_5': [0], 'ir_23': [25], 'ir_8': [65], 'ir_37': [0, 1], 'ir_31': [1], 'ir_13': [9]}
+{'constant': [0, 1, 9, 25, 65, 90, 96, 97, 194], 'ir_2': [2], 'ir_4': [90], 'ir_5': [0], 'ir_23': [25], 'ir_8': [65], 'ir_37': [0, 1], 'ir_31': [1], 'ir_13': [9]}
 c_isalpha:
-{'constant': [0, 1, 65, 90, 97], 'ir_2': [2], 'ir_4': [65], 'ir_5': [0], 'ir_32': [0, 1], 'ir_8': [90], 'ir_26': [1], 'ir_13': [25]}
+{'constant': [0, 1, 65, 90], 'ir_2': [2], 'ir_4': [65], 'ir_5': [0], 'ir_32': [0, 1], 'ir_8': [90], 'ir_26': [1], 'ir_13': [25]}
 c_isascii:
 {'constant': [0, 1, 127], 'ir_3': [2], 'ir_5': [127], 'ir_6': [0], 'ir_10': [0, 1], 'ir_8': [1]}
 c_isblank:
@@ -407,7 +397,7 @@ c_islower:
 c_isprint:
 {'constant': [0, 1, 32, 94], 'ir_3': [2], 'ir_5': [94], 'ir_6': [0], 'ir_10': [0, 1], 'ir_8': [1]}
 c_ispunct:
-{'constant': [0, 1, 3, 14, 33, 58, 64, 91, 96, 123], 'ir_2': [2], 'ir_4': [64], 'ir_5': [0], 'ir_22': [91], 'ir_8': [58], 'ir_45': [0, 1], 'ir_31': [96], 'ir_39': [1], 'ir_13': [14], 'ir_36': [3]}
+{'constant': [0, 1, 3, 14, 58, 64, 66, 91, 96, 246], 'ir_2': [2], 'ir_4': [64], 'ir_5': [0], 'ir_22': [91], 'ir_8': [58], 'ir_45': [0, 1], 'ir_31': [96], 'ir_39': [1], 'ir_13': [14], 'ir_36': [3]}
 c_isspace:
 {'constant': [0, 1, 9, 23, 31, 32, 255, 8388639], 'ir_3': [2], 'ir_5': [23], 'ir_6': [0], 'ir_23': [0, 1], 'ir_21': [1]}
 c_isupper:
@@ -425,15 +415,11 @@ __aeabi_uidivmod:
 __aeabi_uldivmod:
 {'constant': [0], 'ir_6': [2], 's_10': []}
 __aeabi_idiv0:
-{'constant': [], 'ir_2': [8]}
+{'constant': [8]}
 __gnu_ldivmod_helper:
-{'constant': [1], 'ir_21': [2], 'ir_24': [0]}
+{'constant': [], 'ir_21': [2], 'ir_24': [0]}
 __gnu_uldivmod_helper:
-{'constant': [1], 'ir_21': [2], 'ir_24': [0]}
-__divdi3:
-{'constant': [-1, 0, 1, 2, 16, 31, 32, 255], 'ir_10': [2], 'ir_12': [0], 'ir_29': [-1], 'ir_151': [1]}
-__udivdi3:
-{'constant': [0, 1, 2, 16, 31, 32, 255], 'ir_12': [2], 'ir_14': [0], 'ir_104': [1]}
+{'constant': [], 'ir_21': [2], 'ir_24': [0]}
 __libc_csu_init:
 {'constant': [0, 1, 4], 'ir_8': [-442564576], 'ir_11': [4], 'ir_12': [1, 4], 'ir_24': [1], 'ir_20': [5], 'ir_22': [0], 'ir_31': [-442552304], 'ir_36': [1, 2, 3], 'ir_44': [2], 'ir_45': [1, 2]}
 __libc_csu_fini:
@@ -447,6 +433,6 @@ fstat64:
 lstat64:
 {'constant': [], 'ir_4': [3]}
 fstatat64:
-{'constant': [], 'ir_12': [3]}
+{'constant': [3]}
 _fini:
 {'constant': []}

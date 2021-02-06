@@ -1,0 +1,183 @@
+id@_init	0	20	4	-65544	8	
+id@sub_4001740	
+id@_start	-65528	20	-65536	0	
+id@deregister_tm_clones	0	8	20	
+id@register_tm_clones	0	36	20	
+id@__do_global_dtors_aux	0	5	8	69251080	1	
+id@frame_dummy	
+id@emit_ancillary_info	
+%s online help: <%s>
+	en_	Report any translation bugs to <https://translationproject.org/team/>
+	Full documentation <%s%s>
+	or available locally via: info '(coreutils) %s%s'
+	0	-65688	-65672	-65656	0	19	-65688	20	5	8	3	4	-65736	184	
+id@smack_new_label_from_self	-1	
+id@is_smack_enabled	0	
+id@usage	Usage: %s [OPTION]... [USER]...
+	Print user and group information for each specified USER,
+or (when USER omitted) for the current user.
+
+	  -a             ignore, for compatibility with other versions
+  -Z, --context  print only the security context of the process
+  -g, --group    print only the effective group ID
+  -G, --groups   print all group IDs
+  -n, --name     print a name instead of a number, for -ugG
+  -r, --real     print the real ID instead of the effective ID, with -ugG
+  -u, --user     print only the effective user ID
+  -z, --zero     delimit entries with NUL characters, not whitespace;
+                   not permitted in default format
+	      --help     display this help and exit
+	      --version  output version information and exit
+	
+Without any OPTION, print some useful set of identified information.
+	Try '%s --help' for more information.
+	0	7	
+id@main	coreutils	/usr/local/share/locale	coreutils	agnruzGZ	agnruzGZ	--context (-Z) works only on an SELinux-enabled kernel	id	GNU coreutils	Arnold Robbins	David MacKenzie	cannot print security context when user specified	cannot print "only" of more than one choice	cannot print only names or real IDs in default format	option --zero not permitted in default format	POSIXLY_CORRECT	can't get process context	%s: no such user	cannot get effective UID	cannot get real UID	cannot get effective GID	cannot get real GID	-131	-130	-1	0	1	8	71	90	97	103	110	114	117	122	8	-65560	80	-1	0	1	2	6	0	cont	7	-1	97	1	17	-130	114	5	0	1	-65640	-131	71	103	117	4	-65656	16	90	110	122	1	2	19	20	
+id@gidtostr_ptr	8	-65544	16	
+id@uidtostr_ptr	8	-65544	16	
+id@print_user	cannot find name for user ID %s	0	17	8	-65580	4	-65592	40	
+id@print_full_info	uid=%s	(%s)	 gid=%s	(%s)	 euid=%s	(%s)	 egid=%s	(%s)	failed to get groups for user %s	failed to get groups for user %s	failed to get groups for the current process	failed to get groups for the current process	 groups=	(%s)	 context=%s	0	4	-1	0	1	19	0	8	7	-65592	-1	0	-1	0	1	4	20	44	-65624	64	
+id@print_stuff	0	17	1	19	0	32	10	0	10	
+id@print_group_list	failed to get groups for user %s	failed to get groups for the current process	4	0	1	0	8	17	7	-65584	1	20	-65640	80	
+id@gidtostr_ptr	8	-65544	16	
+id@print_group	cannot find name for group ID %lu	0	0	1	5	8	-65596	1	4	-65608	56	
+id@close_stdout_set_file_name	
+id@close_stdout_set_ignore_EPIPE	
+id@close_stdout	write error	%s: %s	%s	0	32	8	-65552	24	19	0	1	17	4	-65576	20	7	32	
+id@umaxtostr	0	3	10	0	8	
+id@set_program_name	/.libs/	lt-	lt-	0	6	8	0	55	1	47	6	4	7	19	3	
+id@clone_quoting_options	0	8	-65544	32	56	
+id@get_quoting_style	0	8	
+id@set_quoting_style	0	8	
+id@set_char_quoting	0	4	8	0	19	
+id@set_quoting_flags	0	8	
+id@set_custom_quoting	0	8	10	
+id@quoting_options_from_style	10	0	7	20	
+id@gettext_quote	UTF-8	GB18030	0	9	96	8	-65544	32	19	0	5	96	7	9	
+id@quotearg_buffer	0	8	-65624	4	-65656	32	
+id@quotearg_alloc	8	-65544	32	0	
+id@quotearg_alloc_mem	0	8	-65608	4	1	-65640	32	
+id@quotearg_free	16	8	-65544	1	2	3	256	1	7	1	2	3	16	32	4	
+id@quotearg_n_options	0	16	2147483646	8	-65544	80	7	0	1	-65624	1	256	5	16	4	-65656	32	
+id@quotearg_n	8	-65544	16	-1	
+id@quotearg_n_mem	8	-65544	32	
+id@quotearg	8	-65544	16	0	
+id@quotearg_mem	8	-65544	16	0	
+id@quotearg_n_style	19	0	-65608	-1	20	
+id@quotearg_n_style_mem	19	0	-65608	20	
+id@quotearg_style	8	-65544	16	0	
+id@quotearg_style_mem	8	-65544	32	0	
+id@quotearg_char_mem	0	19	-65608	1	20	
+id@quotearg_char	8	-65544	16	-1	
+id@quotearg_colon	8	-65544	16	58	
+id@quotearg_colon_mem	8	-65544	16	58	
+id@quotearg_n_style_colon	19	0	-65688	-65608	1	58	-1	20	
+id@quotearg_n_custom	8	-65544	32	-1	
+id@quotearg_n_custom_mem	0	19	-65608	20	
+id@quotearg_custom	8	-65544	32	0	
+id@quotearg_custom_mem	8	-65544	32	0	
+id@quote_n_mem	8	-65544	32	
+id@quote_mem	8	-65544	16	0	
+id@quote_n	8	-65544	16	-1	
+id@quote	8	-65544	16	0	
+id@getcon	8	-65544	16	95	-1	
+id@freecon	
+id@getfscreatecon	8	-65544	16	95	-1	
+id@setfscreatecon	8	-65544	16	95	-1	
+id@matchpathcon	8	-65544	32	95	-1	
+id@getfilecon	8	-65544	16	95	-1	
+id@lgetfilecon	8	-65544	16	95	-1	
+id@fgetfilecon	8	-65544	16	95	-1	
+id@setfilecon	8	-65544	16	95	-1	
+id@lsetfilecon	8	-65544	16	95	-1	
+id@fsetfilecon	8	-65544	16	95	-1	
+id@security_check_context	8	-65544	16	95	-1	
+id@security_check_context_raw	8	-65544	16	95	-1	
+id@setexeccon	8	-65544	16	95	-1	
+id@security_compute_create	8	-65544	32	95	-1	
+id@string_to_security_class	8	-65544	16	95	0	
+id@matchpathcon_init_prefix	8	-65544	16	95	-1	
+id@parse_with_separator	-1	0	43	-1	0	1	8	0	-1	17	4	1	5	43	0	1	-65640	10	19	20	-65576	7	
+id@parse_user_spec	0	8	58	46	20	
+id@version_etc_arn	%s (%s) %s
+	%s %s
+	(C)	Copyright %s %d Free Software Foundation, Inc.	License GPLv3+: GNU GPL version 3 or later <%s>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+	Written by %s.
+	Written by %s and %s.
+	Written by %s, %s, and %s.
+	Written by %s, %s, %s,
+and %s.
+	Written by %s, %s, %s,
+%s, and %s.
+	Written by %s, %s, %s,
+%s, %s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+%s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+%s, %s, and others.
+	0	4	8	0	2020	10	9	4	-65672	-65720	48	-65720	-65672	-65752	-65704	32	-65736	-65688	16	-65768	-65720	
+id@version_etc_ar	8	-65544	64	0	1	2	0	8	16	20	0	0	1	
+id@version_etc_va	8	9	47	96	0	1	19	0	8	9	7	47	-65640	4	20	
+id@version_etc	0	17	-65720	-65528	32	48	19	-65752	20	
+id@emit_bug_reporting_address	Report bugs to: %s
+	%s home page: <%s>
+	General help using GNU software: <%s>
+	10	0	
+id@xnmalloc	0	48	1	20	17	52	
+id@xnrealloc	0	48	1	20	17	52	
+id@x2nrealloc	0	8	48	52	1	20	17	
+id@xcharalloc	8	-65544	16	
+id@xmalloc	0	8	-65544	32	
+id@xrealloc	0	8	
+id@x2realloc	8	-65544	16	1	
+id@xzalloc	8	-65544	16	1	
+id@xcalloc	0	48	1	20	17	8	
+id@xmemdup	8	-65544	16	
+id@xstrdup	8	-65544	16	
+id@xalloc_die	memory exhausted	%s	0	1	
+id@xgetgroups	-1	12	8	-65544	48	7	-1	12	
+id@bkm_scale	0	48	1	0	1	20	-1	52	
+id@bkm_scale_by_power	1	8	-65544	32	0	19	
+id@xstrtoul	0	2	4	34	36	45	53	66	68	105	-65584	0	1	2	3	1000	1024	0	7	84	36	8	-65584	19	5	45	4	1	20	17	34	0	2	2	47	53	48	-65576	1024	3	6	512	68	105	66	
+id@rpl_mbrtowc	-3	0	-65564	0	8	-3	20	17	1	
+id@c_strcasecmp	0	8	4	-65592	32	5	
+id@hard_locale	C	POSIX	C	POSIX	0	19	-65816	257	20	0	1	1	
+id@locale_charset	0	8	-65544	16	14	17	
+id@realloc_groupbuf	0	4	0	48	4	1	20	17	12	
+id@mgetgroups	-1	0	2	4	38	10	20	0	8	10	19	-1	-65608	20	7	38	3	1	4	
+id@setlocale_null_androidfix	8	-65544	32	0	
+id@setlocale_null_unlocked	0	1	8	-65544	48	0	22	34	4	
+id@setlocale_null_r	8	-65544	32	
+id@setlocale_null	8	-65544	16	
+id@rpl_fclose	-1	8	-65544	32	-1	0	7	0	19	1	
+id@rpl_fflush	0	8	19	
+id@rpl_fseeko	-1	0	8	20	0	-1	19	
+id@c_isalnum	9	25	65	90	7	90	65	25	9	1	0	
+id@c_isalpha	65	90	7	65	0	90	1	25	
+id@c_isascii	127	7	1	0	
+id@c_isblank	9	32	7	32	1	9	19	0	1	0	
+id@c_iscntrl	31	19	0	7	1	127	
+id@c_isdigit	9	48	7	9	1	0	
+id@c_isgraph	33	93	7	93	1	0	
+id@c_islower	25	97	7	25	1	0	
+id@c_isprint	32	94	7	94	1	0	
+id@c_ispunct	3	14	58	64	91	96	7	64	58	91	14	1	0	96	3	
+id@c_isspace	9	13	7	9	0	13	1	32	
+id@c_isupper	25	65	7	25	1	0	
+id@c_isxdigit	7	54	4	0	
+id@c_tolower	25	65	7	25	3	32	
+id@c_toupper	25	97	7	25	32	
+id@getugroups	-1	0	4	2147483647	-1	0	1	75	7	-1	0	3	1	8	19	20	-1	0	0	1	
+id@__libc_csu_init	0	8	-443987883	36	1	2	20	0	19	0	1	2	4	-65592	8	1	2	
+id@__libc_csu_fini	
+id@atexit	69251080	19	0	
+id@_fini	4	-65544	8	

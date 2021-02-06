@@ -15,7 +15,7 @@ deregister_tm_clones:
 register_tm_clones:
 {'constant': [0, 224], 'ir_6': [0], 'ir_9': []}
 __do_global_dtors_aux:
-{'constant': [0, 1, 2, 31820, 31824, 32500], 'ir_1': [], 'ir_6': [0], 'ir_16': [1], 'ir_20': [4, 8], 'ir_24': [2, 3], 'ir_21': ['forc']}
+{'constant': [0, 1, 2, 4, 31820, 31824, 32500], 'ir_1': [], 'ir_6': [0], 'ir_16': [1], 'ir_20': [4, 8], 'ir_24': [2, 3], 'ir_21': ['forc']}
 frame_dummy:
 {'constant': []}
 select_plural:
@@ -25,17 +25,17 @@ emit_ancillary_info:
 diagnose_leading_hyphen:
 {'string': ["Try '%s ./%s' to remove the file %s.\n"], 'constant': [0, 1, 2, 45], 'ir_5': [], 'ir_11': [1], 'ir_12': [1, 2], 'ir_22': [45], 'ir_81': [0], 'ir_54': [3], 'ir_62': [4]}
 usage:
-{'string': ['Usage: %s [OPTION]... [FILE]...\n', 'Remove (unlink) the FILE(s).\n\n  -f, --force           ignore nonexistent files and arguments, never prompt\n  -i                    prompt before every removal\n', '  -I                    prompt once before removing more than three files, or\n                          when removing recursively; less intrusive than -i,\n                          while still giving protection against most mistakes\n      --interactive[=WHEN]  prompt according to WHEN: never, once (-I), or\n                          always (-i); without WHEN, prompt always\n', '      --one-file-system  when removing a hierarchy recursively, skip any\n                          directory that is on a file system different from\n                          that of the corresponding command line argument\n', "      --no-preserve-root  do not treat '/' specially\n      --preserve-root[=all]  do not remove '/' (default);\n                              with 'all', reject any command line argument\n                              on a separate device from its parent\n", '  -r, -R, --recursive   remove directories and their contents recursively\n  -d, --dir             remove empty directories\n  -v, --verbose         explain what is being done\n', '      --help     display this help and exit\n', '      --version  output version information and exit\n', '\nBy default, rm does not remove directories.  Use the --recursive (-r or -R)\noption to remove each listed directory, too, along with all of its contents.\n', "\nTo remove a file whose name starts with a '-', for example '-foo',\nuse one of these commands:\n  %s -- -foo\n\n  %s ./-foo\n", '\nNote that if you use rm to remove a file, it might be possible to recover\nsome of its contents, given sufficient expertise and/or time.  For greater\nassurance that the contents are truly unrecoverable, consider using shred.\n', "Try '%s --help' for more information.\n"], 'constant': [0], 'ir_2': []}
+{'string': ['Usage: %s [OPTION]... [FILE]...\n', 'Remove (unlink) the FILE(s).\n\n  -f, --force           ignore nonexistent files and arguments, never prompt\n  -i                    prompt before every removal\n', '  -I                    prompt once before removing more than three files, or\n                          when removing recursively; less intrusive than -i,\n                          while still giving protection against most mistakes\n      --interactive[=WHEN]  prompt according to WHEN: never, once (-I), or\n                          always (-i); without WHEN, prompt always\n', '      --one-file-system  when removing a hierarchy recursively, skip any\n                          directory that is on a file system different from\n                          that of the corresponding command line argument\n', "      --no-preserve-root  do not treat '/' specially\n      --preserve-root[=all]  do not remove '/' (default);\n                              with 'all', reject any command line argument\n                              on a separate device from its parent\n", '  -r, -R, --recursive   remove directories and their contents recursively\n  -d, --dir             remove empty directories\n  -v, --verbose         explain what is being done\n', '      --help     display this help and exit\n', '      --version  output version information and exit\n', '\nBy default, rm does not remove directories.  Use the --recursive (-r or -R)\noption to remove each listed directory, too, along with all of its contents.\n', "\nTo remove a file whose name starts with a '-', for example '-foo',\nuse one of these commands:\n  %s -- -foo\n\n  %s ./-foo\n", '\nNote that if you use rm to remove a file, it might be possible to recover\nsome of its contents, given sufficient expertise and/or time.  For greater\nassurance that the contents are truly unrecoverable, consider using shred.\n', 'rm', "Try '%s --help' for more information.\n"], 'constant': [0], 'ir_2': []}
 rm_option_init:
-{'constant': [0, 4, 255], 'ir_1': [], 'ir_6': [4], 'ir_12': [0]}
+{'constant': [0, 4], 'ir_1': [], 'ir_6': [4], 'ir_12': [0]}
 main:
-{'string': ['coreutils', '/usr/local/share/locale', 'coreutils', 'dfirvIR', 'failed to get attributes of %s', '%s: remove %llu argument? ', '%s: remove %llu arguments? ', '%s: remove %llu argument recursively? ', '%s: remove %llu arguments recursively? ', 'missing operand', 'rm', 'GNU coreutils', 'all', 'unrecognized --preserve-root argument: %s', '--no-preserve-root', 'you may not abbreviate the --no-preserve-root option', '--interactive'], 'constant': [-131, -130, -1, 0, 1, 2, 3, 4, 31, 73, 74, 82, 100, 102, 105, 106, 114, 118, 128, 129, 130, 131, 132, 255, 1073741823], 'ir_3': [], 'ir_19': [6], 'ir_52': ['forc'], 'ir_62': [-1], 'ir_64': [105], 'ir_293': [3], 'ir_83': [129], 'ir_66': [73], 'ir_417': [0], 'ir_362': [1], 'ir_157': [131], 'ir_85': [118], 'ir_68': [100], 'ir_304': [-131], 'ir_498': [2], 'ir_86': [128], 'ir_69': [102], 'ir_305': [-130], 'ir_159': [132], 'ir_87': [114], 'ir_70': [82], 'ir_504': [4], 'ir_523': [371], 'ir_103': ['neve'], 'ir_131': [5]}
+{'string': ['coreutils', '/usr/local/share/locale', 'coreutils', 'dfirvIR', 'rm', 'GNU coreutils', '--interactive', 'all', 'unrecognized --preserve-root argument: %s', '--no-preserve-root', 'you may not abbreviate the --no-preserve-root option', 'failed to get attributes of %s', '%s: remove %llu argument recursively? ', '%s: remove %llu arguments recursively? ', '%s: remove %llu argument? ', '%s: remove %llu arguments? ', 'missing operand'], 'constant': [0, 1, 2, 3, 4, 31, 105, 130, 255, 1073741823], 'ir_3': [], 'ir_19': [6], 'ir_52': ['forc'], 'ir_62': [-1], 'ir_64': [105], 'ir_293': [3], 'ir_83': [129], 'ir_66': [73], 'ir_417': [0], 'ir_362': [1], 'ir_157': [131], 'ir_85': [118], 'ir_68': [100], 'ir_304': [-131], 'ir_498': [2], 'ir_86': [128], 'ir_69': [102], 'ir_305': [-130], 'ir_159': [132], 'ir_87': [114], 'ir_70': [82], 'ir_504': [4], 'ir_523': [371], 'ir_103': ['neve'], 'ir_131': [5]}
 dot_or_dotdot:
 {'constant': [0, 1, 2, 46, 47, 255], 'ir_3': [46], 'ir_4': [0], 'ir_10': [2], 'ir_21': [1], 'ir_17': [47], 'ir_23': [0, 1]}
 readdir_ignoring_dot_and_dotdot:
 {'constant': [0, 1, 19, 255], 'ir_1': []}
 is_empty_dir:
-{'constant': [-2147483648, 0, 1, 255], 'ir_1': [], 'ir_6': [198784], 'ir_14': [0]}
+{'constant': [-2147483648, 0, 1], 'ir_1': [], 'ir_6': [198784], 'ir_14': [0]}
 cache_fstatat:
 {'constant': [-2147483648, -2, -1, 0, 31], 'ir_3': [], 'ir_12': [-1], 'ir_48': [0], 'ir_30': [-2]}
 cache_stat_init:
@@ -55,7 +55,7 @@ mark_ancestor_dirs:
 excise:
 {'string': ['removed directory %s\n', 'removed %s\n', 'cannot remove %s'], 'constant': [0, 1, 2, 4, 13, 17, 20, 21, 30, 93], 'ir_3': [], 'ir_20': [0, 512], 'ir_14': [512], 'ir_76': [30], 'ir_70': [2], 'ir_216': [0], 'ir_53': [4], 'ir_133': [93], 'ir_164': [1], 'ir_167': [13], 'ir_139': [21], 'ir_150': [20], 'ir_156': [17]}
 rm_fts:
-{'string': ['cannot remove %s', 'refusing to remove %s or %s directory: skipping %s', '..', 'it is dangerous to operate recursively on %s (same as %s)', 'it is dangerous to operate recursively on %s', 'use --no-preserve-root to override this failsafe', '..', 'failed to stat %s: skipping %s', "skipping %s, since it's on a different device", 'and --preserve-root=all is in effect', "skipping %s, since it's on a different device", 'traversal failed: %s', 'WARNING: Circular directory structure.\nThis almost certainly means that you have a corrupted file system.\nNOTIFY YOUR SYSTEM MANAGER.\nThe following directory is part of the cycle:\n  %s\n', 'unexpected failure: fts_info=%d: %s\nplease report to %s'], 'constant': [0, 1, 2, 4, 6, 14, 21, 93, 255], 'ir_5': [], 'ir_641': [3], 'ir_642': [0], 'ir_24': [6], 'ir_507': [2], 'ir_509': [1], 'ir_74': [4], 'ir_140': [93], 'ir_82': [0, 1], 'ir_159': [21, 93]}
+{'string': ['cannot remove %s', 'refusing to remove %s or %s directory: skipping %s', '..', 'it is dangerous to operate recursively on %s', 'it is dangerous to operate recursively on %s (same as %s)', 'use --no-preserve-root to override this failsafe', '..', 'failed to stat %s: skipping %s', "skipping %s, since it's on a different device", 'and --preserve-root=all is in effect', "skipping %s, since it's on a different device", 'traversal failed: %s', 'WARNING: Circular directory structure.\nThis almost certainly means that you have a corrupted file system.\nNOTIFY YOUR SYSTEM MANAGER.\nThe following directory is part of the cycle:\n  %s\n', 'unexpected failure: fts_info=%d: %s\nplease report to %s'], 'constant': [0, 1, 2, 4, 6, 14, 255], 'ir_5': [], 'ir_641': [3], 'ir_642': [0], 'ir_24': [6], 'ir_507': [2], 'ir_509': [1], 'ir_74': [4], 'ir_140': [93], 'ir_82': [0, 1], 'ir_159': [21, 93]}
 rm:
 {'string': ['fts_read failed', 'fts_close failed'], 'constant': [0, 2, 3, 4, 64, 536], 'ir_2': [], 'ir_131': [2, 4], 'ir_15': [0], 'ir_16': [536, 600], 'ir_34': [2], 'ir_42': [4], 'ir_36': [3], 'ir_62': [609]}
 __argmatch_die:
@@ -69,7 +69,7 @@ argmatch_invalid:
 argmatch_valid:
 {'string': ['Valid arguments are:', ', %s', '\n  - %s'], 'constant': [0, 1, 2], 'ir_2': [], 'ir_27': [0, 1], 'ir_108': [10], 'ir_35': [0]}
 __xargmatch_internal:
-{'constant': [-2147483648]}
+{'constant': [-2147483648, -1]}
 argmatch_to_argument:
 {'constant': [0, 1, 2], 'ir_1': [], 'ir_36': [0]}
 close_stdin_set_file_name:
@@ -81,7 +81,7 @@ close_stdout_set_file_name:
 close_stdout_set_ignore_EPIPE:
 {'constant': []}
 close_stdout:
-{'string': ['write error', '%s: %s', '%s'], 'constant': [0, 1, 32], 'ir_2': [], 'ir_13': [1], 'ir_35': [0], 'ir_20': [32]}
+{'string': ['write error', '%s: %s', '%s'], 'constant': [0, 1, 32, 255], 'ir_2': [], 'ir_13': [1], 'ir_35': [0], 'ir_20': [32]}
 last_component:
 {'constant': [0, 1, 47], 'ir_4': [47], 'ir_15': [0], 'ir_14': [1]}
 base_len:
@@ -91,13 +91,13 @@ file_type:
 file_name_concat:
 {'constant': [0], 'ir_1': []}
 mfile_name_concat:
-{'constant': [0, 1, 46, 47, 255], 'ir_1': [], 'ir_42': [47], 'ir_59': [0]}
+{'constant': [0, 1, 46, 47], 'ir_1': [], 'ir_42': [47], 'ir_59': [0]}
 priv_set_remove_linkdir:
 {'constant': [-1]}
 priv_set_restore_linkdir:
 {'constant': [-1]}
 set_program_name:
-{'string': ['/.libs/', 'lt-'], 'constant': [0, 1, 3, 7], 'ir_1': [], 'ir_19': [47], 'ir_8': [55], 'ir_9': [1], 'ir_36': [7], 'ir_52': [3]}
+{'string': ['/.libs/', 'lt-'], 'constant': [0, 3, 7], 'ir_1': [], 'ir_19': [47], 'ir_8': [55], 'ir_9': [1], 'ir_36': [7], 'ir_52': [3]}
 clone_quoting_options:
 {'constant': [0], 'ir_1': [], 'ir_14': [48]}
 get_quoting_style:
@@ -205,7 +205,7 @@ xmemdup:
 xstrdup:
 {'constant': [1], 'ir_1': []}
 xalloc_die:
-{'string': ['%s'], 'constant': [], 'ir_5': [1], 'ir_15': [0]}
+{'string': ['memory exhausted', '%s'], 'constant': [], 'ir_5': [1], 'ir_15': [0]}
 xfts_open:
 {'constant': [0, 22, 512], 'ir_1': [], 'ir_21': [22], 'ir_24': [41]}
 yesno:
@@ -223,7 +223,7 @@ fd_ring_clear:
 fts_set_stat_required:
 {'constant': [0, 1, 2, 11], 'ir_1': [], 'ir_8': [11], 'ir_13': [1], 'ir_14': [0], 'ir_15': [2]}
 fts_load:
-{'constant': [0, 1, 232], 'ir_4': [], 'ir_23': [47]}
+{'constant': [0, 1, 47, 232], 'ir_4': [], 'ir_23': [47]}
 dev_type_hash:
 {'constant': [], 'ir_11': [0]}
 dev_type_compare:
@@ -293,9 +293,9 @@ hash_get_n_buckets_used:
 hash_get_n_entries:
 {'constant': []}
 hash_get_max_bucket_length:
-{'constant': [0, 1, 4, 8], 's_18': [0, 1, 2, 3], 'ir_26': [0], 'ir_10': [1], 'ir_17': [1, 2]}
+{'constant': [0, 1, 8], 's_18': [0, 1, 2, 3], 'ir_26': [0], 'ir_10': [1], 'ir_17': [1, 2]}
 hash_table_ok:
-{'constant': [0, 1, 4, 8], 's_18': [0, 1, 2, 3], 'ir_27': [0], 'ir_12': [1]}
+{'constant': [0, 1, 8], 's_18': [0, 1, 2, 3], 'ir_27': [0], 'ir_12': [1]}
 safe_hasher:
 {'constant': [3], 'ir_1': []}
 hash_lookup:
@@ -303,7 +303,7 @@ hash_lookup:
 hash_get_first:
 {'constant': [0, 8], 'ir_1': [], 'ir_22': [0]}
 hash_get_next:
-{'constant': [0, 4, 8], 'ir_36': [0]}
+{'constant': [0, 8], 'ir_36': [0]}
 hash_get_entries:
 {'constant': [0, 1, 2, 8], 'ir_33': [0]}
 hash_do_for_each:
@@ -349,7 +349,7 @@ opendirat:
 setlocale_null_androidfix:
 {'constant': [], 'ir_4': [0]}
 setlocale_null_unlocked:
-{'constant': [0, 1], 'ir_1': [], 'ir_14': [22], 'ir_61': [34], 'ir_32': [0]}
+{'constant': [0, 1, 22], 'ir_1': [], 'ir_14': [22], 'ir_61': [34], 'ir_32': [0]}
 setlocale_null_r:
 {'constant': []}
 setlocale_null:
@@ -417,7 +417,7 @@ c_toupper:
 dup_safer:
 {'constant': [], 'ir_4': [3], 'ir_5': [0]}
 __libc_csu_init:
-{'constant': [0, 1, 2, 4, 110384], 'ir_24': [0, 1], 'ir_26': [1]}
+{'constant': [0, 1, 4, 110384], 'ir_24': [0, 1], 'ir_26': [1]}
 __libc_csu_fini:
 {'constant': []}
 atexit:
@@ -431,7 +431,7 @@ lstat64:
 fstatat64:
 {'constant': [], 'ir_14': [3]}
 __do_global_ctors_aux:
-{'constant': [-1, 4, 32488], 'ir_0': [], 'ir_1': [-1], 'ir_10': [0]}
+{'constant': [-1, 4], 'ir_0': [], 'ir_1': [-1], 'ir_10': [0]}
 _MIPS_STUBS_:
 {'constant': [], 'ir_5': [162]}
 sub_415390:

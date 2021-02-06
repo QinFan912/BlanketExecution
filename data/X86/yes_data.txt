@@ -1,0 +1,140 @@
+yes@_init	0	20	4	-65544	8	
+yes@sub_4001260	
+yes@_start	-65528	20	-65536	0	
+yes@deregister_tm_clones	0	8	20	
+yes@register_tm_clones	0	36	20	
+yes@__do_global_dtors_aux	0	5	8	69238792	1	
+yes@frame_dummy	
+yes@emit_ancillary_info	
+%s online help: <%s>
+	en_	Report any translation bugs to <https://translationproject.org/team/>
+	Full documentation <%s%s>
+	or available locally via: info '(coreutils) %s%s'
+	0	-65688	-65672	-65656	0	19	-65688	20	5	8	3	4	-65736	184	
+yes@bad_cast	
+yes@usage	Usage: %s [STRING]...
+  or:  %s OPTION
+	Repeatedly output a line with all specified STRING(s), or 'y'.
+
+	      --help     display this help and exit
+	      --version  output version information and exit
+	Try '%s --help' for more information.
+	0	7	
+yes@main	coreutils	/usr/local/share/locale	coreutils	yes	GNU coreutils	standard output	standard output	8	4096	8	-65552	120	6	-65672	0	1	7	0	1	10	32	8192	4096	5	0	1	8192	17	4	
+yes@close_stdout_set_file_name	
+yes@close_stdout_set_ignore_EPIPE	
+yes@close_stdout	write error	%s: %s	%s	0	32	8	-65552	24	19	0	1	17	4	-65576	20	7	32	
+yes@full_write	-1	8	-65544	64	0	28	0	
+yes@parse_long_options	-1	0	2	104	118	17	0	-65720	-65528	0	48	7	2	help	20	-1	104	118	-65752	
+yes@parse_gnu_standard_options_only	-1	0	104	118	17	0	-65720	-65520	0	1	48	5	help	7	-1	20	104	118	-65752	1	
+yes@set_program_name	/.libs/	lt-	lt-	0	6	8	0	55	1	47	6	4	7	19	3	
+yes@clone_quoting_options	0	8	-65544	32	56	
+yes@get_quoting_style	0	8	
+yes@set_quoting_style	0	8	
+yes@set_char_quoting	0	4	8	0	19	
+yes@set_quoting_flags	0	8	
+yes@set_custom_quoting	0	8	10	
+yes@quoting_options_from_style	10	0	7	20	
+yes@gettext_quote	UTF-8	GB18030	0	9	96	8	-65544	32	19	0	5	96	7	9	
+yes@quotearg_buffer	0	8	-65624	4	-65656	32	
+yes@quotearg_alloc	8	-65544	32	0	
+yes@quotearg_alloc_mem	0	8	-65608	4	1	-65640	32	
+yes@quotearg_free	16	8	-65544	1	2	3	256	1	7	1	2	3	16	32	4	0	
+yes@quotearg_n_options	0	16	2147483646	8	-65544	80	7	0	1	-65624	1	256	5	16	4	-65656	32	
+yes@quotearg_n	8	-65544	16	-1	
+yes@quotearg_n_mem	8	-65544	32	
+yes@quotearg	8	-65544	16	0	
+yes@quotearg_mem	8	-65544	16	0	
+yes@quotearg_n_style	19	0	-65608	-1	20	
+yes@quotearg_n_style_mem	19	0	-65608	20	
+yes@quotearg_style	8	-65544	16	0	
+yes@quotearg_style_mem	8	-65544	32	0	
+yes@quotearg_char_mem	0	19	-65608	1	20	
+yes@quotearg_char	8	-65544	16	-1	
+yes@quotearg_colon	8	-65544	16	58	
+yes@quotearg_colon_mem	8	-65544	16	58	
+yes@quotearg_n_style_colon	19	0	-65688	-65608	1	58	-1	20	
+yes@quotearg_n_custom	8	-65544	32	-1	
+yes@quotearg_n_custom_mem	0	19	-65608	20	
+yes@quotearg_custom	8	-65544	32	0	
+yes@quotearg_custom_mem	8	-65544	32	0	
+yes@quote_n_mem	8	-65544	32	
+yes@quote_mem	8	-65544	16	0	
+yes@quote_n	8	-65544	16	-1	
+yes@quote	8	-65544	16	0	
+yes@safe_write	4	22	2146435072	8	-65544	48	0	7	4	22	
+yes@version_etc_arn	%s (%s) %s
+	%s %s
+	(C)	Copyright %s %d Free Software Foundation, Inc.	License GPLv3+: GNU GPL version 3 or later <%s>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+	Written by %s.
+	Written by %s and %s.
+	Written by %s, %s, and %s.
+	Written by %s, %s, %s,
+and %s.
+	Written by %s, %s, %s,
+%s, and %s.
+	Written by %s, %s, %s,
+%s, %s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+%s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+%s, %s, and others.
+	0	4	8	0	2020	10	9	4	-65672	-65720	48	-65720	-65672	-65752	-65704	32	-65768	-65720	-65736	-65688	16	
+yes@version_etc_ar	8	-65544	64	0	1	2	0	8	16	20	0	0	1	
+yes@version_etc_va	8	9	47	96	0	1	19	0	8	9	7	47	-65640	4	20	
+yes@version_etc	0	17	-65720	-65528	32	48	19	-65752	20	
+yes@emit_bug_reporting_address	Report bugs to: %s
+	%s home page: <%s>
+	General help using GNU software: <%s>
+	10	0	
+yes@xnmalloc	0	48	1	20	17	52	
+yes@xnrealloc	0	48	1	20	17	52	
+yes@x2nrealloc	0	8	48	52	1	20	17	
+yes@xcharalloc	8	-65544	16	
+yes@xmalloc	0	8	-65544	32	
+yes@xrealloc	0	8	
+yes@x2realloc	8	-65544	16	1	
+yes@xzalloc	8	-65544	16	1	
+yes@xcalloc	0	48	1	20	17	8	
+yes@xmemdup	8	-65544	16	
+yes@xstrdup	8	-65544	16	
+yes@xalloc_die	memory exhausted	%s	0	1	
+yes@rpl_mbrtowc	-3	0	-65564	0	8	-3	20	17	1	
+yes@c_strcasecmp	0	8	4	-65592	32	5	
+yes@hard_locale	C	POSIX	C	POSIX	0	19	-65816	257	20	0	1	1	
+yes@locale_charset	0	8	-65544	16	14	17	
+yes@setlocale_null_androidfix	8	-65544	32	0	
+yes@setlocale_null_unlocked	0	1	8	-65544	48	0	22	34	4	
+yes@setlocale_null_r	8	-65544	32	
+yes@setlocale_null	8	-65544	16	
+yes@rpl_fclose	-1	8	-65544	32	-1	0	7	0	19	1	
+yes@rpl_fflush	0	8	19	
+yes@rpl_fseeko	-1	0	8	20	0	-1	19	
+yes@c_isalnum	9	25	65	90	7	90	65	25	9	1	0	
+yes@c_isalpha	65	90	7	65	0	90	1	25	
+yes@c_isascii	127	7	1	0	
+yes@c_isblank	9	32	7	32	1	9	19	0	1	0	
+yes@c_iscntrl	31	19	0	7	1	127	
+yes@c_isdigit	9	48	7	9	1	0	
+yes@c_isgraph	33	93	7	93	1	0	
+yes@c_islower	25	97	7	25	1	0	
+yes@c_isprint	32	94	7	94	1	0	
+yes@c_ispunct	3	14	58	64	91	96	7	64	58	91	14	1	0	96	3	
+yes@c_isspace	9	13	7	9	0	13	1	32	
+yes@c_isupper	25	65	7	25	1	0	
+yes@c_isxdigit	7	54	4	0	
+yes@c_tolower	25	65	7	25	3	32	
+yes@c_toupper	25	97	7	25	32	
+yes@__libc_csu_init	0	8	-443987883	36	1	2	20	0	19	0	1	2	4	-65592	8	1	2	
+yes@__libc_csu_fini	
+yes@atexit	69238792	19	0	
+yes@_fini	4	-65544	8	

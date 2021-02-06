@@ -1,94 +1,82 @@
 _init:
-{'constant': [0, 69341144], 'ir_0': [0]}
+{'constant': [0], 'ir_4': [20], 'ir_7': [4], 'ir_8': [-65544], 'ir_9': [8]}
 sub_40027d0:
-{'constant': [69340216]}
-_start:
-{'constant': [67128872, 67209792, 67209904, 69341136], 'a2': []}
-sub_4002f1a:
 {'constant': []}
+_start:
+{'constant': [], 'ir_6': [-65528], 'ir_7': [20], 'ir_8': [-65536], 'ir_9': [0]}
 deregister_tm_clones:
-{'constant': [69341128, 69341368], 'ir_0': [0]}
+{'constant': [0], 'ir_2': [8], 'ir_6': [20]}
 register_tm_clones:
-{'constant': [0, 69341152], 'ir_0': [0]}
+{'constant': [], 'ir_10': [0], 'ir_19': [36], 'ir_25': [20]}
 __do_global_dtors_aux:
-{'constant': [0, 1, 67120872, 69341160, 69341192, 69341448], 'ir_0': [69341192], 's_8': [1]}
+{'constant': [0], 'ir_0': [5], 'ir_3': [8], 'ir_6': [69341192], 's_8': [1]}
 frame_dummy:
-{'constant': [67120992]}
+{'constant': []}
 emit_mandatory_arg_note:
-{'constant': [69341384], 'ir_0': []}
+{'string': ['\nMandatory arguments to long options are mandatory for short options too.\n'], 'constant': [], 'ir_1': [8], 'ir_2': [-65552], 'ir_9': [4], 'ir_10': [-65560]}
 emit_backup_suffix_note:
-{'constant': [69341384], 'ir_0': []}
+{'string': ["\nThe backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.\nThe version control method may be selected via the --backup option or through\nthe VERSION_CONTROL environment variable.  Here are the values:\n\n", '  none, off       never make backups (even if --backup is given)\n  numbered, t     make numbered backups\n  existing, nil   numbered if numbered backups exist, simple otherwise\n  simple, never   always make simple backups\n'], 'constant': [], 'ir_1': [8], 'ir_2': [-65552], 'ir_13': [4], 'ir_14': [-65560]}
 emit_ancillary_info:
-{'constant': [0, 16, 67210622, 67210624, 67210640, 67210650, 67210672, 67210682, 69341384], 'ir_1': [0], 'a0': [5], 'ir_4': []}
+{'string': ['\n%s online help: <%s>\n', 'en_', 'Report any translation bugs to <https://translationproject.org/team/>\n', 'Full documentation <%s%s>\n', "or available locally via: info '(coreutils) %s%s'\n"], 'constant': [0], 's_c8': [-65688, -65672, -65656, 0], 'ir_7': [19], 'ir_24': [-65688], 'ir_27': [20], 'ir_70': [5], 'ir_71': [8], 'ir_75': [3], 'ir_88': [], 'ir_119': [4], 'ir_120': [-65736], 'ir_121': [184]}
 se_const:
 {'constant': []}
 usage:
-{'constant': [0, 69341384, 69341440], 'ir_4': [0, 16], 'ir_0': [0, 1], 'a0': [0, 4]}
+{'string': ['Usage: %s [OPTION]... [-T] SOURCE DEST\n  or:  %s [OPTION]... SOURCE... DIRECTORY\n  or:  %s [OPTION]... -t DIRECTORY SOURCE...\n', 'Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.\n', "  -a, --archive                same as -dR --preserve=all\n      --attributes-only        don't copy the file data, just the attributes\n      --backup[=CONTROL]       make a backup of each existing destination file\n  -b                           like --backup but does not accept an argument\n      --copy-contents          copy contents of special files when recursive\n  -d                           same as --no-dereference --preserve=links\n", '  -f, --force                  if an existing destination file cannot be\n                                 opened, remove it and try again (this option\n                                 is ignored when the -n option is also used)\n  -i, --interactive            prompt before overwrite (overrides a previous -n\n                                  option)\n  -H                           follow command-line symbolic links in SOURCE\n', '  -l, --link                   hard link files instead of copying\n  -L, --dereference            always follow symbolic links in SOURCE\n', '  -n, --no-clobber             do not overwrite an existing file (overrides\n                                 a previous -i option)\n  -P, --no-dereference         never follow symbolic links in SOURCE\n', '  -p                           same as --preserve=mode,ownership,timestamps\n      --preserve[=ATTR_LIST]   preserve the specified attributes (default:\n                                 mode,ownership,timestamps), if possible\n                                 additional attributes: context, links, xattr,\n                                 all\n', "      --no-preserve=ATTR_LIST  don't preserve the specified attributes\n      --parents                use full source file name under DIRECTORY\n", '  -R, -r, --recursive          copy directories recursively\n      --reflink[=WHEN]         control clone/CoW copies. See below\n      --remove-destination     remove each existing destination file before\n                                 attempting to open it (contrast with --force)\n', '      --sparse=WHEN            control creation of sparse files. See below\n      --strip-trailing-slashes  remove any trailing slashes from each SOURCE\n                                 argument\n', '  -s, --symbolic-link          make symbolic links instead of copying\n  -S, --suffix=SUFFIX          override the usual backup suffix\n  -t, --target-directory=DIRECTORY  copy all SOURCE arguments into DIRECTORY\n  -T, --no-target-directory    treat DEST as a normal file\n', '  -u, --update                 copy only when the SOURCE file is newer\n                                 than the destination file or when the\n                                 destination file is missing\n  -v, --verbose                explain what is being done\n  -x, --one-file-system        stay on this file system\n', '  -Z                           set SELinux security context of destination\n                                 file to default type\n      --context[=CTX]          like -Z, or if CTX is specified then set the\n                                 SELinux or SMACK security context to CTX\n', '      --help     display this help and exit\n', '      --version  output version information and exit\n', '\nBy default, sparse SOURCE files are detected by a crude heuristic and the\ncorresponding DEST file is made sparse as well.  That is the behavior\nselected by --sparse=auto.  Specify --sparse=always to create a sparse DEST\nfile whenever the SOURCE file contains a long enough sequence of zero bytes.\nUse --sparse=never to inhibit creation of sparse files.\n', '\nWhen --reflink[=always] is specified, perform a lightweight copy, where the\ndata blocks are copied only when modified.  If this is not possible the copy\nfails, or if --reflink=auto is specified, fall back to a standard copy.\nUse --reflink=never to ensure a standard copy is performed.\n', '\nAs a special case, cp makes a backup of SOURCE when the force and backup\noptions are given and SOURCE and DEST are the same name for an existing,\nregular file.\n', "Try '%s --help' for more information.\n"], 'constant': [0], 'ir_7': [7], 'ir_17': []}
 re_protect:
-{'constant': [0, 1, 4, 8, 15, 16, 47, 255, 67122714, 67122851, 67122920, 67122977, 67123068, 67123102, 67123156, 67123206, 67123275], 's_a8': [], 'ir_8': [0, 16], 'ir_1': [0, 1], 'a0': [0, 4]}
-make_dir_parents_private:
-{'constant': [0, 1, 4, 8, 15, 16, 47, 255, 448, 4095, 16384, 61440, 67123571, 67123725, 67123784, 67124086, 67124445, 67124719, 67124873, 67124932, 67125006, 67125134, 67125223, 67125334, 67125431, 67125533, 67125555], 's_1d8': [], 'ir_13': [0, 16], 'a2': [0], 'a1': [0, 20, 47], 'ir_1': [0, 1, 18, 20, 511], 'a0': [0, 4, 168]}
+{'string': ['failed to preserve times for %s', 'failed to preserve times for %s', 'failed to preserve ownership for %s', 'failed to preserve permissions for %s', 'failed to preserve permissions for %s'], 'constant': [0], 's_a8': [], 'ir_11': [19], 'ir_33': [16], 'ir_53': [32], 'ir_64': [4], 'ir_69': [8], 'ir_233': [1], 'ir_242': [20], 'ir_81': [17], 'ir_146': [-1], 'ir_88': [-65608]}
 target_directory_operand:
-{'constant': [0, 1, 2, 16384, 61440, 67125687], 'ir_0': [0, 1], 'a0': [1, 4], 'a1': [0]}
+{'string': ['failed to access %s'], 'constant': [0, 2, 16384, 61440], 'ir_1': [8], 'ir_2': [-65552], 'ir_3': [56], 'ir_13': [19], 'ir_15': [0], 's_48': [0, 1], 'ir_19': [7], 'ir_30': [16384], 'ir_35': [1], 'ir_71': [4], 'ir_72': [-65608], 'ir_45': [2], 'ir_46': [5]}
 do_copy:
-{'constant': [0, 1, 2, 4, 8, 15, 16, 255, 32768, 61440, 67125921, 67126512, 67126812, 67127132, 67127427, 67127517, 67127939, 67216036, 69341473, 69341474], 's_168': [0, 1], 'a0': [0, 1, 4], 'a1': [0], 'a4': [], 'ir_7': [0, 16]}
+{'string': ['target %s is not a directory', 'cannot combine --target-directory (-t) and --no-target-directory (-T)', 'extra operand %s', '..', '..', 'with --parents, the destination must be a directory', 'missing destination file operand after %s', 'missing file operand'], 'constant': [1, 2, 8, 32768, 61440], 's_168': [0, 1], 'ir_18': [17], 'ir_20': [0], 'ir_31': [1], 'ir_41': [7], 'ir_44': [5], 'ir_550': [4], 'ir_94': [8], 'ir_60': [2], 'ir_121': [-65858], 'ir_122': [-65720], 'ir_64': [16], 'ir_529': [-65840], 'ir_477': [19], 'ir_539': [20], 'ir_505': [32768], 'ir_247': [32], 'ir_511': [-100], 'ir_285': [-65848], 'ir_375': [-65857]}
 cp_option_init:
-{'constant': [0, 1, 2, 4]}
+{'string': ['POSIXLY_CORRECT'], 'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16], 's_18': [0, 1, 2, 4], 'ir_38': [20], 'ir_40': [0]}
 decode_preserve_arg:
-{'constant': [0, 1, 2, 4, 6, 255, 67128589, 67128630, 67128646, 67128662, 67128678, 67128705, 67128729, 67128838, 67216124, 67216135, 67216152, 69341472], 'a1': [44], 'a2': [1701080941], 'ir_0': [0]}
+{'constant': [0, 4, 6], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [64], 'ir_11': [44], 'ir_15': [0], 'ir_21': [5], 'ir_29': [4], 'ir_31': ['mode'], 'ir_36': [7], 'ir_38': [6], 'ir_103': [19], 'ir_73': [17]}
 main:
-{'constant': [0, 1, 2, 8, 31, 131, 255, 16384, 61440, 67129396, 67130455, 67130715, 69341216, 69341224, 69341384, 69341400, 69341408, 69341472, 4294967295], 's_148': [0, 1, 2, 3, 4], 'a0': [0, 1, 4, 6], 'ir_1': [0, 1], 'a1': [0]}
+{'string': ['coreutils', '/usr/local/share/locale', 'coreutils', 'abdfHilLnprst:uvxPRS:TZ', 'abdfHilLnprst:uvxPRS:TZ', 'cannot make both hard and symbolic links', 'cp', 'GNU coreutils', 'Torbjorn Granlund', 'David MacKenzie', 'warning: ignoring --context; it requires an SELinux-enabled kernel', 'multiple target directories specified', 'failed to access %s', 'failed to access %s', 'target %s is not a directory', '--reflink', '--sparse', 'options --backup and --no-clobber are mutually exclusive', '--reflink can be used only with --sparse=auto', 'backup type', 'cannot set target context and preserve it', 'cannot preserve security context without an SELinux-enabled kernel', 'failed to set default file creation context to %s', 'failed to set default file creation context to %s', 'cannot preserve extended attributes, cp is built without xattr support'], 'constant': [-1, 0, 1, 2, 4, 8, 267, 16384, 61440], 's_148': [0, 1, 2, 3, 4], 'ir_9': [19], 'ir_10': [0], 'ir_17': [6], 'ir_23': [-65800], 'ir_28': ['arch'], 'ir_31': [7], 'ir_33': [-1], 'ir_318': [17], 'ir_41': [267], 'ir_338': [2], 'ir_48': [4], 'ir_316': [1], 'ir_339': [5], 'ir_246': [20], 'ir_164': ['neve'], 'ir_92': [8], 'ir_309': [], 'ir_105': [-65720], 'ir_312': [-65880], 'ir_313': [16], 'ir_254': ['auto'], 'ir_137': [16384]}
 dot_or_dotdot:
-{'constant': [0, 1, 2, 46, 47, 67131267], 'ir_3': [0, 1], 'ir_0': [1, 2]}
+{'constant': [0, 46, 47], 'ir_3': [5], 'ir_5': [46], 'ir_6': [0], 'ir_17': [2], 'ir_16': [1], 'ir_30': [47], 'ir_37': [19], 'ir_38': [0, 1]}
 ptr_align:
-{'constant': [0, 1]}
+{'constant': [1], 'ir_21': [4]}
 is_nul:
-{'constant': [0, 1, 15, 255], 's_38': [], 'ir_1': [0, 1]}
+{'constant': [0], 's_38': [], 'ir_12': [8], 'ir_62': [1], 'ir_18': [17], 'ir_64': [20]}
 is_ENOTSUP:
-{'constant': [95]}
+{'constant': [95], 'ir_1': [7]}
 extent_scan_free:
-{'constant': [0]}
+{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16], 's_18': [0]}
 io_blksize:
-{'constant': [512, 131071, 131072, 67131684, 2305843009213693952], 'ir_0': [512, 131072]}
+{'constant': [0, 131071], 'ir_1': [20], 'ir_3': [0], 'ir_19': [131072], 'ir_8': [8], 'ir_18': [131071], 'ir_35': [512]}
 ignorable_ctx_err:
-{'constant': [0, 1, 61, 95, 67131717], 'ir_0': [0, 1]}
+{'constant': [61, 95], 'ir_1': [7], 'ir_3': [95], 'ir_11': [1], 'ir_6': [61], 'ir_13': [19], 'ir_14': [0, 1], 'ir_15': [0]}
 restorecon:
-{'constant': [0, 95], 'ir_0': [0]}
+{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16], 's_18': [95], 'ir_9': [0]}
 defaultcon:
-{'constant': [95, 4294967295], 'ir_0': []}
+{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16], 's_18': [95], 'ir_6': [-1]}
 follow_fstatat:
-{'constant': [], 'a0': [0]}
+{'constant': [], 'ir_9': [19], 'ir_10': [0], 'ir_20': [20]}
 utimens_symlink:
-{'constant': [0, 38], 'ir_0': [0]}
+{'constant': [0, 38], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 'ir_9': [7], 'ir_11': [0], 'ir_15': [38]}
 punch_hole:
-{'constant': [0, 1, 31, 38, 255], 'ir_0': [0]}
+{'constant': [0, 38], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [48], 's_38': [0], 'ir_9': [3], 'ir_11': [7], 'ir_16': [17], 'ir_22': [38]}
 create_hole:
-{'constant': [0, 1, 31, 63, 67132331], 'a2': [1], 'a0': [0, 4], 'ir_0': [0, 1]}
+{'string': ['error deallocating %s', 'cannot lseek %s'], 'constant': [0], 'ir_2': [8], 'ir_3': [-65560], 'ir_4': [48], 'ir_12': [1], 'ir_61': [4], 'ir_18': [5], 'ir_73': [-65608], 'ir_31': [19]}
 sparse_copy:
-{'constant': [0, 1, 4, 63, 255, 67132759, 67132789, 67132836, 67132888, 67133244, 9223372036854775808], 'ir_1': [0, 1], 'ir_21': [0], 'a0': [0, 4]}
+{'string': ['error reading %s', 'error reading %s', 'overflow reading %s', 'error writing %s', 'error writing %s'], 'constant': [0, 4], 's_a8': [0, 1], 'ir_18': [19], 'ir_19': [0], 'ir_24': [8], 'ir_314': [5], 'ir_332': [1], 'ir_342': [20], 'ir_346': [4], 'ir_347': [-65704], 'ir_348': [144], 'ir_263': [7], 'ir_326': [17]}
 clone_file:
-{'constant': [], 'ir_0': [0]}
+{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16], 'ir_9': [0]}
 write_zeros:
-{'constant': [0, 1, 1024, 69341200, 69341632, 69341664], 'ir_0': [0, 1, 131072], 'a1': [0, 1], 'a0': [131072], 's_28': [1024]}
+{'constant': [0], 'ir_6': [20], 'ir_9': [131072], 'ir_10': [1], 'ir_23': [8], 's_28': [1024]}
 extent_copy:
-{'constant': [0, 1, 3, 24, 31, 255, 67134091, 67134291, 67134567, 67134753, 67134811, 67134841, 67134936, 67135155], 's_e8': [0, 1], 'a1': [0, 3], 'a0': [0, 4], 'ir_8': [0], 'a5': [1]}
+{'string': ['cannot lseek %s', 'cannot lseek %s', '%s: write failed', '%s: write failed', '%s: failed to get extents info', 'failed to extend %s', 'failed to extend %s', 'error deallocating %s', 'error deallocating %s'], 'constant': [3, 24], 's_e8': [-1, 0, 1], 'ir_16': [19], 'ir_17': [0], 'ir_20': [-65624], 'ir_32': [17], 'ir_35': [0, 1], 'ir_37': [8], 'ir_40': [5], 'ir_511': [3], 'ir_398': [7], 'ir_400': [1], 'ir_114': [4], 'ir_524': [20], 'ir_266': [-65768], 's_f8': [-65696], 's_100': [-65688]}
 is_ancestor:
-{'constant': [0, 1]}
+{'constant': [0], 'ir_2': [8], 'ir_26': [1]}
 errno_unsupported:
-{'constant': [0, 1, 61, 95, 67135302], 'ir_0': [0, 1]}
+{'constant': [61, 95], 'ir_1': [7], 'ir_3': [95], 'ir_11': [1], 'ir_6': [61], 'ir_13': [19], 'ir_14': [0, 1], 'ir_15': [0]}
 copy_attr:
-{'constant': [1]}
+{'constant': [], 'ir_5': [1]}
 copy_dir:
-{'constant': [0, 1, 3, 255], 's_e8': [0, 1, 2], 'a1': [2], 'a0': [0, 4], 'ir_1': [0, 1], 'ir_3': [0], 'a5': []}
+{'string': ['cannot access %s', 'cannot access %s'], 'constant': [0, 3], 's_e8': [0, 1, 2], 'ir_16': [19], 'ir_17': [0], 'ir_32': [2], 'ir_34': [8], 'ir_139': [4], 'ir_39': [7], 'ir_41': [3], 'ir_45': [17], 'ir_156': [20], 'ir_136': [1], 'ir_61': [-65656], 's_f8': [-65692], 's_100': [-65691]}
 set_owner:
-{'constant': [0, 1, 22, 255, 448, 4095, 67136231, 67136718, 4294967295], 'ir_0': [0, 1], 'a1': [], 'a0': [0, 4]}
+{'string': ['clearing permissions for %s', 'failed to preserve ownership for %s'], 'constant': [-1, 0, 22], 'ir_21': [17], 'ir_23': [0], 'ir_141': [7], 'ir_143': [-1], 'ir_182': [19], 'ir_250': [1], 'ir_251': [4], 'ir_252': [-65656], 'ir_253': [96], 'ir_192': [22]}
 set_author:
 {'constant': []}
-set_process_security_ctx:
-{'constant': [0, 1, 31, 255, 67136846, 67136891, 67137339], 's_58': [0, 1], 'a3': [0], 'a2': [], 'a0': [0, 4]}
-set_file_security_ctx:
-{'constant': [0, 1, 255, 67137436, 67137481], 'ir_0': [0, 1], 'a1': [4], 'a0': [0]}
-fchmod_or_lchmod:
-{'constant': [0, 1, 31]}
-is_probably_sparse:
-{'constant': [0, 1, 9, 511, 32768, 61440, 67137779], 'ir_0': [0, 1]}

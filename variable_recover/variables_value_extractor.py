@@ -63,6 +63,7 @@ class VariablesValueExtractor:
         funcs = list(cfg.kb.functions.values())
         function_numbers = len(funcs)
         print("function_numbers:", function_numbers)
+        print(funcs)
 
         # 获取输出特定数据的基本块的信息
         def save_block_info(expr, v, s):
@@ -90,7 +91,7 @@ class VariablesValueExtractor:
                 try:
                     y = x.to_bytes(4, byteorder='big').decode()
                 except:
-                    print("decode erroe")
+                    print("decode error!")
             return y
 
         for func in cfg.kb.functions.values():
@@ -155,7 +156,7 @@ class VariablesValueExtractor:
                         c = ctypes.c_int32(v.obj.value).value
                         l.append(c)
 
-            for k, v in codegen.posmap.items():
+            for k, v in codegen.stmt_posmap.items():
                 if isinstance(v.obj, CConstant):
                     if v.obj.reference_values:
                         x = v.obj.reference_values
@@ -403,10 +404,11 @@ class VariablesValueExtractor:
 
     def save_value(self, res, name):
         with open(self.data_path, 'a') as f:
-            f.write(self.file_name + '@' + name + '\t')
+            f.write(self.file_name + '@' + name + '\t' * 2)
             for k, v in res.items():
                 for i in v:
-                    f.write(str(i) + '\t')
+                    f.write(repr(str(i)).strip('\'') + '\t')
+                f.write('\t')
             f.write('\n')
 
 # if __name__ == '__main__':

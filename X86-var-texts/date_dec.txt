@@ -1,0 +1,86 @@
+_init:
+{'constant': [0], 'ir_4': [20], 'ir_7': [4], 'ir_8': [-65544], 'ir_9': [8]}
+sub_40026f0:
+{'constant': []}
+_start:
+{'constant': [], 'ir_6': [-65528], 'ir_7': [20], 'ir_8': [-65536], 'ir_9': [0]}
+deregister_tm_clones:
+{'constant': [0], 'ir_2': [8], 'ir_6': [20]}
+register_tm_clones:
+{'constant': [], 'ir_10': [0], 'ir_19': [36], 'ir_25': [20]}
+__do_global_dtors_aux:
+{'constant': [0], 'ir_0': [5], 'ir_3': [8], 'ir_6': [69337096], 's_8': [1]}
+frame_dummy:
+{'constant': []}
+emit_mandatory_arg_note:
+{'string': ['\nMandatory arguments to long options are mandatory for short options too.\n'], 'constant': [], 'ir_1': [8], 'ir_2': [-65552], 'ir_9': [4], 'ir_10': [-65560]}
+emit_ancillary_info:
+{'string': ['\n%s online help: <%s>\n', 'en_', 'Report any translation bugs to <https://translationproject.org/team/>\n', 'Full documentation <%s%s>\n', "or available locally via: info '(coreutils) %s%s'\n"], 'constant': [0], 's_c8': [-65688, -65672, -65656, 0], 'ir_7': [19], 'ir_24': [-65688], 'ir_27': [20], 'ir_70': [5], 'ir_71': [8], 'ir_75': [3], 'ir_88': [], 'ir_119': [4], 'ir_120': [-65736], 'ir_121': [184]}
+timetostr:
+{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16]}
+bad_cast:
+{'constant': []}
+usage:
+{'string': ['Usage: %s [OPTION]... [+FORMAT]\n  or:  %s [-u|--utc|--universal] [MMDDhhmm[[CC]YY][.ss]]\n', 'Display the current time in the given FORMAT, or set the system date.\n', "  -d, --date=STRING          display time described by STRING, not 'now'\n", '      --debug                annotate the parsed date,\n                              and warn about questionable usage to stderr\n', '  -f, --file=DATEFILE        like --date; once for each line of DATEFILE\n', "  -I[FMT], --iso-8601[=FMT]  output date/time in ISO 8601 format.\n                               FMT='date' for date only (the default),\n                               'hours', 'minutes', 'seconds', or 'ns'\n                               for date and time to the indicated precision.\n                               Example: 2006-08-14T02:34:56-06:00\n", '  -R, --rfc-email            output date and time in RFC 5322 format.\n                               Example: Mon, 14 Aug 2006 02:34:56 -0600\n', "      --rfc-3339=FMT         output date/time in RFC 3339 format.\n                               FMT='date', 'seconds', or 'ns'\n                               for date and time to the indicated precision.\n                               Example: 2006-08-14 02:34:56-06:00\n", '  -r, --reference=FILE       display the last modification time of FILE\n', '  -s, --set=STRING           set time described by STRING\n  -u, --utc, --universal     print or set Coordinated Universal Time (UTC)\n', '      --help     display this help and exit\n', '      --version  output version information and exit\n', "\nFORMAT controls the output.  Interpreted sequences are:\n\n  %%   a literal %\n  %a   locale's abbreviated weekday name (e.g., Sun)\n", "  %A   locale's full weekday name (e.g., Sunday)\n  %b   locale's abbreviated month name (e.g., Jan)\n  %B   locale's full month name (e.g., January)\n  %c   locale's date and time (e.g., Thu Mar  3 23:05:25 2005)\n", '  %C   century; like %Y, except omit last two digits (e.g., 20)\n  %d   day of month (e.g., 01)\n  %D   date; same as %m/%d/%y\n  %e   day of month, space padded; same as %_d\n', '  %F   full date; like %+4Y-%m-%d\n  %g   last two digits of year of ISO week number (see %G)\n  %G   year of ISO week number (see %V); normally useful only with %V\n', '  %h   same as %b\n  %H   hour (00..23)\n  %I   hour (01..12)\n  %j   day of year (001..366)\n', '  %k   hour, space padded ( 0..23); same as %_H\n  %l   hour, space padded ( 1..12); same as %_I\n  %m   month (01..12)\n  %M   minute (00..59)\n', "  %n   a newline\n  %N   nanoseconds (000000000..999999999)\n  %p   locale's equivalent of either AM or PM; blank if not known\n  %P   like %p, but lower case\n  %q   quarter of year (1..4)\n  %r   locale's 12-hour clock time (e.g., 11:11:04 PM)\n  %R   24-hour hour and minute; same as %H:%M\n  %s   seconds since 1970-01-01 00:00:00 UTC\n", '  %S   second (00..60)\n  %t   a tab\n  %T   time; same as %H:%M:%S\n  %u   day of week (1..7); 1 is Monday\n', '  %U   week number of year, with Sunday as first day of week (00..53)\n  %V   ISO week number, with Monday as first day of week (01..53)\n  %w   day of week (0..6); 0 is Sunday\n  %W   week number of year, with Monday as first day of week (00..53)\n', "  %x   locale's date representation (e.g., 12/31/99)\n  %X   locale's time representation (e.g., 23:13:48)\n  %y   last two digits of year (00..99)\n  %Y   year\n", '  %z   +hhmm numeric time zone (e.g., -0400)\n  %:z  +hh:mm numeric time zone (e.g., -04:00)\n  %::z  +hh:mm:ss numeric time zone (e.g., -04:00:00)\n  %:::z  numeric time zone with : to necessary precision (e.g., -04, +05:30)\n  %Z   alphabetic time zone abbreviation (e.g., EDT)\n\nBy default, date pads numeric fields with zeroes.\n', "The following optional flags may follow '%':\n\n  -  (hyphen) do not pad the field\n  _  (underscore) pad with spaces\n  0  (zero) pad with zeros\n  +  pad with zeros, and put '+' before future years with >4 digits\n  ^  use upper case if possible\n  #  use opposite case if possible\n", "\nAfter any flags comes an optional field width, as a decimal number;\nthen an optional modifier, which is either\nE to use the locale's alternate representations if available, or\nO to use the locale's alternate numeric symbols if available.\n", '\nExamples:\nConvert seconds since the epoch (1970-01-01 UTC) to a date\n  $ date --date=\'@2147483647\'\n\nShow the time on the west coast of the US (use tzselect(1) to find TZ)\n  $ TZ=\'America/Los_Angeles\' date\n\nShow the local time for 9AM next Friday on the west coast of the US\n  $ date --date=\'TZ="America/Los_Angeles" 09:00 next Fri\'\n', "Try '%s --help' for more information.\n"], 'constant': [0], 'ir_6': [7], 'ir_16': []}
+batch_convert:
+{'string': ['-', 'r', '%s', 'standard input', 'invalid date %s', '%s'], 'constant': [-1, 0, 10], 's_88': [0, 1], 'ir_10': [19], 'ir_11': [0], 'ir_44': [], 'ir_23': [8], 'ir_49': [-65616], 'ir_50': [-65624], 'ir_28': [3], 'ir_60': [-65592], 'ir_35': [1], 'ir_137': [7], 'ir_139': [-1], 'ir_70': [17], 'ir_84': [5], 'ir_86': [10], 'ir_160': [20], 'ir_93': [4], 'ir_165': [-65672], 'ir_166': [120]}
+main:
+{'string': ['coreutils', '/usr/local/share/locale', 'coreutils', 'd:f:I::r:Rs:u', '--rfc-3339', '--iso-8601', 'date', 'GNU coreutils', 'David MacKenzie', 'multiple output formats specified', 'the options to print and set the time may not be used together', 'extra operand %s', 'multiple output formats specified', "the argument %s lacks a leading '+';\nwhen using an option to specify date(s), any non-option\nargument must be a format string beginning with '+'", 'TZ', '%s', 'invalid date %s', 'cannot set date', 'cannot set date', 'the options to specify dates for printing are mutually exclusive'], 'constant': [-131, -130, -1, 0, 4, 8, 32, 43, 73, 82, 100, 102, 114, 115, 117, 128, 129], 's_138': [-65720, 0, 1, 2], 'ir_8': [19], 'ir_9': [0], 'ir_16': [6], 'ir_25': ['date'], 'ir_28': [7], 'ir_30': [-1], 'ir_221': [1], 'ir_34': [102], 'ir_228': [5], 'ir_160': [8], 'ir_109': [73], 'ir_40': [117], 'ir_248': [2], 'ir_122': [20], 'ir_353': [131180], 'ir_290': [43], 'ir_262': [16], 'ir_264': [4], 'ir_180': [-131], 'ir_115': [82], 'ir_96': [114], 'ir_46': [128], 'ir_131': ['hour'], 'ir_356': [17], 'ir_193': [], 'ir_183': [-130], 'ir_118': [100], 'ir_99': [115], 'ir_49': [129], 'ir_418': [-65720], 'ir_407': [-65736], 'ir_533': [-65848], 'ir_534': [296], 'ir_427': [3]}
+show_date:
+{'string': ['C', 'time %s is out of range'], 'constant': [0], 's_98': [], 'ir_13': [19], 'ir_17': [-65656], 'ir_18': [-65688], 'ir_22': [20], 'ir_54': [-65592], 'ir_26': [8], 'ir_30': [2], 'ir_51': [10], 'ir_52': [1], 'ir_80': [4], 'ir_82': [136]}
+__argmatch_die:
+{'constant': [], 'ir_0': [1]}
+sub_4003ef5:
+{'constant': []}
+argmatch:
+{'constant': [0, 8], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [64], 's_48': [-1, 0, 1, 2], 'ir_10': [0, 8, 16], 'ir_17': [20], 'ir_19': [0], 'ir_107': [5], 'ir_23': [4], 'ir_110': [-1], 'ir_32': [19], 'ir_115': [-2], 'ir_106': [0, 1], 'ir_62': [52]}
+argmatch_invalid:
+{'string': ['invalid argument %s for %s', 'ambiguous argument %s for %s'], 'constant': [-1], 'ir_7': [8], 'ir_16': [1], 'ir_21': [0], 'ir_30': [4], 'ir_31': [-65608], 'ir_32': [56]}
+argmatch_valid:
+{'string': ['Valid arguments are:', ', %s', '\n  - %s'], 'constant': [0, 8], 'ir_1': [8], 'ir_2': [-65552], 'ir_3': [56], 's_48': [0, 1], 'ir_7': [], 'ir_20': [20], 'ir_22': [0], 'ir_102': [10], 'ir_103': [4], 'ir_104': [-65608], 'ir_27': [52], 'ir_38': [19]}
+__xargmatch_internal:
+{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [64], 'ir_16': [0]}
+argmatch_to_argument:
+{'constant': [0, 8], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [48], 's_38': [0, 1, 2], 'ir_8': [0, 8, 16], 'ir_15': [20], 'ir_17': [0], 'ir_19': [52], 'ir_20': [0, 1], 'ir_30': [19], 'ir_46': [4]}
+close_stdout_set_file_name:
+{'constant': []}
+close_stdout_set_ignore_EPIPE:
+{'constant': []}
+close_stdout:
+{'string': ['write error', '%s: %s', '%s'], 'constant': [0, 32], 'ir_1': [8], 'ir_2': [-65552], 'ir_3': [24], 'ir_4': [], 'ir_6': [19], 'ir_8': [0], 'ir_9': [1], 'ir_14': [17], 'ir_70': [4], 'ir_71': [-65576], 'ir_31': [20], 'ir_18': [7], 'ir_20': [32]}
+fwrite_lowcase:
+{'constant': [0, 1], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 'ir_8': [20], 'ir_10': [0]}
+fwrite_uppcase:
+{'constant': [0, 1], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 'ir_8': [20], 'ir_10': [0]}
+iso_week_days:
+{'constant': [], 'ir_53': [3]}
+fprintftime:
+{'constant': [], 's_48': [0], 'ir_17': [8], 'ir_18': [-65608], 's_68': [-65553], 'ir_22': [-1], 'ir_30': [20]}
+gettime:
+{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16], 'ir_6': [0]}
+current_timespec:
+{'constant': [], 'ir_5': [19], 'ir_6': [0], 'ir_9': [-65576], 'ir_14': [20]}
+imaxtostr:
+{'constant': [2, 10, 63], 's_8': [0, 45], 'ir_8': [8], 'ir_10': [0], 'ir_171': [1]}
+time_overflow:
+{'constant': [], 'ir_1': [0]}
+to_uchar:
+{'constant': []}
+dbg_printf:
+{'constant': [0], 'ir_10': [17], 's_e8': [-65720, -65528, 8, 48], 'ir_23': [19], 'ir_27': [], 'ir_29': [6], 'ir_30': [1], 'ir_35': [-65752], 'ir_40': [20]}
+digits_to_date_time:
+{'constant': [0, 2, 4, 100], 'ir_3': [20], 'ir_5': [0], 'ir_43': [8], 'ir_45': [4], 'ir_202': [2], 'ir_21': [17], 's_8': [0, 1, 2]}
+apply_relative_time:
+{'constant': [0], 'ir_2': [7], 'ir_9': [3], 'ir_159': [1], 'ir_167': [8], 'ir_21': [4], 'ir_297': [19], 'ir_313': [17]}
+set_hhmmss:
+{'constant': []}
+str_days:
+{'string': ['%s', '%ld'], 'constant': [-1, 0, 6, 12], 'ir_8': [17], 'ir_10': [0], 'ir_74': [19], 'ir_14': [8], 'ir_16': [-1], 'ir_79': [7], 'ir_81': [6], 'ir_21': [12], 'ir_56': [4], 'ir_102': [1]}
+debug_print_current_time:
+{'string': ['parsed %s part: ', '(Y-M-D) %04ld-%02ld-%02ld', 'year: %04ld', '.%09d', '%s (day ordinal=%ld number=%d)', 'number of seconds: %ld'], 'constant': [0], 's_c8': [0, 1], 'ir_20': [17], 'ir_331': [20], 'ir_335': [4], 'ir_336': [-65736], 'ir_337': [168], 'ir_66': [5], 'ir_56': [], 'ir_74': [32], 'ir_119': [1], 'ir_199': [-65688], 'ir_201': [100], 'ir_154': [7], 'ir_326': [10], 'ir_159': [2], 'ir_285': [19]}
+print_rel_part:
+{'constant': [0], 'ir_7': [8], 'ir_11': [19], 'ir_22': [], 'ir_24': [1]}
+debug_print_relative_time:
+{'string': ['parsed %s part: ', 'today/this/now\n'], 'constant': [0], 'ir_12': [17], 'ir_115': [4], 'ir_116': [-65592], 'ir_117': [40], 'ir_23': [20], 'ir_57': [19], 'ir_109': [], 'ir_105': [10]}
+yydestruct:
+{'constant': [0], 'ir_4': [8]}

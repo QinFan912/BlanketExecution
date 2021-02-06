@@ -1,0 +1,136 @@
+tty@_init	0	20	4	-65544	8	
+tty@sub_40012c0	
+tty@_start	-65528	20	-65536	0	
+tty@deregister_tm_clones	0	8	20	
+tty@register_tm_clones	0	36	20	
+tty@__do_global_dtors_aux	0	5	8	69238792	1	
+tty@frame_dummy	
+tty@initialize_exit_failure	1	7	
+tty@emit_ancillary_info	
+%s online help: <%s>
+	en_	Report any translation bugs to <https://translationproject.org/team/>
+	Full documentation <%s%s>
+	or available locally via: info '(coreutils) %s%s'
+	0	-65688	-65672	-65656	0	19	-65688	20	5	8	3	4	-65736	184	
+tty@usage	Usage: %s [OPTION]...
+	Print the file name of the terminal connected to standard input.
+
+  -s, --silent, --quiet   print nothing, only return an exit status
+	      --help     display this help and exit
+	      --version  output version information and exit
+	Try '%s --help' for more information.
+	0	7	
+tty@main	coreutils	/usr/local/share/locale	coreutils	s	s	not a tty	not a tty	extra operand %s	tty	GNU coreutils	David MacKenzie	-131	-130	-1	0	8	115	8	-65552	40	6	3	0	1	2	0	sile	7	-1	1	-130	4	115	17	-131	2	19	-65592	0	1	
+tty@close_stdout_set_file_name	
+tty@close_stdout_set_ignore_EPIPE	
+tty@close_stdout	write error	%s: %s	%s	0	32	8	-65552	24	19	0	1	17	4	-65576	20	7	32	
+tty@set_program_name	/.libs/	lt-	lt-	0	6	8	0	55	1	47	6	4	7	19	3	
+tty@clone_quoting_options	0	8	-65544	32	56	
+tty@get_quoting_style	0	8	
+tty@set_quoting_style	0	8	
+tty@set_char_quoting	0	4	8	0	19	
+tty@set_quoting_flags	0	8	
+tty@set_custom_quoting	0	8	10	
+tty@quoting_options_from_style	10	0	7	20	
+tty@gettext_quote	UTF-8	GB18030	0	9	96	8	-65544	32	19	0	5	96	7	9	
+tty@quotearg_buffer	0	8	-65624	4	-65656	32	
+tty@quotearg_alloc	8	-65544	32	0	
+tty@quotearg_alloc_mem	0	8	-65608	4	1	-65640	32	
+tty@quotearg_free	16	8	-65544	1	2	3	256	1	7	1	2	3	16	32	4	0	
+tty@quotearg_n_options	0	16	2147483646	8	-65544	80	7	0	1	-65624	1	256	5	16	4	-65656	32	
+tty@quotearg_n	8	-65544	16	-1	
+tty@quotearg_n_mem	8	-65544	32	
+tty@quotearg	8	-65544	16	0	
+tty@quotearg_mem	8	-65544	16	0	
+tty@quotearg_n_style	19	0	-65608	-1	20	
+tty@quotearg_n_style_mem	19	0	-65608	20	
+tty@quotearg_style	8	-65544	16	0	
+tty@quotearg_style_mem	8	-65544	32	0	
+tty@quotearg_char_mem	0	19	-65608	1	20	
+tty@quotearg_char	8	-65544	16	-1	
+tty@quotearg_colon	8	-65544	16	58	
+tty@quotearg_colon_mem	8	-65544	16	58	
+tty@quotearg_n_style_colon	19	0	-65688	-65608	1	58	-1	20	
+tty@quotearg_n_custom	8	-65544	32	-1	
+tty@quotearg_n_custom_mem	0	19	-65608	20	
+tty@quotearg_custom	8	-65544	32	0	
+tty@quotearg_custom_mem	8	-65544	32	0	
+tty@quote_n_mem	8	-65544	32	
+tty@quote_mem	8	-65544	16	0	
+tty@quote_n	8	-65544	16	-1	
+tty@quote	8	-65544	16	0	
+tty@version_etc_arn	%s (%s) %s
+	%s %s
+	(C)	Copyright %s %d Free Software Foundation, Inc.	License GPLv3+: GNU GPL version 3 or later <%s>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+	Written by %s.
+	Written by %s and %s.
+	Written by %s, %s, and %s.
+	Written by %s, %s, %s,
+and %s.
+	Written by %s, %s, %s,
+%s, and %s.
+	Written by %s, %s, %s,
+%s, %s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+%s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+%s, %s, and others.
+	0	4	8	0	2020	10	9	4	-65672	-65720	48	-65720	-65672	-65752	-65704	32	-65736	-65688	16	-65768	-65720	
+tty@version_etc_ar	8	-65544	64	0	1	2	0	8	16	20	0	0	1	
+tty@version_etc_va	8	9	47	96	0	1	19	0	8	9	7	47	-65640	4	20	
+tty@version_etc	0	17	-65720	-65528	32	48	19	-65752	20	
+tty@emit_bug_reporting_address	Report bugs to: %s
+	%s home page: <%s>
+	General help using GNU software: <%s>
+	10	0	
+tty@xnmalloc	0	48	1	20	17	52	
+tty@xnrealloc	0	48	1	20	17	52	
+tty@x2nrealloc	0	8	48	52	1	20	17	
+tty@xcharalloc	8	-65544	16	
+tty@xmalloc	0	8	-65544	32	
+tty@xrealloc	0	8	
+tty@x2realloc	8	-65544	16	1	
+tty@xzalloc	8	-65544	16	1	
+tty@xcalloc	0	48	1	20	17	8	
+tty@xmemdup	8	-65544	16	
+tty@xstrdup	8	-65544	16	
+tty@xalloc_die	memory exhausted	%s	0	1	
+tty@rpl_mbrtowc	-3	0	-65564	0	8	-3	20	17	1	
+tty@c_strcasecmp	0	8	4	-65592	32	5	
+tty@hard_locale	C	POSIX	C	POSIX	0	19	-65816	257	20	0	1	1	
+tty@locale_charset	0	8	-65544	16	14	17	
+tty@setlocale_null_androidfix	8	-65544	32	0	
+tty@setlocale_null_unlocked	0	1	8	-65544	48	0	22	34	4	
+tty@setlocale_null_r	8	-65544	32	
+tty@setlocale_null	8	-65544	16	
+tty@rpl_fclose	-1	8	-65544	32	-1	0	7	0	19	1	
+tty@rpl_fflush	0	8	19	
+tty@rpl_fseeko	-1	0	8	20	0	-1	19	
+tty@c_isalnum	9	25	65	90	7	90	65	25	9	1	0	
+tty@c_isalpha	65	90	7	65	0	90	1	25	
+tty@c_isascii	127	7	1	0	
+tty@c_isblank	9	32	7	32	1	9	19	0	1	0	
+tty@c_iscntrl	31	19	0	7	1	127	
+tty@c_isdigit	9	48	7	9	1	0	
+tty@c_isgraph	33	93	7	93	1	0	
+tty@c_islower	25	97	7	25	1	0	
+tty@c_isprint	32	94	7	94	1	0	
+tty@c_ispunct	3	14	58	64	91	96	7	64	58	91	14	1	0	96	3	
+tty@c_isspace	9	13	7	9	0	13	1	32	
+tty@c_isupper	25	65	7	25	1	0	
+tty@c_isxdigit	7	54	4	0	
+tty@c_tolower	25	65	7	25	3	32	
+tty@c_toupper	25	97	7	25	32	
+tty@__libc_csu_init	0	8	-443987883	36	1	2	20	0	19	0	1	2	4	-65592	8	1	2	
+tty@__libc_csu_fini	
+tty@atexit	69238792	19	0	
+tty@_fini	4	-65544	8	

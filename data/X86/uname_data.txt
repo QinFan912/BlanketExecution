@@ -1,0 +1,147 @@
+uname@_init	0	20	4	-65544	8	
+uname@sub_40013a0	
+uname@_start	-65528	20	-65536	0	
+uname@deregister_tm_clones	0	8	20	
+uname@register_tm_clones	0	36	20	
+uname@__do_global_dtors_aux	0	5	8	69238792	1	
+uname@frame_dummy	
+uname@emit_ancillary_info	
+%s online help: <%s>
+	en_	Report any translation bugs to <https://translationproject.org/team/>
+	Full documentation <%s%s>
+	or available locally via: info '(coreutils) %s%s'
+	0	-65688	-65672	-65656	0	19	-65688	20	5	8	3	4	-65736	184	
+uname@usage	Usage: %s [OPTION]...
+	Print certain system information.  With no OPTION, same as -s.
+
+  -a, --all                print all information, in the following order,
+                             except omit -p and -i if unknown:
+  -s, --kernel-name        print the kernel name
+  -n, --nodename           print the network node hostname
+  -r, --kernel-release     print the kernel release
+	  -v, --kernel-version     print the kernel version
+  -m, --machine            print the machine hardware name
+  -p, --processor          print the processor type (non-portable)
+  -i, --hardware-platform  print the hardware platform (non-portable)
+  -o, --operating-system   print the operating system
+	Print machine architecture.
+
+	      --help     display this help and exit
+	      --version  output version information and exit
+	Try '%s --help' for more information.
+	0	1	7	0	1	
+uname@print_element	0	17	1	32	
+uname@decode_switches	asnrvmpio	GNU coreutils	David MacKenzie	GNU coreutils	David MacKenzie	Karel Zak	extra operand %s	-131	-130	-1	1	2	8	97	105	109	110	111	112	114	115	118	-1	0	1	2	3	4	6	8	10	16	18	32	34	64	66	128	130	1	7	2	0	7105633	help	-1	110	-131	0	16	8	4	19	-130	97	114	-65592	4	6	-65608	16	105	111	115	64	66	109	128	130	112	1	3	118	16	18	32	34	8	10	
+uname@close_stdout_set_file_name	
+uname@close_stdout_set_ignore_EPIPE	
+uname@close_stdout	write error	%s: %s	%s	0	32	8	-65552	24	19	0	1	17	4	-65576	20	7	32	
+uname@set_program_name	/.libs/	lt-	lt-	0	6	8	0	55	1	47	6	4	7	19	3	
+uname@clone_quoting_options	0	8	-65544	32	56	
+uname@get_quoting_style	0	8	
+uname@set_quoting_style	0	8	
+uname@set_char_quoting	0	4	8	0	19	
+uname@set_quoting_flags	0	8	
+uname@set_custom_quoting	0	8	10	
+uname@quoting_options_from_style	10	0	7	20	
+uname@gettext_quote	UTF-8	GB18030	0	9	96	8	-65544	32	19	0	5	96	7	9	
+uname@quotearg_buffer	0	8	-65624	4	-65656	32	
+uname@quotearg_alloc	8	-65544	32	0	
+uname@quotearg_alloc_mem	0	8	-65608	4	1	-65640	32	
+uname@quotearg_free	16	8	-65544	1	2	3	256	1	7	1	2	3	16	32	4	0	
+uname@quotearg_n_options	0	16	2147483646	8	-65544	80	7	0	1	-65624	1	256	5	16	4	-65656	32	
+uname@quotearg_n	8	-65544	16	-1	
+uname@quotearg_n_mem	8	-65544	32	
+uname@quotearg	8	-65544	16	0	
+uname@quotearg_mem	8	-65544	16	0	
+uname@quotearg_n_style	19	0	-65608	-1	20	
+uname@quotearg_n_style_mem	19	0	-65608	20	
+uname@quotearg_style	8	-65544	16	0	
+uname@quotearg_style_mem	8	-65544	32	0	
+uname@quotearg_char_mem	0	19	-65608	1	20	
+uname@quotearg_char	8	-65544	16	-1	
+uname@quotearg_colon	8	-65544	16	58	
+uname@quotearg_colon_mem	8	-65544	16	58	
+uname@quotearg_n_style_colon	19	0	-65688	-65608	1	58	-1	20	
+uname@quotearg_n_custom	8	-65544	32	-1	
+uname@quotearg_n_custom_mem	0	19	-65608	20	
+uname@quotearg_custom	8	-65544	32	0	
+uname@quotearg_custom_mem	8	-65544	32	0	
+uname@quote_n_mem	8	-65544	32	
+uname@quote_mem	8	-65544	16	0	
+uname@quote_n	8	-65544	16	-1	
+uname@quote	8	-65544	16	0	
+uname@version_etc_arn	%s (%s) %s
+	%s %s
+	(C)	Copyright %s %d Free Software Foundation, Inc.	License GPLv3+: GNU GPL version 3 or later <%s>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+	Written by %s.
+	Written by %s and %s.
+	Written by %s, %s, and %s.
+	Written by %s, %s, %s,
+and %s.
+	Written by %s, %s, %s,
+%s, and %s.
+	Written by %s, %s, %s,
+%s, %s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+%s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+%s, %s, and others.
+	0	4	8	0	2020	10	9	4	-65672	-65720	48	-65720	-65672	-65752	-65704	32	-65736	-65688	16	-65768	-65720	
+uname@version_etc_ar	8	-65544	64	0	1	2	0	8	16	20	0	0	1	
+uname@version_etc_va	8	9	47	96	0	1	19	0	8	9	7	47	-65640	4	20	
+uname@version_etc	0	17	-65720	-65528	32	48	19	-65752	20	
+uname@emit_bug_reporting_address	Report bugs to: %s
+	%s home page: <%s>
+	General help using GNU software: <%s>
+	10	0	
+uname@xnmalloc	0	48	1	20	17	52	
+uname@xnrealloc	0	48	1	20	17	52	
+uname@x2nrealloc	0	8	48	52	1	20	17	
+uname@xcharalloc	8	-65544	16	
+uname@xmalloc	0	8	-65544	32	
+uname@xrealloc	0	8	
+uname@x2realloc	8	-65544	16	1	
+uname@xzalloc	8	-65544	16	1	
+uname@xcalloc	0	48	1	20	17	8	
+uname@xmemdup	8	-65544	16	
+uname@xstrdup	8	-65544	16	
+uname@xalloc_die	memory exhausted	%s	0	1	
+uname@rpl_mbrtowc	-3	0	-65564	0	8	-3	20	17	1	
+uname@c_strcasecmp	0	8	4	-65592	32	5	
+uname@hard_locale	C	POSIX	C	POSIX	0	19	-65816	257	20	0	1	1	
+uname@locale_charset	0	8	-65544	16	14	17	
+uname@setlocale_null_androidfix	8	-65544	32	0	
+uname@setlocale_null_unlocked	0	1	8	-65544	48	0	22	34	4	
+uname@setlocale_null_r	8	-65544	32	
+uname@setlocale_null	8	-65544	16	
+uname@rpl_fclose	-1	8	-65544	32	-1	0	7	0	19	1	
+uname@rpl_fflush	0	8	19	
+uname@rpl_fseeko	-1	0	8	20	0	-1	19	
+uname@c_isalnum	9	25	65	90	7	90	65	25	9	1	0	
+uname@c_isalpha	65	90	7	65	0	90	1	25	
+uname@c_isascii	127	7	1	0	
+uname@c_isblank	9	32	7	32	1	9	19	0	1	0	
+uname@c_iscntrl	31	19	0	7	1	127	
+uname@c_isdigit	9	48	7	9	1	0	
+uname@c_isgraph	33	93	7	93	1	0	
+uname@c_islower	25	97	7	25	1	0	
+uname@c_isprint	32	94	7	94	1	0	
+uname@c_ispunct	3	14	58	64	91	96	7	64	58	91	14	1	0	96	3	
+uname@c_isspace	9	13	7	9	0	13	1	32	
+uname@c_isupper	25	65	7	25	1	0	
+uname@c_isxdigit	7	54	4	0	
+uname@c_tolower	25	65	7	25	3	32	
+uname@c_toupper	25	97	7	25	32	
+uname@__libc_csu_init	0	8	-443987883	36	1	2	20	0	19	0	1	2	4	-65592	8	1	2	
+uname@__libc_csu_fini	
+uname@atexit	69238792	19	0	
+uname@_fini	4	-65544	8	

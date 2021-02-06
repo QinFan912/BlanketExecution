@@ -6,95 +6,43 @@ rm@__do_global_dtors_aux	0	1	2	0	1
 rm@frame_dummy	0	2	
 rm@select_plural	-1	0	576	-1	0	2	
 rm@$d	
-rm@emit_ancillary_info	
-%s online help: <%s>
-	en_	Report any translation bugs to <https://translationproject.org/team/>
-	Full documentation <%s%s>
-	or available locally via: info '(coreutils) %s%s'
-	0	8	0	2	5	3	
-rm@diagnose_leading_hyphen	Try '%s ./%s' to remove the file %s.
-	0	1	2	45	1	1	2	2	0	45	3	4	
-rm@usage	Usage: %s [OPTION]... [FILE]...
-	Remove (unlink) the FILE(s).
-
-  -f, --force           ignore nonexistent files and arguments, never prompt
-  -i                    prompt before every removal
-	  -I                    prompt once before removing more than three files, or
-                          when removing recursively; less intrusive than -i,
-                          while still giving protection against most mistakes
-      --interactive[=WHEN]  prompt according to WHEN: never, once (-I), or
-                          always (-i); without WHEN, prompt always
-	      --one-file-system  when removing a hierarchy recursively, skip any
-                          directory that is on a file system different from
-                          that of the corresponding command line argument
-	      --no-preserve-root  do not treat '/' specially
-      --preserve-root[=all]  do not remove '/' (default);
-                              with 'all', reject any command line argument
-                              on a separate device from its parent
-	  -r, -R, --recursive   remove directories and their contents recursively
-  -d, --dir             remove empty directories
-  -v, --verbose         explain what is being done
-	      --help     display this help and exit
-	      --version  output version information and exit
-	
-By default, rm does not remove directories.  Use the --recursive (-r or -R)
-option to remove each listed directory, too, along with all of its contents.
-	
-To remove a file whose name starts with a '-', for example '-foo',
-use one of these commands:
-  %s -- -foo
-
-  %s ./-foo
-	
-Note that if you use rm to remove a file, it might be possible to recover
-some of its contents, given sufficient expertise and/or time.  For greater
-assurance that the contents are truly unrecoverable, consider using shred.
-	Try '%s --help' for more information.
-	0	2	1048900	
+rm@emit_ancillary_info	0	5	8	0	2	5	3	
+rm@diagnose_leading_hyphen	0	1	2	45	1	1	2	2	0	45	3	4	
+rm@usage	0	2	1048900	
 rm@rm_option_init	0	1	4	0	2	
-rm@main	coreutils	/usr/local/share/locale	coreutils	dfirvIR	failed to get attributes of %s	%s: remove %llu argument? 	%s: remove %llu arguments? 	%s: remove %llu argument recursively? 	%s: remove %llu arguments recursively? 	missing operand	rm	GNU coreutils	all	unrecognized --preserve-root argument: %s	--no-preserve-root	you may not abbreviate the --no-preserve-root option	--interactive	0	1	2	3	4	31	73	82	100	102	105	114	118	256	257	259	260	0	1	2	3	4	5	6	forc	1	0	2	105	257	73	259	118	100	3	256	102	4	260	114	82	371	neve	
+rm@main	0	1	2	3	4	31	73	82	100	102	105	114	118	256	257	259	260	371	0	1	2	3	4	5	6	forc	1	0	2	105	257	73	259	118	100	3	256	102	4	260	114	82	371	neve	
 rm@dot_or_dotdot	0	1	2	46	47	2	46	0	0	1	1	47	
 rm@readdir_ignoring_dot_and_dotdot	0	1	2	0	
 rm@is_empty_dir	0	1	2	0	
 rm@cache_fstatat	-2	-1	0	4	31	48	96	-1	2	0	4	-1	0	-2	-2	-1	
 rm@cache_stat_init	-1	4	48	-1	
 rm@write_protected_non_symlink	-1	0	1	13	2	0	256	-1	0	core	-1	512	13	1	
-rm@prompt	cannot remove %s	%s: descend into write-protected directory %s? 	%s: descend into directory %s? 	%s: remove write-protected %s %s? 	%s: remove %s %s? 	cannot remove %s	-1	0	1	2	3	4	5	10	21	16384	2	0	-1	0	4	10	21	4	5	3	2	3	10	-1	0	256	-1	core	16384	21	1	
 rm@nonexistent_file_errno	0	1	2	20	22	84	2	20	0	1	0	1	22	84	
 rm@ignorable_missing	0	1	2	0	1	
 rm@fts_skip_tree	4	
-rm@mark_ancestor_dirs	0	1	2	0	1	
-rm@excise	removed directory %s
-	removed %s
-	cannot remove %s	0	1	2	4	13	17	20	21	30	39	2	0	0	512	512	30	2	4	4	39	1	13	21	20	17	
-rm@rm_fts	cannot remove %s	refusing to remove %s or %s directory: skipping %s	..	it is dangerous to operate recursively on %s	it is dangerous to operate recursively on %s (same as %s)	use --no-preserve-root to override this failsafe	..	failed to stat %s: skipping %s	skipping %s, since it's on a different device	and --preserve-root=all is in effect	skipping %s, since it's on a different device	traversal failed: %s	WARNING: Circular directory structure.
-This almost certainly means that you have a corrupted file system.
-NOTIFY YOUR SYSTEM MANAGER.
-The following directory is part of the cycle:
-  %s
-	unexpected failure: fts_info=%d: %s
-please report to %s	0	1	2	4	6	12	16	21	39	72	168	2	12	0	6	3	0	1	2	3	21	39	1	4	21	39	0	1	21	39	
-rm@rm	fts_read failed	fts_close failed	0	2	3	4	64	536	2	4	536	600	2	0	2	4	536	600	600	4	3	609	
+rm@excise	0	1	2	4	13	17	20	21	30	39	2	0	0	512	512	30	2	4	4	39	1	13	21	20	17	
+rm@rm_fts	0	1	2	4	6	12	16	21	39	72	168	2	12	0	6	3	0	1	2	3	21	39	1	4	21	39	0	1	21	39	
+rm@rm	0	2	3	4	64	536	2	4	536	600	2	0	2	4	536	600	600	4	3	609	
 rm@__argmatch_die	1	
 rm@sub_b594	
 rm@argmatch	-2	-1	0	1	2	-1	0	1	2	0	2	-1	-2	-1	0	-2	1	0	1	
-rm@argmatch_invalid	invalid argument %s for %s	ambiguous argument %s for %s	1	0	8	
-rm@argmatch_valid	Valid arguments are:	0	1	2	0	2	0	1	10	
+rm@argmatch_invalid	0	1	8	
+rm@argmatch_valid	0	1	2	10	0	2	0	1	10	
 rm@__xargmatch_internal	-1	0	2	0	
 rm@argmatch_to_argument	0	1	2	0	2	
 rm@close_stdin_set_file_name	
-rm@close_stdin	error closing file	%s: %s	%s	0	1	2	0	1	
+rm@close_stdin	0	1	2	0	1	
 rm@close_stdout_set_file_name	
 rm@close_stdout_set_ignore_EPIPE	
-rm@close_stdout	write error	%s: %s	%s	0	1	32	2	0	1	32	
+rm@close_stdout	0	1	32	2	0	1	32	
 rm@last_component	0	1	47	0	2	47	1	
 rm@base_len	1	47	0	2	1	47	
-rm@file_type	socket	weird file	fifo	character special file	block special file	symbolic link	directory	regular empty file	regular file	0	48	4096	8192	16384	24576	2	5	0	2	16384	5	core	24576	8192	4096	
+rm@file_type	0	48	4096	8192	16384	24576	2	5	0	2	16384	5	core	24576	8192	4096	
 rm@file_name_concat	0	2	
 rm@mfile_name_concat	0	1	46	47	2	0	47	0	46	
 rm@priv_set_remove_linkdir	-1	
 rm@priv_set_restore_linkdir	-1	
-rm@set_program_name	/.libs/	lt-	0	3	6	7	2	0	47	1	55	6	./pr	7	3	
+rm@set_program_name	0	3	6	7	2	0	47	1	55	6	./pr	7	3	
 rm@clone_quoting_options	0	2	48	
 rm@get_quoting_style	0	2	
 rm@set_quoting_style	0	2	
@@ -102,7 +50,7 @@ rm@set_char_quoting	0	1	2	5	8	31	32	255	2	0
 rm@set_quoting_flags	0	2	
 rm@set_custom_quoting	0	10	2	0	10	
 rm@quoting_options_from_style	0	4	8	10	12	16	0	2	10	
-rm@gettext_quote	UTF-8	GB18030	0	9	96	2	0	96	9	65377072	
+rm@gettext_quote	0	9	96	2	0	96	9	65377072	
 rm@quotearg_buffer	0	2	
 rm@quotearg_alloc	0	
 rm@quotearg_alloc_mem	0	1	2	0	
@@ -116,7 +64,7 @@ rm@quotearg_n_style	-1
 rm@quotearg_n_style_mem	
 rm@quotearg_style	0	
 rm@quotearg_style_mem	0	
-rm@quotearg_char_mem	1	0	
+rm@quotearg_char_mem	0	1	
 rm@quotearg_char	-1	
 rm@quotearg_colon	58	
 rm@quotearg_colon_mem	58	
@@ -132,60 +80,32 @@ rm@quote	0
 rm@get_root_dev_ino	0	4	8	2	0	
 rm@statat	0	
 rm@lstatat	256	
-rm@version_etc_arn	%s (%s) %s
-	%s %s
-	(C)	Copyright %s %d Free Software Foundation, Inc.	License GPLv3+: GNU GPL version 3 or later <%s>.
-This is free software: you are free to change and redistribute it.
-There is NO WARRANTY, to the extent permitted by law.
-	Written by %s, %s, %s,
-%s, %s, %s, %s,
-%s, %s, and others.
-	Written by %s, %s, %s,
-%s, %s, %s, %s,
-%s, and %s.
-	Written by %s, %s, %s,
-%s, %s, and %s.
-	Written by %s, %s, %s,
-%s, and %s.
-	Written by %s and %s.
-	Written by %s, %s, %s,
-%s, %s, %s, %s,
-and %s.
-	Written by %s, %s, %s,
-%s, %s, %s, and %s.
-	Written by %s, %s, %s,
-and %s.
-	Written by %s, %s, and %s.
-	Written by %s.
-	0	9	2	0	2020	10	9	
+rm@version_etc_arn	0	9	2	0	2020	10	9	
 rm@version_etc_ar	0	1	2	0	2	
 rm@version_etc_va	0	1	2	4	9	44	0	0	1	2	2	9	
 rm@version_etc	
-rm@emit_bug_reporting_address	Report bugs to: %s
-	%s home page: <%s>
-	General help using GNU software: <%s>
-	10	
+rm@emit_bug_reporting_address	10	
 rm@can_write_any_file	0	1	1	2	0	
-rm@xnmalloc	2	0	
-rm@xnrealloc	2	0	
-rm@x2nrealloc	0	1	2	0	64	
+rm@xnmalloc	2147483647	2	0	
+rm@xnrealloc	2147483647	2	0	
+rm@x2nrealloc	0	1	64	TUUU	2147483647	2	0	64	
 rm@xcharalloc	
 rm@xmalloc	0	2	
 rm@xrealloc	0	2	
 rm@x2realloc	1	
 rm@xzalloc	1	
-rm@xcalloc	0	2	
+rm@xcalloc	2147483647	2	0	
 rm@xmemdup	
 rm@xstrdup	1	
-rm@xalloc_die	memory exhausted	%s	1	0	
+rm@xalloc_die	1	0	
 rm@xfts_open	0	22	512	2	0	22	41	
 rm@yesno	0	1	10	0	2	10	
 rm@rpl_fflush	0	2	
 rm@rpl_fseeko	-17	-1	0	4	80	2	0	-1	
 rm@AD_compare	0	1	8	2	0	0	1	1	
 rm@AD_hash	8	0	
-rm@setup_dir	0	1	2	0	32	31	1	
-rm@enter_dir	0	1	2	4	8	72	96	2	0	24	1	0	1	
+rm@setup_dir	0	1	31	32	2	0	32	31	1	0	1	
+rm@enter_dir	0	1	2	4	8	24	72	96	2	0	24	1	0	1	
 rm@leave_dir	0	4	8	16	72	96	168	2	0	2	5	5	
 rm@free_dir	0	2	
 rm@fd_ring_clear	0	1	2	0	
@@ -202,19 +122,10 @@ rm@fts_sort	0	1	2	4	40	2	0	1	-1073741823	4
 rm@fts_alloc	-16	0	3	176	192	2	0	0	3	
 rm@fts_lfree	0	2	
 rm@fts_palloc	0	1	36	256	2	0	0	36	1	0	1	36	
-rm@fts_padjust	0	176	2	0	
 rm@fts_maxarglen	0	1	4	0	2	1	
-rm@exchange	0	1	2	2	0	
-rm@process_long_option	%s: option '%s%s' is ambiguous; possibilities:	 '%s%s'	%s: option '%s%s' is ambiguous
-	%s: unrecognized option '%s%s'
-	%s: option '%s%s' doesn't allow an argument
-	%s: option '%s%s' requires an argument
-	-1	0	1	2	16	45	58	61	63	-1	0	1	2	0	61	45	1	63	-1	0	1	10	
-rm@_getopt_initialize	POSIXLY_CORRECT	0	1	2	43	45	2	0	0	1	2	45	43	1	
-rm@_getopt_internal_r	--	%s: option requires an argument -- '%c'
-	%s: option requires an argument -- '%c'
-	%s: invalid option -- '%c'
-	-1	0	1	2	43	45	58	59	87	2	0	0	58	63	-1	-1	63	45	58	43	1	63	59	87	58	63	
+rm@process_long_option	-1	0	1	2	16	45	58	61	63	-1	0	1	2	0	61	45	1	63	-1	0	1	10	
+rm@_getopt_initialize	0	1	2	43	45	2	0	0	1	2	45	43	1	
+rm@_getopt_internal_r	-1	0	1	2	43	45	58	59	63	87	2	0	0	58	63	-1	-1	63	45	58	43	1	63	59	87	58	63	
 rm@rpl_getopt_internal	4	0	1	0	
 rm@rpl_getopt	0	1	0	
 rm@rpl_getopt_long	0	
@@ -226,33 +137,28 @@ rm@c_strcasecmp	0	1	2	0
 rm@close_stream	-1	0	1	9	2	0	-1	-1	0	9	
 rm@cycle_check_init	0	4	16	
 rm@cycle_check	0	1	4	8	16	96	9827862	2	5	0	5	60	1	2	0	1	
-rm@hard_locale	POSIX	0	1	257	2	0	1	
+rm@hard_locale	0	1	257	2	0	1	
 rm@hash_get_n_buckets	
 rm@hash_get_n_buckets_used	
 rm@hash_get_n_entries	
-rm@hash_get_max_bucket_length	0	1	4	8	2	0	1	1	2	
-rm@hash_table_ok	0	1	4	8	2	0	1	0	1	
-rm@hash_print_statistics	# entries:         %lu
-	# buckets:         %lu
-	# buckets used:    %lu (%.2f%%)
-	max bucket length: %lu
-	
+rm@hash_get_max_bucket_length	0	1	8	2	0	1	1	2	
+rm@hash_table_ok	0	1	8	2	0	1	0	1	
+rm@hash_print_statistics	
 rm@safe_hasher	3	8	24	
 rm@hash_lookup	0	2	
 rm@hash_get_first	0	8	2	0	
-rm@hash_get_next	0	4	8	2	0	
+rm@hash_get_next	0	8	2	0	
 rm@hash_get_entries	0	1	2	8	2	0	
 rm@hash_do_for_each	0	1	8	2	0	
 rm@hash_string	0	1	5	0	2	
 rm@next_prime	0	1	2	9	10	2	9	0	11	1	
 rm@hash_reset_tuning	0	
 rm@raw_hasher	3	
-rm@check_tuning	0	1	2	0	1	
 rm@compute_bucket_size	0	1	2	0	1	-536870911	
-rm@hash_initialize	0	1	3	2	0	40	8	
+rm@hash_initialize	0	3	40	2	0	40	8	
 rm@hash_clear	0	8	2	0	
 rm@hash_free	0	8	2	0	
-rm@allocate_entry	0	2	8	
+rm@allocate_entry	0	8	2	0	8	
 rm@free_entry	0	
 rm@hash_find_entry	0	2	
 rm@transfer_entries	0	1	8	2	0	1	0	1	
@@ -264,7 +170,7 @@ rm@i_ring_init	0	1	2	3	0	1	2	0	2	3	0	1
 rm@i_ring_empty	
 rm@i_ring_push	0	1	2	3	2	0	
 rm@i_ring_pop	0	1	2	3	2	0	1	
-rm@locale_charset	0	14	2	
+rm@locale_charset	0	14	14	2	0	
 rm@opendirat	0	2304	2	0	
 rm@setlocale_null_androidfix	0	
 rm@setlocale_null_unlocked	0	1	22	34	2	0	22	0	22	34	34	
@@ -272,7 +178,7 @@ rm@setlocale_null_r
 rm@setlocale_null	
 rm@fd_safer	0	2	2	0	
 rm@rpl_fclose	-1	0	-1	0	1	0	2	-1	
-rm@rpl_fcntl	0	1	3	4	8	10	11	1024	1026	1030	1031	2	0	1030	10	1026	3	1024	8	1	1031	1032	11	4	
+rm@rpl_fcntl	0	1	3	4	8	10	11	1024	1026	1030	1031	1032	2	0	1030	10	1026	3	1024	8	1	1031	1032	11	4	
 rm@$a	0	
 rm@rpl_fcntl_DUPFD_CLOEXEC	-1	0	1	22	0	2	1030	1	-1	1	22	0	1	-1	
 rm@rpl_nl_langinfo	11	10200	2	11	0	
@@ -282,8 +188,8 @@ rm@rotl16	16	31	32	255
 rm@rotr16	16	31	32	255	
 rm@rotl8	8	31	32	255	
 rm@rotr8	8	31	32	255	
-rm@c_isalnum	0	1	9	25	48	65	90	97	2	90	0	25	65	0	1	1	9	
-rm@c_isalpha	0	1	65	90	97	2	65	0	0	1	90	1	25	
+rm@c_isalnum	0	1	9	25	65	90	96	97	194	2	90	0	25	65	0	1	1	9	
+rm@c_isalpha	0	1	65	90	2	65	0	0	1	90	1	25	
 rm@c_isascii	0	1	127	2	127	0	0	1	1	
 rm@c_isblank	0	1	9	32	2	32	0	1	9	0	1	
 rm@c_iscntrl	0	1	31	2	0	0	1	31	1	127	
@@ -291,7 +197,7 @@ rm@c_isdigit	0	1	9	48	2	9	0	0	1	1
 rm@c_isgraph	0	1	33	93	2	93	0	0	1	1	
 rm@c_islower	0	1	25	97	2	25	0	0	1	1	
 rm@c_isprint	0	1	32	94	2	94	0	0	1	1	
-rm@c_ispunct	0	1	3	14	33	58	64	91	96	123	2	64	0	91	58	0	1	96	1	14	3	
+rm@c_ispunct	0	1	3	14	58	64	66	91	96	246	2	64	0	91	58	0	1	96	1	14	3	
 rm@c_isspace	0	1	9	23	31	32	255	8388639	2	23	0	0	1	1	
 rm@c_isupper	0	1	25	65	2	25	0	0	1	1	
 rm@c_isxdigit	0	1	48	54	2	54	0	1	0	1	
@@ -301,10 +207,8 @@ rm@dup_safer	0	3
 rm@__aeabi_uidivmod	2	0	
 rm@__aeabi_uldivmod	0	2	
 rm@__aeabi_idiv0	8	
-rm@__gnu_ldivmod_helper	1	2	0	
-rm@__gnu_uldivmod_helper	1	2	0	
-rm@__divdi3	-1	0	1	2	16	31	32	255	2	0	-1	1	
-rm@__udivdi3	0	1	2	16	31	32	255	2	0	1	
+rm@__gnu_ldivmod_helper	2	0	
+rm@__gnu_uldivmod_helper	2	0	
 rm@__libc_csu_init	0	1	4	-442564576	4	1	4	1	5	0	-442552304	1	2	3	2	1	2	
 rm@__libc_csu_fini	
 rm@atexit	1	0	2	

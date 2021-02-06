@@ -1,4 +1,5 @@
 import operator
+from collections import defaultdict
 from math import log
 
 import numpy as np
@@ -11,7 +12,7 @@ class VarlablesValueKNN:
 
         self.dataName = []
         self.dataValue = []
-        self.dataValueWeight = []
+        self.dataValueWeight = defaultdict(list)
 
         self.testData = []
         self.testDataWeight = []
@@ -24,6 +25,9 @@ class VarlablesValueKNN:
         self.similar = dict()
         self.sorted_similar = dict()
 
+        self.varNum = defaultdict(int)
+        self.valueInVar = defaultdict(dict)
+
         # self.calculate_distance()
         self.weight_setting()
         self.calculate_similar_value()
@@ -31,28 +35,38 @@ class VarlablesValueKNN:
     def load_data(self):
         with open(self.data_path) as f:
             datas = f.readlines()
+
         for data in datas:
-            dataline = data.strip().split('\t')
+            dataline = data.strip().split('\t' * 2)
             self.dataName.append(dataline[0])
 
-            l = []
-            for i in dataline[1:]:
-                l.append(i)
-                self.dataValueWeight.append(i)
-            self.dataValue.append(list(set(l)))
+            self.varNum[dataline[0]] = len(dataline[1:])
+
+            for v in dataline[1:]:
+                for i in v.strip().split('\t'):
+                    self.dataValueWeight[dataline[0]].append(i)
+                    self.dataValue.append(i)
+
+            for i in set(self.dataValueWeight[dataline[0]]):
+                for v in dataline[1:]:
+                    if i in v.strip().split('\t'):
+                        self.varNum[dataline[0] + str(i)] += 1
+                        # self.valueInVar[dataline[0]][i] += 1
 
     def load_test_data(self):
         with open(self.test_path) as f:
             datas = f.readlines()
         for data in datas:
-            dataline = data.strip().split('\t')
-            if 'main' in dataline[0]:
+            dataline = data.strip().split('\t' * 2)
+            if '@main' in dataline[0]:
                 l = []
-                for i in dataline[1:]:
-                    l.append(i)
-                self.testData = list(set(l))
-                self.testDataWeight = l
+                for v in dataline[1:]:
+                    for i in v.strip().split('\t'):
+                        l.append(i)
+                    self.testData = list(set(l))
+                    self.testDataWeight = l
 
+    '''    
     def calculate_distance(self):
         self.load_data()
         self.load_test_data()
@@ -67,42 +81,46 @@ class VarlablesValueKNN:
             self.distance[self.dataName[index]] = dis
 
         self.sorted_distance = sorted(self.distance.items(), key=lambda x: x[1])
+    '''
 
     def calculate_similar_value(self):
-        for index, data_list in enumerate(self.dataValue):
+        for index, data_list in self.dataValueWeight.items():
             count = 0
             for v in self.testData:
                 if v in data_list:
-                    count += self.weight[v]
-            self.similar[self.dataName[index]] = count  # round(count / len(self.testData), 3)
+                    count += self.weight[index + str(v)]
+            self.similar[index] = count  # round(count / len(self.testData), 3)
         self.sorted_similar = sorted(self.similar.items(), key=lambda x: x[1], reverse=True)
 
     def weight_setting(self):
         self.load_data()
         self.load_test_data()
 
-        dataSet = set(self.dataValueWeight)
-        total = len(self.dataValueWeight)
-        totalWeight = 0
+        dataSet = set(self.dataValue)
+        total = len(self.dataValue)
+        totalWeight = defaultdict(int)
         countDict = dict()
 
-        # for i in dataSet:
-        #     countDict[i] = self.dataValueWeight.count(i)
-        #     self.weight[i] = round(((total - countDict[i]) / total) * log(total / (countDict[i] + 1)) / 10, 4)
-        #     totalWeight += self.weight[i]
-        # print(totalWeight)
+        for index in self.dataName:
+            for i in self.dataValueWeight[index]:
+                countDict[i] = self.dataValue.count(i)
+                self.weight[index + str(i)] = round(
+                    ((total - countDict[i]) / total) * log(self.varNum[index] / self.varNum[index + str(i)]), 4)
+                totalWeight[index] += self.weight[index + str(i)]
+        print(totalWeight)
 
-        for i in dataSet:
-            countDict[i] = self.dataValueWeight.count(i)
-            self.weight[i] = round(
-                (((total - countDict[i]) / total) * log(total / (countDict[i])) / 10), 4)
-        countDict = sorted(countDict.items(), key=lambda x: x[1], reverse=True)
+        for index in self.dataName:
+            for i in self.dataValueWeight[index]:
+                countDict[i] = self.dataValue.count(i)
+                self.weight[index + str(i)] = round(
+                    ((total - countDict[i]) / total) * log(self.varNum[index] / self.varNum[index + str(i)]) / (totalWeight[index]), 4)
+            # countDict = sorted(countDict.items(), key=lambda x: x[1], reverse=True)
         print(countDict)
 
 
 if __name__ == '__main__':
-    test_path = '/home/qinfan/PycharmProjects/angr/data/X86/rm_data.txt'
-    data_path = '/home/qinfan/PycharmProjects/angr/data/ARM32/rm_data.txt'
+    test_path = '/home/qinfan/PycharmProjects/angr/data/ARM32/false_data.txt'
+    data_path = '/home/qinfan/PycharmProjects/angr/data/X86/false_data.txt'
 
     knn = VarlablesValueKNN(test_path, data_path)
 
@@ -112,12 +130,18 @@ if __name__ == '__main__':
     print(knn.dataValueWeight)
     print(knn.weight)
 
-    print(knn.weight["0"])
-    print(knn.weight["1"])
-    print(knn.weight["2"])
-    print(knn.weight["rm"])
+    print("knn similarity:", knn.similar['false@main'])
+    print("knn similarity:", knn.similar['false@usage'])
+    # print("knn similarity:", knn.similar['false@unexpand'])
 
-    print("knn similarity:", knn.similar['rm@main'])
+    print(knn.varNum)
+    print(knn.valueInVar)
+
+    x = 0
+    for i in knn.weight:
+        x += knn.weight[i]
+    print(x)
+
 
 '''
     data_path1 = '/home/qinfan/PycharmProjects/angr/data/ARM32/rm_data.txt'

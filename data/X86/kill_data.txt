@@ -1,0 +1,159 @@
+kill@_init	0	20	4	-65544	8	
+kill@sub_40014d0	
+kill@_start	-65528	20	-65536	0	
+kill@deregister_tm_clones	0	8	20	
+kill@register_tm_clones	0	36	20	
+kill@__do_global_dtors_aux	0	5	8	69242888	1	
+kill@frame_dummy	
+kill@emit_mandatory_arg_note	
+Mandatory arguments to long options are mandatory for short options too.
+	8	-65552	4	-65560	
+kill@emit_ancillary_info	
+%s online help: <%s>
+	en_	Report any translation bugs to <https://translationproject.org/team/>
+	Full documentation <%s%s>
+	or available locally via: info '(coreutils) %s%s'
+	0	-65688	-65672	-65656	0	19	-65688	20	5	8	3	4	-65736	184	
+kill@usage	Usage: %s [-s SIGNAL | -SIGNAL] PID...
+  or:  %s -l [SIGNAL]...
+  or:  %s -t [SIGNAL]...
+	Send signals to processes, or list signals.
+	  -s, --signal=SIGNAL, -SIGNAL
+                   specify the name or number of the signal to be sent
+  -l, --list       list signal names, or convert signal names to/from numbers
+  -t, --table      print a table of signal information
+	      --help     display this help and exit
+	      --version  output version information and exit
+	
+SIGNAL may be a signal name like 'HUP', or a signal number like '1',
+or the exit status of a process terminated by a signal.
+PID is an integer; if negative it identifies a process group.
+	
+NOTE: your shell may have its own version of %s, which usually supersedes
+the version described here.  Please refer to your shell's documentation
+for details about the options it supports.
+	Try '%s --help' for more information.
+	0	7	
+kill@print_table_row	%*d %-*s %s
+	0	8	-65544	48	
+kill@list_signals	%d
+	0	6	9	10	48	64	0	1	2	3	10	100	0	5	8	7	1	10	100	6	1	2	64	20	1	10	10	100	-65576	19	1	9	
+kill@send_signals	%s	%s: invalid process id	0	34	0	1	19	0	-65592	10	7	34	8	17	20	4	-65624	72	
+kill@main	coreutils	/usr/local/share/locale	coreutils	0::1::2::3::4::5::6::7::8::9::A::B::C::D::E::F::G::H::I::J::K::M::N::O::P::Q::R::S::T::U::V::W::X::Y::Z::Lln:s:t	kill	GNU coreutils	Paul Eggert	invalid option -- %c	multiple -l or -t options specified	cannot combine signal with -l or -t	no process ID specified	%s: multiple signals specified	-131	-130	0	2	8	48	57	65	76	90	108	110	115	116	-1	0	1	15	19	0	6	list	7	-1	76	5	0	1	1	17	57	108	48	65	-131	2	90	115	4	8	15	-130	20	116	-65592	110	-65624	72	
+kill@operand2sig	abcdefghijklmnopqrstuvwxyz	%s: invalid signal	0	9	71	73	83	254	-1	0	127	255	7	9	-65600	10	8	17	0	-1	-65608	19	20	254	5	83	127	127	255	255	73	71	4	-65624	72	
+kill@close_stdout_set_file_name	
+kill@close_stdout_set_ignore_EPIPE	
+kill@close_stdout	write error	%s: %s	%s	0	32	8	-65552	24	19	0	1	17	4	-65576	20	7	32	
+kill@set_program_name	/.libs/	lt-	lt-	0	6	8	0	55	1	47	6	4	7	19	3	
+kill@clone_quoting_options	0	8	-65544	32	56	
+kill@get_quoting_style	0	8	
+kill@set_quoting_style	0	8	
+kill@set_char_quoting	0	4	8	0	19	
+kill@set_quoting_flags	0	8	
+kill@set_custom_quoting	0	8	10	
+kill@quoting_options_from_style	10	0	7	20	
+kill@gettext_quote	UTF-8	GB18030	0	9	96	8	-65544	32	19	0	5	96	7	9	
+kill@quotearg_buffer	0	8	-65624	4	-65656	32	
+kill@quotearg_alloc	8	-65544	32	0	
+kill@quotearg_alloc_mem	0	8	-65608	4	1	-65640	32	
+kill@quotearg_free	16	8	-65544	1	2	3	256	1	7	1	2	3	16	32	4	0	
+kill@quotearg_n_options	0	16	2147483646	8	-65544	80	7	0	1	-65624	1	256	5	16	4	-65656	32	
+kill@quotearg_n	8	-65544	16	-1	
+kill@quotearg_n_mem	8	-65544	32	
+kill@quotearg	8	-65544	16	0	
+kill@quotearg_mem	8	-65544	16	0	
+kill@quotearg_n_style	19	0	-65608	-1	20	
+kill@quotearg_n_style_mem	19	0	-65608	20	
+kill@quotearg_style	8	-65544	16	0	
+kill@quotearg_style_mem	8	-65544	32	0	
+kill@quotearg_char_mem	0	19	-65608	1	20	
+kill@quotearg_char	8	-65544	16	-1	
+kill@quotearg_colon	8	-65544	16	58	
+kill@quotearg_colon_mem	8	-65544	16	58	
+kill@quotearg_n_style_colon	19	0	-65688	-65608	1	58	-1	20	
+kill@quotearg_n_custom	8	-65544	32	-1	
+kill@quotearg_n_custom_mem	0	19	-65608	20	
+kill@quotearg_custom	8	-65544	32	0	
+kill@quotearg_custom_mem	8	-65544	32	0	
+kill@quote_n_mem	8	-65544	32	
+kill@quote_mem	8	-65544	16	0	
+kill@quote_n	8	-65544	16	-1	
+kill@quote	8	-65544	16	0	
+kill@version_etc_arn	%s (%s) %s
+	%s %s
+	(C)	Copyright %s %d Free Software Foundation, Inc.	License GPLv3+: GNU GPL version 3 or later <%s>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+	Written by %s.
+	Written by %s and %s.
+	Written by %s, %s, and %s.
+	Written by %s, %s, %s,
+and %s.
+	Written by %s, %s, %s,
+%s, and %s.
+	Written by %s, %s, %s,
+%s, %s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+%s, and %s.
+	Written by %s, %s, %s,
+%s, %s, %s, %s,
+%s, %s, and others.
+	0	4	8	0	2020	10	9	4	-65672	-65720	48	-65720	-65672	-65752	-65704	32	-65736	-65688	16	-65768	-65720	
+kill@version_etc_ar	8	-65544	64	0	1	2	0	8	16	20	0	0	1	
+kill@version_etc_va	8	9	47	96	0	1	19	0	8	9	7	47	-65640	4	20	
+kill@version_etc	0	17	-65720	-65528	32	48	19	-65752	20	
+kill@emit_bug_reporting_address	Report bugs to: %s
+	%s home page: <%s>
+	General help using GNU software: <%s>
+	10	0	
+kill@xnmalloc	0	48	1	20	17	52	
+kill@xnrealloc	0	48	1	20	17	52	
+kill@x2nrealloc	0	8	48	52	1	20	17	
+kill@xcharalloc	8	-65544	16	
+kill@xmalloc	0	8	-65544	32	
+kill@xrealloc	0	8	
+kill@x2realloc	8	-65544	16	1	
+kill@xzalloc	8	-65544	16	1	
+kill@xcalloc	0	48	1	20	17	8	
+kill@xmemdup	8	-65544	16	
+kill@xstrdup	8	-65544	16	
+kill@xalloc_die	memory exhausted	%s	0	1	
+kill@rpl_mbrtowc	-3	0	-65564	0	8	-3	20	17	1	
+kill@str2signum	RTMIN	RTMIN	RTMAX	RTMAX	0	9	12	34	48	64	0	1	2	7	9	-65584	10	17	0	34	8	64	-1	20	4	0	12	19	32	0	6	1	2	5	3	
+kill@str2sig	8	-65544	16	19	0	-1	
+kill@sig2str	%+d	12	34	8	-65544	48	0	1	2	78	88	7	0	1	2	34	0	12	1	2	4	0	-1	
+kill@c_strcasecmp	0	8	4	-65592	32	5	
+kill@hard_locale	C	POSIX	C	POSIX	0	19	-65816	257	20	0	1	1	
+kill@locale_charset	0	8	-65544	16	14	17	
+kill@setlocale_null_androidfix	8	-65544	32	0	
+kill@setlocale_null_unlocked	0	1	8	-65544	48	0	22	34	4	
+kill@setlocale_null_r	8	-65544	32	
+kill@setlocale_null	8	-65544	16	
+kill@rpl_fclose	-1	8	-65544	32	-1	0	7	0	19	1	
+kill@rpl_fflush	0	8	19	
+kill@rpl_fseeko	-1	0	8	20	0	-1	19	
+kill@c_isalnum	9	25	65	90	7	90	65	25	9	1	0	
+kill@c_isalpha	65	90	7	65	0	90	1	25	
+kill@c_isascii	127	7	1	0	
+kill@c_isblank	9	32	7	32	1	9	19	0	1	0	
+kill@c_iscntrl	31	19	0	7	1	127	
+kill@c_isdigit	9	48	7	9	1	0	
+kill@c_isgraph	33	93	7	93	1	0	
+kill@c_islower	25	97	7	25	1	0	
+kill@c_isprint	32	94	7	94	1	0	
+kill@c_ispunct	3	14	58	64	91	96	7	64	58	91	14	1	0	96	3	
+kill@c_isspace	9	13	7	9	0	13	1	32	
+kill@c_isupper	25	65	7	25	1	0	
+kill@c_isxdigit	7	54	4	0	
+kill@c_tolower	25	65	7	25	3	32	
+kill@c_toupper	25	97	7	25	32	
+kill@__libc_csu_init	0	8	-443987883	36	1	2	20	0	19	0	1	2	4	-65592	8	1	2	
+kill@__libc_csu_fini	
+kill@atexit	69242888	19	0	
+kill@_fini	4	-65544	8	
