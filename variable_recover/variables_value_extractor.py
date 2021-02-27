@@ -7,6 +7,7 @@ import pprint
 from collections import defaultdict
 
 from angr.analyses.decompiler.structured_codegen import CConstant
+from archinfo.arch_arm import is_arm_arch
 
 from variable_recover.address_extractor import VariablesAddressExtractor
 
@@ -29,6 +30,7 @@ class VariablesValueExtractor:
             print('[VariablesAddressExtractor] {} already exists, removed!'.format(self.data_path))
             os.remove(self.data_path)
 
+        self.arch = None
         self.not_cover = 0
         self.value_result = dict()
 
@@ -46,6 +48,8 @@ class VariablesValueExtractor:
                                  'base_addr': base_addr
                              }
                          })
+        self.arch = p.arch
+
         min_addr = p.loader.min_addr
         max_addr = p.loader.max_addr
         print("min_addr:", min_addr)
@@ -69,6 +73,9 @@ class VariablesValueExtractor:
         def save_block_info(expr, v, s):
             string_path = '/home/qinfan/PycharmProjects/angr/string_block/'
             if expr == v:
+                # if v == 17:
+                #     import ipdb
+                #     ipdb.set_trace()
                 b = p.factory.block(s.addr)
                 info = str(hex(s.addr)) + str(b.instruction_addrs)
                 # info = b.pp()
@@ -156,7 +163,7 @@ class VariablesValueExtractor:
                         c = ctypes.c_int32(v.obj.value).value
                         l.append(c)
 
-            for k, v in codegen.stmt_posmap.items():
+            for k, v in codegen.posmap.items():
                 if isinstance(v.obj, CConstant):
                     if v.obj.reference_values:
                         x = v.obj.reference_values
@@ -191,9 +198,11 @@ class VariablesValueExtractor:
                 print("expr:", state.solver.eval(state.inspect.reg_write_expr))
                 expr1 = state.solver.eval(state.inspect.reg_write_expr)
                 expr = ctypes.c_int32(expr1).value
-                # save_block_info(expr, -65608, state)
-                # save_block_info(expr, -65656, state)
-                # save_block_info(expr, -65688, state)
+
+                # save_block_info(expr, -131, state)
+                flag = self.special_register_value(state.solver.eval(state.inspect.reg_write_offset))
+                if not flag:
+                    return
 
                 for va in var:
                     if isinstance(va, SimRegisterVariable):
@@ -206,24 +215,23 @@ class VariablesValueExtractor:
                             if state.solver.eval(state.inspect.reg_write_offset) == va.reg:
                                 if expr in mem_data:
                                     d = state.mem[expr].deref.int.concrete
-                                    # save_block_info(expr, -65608, state)
-                                    # save_block_info(expr, -65656, state)
-                                    # save_block_info(expr, -65688, state)
+
+                                    # save_block_info(expr, -131, state)
 
                                     var_dict[va.name].append(d)
+
                                 elif expr >= min_addr:
                                     obj = p.loader.find_object_containing(addr=expr)
                                     if obj:
                                         sec = obj.find_section_containing(addr=expr)
                                         if sec:
                                             d = state.mem[expr].deref.int.concrete
-                                            # save_block_info(expr, -65608, state)
-                                            # save_block_info(expr, -65656, state)
-                                            # save_block_info(expr, -65688, state)
+
+                                            # save_block_info(expr, -131, state)
 
                                             var_dict[va.name].append(d)
                                 else:
-                                    var_dict[va.name].append(expr)
+                                        var_dict[va.name].append(expr)
 
                                 new_list = sorted(list(set(var_dict[va.name])))
                                 var_dict[va.name] = new_list
@@ -410,6 +418,39 @@ class VariablesValueExtractor:
                     f.write(repr(str(i)).strip('\'') + '\t')
                 f.write('\t')
             f.write('\n')
+
+    def special_register_value(self, v):
+        arch = self.arch
+        print(arch.name)
+
+        if arch.name == 'AARCH64':
+            return 16 <= v < 80  # x0-x7
+
+        elif arch.name == 'AMD64':
+            return (24 <= v < 40 or  # rcx, rdx
+                    64 <= v < 104  # rsi, rdi, r8, r9, r10
+                    )
+            # 224 <= variable.reg < 480)  # xmm0-xmm7
+
+        elif is_arm_arch(arch):
+            return 8 <= v < 24  # r0-r3
+
+        elif arch.name == 'MIPS32':
+            return 24 <= v < 40  # a0-a3
+
+        elif arch.name == 'MIPS64':
+            return 48 <= v < 80 or 112 <= v < 208  # a0-a3 or t4-t7
+
+        elif arch.name == 'PPC32':
+            return 28 <= v < 60  # r3-r10
+
+        elif arch.name == 'X86':
+            return (8 <= v < 24 or  # eax, ebx, ecx, edx
+                    160 <= v < 288)  # xmm0-xmm7
+
+        else:
+            print('Unsupported architecture %s.', arch.name)
+            return True
 
 # if __name__ == '__main__':
 #     file_name = "basename"

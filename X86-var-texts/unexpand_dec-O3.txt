@@ -1,166 +1,172 @@
 _init:
-{'constant': [0], 'ir_4': [20], 'ir_7': [4], 'ir_8': [-65544], 'ir_9': [8]}
+{'constant': [0]}
 sub_4011b0:
 {'constant': []}
 main:
-{'string': ['coreutils', '/usr/local/share/locale', 'coreutils', ',0123456789at:', 'unexpand', 'GNU coreutils', 'David MacKenzie', 'tab stop value is too large', 'input line is too long', 'write error', 'input line is too long', 'write error'], 'constant': [-1717986919, -131, -130, -1, 0, 1, 2, 8, 9, 10, 44, 48, 63, 97, 116, 128, 255], 'ir_2': [-1717986919], 'ir_8': [0], 's_68': [0, 1, 9], 'ir_23': [19], 'ir_28': [6], 'ir_37': ['tabs'], 'ir_41': [7], 'ir_43': [-1], 'ir_146': [17], 'ir_46': [63], 'ir_150': [0, 1], 'ir_556': [1], 'ir_110': [48], 'ir_67': [-130], 'ir_50': [116], 'ir_70': [44], 'ir_53': [128], 'ir_73': [-131], 'ir_56': [97], 'ir_535': [], 'ir_167': [20], 'ir_80': [8], 'ir_123': [5], 'ir_527': [4], 'ir_528': [-65640], 'ir_529': [56], 'ir_223': [-65609], 'ir_224': [-65608], 'ir_426': [10], 'ir_359': [9]}
+{'string': ['coreutils', '/usr/local/share/locale', 'coreutils', ',0123456789at:', 'unexpand', 'GNU coreutils', 'David MacKenzie', 'tab stop value is too large', 'input line is too long', 'write error', 'input line is too long', 'write error'], 'constant': [-131, -130, -1, 0, 1, 2, 8, 9, 10, 44, 48, 63, 97, 116, 255], 's_68': [0, 1, 9], 'ir_28': [6], 'ir_36': [0], 'ir_37': ['tabs'], 'ir_556': [1], 'ir_535': [], 'ir_123': [5], 'ir_223': [-65609], 'ir_224': [-65608]}
 _start:
-{'constant': [], 'ir_6': [-65528], 'ir_7': [20], 'ir_8': [-65536], 'ir_9': [0]}
+{'constant': [], 'ir_6': [-65528]}
 _dl_relocate_static_pie:
 {'constant': []}
 deregister_tm_clones:
-{'constant': [0, 7], 'ir_0': [7], 'ir_5': [8], 'ir_7': [14], 'ir_8': [0], 'ir_9': [20]}
+{'constant': [0, 7]}
 register_tm_clones:
-{'constant': [0], 'ir_18': [36], 'ir_24': [20]}
+{'constant': [0]}
 __do_global_dtors_aux:
-{'constant': [0, 1], 'ir_0': [5], 'ir_1': [0], 's_0': [1]}
+{'constant': [0, 1], 's_0': [1]}
 frame_dummy:
-{'constant': [0], 'ir_1': [8], 'ir_5': [20]}
+{'constant': [0]}
 usage:
-{'string': ['Usage: %s [OPTION]... [FILE]...\n', 'Convert blanks in each FILE to tabs, writing to standard output.\n', '\nWith no FILE, or when FILE is -, read standard input.\n', '\nMandatory arguments to long options are mandatory for short options too.\n', '  -a, --all        convert all blanks, instead of just initial blanks\n      --first-only  convert only leading sequences of blanks (overrides -a)\n  -t, --tabs=N     have tabs N characters apart instead of 8 (enables -a)\n', '      --help     display this help and exit\n', '      --version  output version information and exit\n', '\n%s online help: <%s>\n', '\n%s online help: <%s>\n', 'en_', 'Full documentation <%s%s>\n', 'en_', 'en_', 'Report any translation bugs to <https://translationproject.org/team/>\n', 'en_', 'en_', 'en_', 'Full documentation <%s%s>\n', 'en_', 'en_', 'en_', 'en_', "or available locally via: info '(coreutils) %s%s'\n", "Try '%s --help' for more information.\n"], 'constant': [0, 1, 9, 16], 'ir_1': [5], 's_98': [0], 'ir_14': [19], 'ir_37': [1], 'ir_22': [], 'ir_91': [-65688, -65672], 'ir_93': [6, 7, 8, 9], 'ir_95': [6, 7, 8], 'ir_98': [101, 110, 117], 'ir_99': [0, 91, 99, 117], 'ir_133': [20], 'ir_112': [-65672], 'ir_152': [3], 'ir_225': [8]}
+{'string': ['Usage: %s [OPTION]... [FILE]...\n', 'Convert blanks in each FILE to tabs, writing to standard output.\n', '\nWith no FILE, or when FILE is -, read standard input.\n', '\nMandatory arguments to long options are mandatory for short options too.\n', '  -a, --all        convert all blanks, instead of just initial blanks\n      --first-only  convert only leading sequences of blanks (overrides -a)\n  -t, --tabs=N     have tabs N characters apart instead of 8 (enables -a)\n', '      --help     display this help and exit\n', '      --version  output version information and exit\n', '\n%s online help: <%s>\n', '\n%s online help: <%s>\n', 'en_', 'Full documentation <%s%s>\n', 'en_', 'en_', 'Report any translation bugs to <https://translationproject.org/team/>\n', 'en_', 'en_', 'en_', 'Full documentation <%s%s>\n', 'en_', 'en_', 'en_', 'en_', "or available locally via: info '(coreutils) %s%s'\n", "Try '%s --help' for more information.\n"], 'constant': [0, 1, 9, 16], 'ir_1': [5], 's_98': [0], 'ir_37': [1], 'ir_22': [], 'ir_93': [6, 7, 8, 9], 'ir_95': [6, 7, 8], 'ir_152': [3]}
 add_tab_stop:
-{'constant': [0, 1, 2, 3, 8, 16], 'ir_6': [0, 1], 'ir_7': [20], 'ir_8': [0], 'ir_47': [8], 'ir_119': [1], 's_18': [1, 16], 'ir_59': [16], 'ir_71': [48], 'ir_73': [0, 16], 'ir_70': [0, 128], 'ir_120': [4], 'ir_121': [-65560], 'ir_88': [-1431655767], 'ir_80': [128], 'ir_105': [32], 'ir_106': [8, 128], 'ir_107': [4, 64]}
+{'constant': [0, 1, 2, 3, 8, 16], 'ir_6': [0, 1], 'ir_10': [0], 's_18': [1, 16], 'ir_59': [16], 'ir_33': [1], 'ir_62': [8, 128]}
 parse_tab_stops:
-{'string': ["'/' specifier not at start of number: %s", "'+' specifier not at start of number: %s", 'tab size contains invalid character(s): %s', "'/' specifier only allowed with the last value", "'+' specifier only allowed with the last value", '0123456789', 'tab stop is too large %s', "'/' specifier only allowed with the last value", "'+' specifier only allowed with the last value"], 'constant': [0, 1, 5, 44, 47, 48], 'ir_10': [17], 'ir_12': [0], 'ir_343': [4], 'ir_344': [-65608], 'ir_345': [24], 's_48': [0, 1], 'ir_26': [19], 'ir_29': [5], 'ir_31': [44], 'ir_90': [47], 'ir_47': [8], 'ir_93': [43], 'ir_232': [1], 'ir_99': [7], 'ir_101': [9], 'ir_105': [-1717986919], 's_18': [0, 1, 16]}
+{'string': ["'/' specifier not at start of number: %s", "'+' specifier not at start of number: %s", 'tab size contains invalid character(s): %s', "'/' specifier only allowed with the last value", "'+' specifier only allowed with the last value", '0123456789', 'tab stop is too large %s', "'/' specifier only allowed with the last value", "'+' specifier only allowed with the last value"], 'constant': [0, 1, 5, 44, 47, 48], 's_48': [0, 1], 'ir_78': [0], 'ir_379': [5], 'ir_398': [1], 's_18': [0, 1, 16]}
 finalize_tab_stops:
-{'string': ['tab sizes must be ascending', 'tab size cannot be 0', "'/' specifier is mutually exclusive with '+'", "'/' specifier is mutually exclusive with '+'", 'tab size cannot be 0'], 'constant': [0, 1, 2, 3, 8], 'ir_3': [0], 'ir_5': [20], 'ir_120': [8], 'ir_60': [5], 'ir_62': [19], 'ir_16': [0, 1, 2, 3], 's_8': [0, 1, 8], 'ir_130': [4], 'ir_131': [-65544], 'ir_71': [1], 'ir_20': [1, 2, 3]}
+{'string': ['tab sizes must be ascending', 'tab size cannot be 0', "'/' specifier is mutually exclusive with '+'", "'/' specifier is mutually exclusive with '+'", 'tab size cannot be 0'], 'constant': [0, 1, 2, 3, 8], 'ir_3': [0], 'ir_120': [8], 'ir_60': [5], 's_8': [0, 1, 8], 'ir_71': [1]}
 get_next_tab_column:
-{'constant': [0, 1, 3, 8], 'ir_0': [0], 'ir_2': [20], 'ir_8': [8], 'ir_17': [4], 'ir_19': [1]}
+{'constant': [0, 1, 3, 8], 'ir_0': [0]}
 set_file_list:
-{'constant': [0], 'ir_1': [20], 'ir_4': [-2132672467]}
+{'constant': [0]}
 next_file:
-{'string': ['%s', '-', '%s', 'r', '%s'], 'constant': [0, 1, 2, 8, 32], 'ir_5': [20], 'ir_7': [0], 's_28': [1, 8, 16], 'ir_95': [-1, 0, 1, 2], 'ir_98': [-1, 0, 1], 'ir_99': [5], 'ir_101': [0, 45, 226], 'ir_184': [341], 'ir_12': [17], 'ir_178': [19], 'ir_40': [1, 2, 3], 'ir_20': [3], 'ir_116': [], 'ir_164': [2], 'ir_166': [4], 'ir_167': [-65576], 'ir_168': [24], 'ir_146': [8]}
+{'string': ['%s', '-', '%s', 'r', '%s'], 'constant': [0, 1, 2, 8, 32], 's_28': [1, 8, 16], 'ir_8': [0], 'ir_95': [-1, 0, 1, 2], 'ir_98': [-1, 0, 1], 'ir_184': [341], 'ir_37': [1, 2, 3], 'ir_20': [3], 'ir_163': [], 'ir_164': [2]}
 cleanup_file_list_stdin:
-{'string': ['-'], 'constant': [0], 'ir_0': [5], 'ir_3': [8], 'ir_4': [-65536], 'ir_6': [], 'ir_8': [19], 'ir_18': [4], 'ir_19': [-65544], 'ir_13': [1]}
+{'string': ['-'], 'constant': [0], 'ir_6': [], 'ir_13': [1]}
 emit_tab_list_info:
-{'string': ['  -t, --tabs=LIST  use comma separated list of tab positions\n', "                     The last specified position can be prefixed with '/'\n                     to specify a tab size to use after the last\n                     explicitly specified tab stop.  Also a prefix of '+'\n                     can be used to align remaining tab stops relative to\n                     the last specified tab stop instead of the first column\n"], 'constant': [], 'ir_2': [5], 'ir_4': [19], 'ir_5': [0]}
+{'string': ['  -t, --tabs=LIST  use comma separated list of tab positions\n', "                     The last specified position can be prefixed with '/'\n                     to specify a tab size to use after the last\n                     explicitly specified tab stop.  Also a prefix of '+'\n                     can be used to align remaining tab stops relative to\n                     the last specified tab stop instead of the first column\n"], 'constant': [], 'ir_2': [5], 'ir_7': [0]}
 close_stdout_set_file_name:
 {'constant': []}
 close_stdout_set_ignore_EPIPE:
 {'constant': []}
 close_stdout:
-{'string': ['write error', '%s: %s', '%s'], 'constant': [0], 'ir_1': [8], 'ir_2': [-65552], 'ir_4': [], 'ir_6': [19], 'ir_9': [5], 'ir_75': [4], 'ir_76': [-65560], 'ir_54': [1], 'ir_29': [20], 'ir_12': [7], 'ir_14': [32]}
+{'string': ['write error', '%s: %s', '%s'], 'constant': [0], 'ir_4': [], 'ir_25': [5], 'ir_54': [1]}
 fdadvise:
 {'constant': []}
 fadvise:
-{'constant': [0], 'ir_1': [20], 'ir_12': [19]}
+{'constant': [0]}
 set_program_name:
-{'constant': [0, 1, 3, 4, 6, 7], 'ir_1': [20], 'ir_3': [0], 'ir_70': [], 'ir_71': [55], 'ir_72': [1], 'ir_5': [47], 'ir_17': [8], 'ir_19': [6], 'ir_25': [4, 5, 6, 7], 'ir_26': [4, 5, 6], 'ir_28': [5], 'ir_30': [46, 47, 108], 'ir_43': [1, 2, 3], 'ir_46': [1, 2], 'ir_49': [108, 116]}
+{'constant': [0, 1, 3, 4, 6, 7], 'ir_70': [], 'ir_71': [55], 'ir_72': [1], 'ir_5': [47], 'ir_25': [4, 5, 6, 7], 'ir_26': [4, 5, 6], 'ir_43': [1, 2, 3], 'ir_46': [1, 2]}
+quotearg_buffer_restyled:
+{'string': ['`', '`', '`', '`', '`', '`'], 'constant': [-3, -2, -1, 0, 1, 2, 3, 4, 5, 7, 8, 9, 31, 32, 33, 34, 36, 39, 48, 63, 64, 91, 92, 97, 98, 102, 110, 114, 116, 118, 126, 255], 's_e8': [0, 1, 2, 5, 34, 36, 39, 48, 63, 92], 'ir_200': [0, 1], 'ir_203': [0], 'ir_220': [1], 'ir_110': [5], 'ir_1580': [39], 'ir_1545': [2], 'ir_703': [-65608], 'ir_704': [-65612], 'ir_739': [43]}
 clone_quoting_options:
-{'constant': [0], 'ir_6': [20], 'ir_11': [56]}
+{'constant': [0], 'ir_11': [56]}
 get_quoting_style:
-{'constant': [0], 'ir_1': [20]}
+{'constant': [0]}
 set_quoting_style:
-{'constant': [0], 'ir_1': [20]}
+{'constant': [0]}
 set_char_quoting:
-{'constant': [0, 1, 4, 8, 31, 32], 'ir_42': [19], 'ir_44': [0]}
+{'constant': [0, 1, 4, 8, 31, 32]}
 set_quoting_flags:
-{'constant': [0, 4], 'ir_1': [20], 'ir_3': [0]}
+{'constant': [0, 4]}
 set_custom_quoting:
-{'constant': [0, 10], 'ir_10': [20], 'ir_12': [0], 's_8': [10], 'ir_20': [4], 'ir_21': [-65544], 'ir_22': [8]}
+{'constant': [0, 10], 's_8': [10]}
 quotearg_buffer:
-{'constant': [0], 'ir_17': [20], 'ir_24': [8], 'ir_25': [-65608], 'ir_33': [4], 'ir_34': [-65640], 'ir_35': [56]}
+{'constant': [0]}
 quotearg_alloc:
-{'constant': [0, 1], 'ir_15': [20], 'ir_17': [0], 'ir_35': [19], 'ir_41': [4], 'ir_42': [-65656], 'ir_43': [32], 'ir_45': [8], 'ir_46': [-65624], 'ir_60': [72]}
+{'constant': [0, 1], 'ir_30': [0]}
 quotearg_alloc_mem:
-{'constant': [0, 1], 'ir_21': [19], 'ir_22': [0], 'ir_49': [4], 'ir_50': [-65672], 'ir_51': [32], 'ir_53': [8], 'ir_54': [-65640], 'ir_67': [20], 'ir_74': [56]}
+{'constant': [0, 1], 'ir_42': [0]}
 quotearg_free:
-{'constant': [1, 2, 16, 24, 256], 'ir_0': [1], 'ir_4': [7], 'ir_34': [8], 'ir_10': [-16], 'ir_16': [0, 1], 'ir_17': [4], 'ir_19': [16], 'ir_11': [-72540024, './pr'], 'ir_22': [-72540024], 's_18': [256]}
+{'constant': [1, 2, 4, 16, 24, 40, 256], 'ir_16': [0, 1], 's_10': [1], 's_18': [256]}
 quotearg_n:
-{'constant': [0, 1, 8, 16, 2147483647], 'ir_9': [8], 'ir_10': [-65584], 'ir_11': [24], 'ir_12': [19], 'ir_14': [0], 'ir_18': [7], 'ir_20': [1], 'ir_90': [-1], 'ir_23': [], 'ir_139': [4], 'ir_140': [-65608], 'ir_41': [256], 'ir_67': [32]}
+{'constant': [0, 1, 8, 16, 2147483647], 'ir_89': [0], 'ir_90': [-1], 's_50': [1], 's_48': [256]}
 quotearg_n_mem:
-{'constant': [0, 1, 8, 16, 2147483647], 'ir_11': [8], 'ir_12': [-65584], 'ir_13': [24], 'ir_14': [19], 'ir_16': [0], 'ir_20': [7], 'ir_22': [1], 'ir_25': [], 'ir_146': [4], 'ir_147': [-65608], 'ir_43': [256], 'ir_70': [32]}
+{'constant': [0, 1, 8, 16, 2147483647], 'ir_95': [0], 's_50': [1], 's_48': [256]}
 quotearg:
-{'constant': [0, 1, 8, 16], 'ir_7': [8], 'ir_8': [-65584], 'ir_9': [24], 'ir_12': [1], 'ir_14': [19], 'ir_16': [0], 'ir_66': [256], 'ir_72': [-1], 'ir_23': [16], 'ir_119': [4], 'ir_120': [-65608], 's_48': [1, 256], 'ir_57': [32]}
+{'constant': [0, 1, 8, 16], 'ir_71': [0], 'ir_72': [-1], 'ir_78': [256], 's_50': [1], 'ir_23': [16], 's_48': [1, 256]}
 quotearg_mem:
-{'constant': [0, 1, 8, 16], 'ir_9': [8], 'ir_10': [-65584], 'ir_11': [24], 'ir_14': [1], 'ir_16': [19], 'ir_18': [0], 'ir_69': [256], 'ir_25': [16], 'ir_123': [4], 'ir_124': [-65608], 's_48': [1, 256], 'ir_59': [32]}
+{'constant': [0, 1, 8, 16], 'ir_74': [0], 'ir_81': [256], 's_50': [1], 'ir_25': [16], 's_48': [1, 256]}
 quotearg_n_style:
-{'constant': [0, 1, 7, 8, 16, 2147483647], 'ir_2': [4, 5, 6, 7], 's_c8': [0, 256], 'ir_16': [0], 'ir_17': [-65656, -65648, -65640, -65632], 'ir_19': [7], 'ir_21': [10], 'ir_22': [4, 5, 6], 'ir_24': [-65648, -65640, -65632], 'ir_37': [19], 'ir_51': [1], 'ir_121': [-1], 'ir_132': [-65712], 'ir_54': [], 'ir_137': [8], 'ir_175': [20], 'ir_180': [4], 'ir_181': [-65736], 'ir_182': [152], 'ir_72': [256], 'ir_99': [32]}
+{'constant': [0, 1, 7, 8, 16, 2147483647], 'ir_2': [4, 5, 6, 7], 's_c8': [0, 256], 'ir_17': [-65656, -65648, -65640, -65632], 'ir_22': [4, 5, 6], 'ir_24': [-65648, -65640, -65632], 'ir_121': [-1], 's_d0': [1], 's_e8': [-65712], 'ir_174': [0]}
 quotearg_n_style_mem:
-{'constant': [0, 1, 7, 8, 16, 2147483647], 'ir_9': [4, 5, 6, 7], 's_c8': [0, 256], 'ir_18': [0], 'ir_19': [-65656, -65648, -65640, -65632], 'ir_21': [7], 'ir_23': [10], 'ir_24': [4, 5, 6], 'ir_26': [-65648, -65640, -65632], 'ir_39': [19], 'ir_52': [1], 'ir_135': [-65712], 'ir_55': [], 'ir_141': [8], 'ir_179': [20], 'ir_184': [4], 'ir_185': [-65736], 'ir_186': [152], 'ir_73': [256], 'ir_100': [32]}
+{'constant': [0, 1, 7, 8, 16, 2147483647], 'ir_9': [4, 5, 6, 7], 's_c8': [0, 256], 'ir_19': [-65656, -65648, -65640, -65632], 'ir_24': [4, 5, 6], 'ir_26': [-65648, -65640, -65632], 's_d0': [1], 's_e8': [-65712], 'ir_178': [0]}
 quotearg_style:
-{'constant': [0, 1, 7, 8, 16], 'ir_6': [4, 5, 6, 7], 's_c8': [0, 1, 256], 'ir_16': [0], 'ir_17': [-65656, -65648, -65640, -65632], 'ir_18': [7], 'ir_20': [10], 'ir_21': [4, 5, 6], 'ir_23': [-65648, -65640, -65632], 'ir_37': [1], 'ir_39': [19], 'ir_96': [256], 'ir_98': [-1], 'ir_107': [-65712], 'ir_42': [8], 'ir_48': [16], 'ir_150': [20], 'ir_83': [32], 'ir_155': [4], 'ir_156': [-65736], 'ir_157': [152]}
+{'constant': [0, 1, 7, 8, 16], 'ir_6': [4, 5, 6, 7], 's_c8': [0, 1, 256], 'ir_17': [-65656, -65648, -65640, -65632], 'ir_21': [4, 5, 6], 'ir_23': [-65648, -65640, -65632], 'ir_98': [-1], 'ir_104': [256], 's_d0': [1], 's_e8': [-65712], 'ir_48': [16], 'ir_52': [0]}
 quotearg_style_mem:
-{'constant': [0, 1, 7, 8, 16], 'ir_6': [4, 5, 6, 7], 's_c8': [0, 1, 256], 'ir_16': [0], 'ir_17': [-65656, -65648, -65640, -65632], 'ir_18': [7], 'ir_20': [10], 'ir_21': [4, 5, 6], 'ir_23': [-65648, -65640, -65632], 'ir_39': [1], 'ir_41': [19], 'ir_98': [256], 'ir_109': [-65712], 's_e8': [-65712, 256], 'ir_44': [8], 'ir_50': [16], 'ir_153': [20], 'ir_85': [32], 'ir_158': [4], 'ir_159': [-65736], 'ir_160': [152]}
+{'constant': [0, 1, 7, 8, 16], 'ir_6': [4, 5, 6, 7], 's_c8': [0, 1, 256], 'ir_17': [-65656, -65648, -65640, -65632], 'ir_21': [4, 5, 6], 'ir_23': [-65648, -65640, -65632], 'ir_106': [256], 's_d0': [1], 's_e8': [-65712, 256], 'ir_50': [16], 'ir_54': [0]}
 quotearg_char_mem:
-{'constant': [0, 1, 4, 8, 16, 24, 32], 's_88': [0, 1, 256], 'ir_55': [19], 'ir_57': [0], 'ir_61': [1], 'ir_121': [256], 'ir_132': [-65648], 's_a8': [-65648, 256], 'ir_66': [8], 'ir_72': [16], 'ir_177': [20], 'ir_107': [32], 'ir_182': [4], 'ir_183': [-65672], 'ir_184': [88]}
+{'constant': [0, 1, 4, 8, 16, 24, 32], 's_88': [0, 1, 256], 'ir_129': [256], 's_90': [1], 's_98': [0], 's_a8': [-65648, 256], 'ir_72': [16]}
 quotearg_char:
-{'constant': [0, 1, 4, 8, 16, 24, 32], 's_88': [0, 1, 256], 'ir_53': [19], 'ir_55': [0], 'ir_59': [1], 'ir_119': [256], 'ir_121': [-1], 's_90': [1, 256], 'ir_130': [-65648], 'ir_64': [8], 'ir_70': [16], 'ir_174': [20], 'ir_105': [32], 'ir_179': [4], 'ir_180': [-65672], 'ir_181': [88]}
+{'constant': [0, 1, 4, 8, 16, 24, 32], 's_88': [0, 1, 256], 'ir_121': [-1], 'ir_127': [256], 's_90': [1, 256], 's_98': [0], 'ir_128': [1], 's_a8': [-65648], 'ir_70': [16]}
 quotearg_colon:
-{'constant': [0, 1, 8, 16], 's_88': [0, 1, 256], 'ir_27': [], 'ir_32': [19], 'ir_34': [0], 'ir_38': [1], 'ir_97': [256], 'ir_99': [-1], 's_90': [1, 256], 'ir_108': [-65648], 'ir_43': [8], 'ir_49': [16], 'ir_151': [20], 'ir_84': [32], 'ir_156': [4], 'ir_157': [-65672], 'ir_158': [88]}
+{'constant': [0, 1, 8, 16], 's_88': [0, 1, 256], 'ir_27': [], 'ir_99': [-1], 'ir_105': [256], 's_90': [1, 256], 's_98': [0], 'ir_106': [1], 's_a8': [-65648], 'ir_49': [16]}
 quotearg_colon_mem:
-{'constant': [0, 1, 8, 16], 's_88': [0, 1, 256], 'ir_29': [], 'ir_34': [19], 'ir_36': [0], 'ir_40': [1], 'ir_100': [256], 'ir_111': [-65648], 's_a8': [-65648, 256], 'ir_45': [8], 'ir_51': [16], 'ir_155': [20], 'ir_86': [32], 'ir_160': [4], 'ir_161': [-65672], 'ir_162': [88]}
+{'constant': [0, 1, 8, 16], 's_88': [0, 1, 256], 'ir_29': [], 'ir_108': [256], 's_90': [1], 's_98': [0], 's_a8': [-65648, 256], 'ir_51': [16]}
 quotearg_n_style_colon:
-{'constant': [0, 1, 7, 8, 16, 2147483647], 'ir_2': [4, 5, 6, 7], 's_108': [0, 256], 'ir_16': [0], 'ir_17': [-65720, -65712, -65704, -65696], 'ir_19': [7], 'ir_21': [10], 'ir_22': [4, 5, 6], 'ir_24': [-65712, -65704, -65696], 'ir_38': [19], 'ir_53': [1], 'ir_124': [-1], 'ir_135': [-65776], 'ir_56': [], 'ir_140': [8], 'ir_178': [20], 'ir_183': [4], 'ir_184': [-65800], 'ir_185': [216], 'ir_74': [256], 'ir_101': [32]}
+{'constant': [0, 1, 7, 8, 16, 2147483647], 'ir_2': [4, 5, 6, 7], 's_108': [0, 256], 'ir_17': [-65720, -65712, -65704, -65696], 'ir_22': [4, 5, 6], 'ir_24': [-65712, -65704, -65696], 'ir_31': [0], 'ir_124': [-1], 's_110': [1], 's_128': [-65776]}
 quotearg_n_custom:
-{'constant': [0, 1, 8, 10, 16, 2147483647], 's_88': [0, 10, 256], 'ir_16': [20], 'ir_18': [0], 'ir_37': [19], 'ir_47': [7], 'ir_49': [1], 'ir_106': [10], 'ir_53': [], 'ir_127': [-1], 'ir_138': [-65648], 'ir_60': [8], 'ir_71': [256], 'ir_98': [32], 'ir_184': [4], 'ir_185': [-65672], 'ir_186': [88]}
+{'constant': [0, 1, 8, 10, 16, 2147483647], 's_88': [0, 10, 256], 'ir_106': [10], 'ir_127': [-1], 's_90': [1], 's_a8': [-65648], 'ir_68': [0]}
 quotearg_n_custom_mem:
-{'constant': [0, 1, 8, 10, 16, 2147483647], 's_88': [0, 10, 256], 'ir_16': [20], 'ir_18': [0], 'ir_39': [19], 'ir_49': [7], 'ir_51': [1], 'ir_109': [10], 'ir_55': [], 'ir_142': [-65648], 'ir_62': [8], 'ir_73': [256], 'ir_100': [32], 'ir_189': [4], 'ir_190': [-65672], 'ir_191': [88]}
+{'constant': [0, 1, 8, 10, 16, 2147483647], 's_88': [0, 10, 256], 'ir_109': [10], 's_90': [1], 's_a8': [-65648], 'ir_70': [0]}
 quotearg_custom:
-{'constant': [0, 1, 8, 10, 16], 's_88': [0, 1, 10, 256], 'ir_16': [20], 'ir_18': [0], 'ir_38': [1], 'ir_40': [19], 'ir_45': [10], 'ir_46': [8], 'ir_105': [256], 'ir_107': [-1], 'ir_116': [-65648], 'ir_52': [16], 'ir_87': [32], 'ir_162': [4], 'ir_163': [-65672], 'ir_164': [88]}
+{'constant': [0, 1, 8, 10, 16], 's_88': [0, 1, 10, 256], 'ir_45': [10], 'ir_107': [-1], 's_90': [1], 'ir_114': [256], 's_a8': [-65648], 'ir_52': [16], 'ir_56': [0]}
 quotearg_custom_mem:
-{'constant': [0, 1, 8, 10, 16], 's_88': [0, 1, 10, 256], 'ir_16': [20], 'ir_18': [0], 'ir_38': [1], 'ir_41': [19], 'ir_45': [10], 'ir_46': [8], 'ir_105': [256], 'ir_116': [-65648], 's_a8': [-65648, 256], 'ir_52': [16], 'ir_87': [32], 'ir_163': [4], 'ir_164': [-65672], 'ir_165': [88]}
+{'constant': [0, 1, 8, 10, 16], 's_88': [0, 1, 10, 256], 'ir_45': [10], 's_90': [1], 'ir_114': [256], 's_a8': [-65648, 256], 'ir_52': [16], 'ir_56': [0]}
 quote_n_mem:
-{'constant': [0, 1, 8, 16, 2147483647], 'ir_11': [8], 'ir_12': [-65584], 'ir_13': [24], 'ir_14': [19], 'ir_16': [0], 'ir_20': [7], 'ir_22': [1], 'ir_25': [], 'ir_146': [4], 'ir_147': [-65608], 'ir_43': [256], 'ir_70': [32]}
+{'constant': [0, 1, 8, 16, 2147483647], 'ir_95': [8], 's_50': [1], 's_58': [0], 's_48': [256]}
 quote_mem:
-{'constant': [0, 1, 8, 16], 'ir_9': [8], 'ir_10': [-65584], 'ir_11': [24], 'ir_14': [1], 'ir_16': [19], 'ir_18': [0], 'ir_69': [256], 'ir_25': [16], 'ir_123': [4], 'ir_124': [-65608], 's_48': [1, 256], 'ir_59': [32]}
+{'constant': [0, 1, 8, 16], 'ir_74': [8], 'ir_81': [256], 's_50': [1], 's_58': [0], 'ir_25': [16], 's_48': [1, 256]}
 quote_n:
-{'constant': [0, 1, 8, 16, 2147483647], 'ir_9': [8], 'ir_10': [-65584], 'ir_11': [24], 'ir_12': [19], 'ir_14': [0], 'ir_18': [7], 'ir_20': [1], 'ir_90': [-1], 'ir_23': [], 'ir_139': [4], 'ir_140': [-65608], 'ir_41': [256], 'ir_67': [32]}
+{'constant': [0, 1, 8, 16, 2147483647], 'ir_89': [8], 'ir_90': [-1], 's_50': [1], 's_58': [0], 's_48': [256]}
 quote:
-{'constant': [0, 1, 8, 16], 'ir_7': [8], 'ir_8': [-65584], 'ir_9': [24], 'ir_12': [1], 'ir_14': [19], 'ir_16': [0], 'ir_66': [256], 'ir_72': [-1], 'ir_23': [16], 'ir_119': [4], 'ir_120': [-65608], 's_48': [1, 256], 'ir_57': [32]}
+{'constant': [0, 1, 8, 16], 'ir_71': [8], 'ir_72': [-1], 'ir_78': [256], 's_50': [1], 's_58': [0], 'ir_23': [16], 's_48': [1, 256]}
 version_etc_arn:
-{'string': ['(C)', 'License GPLv3+: GNU GPL version 3 or later <%s>.\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n', 'Written by %s.\n', 'Written by %s and %s.\n', 'Written by %s, %s, and %s.\n', 'Written by %s, %s, %s,\nand %s.\n', 'Written by %s, %s, %s,\n%s, and %s.\n', 'Written by %s, %s, %s,\n%s, %s, and %s.\n', 'Written by %s, %s, %s,\n%s, %s, %s, and %s.\n', 'Written by %s, %s, %s,\n%s, %s, %s, %s,\nand %s.\n'], 'constant': [0, 5, 8, 9], 'ir_14': [20], 'ir_16': [0], 'ir_30': [1], 'ir_33': [19], 'ir_51': [5], 'ir_53': [2020], 'ir_63': [10], 'ir_80': [8], 'ir_82': [9], 'ir_171': [4], 'ir_172': [-65624], 'ir_173': [40]}
+{'string': ['(C)', 'License GPLv3+: GNU GPL version 3 or later <%s>.\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n', 'Written by %s.\n', 'Written by %s and %s.\n', 'Written by %s, %s, and %s.\n', 'Written by %s, %s, %s,\nand %s.\n', 'Written by %s, %s, %s,\n%s, and %s.\n', 'Written by %s, %s, %s,\n%s, %s, and %s.\n', 'Written by %s, %s, %s,\n%s, %s, %s, and %s.\n', 'Written by %s, %s, %s,\n%s, %s, %s, %s,\nand %s.\n'], 'constant': [0, 5, 8, 9], 'ir_30': [1], 'ir_50': [0], 'ir_51': [5], 'ir_53': [2020], 'ir_63': [10]}
 version_etc_ar:
-{'constant': [0, 1, 3], 'ir_3': [0, 1, 2, 3], 'ir_5': [8], 'ir_7': [0], 'ir_11': [1, 2, 3]}
+{'constant': [0, 1, 3], 'ir_3': [0, 1, 2, 3], 'ir_11': [1, 2, 3]}
 version_etc_va:
-{'constant': [0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 16, 24, 32, 40, 47, 48], 's_68': [], 'ir_11': [7], 'ir_13': [47], 'ir_25': [20], 'ir_27': [0], 'ir_248': [19], 'ir_252': [-65640], 'ir_241': [1], 'ir_258': [4], 'ir_260': [104], 'ir_236': [2], 'ir_231': [3], 'ir_221': [5], 'ir_219': [6], 'ir_215': [8], 'ir_208': [10]}
+{'constant': [0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 16, 24, 32, 40, 47, 48], 's_68': [], 'ir_251': [0], 'ir_252': [-65640], 'ir_241': [1], 'ir_236': [2], 'ir_231': [3], 'ir_226': [4], 'ir_221': [5], 'ir_219': [6], 'ir_217': [7], 'ir_215': [8]}
 version_etc:
-{'constant': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 's_b8': [-65592, -65528, 32, 40, 48], 'ir_14': [20], 'ir_16': [0], 'ir_70': [40], 'ir_71': [19], 'ir_20': [48], 'ir_68': [1], 'ir_22': [2], 'ir_75': [-65688], 'ir_27': [3], 'ir_37': [4], 'ir_82': [-65720], 'ir_83': [184], 'ir_42': [5], 'ir_47': [6], 'ir_65': [9], 'ir_66': [7], 'ir_59': [8], 'ir_64': [10]}
+{'constant': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 's_b8': [-65592, -65528, 32, 40, 48], 'ir_70': [40], 'ir_74': [0], 'ir_20': [48], 'ir_68': [1], 'ir_22': [2], 'ir_75': [-65688], 'ir_27': [3], 'ir_37': [4], 'ir_42': [5], 'ir_47': [6], 'ir_65': [9], 'ir_66': [7], 'ir_59': [8], 'ir_64': [10]}
 emit_bug_reporting_address:
-{'string': ['Report bugs to: %s\n', '%s home page: <%s>\n', 'General help using GNU software: <%s>\n'], 'constant': [], 'ir_0': [8], 'ir_1': [-65536], 'ir_4': [10], 'ir_5': [5], 'ir_7': [19], 'ir_8': [0], 'ir_14': [1], 'ir_46': [4], 'ir_47': [-65544]}
+{'string': ['Report bugs to: %s\n', '%s home page: <%s>\n', 'General help using GNU software: <%s>\n'], 'constant': [], 'ir_4': [10], 'ir_5': [5], 'ir_10': [0], 'ir_14': [1]}
 xnmalloc:
-{'constant': [0], 'ir_12': [20]}
+{'constant': [0]}
 xnrealloc:
-{'constant': [0], 'ir_11': [20], 'ir_34': [19]}
+{'constant': [0]}
 x2nrealloc:
-{'constant': [0, 1, 2, 128, 'TUUU'], 'ir_1': [20], 'ir_3': [0], 'ir_16': [8], 'ir_32': [19]}
+{'constant': [0, 1, 2, 128, 'TUUU'], 'ir_48': [0]}
 xcharalloc:
-{'constant': [0], 'ir_4': [20]}
+{'constant': [0]}
 xmalloc:
-{'constant': [0], 'ir_4': [20]}
+{'constant': [0]}
 xrealloc:
-{'constant': [0], 'ir_1': [20], 'ir_13': [19]}
+{'constant': [0]}
 x2realloc:
-{'constant': [0, 1, 2, 128, 'SUUU'], 'ir_4': [20], 'ir_6': [0], 'ir_22': [128], 'ir_9': [], 'ir_10': [8], 'ir_14': [36], 'ir_52': [4], 'ir_53': [-65544]}
+{'constant': [0, 1, 2, 128, 'SUUU'], 'ir_22': [128], 'ir_9': [], 'ir_36': [0]}
 xzalloc:
-{'constant': [0], 'ir_4': [20], 'ir_18': [1], 'ir_22': [4], 'ir_23': [-65544], 'ir_24': [8]}
+{'constant': [0], 'ir_18': [1]}
 xcalloc:
-{'constant': [0], 'ir_13': [20], 'ir_27': [4], 'ir_28': [-65544], 'ir_29': [8]}
+{'constant': [0]}
 xmemdup:
-{'constant': [0], 'ir_5': [8], 'ir_6': [-65552], 'ir_9': [20], 'ir_18': [4], 'ir_19': [-65560]}
+{'constant': [0]}
 xstrdup:
-{'constant': [0, 1], 'ir_2': [8], 'ir_3': [-65552], 'ir_8': [20], 'ir_10': [0], 'ir_17': [4], 'ir_18': [-65560]}
+{'constant': [0, 1]}
 xalloc_die:
-{'string': ['memory exhausted', '%s'], 'constant': [], 'ir_3': [5], 'ir_5': [19], 'ir_6': [0], 'ir_9': [1]}
+{'string': ['memory exhausted', '%s'], 'constant': [], 'ir_3': [5], 'ir_8': [0], 'ir_9': [1]}
 xstrndup:
-{'constant': [0], 'ir_0': [8], 'ir_1': [-65536], 'ir_4': [20], 'ir_7': [4], 'ir_8': [-65544]}
+{'constant': [0]}
 rpl_fclose:
-{'constant': [-1, 0], 'ir_5': [19], 'ir_7': [0], 'ir_17': [1], 'ir_19': [8], 'ir_21': [-1]}
+{'constant': [-1, 0], 'ir_16': [0], 'ir_17': [1]}
+rpl_fflush:
+{'constant': [0, 256], 'ir_17': [1], 'ir_21': [0]}
 rpl_fseeko:
-{'constant': [-17, -1, 0], 'ir_2': [8], 'ir_15': [0], 'ir_27': [-1], 'ir_31': [19]}
+{'constant': [-17, -1, 0]}
 rpl_mbrtowc:
-{'constant': [-3, 0, 1], 's_38': [], 'ir_18': [-65588], 'ir_19': [20], 'ir_21': [0], 'ir_24': [8], 'ir_26': [-3], 'ir_53': [4], 'ir_54': [-65592], 'ir_55': [24], 'ir_34': [19], 'ir_40': [17], 'ir_47': [1]}
+{'constant': [-3, 0, 1], 's_38': [], 'ir_48': [0]}
+close_stream:
+{'constant': [-1, 0, 9, 32], 's_18': [0]}
 hard_locale:
-{'constant': [0, 1, 2, 6], 'ir_1': [257], 'ir_5': [-65816], 's_118': [], 'ir_8': [19], 'ir_9': [0], 'ir_20': [-1, 0, 1, 2], 'ir_21': [-65816, -65815, -65814, -65813], 'ir_22': [-1, 0, 1], 'ir_24': [5], 'ir_26': [0, 67, 80], 'ir_28': [-65815, -65814, -65813], 'ir_53': [20], 'ir_58': [4], 'ir_60': [272], 'ir_37': [4, 5, 6], 'ir_38': [-65816, -65815, -65814], 'ir_39': [4, 5], 'ir_42': [79, 80], 'ir_44': [-65815, -65814]}
+{'constant': [0, 1, 2, 6], 'ir_1': [257], 'ir_5': [-65816], 's_118': [], 'ir_15': [0], 'ir_20': [-1, 0, 1, 2], 'ir_21': [-65816, -65815, -65814, -65813], 'ir_22': [-1, 0, 1], 'ir_28': [-65815, -65814, -65813], 'ir_37': [4, 5, 6], 'ir_38': [-65816, -65815, -65814], 'ir_39': [4, 5], 'ir_44': [-65815, -65814]}
 setlocale_null_r:
-{'constant': [0, 1, 22, 34], 'ir_8': [0], 'ir_10': [8], 'ir_11': [-65568], 'ir_14': [20], 'ir_53': [22], 'ir_59': [4], 'ir_60': [-65576], 'ir_39': [34], 'ir_25': [19]}
+{'constant': [0, 1, 22, 34], 'ir_8': [0]}
 setlocale_null:
-{'constant': [], 'ir_0': [19], 'ir_1': [0]}
+{'constant': [], 'ir_3': [0]}
 __libc_csu_init:
-{'constant': [0, 1, 8], 'ir_6': [1622022335], 'ir_18': [36], 'ir_19': [1], 'ir_20': [2], 'ir_21': [20], 'ir_23': [0], 'ir_24': [19], 'ir_27': [0, 1, 2], 'ir_52': [4], 'ir_53': [-65592], 'ir_54': [8], 'ir_34': [1, 2]}
+{'constant': [0, 1, 8]}
 __libc_csu_fini:
 {'constant': []}
 atexit:
-{'constant': [], 'ir_0': [0], 'ir_1': [19]}
+{'constant': [], 'ir_0': [0]}
 _fini:
-{'constant': [], 'ir_3': [4], 'ir_4': [-65544], 'ir_5': [8]}
+{'constant': []}

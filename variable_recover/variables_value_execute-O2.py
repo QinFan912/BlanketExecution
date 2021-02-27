@@ -3,7 +3,7 @@ from variable_recover.variables_value_extractor import VariablesValueExtractor
 
 
 def main(argv):
-    file_name = "false"
+    file_name = "unexpand"
 
     # X86
     X86_file_path = "/home/qinfan/coreutils/coreutils-X86-O2/src/" + file_name
