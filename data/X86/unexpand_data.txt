@@ -1,165 +1,116 @@
-unexpand@_init	0	20	4	-65544	8	
-unexpand@sub_40014f0	
-unexpand@_start	-65528	20	-65536	0	
-unexpand@deregister_tm_clones	0	8	20	
-unexpand@register_tm_clones	0	36	20	
-unexpand@__do_global_dtors_aux	0	1	5	0	8	69242888	1	
-unexpand@frame_dummy	
-unexpand@emit_stdin_note	
-With no FILE, or when FILE is -, read standard input.
-	8	-65552	4	-65560	
-unexpand@emit_mandatory_arg_note	
-Mandatory arguments to long options are mandatory for short options too.
-	8	-65552	4	-65560	
-unexpand@emit_ancillary_info	
-%s online help: <%s>
-	en_	Report any translation bugs to <https://translationproject.org/team/>
-	Full documentation <%s%s>
-	or available locally via: info '(coreutils) %s%s'
-	0	16	-65688	-65672	-65656	0	19	0	-65688	20	5	8	3	4	-65736	184	
-unexpand@usage	Usage: %s [OPTION]... [FILE]...
-	Convert blanks in each FILE to tabs, writing to standard output.
-	  -a, --all        convert all blanks, instead of just initial blanks
-      --first-only  convert only leading sequences of blanks (overrides -a)
-  -t, --tabs=N     have tabs N characters apart instead of 8 (enables -a)
-	      --help     display this help and exit
-	      --version  output version information and exit
-	Try '%s --help' for more information.
-	0	7	
-unexpand@unexpand	input line is too long	input line is too long	write error	write error	0	1	8	9	10	0	1	9	19	0	8	20	4	-65640	88	7	5	1	-65625	-65616	17	10	0	1	9	
-unexpand@main	coreutils	/usr/local/share/locale	coreutils	,0123456789at:	unexpand	GNU coreutils	David MacKenzie	tab stop value is too large	-1717986919	-131	-130	-1	0	1	2	44	48	63	97	116	128	0	1	19	0	6	tabs	7	-1	5	63	1	-130	116	44	128	8	4	-131	97	17	20	-1717986919	
-unexpand@to_uchar	
-unexpand@add_tab_stop	0	1	8	0	20	0	1	8	-8	4	
-unexpand@set_extend_size	'/' specifier only allowed with the last value	0	1	0	20	
-unexpand@set_increment_size	'+' specifier only allowed with the last value	0	1	0	20	
-unexpand@parse_tab_stops	'/' specifier not at start of number: %s	'+' specifier not at start of number: %s	0123456789	tab stop is too large %s	tab size contains invalid character(s): %s	-1717986919	0	1	2	9	10	43	44	47	48	0	1	19	0	17	5	1	44	20	4	-65624	72	47	43	7	9	-1717986919	8	
-unexpand@validate_tab_stops	tab size cannot be 0	tab sizes must be ascending	'/' specifier is mutually exclusive with '+'	0	1	3	8	8	-65544	32	0	1	0	8	20	0	1	
-unexpand@finalize_tab_stops	0	1	8	0	20	8	1	0	8	
-unexpand@get_next_tab_column	0	1	3	8	0	1	0	20	8	4	
-unexpand@set_file_list	0	0	45	8	45	
-unexpand@next_file	%s	%s	r	%s	0	1	8	8	0	8	16	1	8	16	20	4	-65592	40	341	19	3	2	
-unexpand@cleanup_file_list_stdin	0	17	19	1	
-unexpand@emit_tab_list_info	  -t, --tabs=LIST  use comma separated list of tab positions
-	                     The last specified position can be prefixed with '/'
-                     to specify a tab size to use after the last
-                     explicitly specified tab stop.  Also a prefix of '+'
-                     can be used to align remaining tab stops relative to
-                     the last specified tab stop instead of the first column
-	8	-65552	4	-65560	
-unexpand@close_stdout_set_file_name	
-unexpand@close_stdout_set_ignore_EPIPE	
-unexpand@close_stdout	write error	%s: %s	%s	0	1	32	8	-65552	24	19	0	1	17	4	-65576	20	7	32	
-unexpand@fdadvise	8	-65544	48	
-unexpand@fadvise	0	8	
-unexpand@set_program_name	/.libs/	lt-	0	1	3	6	7	8	0	55	1	47	6	4	7	19	3	
-unexpand@clone_quoting_options	0	8	-65544	32	56	
-unexpand@get_quoting_style	0	8	
-unexpand@set_quoting_style	0	8	
-unexpand@set_char_quoting	0	4	5	8	8	0	19	
-unexpand@set_quoting_flags	0	8	
-unexpand@set_custom_quoting	0	10	8	0	10	
-unexpand@quoting_options_from_style	0	10	0	7	10	20	
-unexpand@gettext_quote	UTF-8	GB18030	0	9	96	8	-65544	32	19	0	5	96	7	9	
-unexpand@quotearg_buffer	0	8	-65624	4	-65656	32	
-unexpand@quotearg_alloc	8	-65544	32	0	
-unexpand@quotearg_alloc_mem	0	1	8	0	-65608	4	1	-65640	32	
-unexpand@quotearg_free	1	16	256	8	-65544	16	1	2	3	256	1	7	1	2	3	16	32	4	0	
-unexpand@quotearg_n_options	0	1	8	16	2147483646	8	-65544	80	7	0	1	-65624	1	256	5	16	4	-65656	32	
-unexpand@quotearg_n	8	-65544	16	-1	
-unexpand@quotearg_n_mem	8	-65544	32	
-unexpand@quotearg	8	-65544	16	0	
-unexpand@quotearg_mem	8	-65544	16	0	
-unexpand@quotearg_n_style	19	0	-65608	-1	20	
-unexpand@quotearg_n_style_mem	19	0	-65608	20	
-unexpand@quotearg_style	8	-65544	16	0	
-unexpand@quotearg_style_mem	8	-65544	32	0	
-unexpand@quotearg_char_mem	0	19	-65608	1	20	
-unexpand@quotearg_char	8	-65544	16	-1	
-unexpand@quotearg_colon	8	-65544	16	58	
-unexpand@quotearg_colon_mem	8	-65544	16	58	
-unexpand@quotearg_n_style_colon	19	0	-65688	-65608	1	58	-1	20	
-unexpand@quotearg_n_custom	8	-65544	32	-1	
-unexpand@quotearg_n_custom_mem	0	19	-65608	20	
-unexpand@quotearg_custom	8	-65544	32	0	
-unexpand@quotearg_custom_mem	8	-65544	32	0	
-unexpand@quote_n_mem	8	-65544	32	
-unexpand@quote_mem	8	-65544	16	0	
-unexpand@quote_n	8	-65544	16	-1	
-unexpand@quote	8	-65544	16	0	
-unexpand@version_etc_arn	%s (%s) %s
-	%s %s
-	(C)	Copyright %s %d Free Software Foundation, Inc.	License GPLv3+: GNU GPL version 3 or later <%s>.
-This is free software: you are free to change and redistribute it.
-There is NO WARRANTY, to the extent permitted by law.
-	Written by %s.
-	Written by %s and %s.
-	Written by %s, %s, and %s.
-	Written by %s, %s, %s,
-and %s.
-	Written by %s, %s, %s,
-%s, and %s.
-	Written by %s, %s, %s,
-%s, %s, and %s.
-	Written by %s, %s, %s,
-%s, %s, %s, and %s.
-	Written by %s, %s, %s,
-%s, %s, %s, %s,
-and %s.
-	Written by %s, %s, %s,
-%s, %s, %s, %s,
-%s, and %s.
-	Written by %s, %s, %s,
-%s, %s, %s, %s,
-%s, %s, and others.
-	0	4	8	0	2020	10	9	4	-65672	-65720	48	-65720	-65672	-65752	-65704	32	-65768	-65720	-65736	-65688	16	
-unexpand@version_etc_ar	0	1	3	8	-65544	64	0	1	2	0	8	16	20	0	0	1	
-unexpand@version_etc_va	0	1	3	8	9	47	96	0	1	19	0	8	9	7	47	-65640	4	20	
-unexpand@version_etc	0	17	-65720	-65528	32	48	19	-65752	20	
-unexpand@emit_bug_reporting_address	Report bugs to: %s
-	%s home page: <%s>
-	General help using GNU software: <%s>
-	10	0	
-unexpand@xnmalloc	0	1	0	48	1	20	17	52	
-unexpand@xnrealloc	0	1	0	48	1	20	17	52	
-unexpand@x2nrealloc	0	1	128	8	0	48	52	1	20	17	
-unexpand@xcharalloc	8	-65544	16	
-unexpand@xmalloc	0	8	-65544	32	
-unexpand@xrealloc	0	8	
-unexpand@x2realloc	8	-65544	16	1	
-unexpand@xzalloc	8	-65544	16	1	
-unexpand@xcalloc	0	1	0	48	1	20	17	8	
-unexpand@xmemdup	8	-65544	16	
-unexpand@xstrdup	1	8	-65544	16	
-unexpand@xalloc_die	memory exhausted	%s	0	1	
-unexpand@xstrndup	0	8	-65544	32	
-unexpand@rpl_fclose	-1	0	8	-65544	32	7	0	19	1	-1	
-unexpand@rpl_fflush	0	8	19	
-unexpand@rpl_fseeko	-17	-1	0	8	20	0	-1	19	
-unexpand@rpl_mbrtowc	-3	0	1	-65564	0	8	-3	20	17	1	
-unexpand@c_strcasecmp	0	1	8	0	4	-65592	32	5	
-unexpand@close_stream	0	1	9	8	-65544	32	20	0	19	5	17	-1	7	9	
-unexpand@hard_locale	C	POSIX	C	POSIX	0	1	19	0	-65816	257	20	1	
-unexpand@locale_charset	0	8	-65544	16	14	17	
-unexpand@setlocale_null_androidfix	8	-65544	32	0	
-unexpand@setlocale_null_unlocked	0	1	22	8	-65544	48	0	22	34	4	
-unexpand@setlocale_null_r	8	-65544	32	
-unexpand@setlocale_null	8	-65544	16	
-unexpand@c_isalnum	0	1	9	25	48	65	90	97	7	90	65	25	9	1	0	
-unexpand@c_isalpha	0	1	65	90	7	65	0	90	1	25	
-unexpand@c_isascii	0	1	127	7	127	1	0	
-unexpand@c_isblank	0	1	9	32	7	32	1	9	19	0	1	0	
-unexpand@c_iscntrl	0	1	31	19	0	7	31	1	127	
-unexpand@c_isdigit	0	1	9	48	7	9	1	0	
-unexpand@c_isgraph	0	1	33	93	7	93	1	0	
-unexpand@c_islower	0	1	25	97	7	25	1	0	
-unexpand@c_isprint	0	1	32	94	7	94	1	0	
-unexpand@c_ispunct	0	1	3	14	33	58	64	91	96	123	7	64	58	91	14	1	0	96	3	
-unexpand@c_isspace	0	1	9	13	7	9	0	13	1	32	
-unexpand@c_isupper	0	1	25	65	7	25	1	0	
-unexpand@c_isxdigit	0	1	7	54	4	0	
-unexpand@c_tolower	25	32	65	7	25	3	32	
-unexpand@c_toupper	25	32	97	7	25	32	
-unexpand@__libc_csu_init	0	1	8	-443987883	36	1	2	20	0	19	0	1	2	4	-65592	8	1	2	
-unexpand@__libc_csu_fini	
-unexpand@atexit	69242888	19	0	
-unexpand@_fini	4	-65544	8	
+unexpand@_init		0		20		4		-65544		8		
+unexpand@sub_40014f0			
+unexpand@_start			-65528		20		-65536		0		
+unexpand@deregister_tm_clones		0		8		20		
+unexpand@register_tm_clones		0			20		
+unexpand@__do_global_dtors_aux		0	1		5		0		8		69242888		1		
+unexpand@frame_dummy			
+unexpand@emit_stdin_note		\nWith no FILE, or when FILE is -, read standard input.\n			8		-65552		4		-65560		
+unexpand@emit_mandatory_arg_note		\nMandatory arguments to long options are mandatory for short options too.\n			8		-65552		4		-65560		
+unexpand@emit_ancillary_info		\n%s online help: <%s>\n	en_	Report any translation bugs to <https://translationproject.org/team/>\n	Full documentation <%s%s>\n	"or available locally via: info '(coreutils) %s%s'\n"		0	16		-65688	-65672	-65656	0		19		0		-65688		20		5		8		3			4		-65736		184		
+unexpand@usage		Usage: %s [OPTION]... [FILE]...\n	Convert blanks in each FILE to tabs, writing to standard output.\n	  -a, --all        convert all blanks, instead of just initial blanks\n      --first-only  convert only leading sequences of blanks (overrides -a)\n  -t, --tabs=N     have tabs N characters apart instead of 8 (enables -a)\n	      --help     display this help and exit\n	      --version  output version information and exit\n	"Try '%s --help' for more information.\n"		0		7			
+unexpand@unexpand		input line is too long	input line is too long	write error	write error		0	1	8	9	10		0	1	9		19		0		8		20		4		-65640			7		5		1		-65625		-65616		17		10		0	1		9		
+unexpand@main		coreutils	/usr/local/share/locale	coreutils	,0123456789at:	unexpand	GNU coreutils	David MacKenzie	tab stop value is too large		-1717986919	-131	-130	-1	0	1	2	44	48	63	97	116	128		0	1		19		0		6		tabs		7		-1		5		63		1		-130		116		44		128		8		4			-131		17		20		-1717986919		
+unexpand@to_uchar			
+unexpand@add_tab_stop		0	1	8		0		20		0	1		8		-8		4		
+unexpand@set_extend_size		"'/' specifier only allowed with the last value"		0	1		0		20		
+unexpand@set_increment_size		"'+' specifier only allowed with the last value"		0	1		0		20		
+unexpand@parse_tab_stops		"'/' specifier not at start of number: %s"	"'+' specifier not at start of number: %s"	0123456789	tab stop is too large %s	tab size contains invalid character(s): %s		-1717986919	0	1	2	10	43	44	47	48		0	1		19		0		17		5		1		44		20		4		-65624			47		43		7		9		-1717986919		8		
+unexpand@validate_tab_stops		tab size cannot be 0	tab sizes must be ascending	"'/' specifier is mutually exclusive with '+'"		0	1	3	8		8		-65544			0	1		0	8		20		0		1		
+unexpand@finalize_tab_stops		0	1	8		0		20		8		1		0	8		
+unexpand@get_next_tab_column		0	1	3	8		0	1		0		20		8		4		
+unexpand@set_file_list		0		0	45		8		45		
+unexpand@next_file		%s	%s	r	%s		0	1	8		8		0		8	16		1	8	16		20		4		-65592		40		341		19			3		2		
+unexpand@cleanup_file_list_stdin		0		17			19		1		
+unexpand@emit_tab_list_info		  -t, --tabs=LIST  use comma separated list of tab positions\n	"                     The last specified position can be prefixed with '/'\n                     to specify a tab size to use after the last\n                     explicitly specified tab stop.  Also a prefix of '+'\n                     can be used to align remaining tab stops relative to\n                     the last specified tab stop instead of the first column\n"			8		-65552		4		-65560		
+unexpand@close_stdout_set_file_name			
+unexpand@close_stdout_set_ignore_EPIPE			
+unexpand@close_stdout		write error	%s: %s	%s		0	1	32		8		-65552			19		0		1		17		4		-65576		20		7		
+unexpand@fdadvise			8		-65544		48		
+unexpand@fadvise		0		8		
+unexpand@set_program_name		/.libs/	lt-		0	1	3	6	7		8		0			55		1		47		6		4		7		19		3		
+unexpand@clone_quoting_options		0		8		-65544			56		
+unexpand@get_quoting_style		0		8		
+unexpand@set_quoting_style		0		8		
+unexpand@set_char_quoting		0	4	5	8		8		0		19		
+unexpand@set_quoting_flags		0		8		
+unexpand@set_custom_quoting		0	10		8		0		10		
+unexpand@quoting_options_from_style		0	10		0		7		10		20		
+unexpand@gettext_quote		UTF-8	GB18030		0	9	96		8		-65544			19		0		5		7		9		
+unexpand@quotearg_buffer_restyled		`		-3	-2	-1	0	1	2	3	4	5	6	7	10	33	34	36	39	48	63	91	92	97	98	102	110	114	116	118	16384		0	1	2	3	4	5	34	36	39	48	63	92	97	98	102	110	114	116	118		19		0		7		10		4		17		8		-1		1		5		2		126		0	1		-65576		-65736		20		-65652		110		-65768			0	3		0	2		63		-2		47		57		1	2		3		48		
+unexpand@quotearg_buffer		0		8		-65624		4		-65656			
+unexpand@quotearg_alloc			8		-65544		0		
+unexpand@quotearg_alloc_mem		0	1		8		0		-65608		4		1		-65640			
+unexpand@quotearg_free		1	16	256		8		-65544		16		1	2	3	256		1		7		1	2	3		4		0		
+unexpand@quotearg_n_options		0	1	8	16	2147483646		8		-65544			7		0		1		-65624		1	256		5		16		4		-65656		
+unexpand@quotearg_n			8		-65544		16		-1		
+unexpand@quotearg_n_mem			8		-65544		
+unexpand@quotearg			8		-65544		16		0		
+unexpand@quotearg_mem			8		-65544		16		0		
+unexpand@quotearg_n_style			19		0		-65608		-1		20		
+unexpand@quotearg_n_style_mem			19		0		-65608		20		
+unexpand@quotearg_style			8		-65544		16		0		
+unexpand@quotearg_style_mem			8		-65544		0		
+unexpand@quotearg_char_mem			0		19		-65608		1		20		
+unexpand@quotearg_char			8		-65544		16		-1		
+unexpand@quotearg_colon			8		-65544		16		58		
+unexpand@quotearg_colon_mem			8		-65544		16		58		
+unexpand@quotearg_n_style_colon			19		0		-65688		-65608		1		58		-1		20		
+unexpand@quotearg_n_custom			8		-65544		-1		
+unexpand@quotearg_n_custom_mem			0		19		-65608		20		
+unexpand@quotearg_custom			8		-65544		0		
+unexpand@quotearg_custom_mem			8		-65544		0		
+unexpand@quote_n_mem			8		-65544		
+unexpand@quote_mem			8		-65544		16		0		
+unexpand@quote_n			8		-65544		16		-1		
+unexpand@quote			8		-65544		16		0		
+unexpand@version_etc_arn		%s (%s) %s\n	%s %s\n	(C)	Copyright %s %d Free Software Foundation, Inc.	License GPLv3+: GNU GPL version 3 or later <%s>.\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n	Written by %s.\n	Written by %s and %s.\n	Written by %s, %s, and %s.\n	Written by %s, %s, %s,\nand %s.\n	Written by %s, %s, %s,\n%s, and %s.\n	Written by %s, %s, %s,\n%s, %s, and %s.\n	Written by %s, %s, %s,\n%s, %s, %s, and %s.\n	Written by %s, %s, %s,\n%s, %s, %s, %s,\nand %s.\n	Written by %s, %s, %s,\n%s, %s, %s, %s,\n%s, and %s.\n	Written by %s, %s, %s,\n%s, %s, %s, %s,\n%s, %s, and others.\n		0	4		8		0		2020		10		9		4		-65672		-65720		48		-65720	-65672		-65752	-65704			-65768	-65720		-65736	-65688		16		
+unexpand@version_etc_ar		0	1	3		8		-65544			0	1	2		0	8	16		20		0		0	1		
+unexpand@version_etc_va		0	1	3	8	9	47	96		0	1		19		0		8		9		7		47		-65640		4		20		
+unexpand@version_etc		0		17		-65720	-65528	32	48		19		-65752		20		
+unexpand@emit_bug_reporting_address		Report bugs to: %s\n	%s home page: <%s>\n	General help using GNU software: <%s>\n			10		0		
+unexpand@xnmalloc		0	1		0		48		1		20		17		52		
+unexpand@xnrealloc		0	1		0		48		1		20		17		52		
+unexpand@x2nrealloc		0	1	128		8		0		48		52		1		20		17		
+unexpand@xcharalloc			8		-65544		16		
+unexpand@xmalloc		0		8		-65544			
+unexpand@xrealloc		0		8		
+unexpand@x2realloc			8		-65544		16		1		
+unexpand@xzalloc			8		-65544		16		1		
+unexpand@xcalloc		0	1		0		48		1		20		17		8		
+unexpand@xmemdup			8		-65544		16		
+unexpand@xstrdup		1		8		-65544		16		
+unexpand@xalloc_die		memory exhausted	%s			0		1		
+unexpand@xstrndup		0		8		-65544			
+unexpand@rpl_fclose		-1	0		8		-65544			7		0		19		1		-1		
+unexpand@clear_ungetc_buffer_preserving_position		0	256		19		0		1		
+unexpand@rpl_fflush		0		8		19		
+unexpand@rpl_fseeko		-17	-1	0		8		20		0		-1		19		
+unexpand@rpl_mbrtowc		-3	0	1		-65564		0		8		-3		20		17		1		
+unexpand@c_strcasecmp		0	1		8		0		4		-65592			5		
+unexpand@close_stream		0	1	9		8		-65544			20		0		19		5		17		-1		7		9		
+unexpand@hard_locale		C	POSIX	C	POSIX		0	1			19		0		-65816		257		20		1		
+unexpand@locale_charset		0		8		-65544		16		14		17		
+unexpand@setlocale_null_androidfix			8		-65544		0		
+unexpand@setlocale_null_unlocked		0	1	22		8		-65544		48		0		22			4		
+unexpand@setlocale_null_r			8		-65544		
+unexpand@setlocale_null			8		-65544		16		
+unexpand@c_isalnum		0	1	9	25	48	65	90	97		7			9		1		0		
+unexpand@c_isalpha		0	1	65	90	97		7			0		1		
+unexpand@c_isascii		0	1	127		7		127		1		0		
+unexpand@c_isblank		0	1	9	32		7			1		9		19		0	1		0		
+unexpand@c_iscntrl		0	1	31		19		0		7			1		127		
+unexpand@c_isdigit		0	1	9	48		7		9		1		0		
+unexpand@c_isgraph		0	1	33	93		7			1		0		
+unexpand@c_islower		0	1	25	97		7			1		0		
+unexpand@c_isprint		0	1	32	94		7			1		0		
+unexpand@c_ispunct		0	1	3	14	33	58	64	91	96	123		7			58		14		1		0		3		
+unexpand@c_isspace		0	1	9	13		7		9		0		13		1			
+unexpand@c_isupper		0	1	25	65		7			1		0		
+unexpand@c_isxdigit		0	1		7		54		4		0		
+unexpand@c_tolower		25	32	65		7			3		
+unexpand@c_toupper		25	32	97		7			
+unexpand@__libc_csu_init		0	1	8		-443987883			1		2		20		0		19		0	1	2		4		-65592		8		1	2		
+unexpand@__libc_csu_fini			
+unexpand@atexit			69242888		19		0		
+unexpand@_fini			4		-65544		8		

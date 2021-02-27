@@ -12,9 +12,9 @@ from angr.sim_variable import SimRegisterVariable, SimStackVariable, SimVariable
 def main(argv):
     base_addr = 0x4000000
 
-    file_name = "unexpand"
-    file_path = "/home/qinfan/coreutils/coreutils-ARM32/src/" + file_name            # X86
-    # file_path = "/home/qinfan/coreutils/coreutils-X86/src/" + file_name            # X86
+    file_name = "false"
+    # file_path = "/home/qinfan/coreutils/coreutils-ARM32/src/" + file_name            # X86
+    file_path = "/home/qinfan/coreutils/coreutils-X86/src/" + file_name            # X86
     # file_path = "/home/qinfan/coreutils/coreutils-MIPS32/src/" + file_name            # X86
 
     p = angr.Project(file_path, auto_load_libs=False,
@@ -23,6 +23,8 @@ def main(argv):
                              'base_addr': base_addr
                          }
                      })
+
+    print(p.arch.name)
 
     cfg = p.analyses.CFG(show_progressbar=True, data_references=True, normalize=True)
     mem_data = cfg.memory_data
@@ -88,7 +90,7 @@ def main(argv):
         var_dict = defaultdict(list)
 
         l = list()
-        for k, v in codegen.stmt_posmap.items():
+        for k, v in codegen.posmap.items():
 
             if isinstance(v.obj, CVariable):
                 print("!!")

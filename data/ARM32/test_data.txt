@@ -1,0 +1,16 @@
+test@_init			
+test@_start			
+test@sub_8e64			-516948194		
+test@call_weak_fn			1		0		2		
+test@__do_global_dtors_aux		0	1		2		0		1		
+test@frame_dummy			0		2		
+test@initialize_exit_failure		1		2		0		
+test@to_uchar			
+test@emit_ancillary_info		0	8			0		2		5		3		
+test@test_syntax_error			0		2		
+test@advance		0	1		1		2		0		
+test@unary_advance		1		
+test@$a			0		miss		
+test@find_int		0	1	9	43	45	48		2		0		43		9		inva		
+test@get_mtime		0	1			2		0		
+test@binop		0	1		2		0		1		

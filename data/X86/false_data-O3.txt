@@ -7,27 +7,12 @@ false@deregister_tm_clones		0	7		7		8		14		0		20
 false@register_tm_clones		0		36		20		
 false@__do_global_dtors_aux		0	1		5		0		1		
 false@frame_dummy		0		8		20		
-false@usage		Usage: %s [ignored command line arguments]
-  or:  %s OPTION
-	Exit with a status code indicating failure.	      --help     display this help and exit
-	      --version  output version information and exit
-	
-NOTE: your shell may have its own version of %s, which usually supersedes
-the version described here.  Please refer to your shell's documentation
-for details about the options it supports.
-	
-%s online help: <%s>
-	
-%s online help: <%s>
-	en_	Full documentation <%s%s>
-	en_	Report any translation bugs to <https://translationproject.org/team/>
-	en_	Full documentation <%s%s>
-	en_	en_	en_	or available locally via: info '(coreutils) %s%s'
-		0	1	3	6	16		5		0		19		1			-65672	-65656		20		3	4	5	6		3	4	5		97	102	108		99	111	114	115		0	1	2	3		0	1	2		95	101	110		3		8		
+false@usage		Usage: %s [ignored command line arguments]\n  or:  %s OPTION\n	Exit with a status code indicating failure.	      --help     display this help and exit\n	      --version  output version information and exit\n	"\nNOTE: your shell may have its own version of %s, which usually supersedes\nthe version described here.  Please refer to your shell's documentation\nfor details about the options it supports.\n"	\n%s online help: <%s>\n	\n%s online help: <%s>\n	en_	Full documentation <%s%s>\n	en_	Report any translation bugs to <https://translationproject.org/team/>\n	en_	Full documentation <%s%s>\n	en_	en_	en_	"or available locally via: info '(coreutils) %s%s'\n"		0	1	3	6	16		5		0		19		1			-65672	-65656		20		3	4	5	6		3	4	5		97	102	108		99	111	114	115		0	1	2	3		0	1	2		95	101	110		3		8		
 false@close_stdout_set_file_name			
 false@close_stdout_set_ignore_EPIPE			
 false@close_stdout		write error	%s: %s	%s		0		8		-65552			19		5		4		-65560		1		20		7		32		
 false@set_program_name		0	1	3	4	6	7		20		0			55		1		47		8		6		4	5	6	7		4	5	6		5		46	47	108		1	2	3		1	2		108	116		
+false@quotearg_buffer_restyled		`	`	`	`	`	`		-3	-2	-1	0	1	2	3	4	5	7	8	9	31	32	33	34	36	39	48	63	64	91	92	97	98	102	110	114	116	118	126	255		0		0	1	2	5	34	36	39	48	63	92		19		7		10		8		-1		0	1		1		5		17		0	1	2		20		4		1	2		126		39		2		-65768		116		110		118		102		98		114		97		-65608		-65612		184		-65800		32		98	118		3		-2		63		62		48		9		1	2	3		0	3		33		43		
 false@clone_quoting_options		0		20		56		
 false@get_quoting_style		0		20		
 false@set_quoting_style		0		20		
@@ -37,7 +22,7 @@ false@set_custom_quoting		0	10		20		0		10		4		-65544		8
 false@quotearg_buffer		0		20		8		-65608		4		-65640		56		
 false@quotearg_alloc		0	1		20		0		19		4		-65656		32		8		-65624		72		
 false@quotearg_alloc_mem		0	1		19		0		4		-65672		32		8		-65640		20		56		
-false@quotearg_free		1	2	16	24	256		1		7		8		-16		0		4		16		-72540024		256		
+false@quotearg_free		1	2	4	16	24	40	256		1		7		8		-16		0		4		16		-72540024		256		
 false@quotearg_n		0	1	8	16	2147483647		8		-65584		24		19		0		7		1		-1			4		-65608		256		32		
 false@quotearg_n_mem		0	1	8	16	2147483647		8		-65584		24		19		0		7		1			4		-65608		256		32		
 false@quotearg		0	1	8	16		8		-65584		24		1		19		0		256		-1		16		4		-65608		1	256		32		
@@ -59,31 +44,11 @@ false@quote_n_mem		0	1	8	16	2147483647		8		-65584		24		19		0		7		1			4		-65608		
 false@quote_mem		0	1	8	16		8		-65584		24		1		19		0		256		16		4		-65608		1	256		32		
 false@quote_n		0	1	8	16	2147483647		8		-65584		24		19		0		7		1		-1			4		-65608		256		32		
 false@quote		0	1	8	16		8		-65584		24		1		19		0		256		-1		16		4		-65608		1	256		32		
-false@version_etc_arn		(C)	License GPLv3+: GNU GPL version 3 or later <%s>.
-This is free software: you are free to change and redistribute it.
-There is NO WARRANTY, to the extent permitted by law.
-	Written by %s.
-	Written by %s and %s.
-	Written by %s, %s, and %s.
-	Written by %s, %s, %s,
-and %s.
-	Written by %s, %s, %s,
-%s, and %s.
-	Written by %s, %s, %s,
-%s, %s, and %s.
-	Written by %s, %s, %s,
-%s, %s, %s, and %s.
-	Written by %s, %s, %s,
-%s, %s, %s, %s,
-and %s.
-		0	5	8	9		20		0		1		19		5		2020		10		8		9		4		-65624		40		
+false@version_etc_arn		(C)	License GPLv3+: GNU GPL version 3 or later <%s>.\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n	Written by %s.\n	Written by %s and %s.\n	Written by %s, %s, and %s.\n	Written by %s, %s, %s,\nand %s.\n	Written by %s, %s, %s,\n%s, and %s.\n	Written by %s, %s, %s,\n%s, %s, and %s.\n	Written by %s, %s, %s,\n%s, %s, %s, and %s.\n	Written by %s, %s, %s,\n%s, %s, %s, %s,\nand %s.\n		0	5	8	9		20		0		1		19		5		2020		10		8		9		4		-65624		40		
 false@version_etc_ar		0	1	3		0	1	2	3		8		0		1	2	3		
 false@version_etc_va		0	1	2	3	4	5	6	7	8	10	16	24	32	40	47	48			7		47		20		0		19		-65640		1		4		104		2		3		5		6		8		10		
 false@version_etc		0	1	2	3	4	5	6	7	8	9	10		-65592	-65528	32	40	48		20		0		40		19		48		1		2		-65688		3		4		-65720		184		5		6		9		7		8		10		
-false@emit_bug_reporting_address		Report bugs to: %s
-	%s home page: <%s>
-	General help using GNU software: <%s>
-			8		-65536		10		5		19		0		1		4		-65544		
+false@emit_bug_reporting_address		Report bugs to: %s\n	%s home page: <%s>\n	General help using GNU software: <%s>\n			8		-65536		10		5		19		0		1		4		-65544		
 false@xnmalloc		0		20		
 false@xnrealloc		0		20		19		
 false@x2nrealloc		0	1	2	128	TUUU		20		0		8		19		
@@ -97,10 +62,12 @@ false@xmemdup		0		8		-65552		20		4		-65560
 false@xstrdup		0	1		8		-65552		20		0		4		-65560		
 false@xalloc_die		memory exhausted	%s			5		19		0		1		
 false@rpl_mbrtowc		-3	0	1			-65588		20		0		8		-3		4		-65592		24		19		17		1		
+false@close_stream		-1	0	9	32		19		0		20		-1		7		
 false@hard_locale		0	1	2	6		257		-65816			19		0		-1	0	1	2		-65816	-65815	-65814	-65813		-1	0	1		5		0	67	80		-65815	-65814	-65813		20		4		272		4	5	6		-65816	-65815	-65814		4	5		79	80		-65815	-65814		
 false@setlocale_null_r		0	1	22	34		0		8		-65568		20		22		4		-65576		34		19		
 false@setlocale_null			19		0		
 false@rpl_fclose		-1	0		19		0		1		8		-1		
+false@rpl_fflush		0	256		20		0		19		1		
 false@rpl_fseeko		-17	-1	0		8		0		-1		19		
 false@__libc_csu_init		0	1	8		1619925183		36		1		2		20		0		19		0	1	2		4		-65592		8		1	2		
 false@__libc_csu_fini			

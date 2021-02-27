@@ -1,7 +1,7 @@
 _init:
 {'constant': []}
 main:
-{'constant': [0, 1, 2], 'ir_3': [2], 'ir_6': [0], 'ir_53': [1], 'ir_12': [6], 'ir_47': []}
+{'string': ['coreutils', '/usr/local/share/locale', 'coreutils', '--help', '--version'], 'constant': [0, 1, 2], 'ir_3': [2], 'ir_6': [0], 'ir_53': [1], 'ir_12': [6], 'ir_47': []}
 _start:
 {'constant': []}
 sub_8cf4:
@@ -17,9 +17,9 @@ close_stdout_set_file_name:
 close_stdout_set_ignore_EPIPE:
 {'constant': [4]}
 close_stdout:
-{'constant': [0], 'ir_4': [-72540024], 'ir_5': [], 'ir_7': [2], 'ir_48': [5], 'ir_75': [1], 'ir_21': [32]}
+{'string': ['write error', '%s: %s', '%s'], 'constant': [0], 'ir_4': [-72540024], 'ir_5': [], 'ir_7': [2], 'ir_48': [5], 'ir_75': [1], 'ir_21': [32]}
 set_program_name:
-{'constant': [0, 1, 4, 6], 'ir_6': [2], 'ir_8': [0], 'ir_59': [1], 'ir_60': [55], 'ir_58': [], 'ir_10': [47], 'ir_64': ['/.li'], 'ir_54': ['./pr'], 'ir_21': [6], 'ir_30': [7], 'ir_41': [3]}
+{'string': ['/.libs/', 'lt-'], 'constant': [0, 1, 4, 6], 'ir_6': [2], 'ir_8': [0], 'ir_59': [1], 'ir_60': [55], 'ir_58': [], 'ir_10': [47], 'ir_64': ['/.li'], 'ir_54': ['./pr'], 'ir_21': [6], 'ir_30': [7], 'ir_41': [3]}
 sub_9164:
 {'constant': []}
 quoting_options_from_style:
@@ -85,7 +85,7 @@ quote_n:
 quote:
 {'constant': [], 'ir_2': [0]}
 version_etc_arn:
-{'constant': [0, 9], 'ir_10': [2], 'ir_12': [0], 'ir_22': [1], 'ir_29': [5], 'ir_32': [2020], 'ir_39': [10], 'ir_55': [9]}
+{'string': ['(C)', 'License GPLv3+: GNU GPL version 3 or later <%s>.\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n', 'Written by %s, %s, %s,\n%s, and %s.\n', 'Written by %s, %s, %s,\n%s, %s, %s, %s,\nand %s.\n', 'Written by %s, %s, %s,\nand %s.\n', 'Written by %s, %s, %s,\n%s, %s, and %s.\n', 'Written by %s, %s, %s,\n%s, %s, %s, and %s.\n', 'Written by %s.\n', 'Written by %s, %s, and %s.\n', 'Written by %s and %s.\n'], 'constant': [0, 9], 'ir_10': [2], 'ir_12': [0], 'ir_22': [1], 'ir_29': [5], 'ir_32': [2020], 'ir_39': [10], 'ir_55': [9]}
 $d:
 {'constant': []}
 version_etc_ar:
@@ -95,7 +95,7 @@ version_etc_va:
 version_etc:
 {'constant': []}
 emit_bug_reporting_address:
-{'constant': [], 'ir_2': [-72540024], 'ir_3': [10], 'ir_7': [5], 'ir_8': [0], 'ir_12': [1]}
+{'string': ['Report bugs to: %s\n', '%s home page: <%s>\n', 'General help using GNU software: <%s>\n'], 'constant': [], 'ir_2': [-72540024], 'ir_3': [10], 'ir_7': [5], 'ir_8': [0], 'ir_12': [1]}
 xmalloc:
 {'constant': [], 'ir_16': [2], 'ir_18': [0]}
 xcharalloc:
@@ -119,13 +119,15 @@ xmemdup:
 xstrdup:
 {'constant': []}
 xalloc_die:
-{'constant': [], 'ir_4': [5], 'ir_5': [0], 'ir_6': [1]}
+{'string': ['memory exhausted', '%s'], 'constant': [], 'ir_4': [5], 'ir_5': [0], 'ir_6': [1]}
 rpl_mbrtowc:
 {'constant': [-2, 0, 1], 'ir_6': [2], 'ir_8': [0], 'ir_24': [1], 'ir_26': [], 'ir_39': [3]}
 hard_locale:
-{'constant': [0, 1, 67], 'ir_1': [], 'ir_2': [257], 'ir_5': [2], 'ir_7': [0], 'ir_13': [67], 'ir_34': [1]}
+{'string': ['POSIX'], 'constant': [0, 1, 67], 'ir_1': [], 'ir_2': [257], 'ir_5': [2], 'ir_7': [0], 'ir_13': [67], 'ir_34': [1]}
 setlocale_null:
 {'constant': [], 'ir_0': [0]}
+rpl_fflush:
+{'constant': [0, 256], 'ir_4': [2], 'ir_6': [0], 'ir_9': [2, 5], 'ir_19': [5], 'ir_23': [1]}
 rpl_fseeko:
 {'constant': [-17, -1, 0, 4, 80], 'ir_7': [2], 'ir_10': [0], 'ir_37': [-1]}
 rpl_nl_langinfo:
