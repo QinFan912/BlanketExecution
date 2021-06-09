@@ -1,0 +1,5 @@
+removed directory %s
+
+removed %s
+
+cannot remove %s

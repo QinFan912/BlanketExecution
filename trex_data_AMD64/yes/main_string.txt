@@ -1,0 +1,6 @@
+coreutils
+/usr/local/share/locale
+coreutils
+yes
+GNU coreutils
+standard output
