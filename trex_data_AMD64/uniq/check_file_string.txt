@@ -1,0 +1,5 @@
+r
+%s
+w
+%s
+error reading %s

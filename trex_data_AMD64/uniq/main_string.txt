@@ -1,0 +1,24 @@
+POSIXLY_CORRECT
+coreutils
+/usr/local/share/locale
+coreutils
+--group
+uniq
+GNU coreutils
+Richard M. Stallman
+David MacKenzie
+-0123456789Dcdf:is:uw:z
+-0123456789Dcdf:is:uw:z
+-0123456789Dcdf:is:uw:z
+-0123456789Dcdf:is:uw:z
+-0123456789Dcdf:is:uw:z
+extra operand %s
+--all-repeated
+-0123456789Dcdf:is:uw:z
+--group is mutually exclusive with -c/-d/-D/-u
+grouping and printing repeat counts is meaningless
+printing all duplicated lines and repeat counts is meaningless
+extra operand %s
+coun
+none
+prep

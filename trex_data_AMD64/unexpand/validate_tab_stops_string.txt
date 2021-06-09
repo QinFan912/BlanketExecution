@@ -1,0 +1,3 @@
+tab size cannot be 0
+tab sizes must be ascending
+'/' specifier is mutually exclusive with '+'

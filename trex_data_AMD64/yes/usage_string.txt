@@ -1,0 +1,12 @@
+Usage: %s [STRING]...
+  or:  %s OPTION
+
+Repeatedly output a line with all specified STRING(s), or 'y'.
+
+
+      --help     display this help and exit
+
+      --version  output version information and exit
+
+Try '%s --help' for more information.
+

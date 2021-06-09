@@ -1,0 +1,9 @@
+coreutils
+/usr/local/share/locale
+coreutils
+,0123456789at:
+unexpand
+GNU coreutils
+David MacKenzie
+tab stop value is too large
+tabs
