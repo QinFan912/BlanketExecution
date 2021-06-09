@@ -25,7 +25,7 @@ emit_stdin_note:
 emit_mandatory_arg_note:
 {'string': ['\nMandatory arguments to long options are mandatory for short options too.\n'], 'constant': [], 'ir_3': [0], 'ir_8': [5]}
 unexpand:
-{'string': ['write error'], 'constant': [-2147483648, 0, 1, 8, 9, 256, 28344, 65535], 'ir_2': [0], 'ir_86': [], 'ir_178': [5], 'ir_184': [1], 'ir_197': [9]}
+{'string': ['write error'], 'constant': [-2147483648, 0, 1, 8, 9, 256, 28344], 'ir_2': [0], 'ir_86': [], 'ir_178': [5], 'ir_184': [1], 'ir_197': [9]}
 emit_ancillary_info.constprop.0:
 {'string': ['unexpand', '\n%s online help: <%s>\n', 'en_', '\n%s online help: <%s>\n', 'en_', 'Full documentation <%s%s>\n', "or available locally via: info '(coreutils) %s%s'\n", 'Report any translation bugs to <https://translationproject.org/team/>\n', 'Full documentation <%s%s>\n', "or available locally via: info '(coreutils) %s%s'\n"], 'constant': [0, 8, 16, 28308], 'ir_24': [0], 'ir_50': [5], 'ir_59': [1], 'ir_71': [3], 'ir_138': []}
 usage:

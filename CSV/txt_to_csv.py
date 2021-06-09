@@ -1,3 +1,4 @@
+import csv
 import operator
 from collections import defaultdict
 from math import log
@@ -44,6 +45,12 @@ class VarlablesValueKNN:
             l = []
             for i in dataline[1:]:
                 l.append(i)
+                if i:
+                    print(i)
+                    with open('./unexpand.scv', 'a') as f:
+                        writer = csv.writer(f)
+                        writer.writerows(i)
+
                 self.dataValueWeight.append(i)
             self.dataValue.append(list(set(l)))
 

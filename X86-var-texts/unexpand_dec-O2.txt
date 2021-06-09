@@ -3,7 +3,7 @@ _init:
 sub_4011b0:
 {'constant': []}
 main:
-{'string': ['coreutils', '/usr/local/share/locale', 'coreutils', ',0123456789at:', 'unexpand', 'GNU coreutils', 'David MacKenzie', 'tab stop value is too large', 'input line is too long', 'write error', 'input line is too long', 'write error'], 'constant': [-131, -130, -1, 0, 1, 2, 8, 9, 44, 48, 63, 97, 116, 128, 255], 's_68': [0, 1, 9], 'ir_28': [6], 'ir_36': [0], 'ir_37': ['tabs'], 'ir_556': [1], 'ir_535': [], 'ir_123': [5], 'ir_223': [-65609], 'ir_224': [-65608]}
+{'string': ['coreutils', '/usr/local/share/locale', 'coreutils', ',0123456789at:', 'unexpand', 'GNU coreutils', 'David MacKenzie', 'tab stop value is too large', 'input line is too long', 'write error', 'input line is too long', 'write error'], 'constant': [-131, -130, -1, 0, 1, 2, 8, 9, 10, 44, 48, 63, 97, 116, 255], 's_68': [0, 1, 9], 'ir_28': [6], 'ir_36': [0], 'ir_37': ['tabs'], 'ir_556': [1], 'ir_535': [], 'ir_123': [5], 'ir_223': [-65609], 'ir_224': [-65608]}
 _start:
 {'constant': [], 'ir_6': [-65528]}
 _dl_relocate_static_pie:
@@ -33,7 +33,7 @@ get_next_tab_column:
 set_file_list:
 {'constant': [0]}
 next_file:
-{'string': ['%s', '-', '%s', 'r', '%s'], 'constant': [0, 1, 2, 8, 32], 's_28': [1, 8, 16], 'ir_8': [0], 'ir_95': [-1, 0, 1, 2], 'ir_98': [-1, 0, 1], 'ir_184': [341], 'ir_37': [1, 2, 3], 'ir_20': [3], 'ir_163': [], 'ir_164': [2]}
+{'string': ['%s', '-', '%s', 'r', '%s'], 'constant': [0, 1, 2, 8, 32], 's_28': [1, 8, 16], 'ir_8': [0], 'ir_95': [-1, 0, 1, 2], 'ir_98': [-1, 0, 1], 'ir_184': [341], 'ir_35': [1, 2, 3], 'ir_20': [3], 'ir_163': [], 'ir_164': [2]}
 cleanup_file_list_stdin:
 {'string': ['-'], 'constant': [0], 'ir_6': [], 'ir_13': [1]}
 emit_tab_list_info:

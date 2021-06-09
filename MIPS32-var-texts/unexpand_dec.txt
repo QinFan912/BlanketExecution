@@ -7,7 +7,7 @@ sub_401548:
 _ftext:
 {'constant': []}
 sub_40157c:
-{'constant': [-8, 16, 20, 24, 32], 'ir_5': []}
+{'constant': []}
 hlt:
 {'constant': []}
 deregister_tm_clones:
@@ -15,7 +15,7 @@ deregister_tm_clones:
 register_tm_clones:
 {'constant': [0, 20704], 'ir_7': [0]}
 __do_global_dtors_aux:
-{'constant': [0, 1, 2, 4, 11532, 11536, 12432]}
+{'constant': [0, 1, 2, 4, 11532, 11536, 12432], 's_30': [1, 2]}
 frame_dummy:
 {'constant': []}
 emit_stdin_note:
@@ -23,35 +23,35 @@ emit_stdin_note:
 emit_mandatory_arg_note:
 {'string': ['\nMandatory arguments to long options are mandatory for short options too.\n'], 'constant': []}
 emit_ancillary_info:
-{'string': ['\n%s online help: <%s>\n', 'en_', 'Report any translation bugs to <https://translationproject.org/team/>\n', 'Full documentation <%s%s>\n', "or available locally via: info '(coreutils) %s%s'\n"], 'constant': [0, 8], 'ir_10': [56], 'ir_11': ['[\x00\x00\x00'], 'ir_12': [], 'ir_70': [0], 'ir_71': [5], 'ir_77': [3]}
+{'string': ['\n%s online help: <%s>\n', 'en_', 'Report any translation bugs to <https://translationproject.org/team/>\n', 'Full documentation <%s%s>\n', "or available locally via: info '(coreutils) %s%s'\n"], 'constant': [0, 8], 's_70': [0], 'ir_12': [56], 'ir_13': ['[\x00\x00\x00'], 'ir_14': [], 'ir_118': [5], 'ir_124': [3]}
 usage:
-{'string': ['Usage: %s [OPTION]... [FILE]...\n', 'Convert blanks in each FILE to tabs, writing to standard output.\n', '  -a, --all        convert all blanks, instead of just initial blanks\n      --first-only  convert only leading sequences of blanks (overrides -a)\n  -t, --tabs=N     have tabs N characters apart instead of 8 (enables -a)\n', '      --help     display this help and exit\n', '      --version  output version information and exit\n', "Try '%s --help' for more information.\n"], 'constant': [0], 'ir_19': []}
+{'string': ['Usage: %s [OPTION]... [FILE]...\n', 'Convert blanks in each FILE to tabs, writing to standard output.\n', '  -a, --all        convert all blanks, instead of just initial blanks\n      --first-only  convert only leading sequences of blanks (overrides -a)\n  -t, --tabs=N     have tabs N characters apart instead of 8 (enables -a)\n', '      --help     display this help and exit\n', '      --version  output version information and exit\n', "Try '%s --help' for more information.\n"], 'constant': [0], 's_28': []}
 unexpand:
-{'string': ['input line is too long', 'input line is too long', 'write error', 'write error'], 'constant': [-2147483648, 0, 1, 2, 8, 9, 256], 'ir_7': [0], 'ir_61': [], 'ir_177': [1]}
+{'string': ['input line is too long', 'input line is too long', 'write error', 'write error'], 'constant': [0, 1, 2, 8, 9, 10, 256, 2147483648], 's_60': [0, 1, 9], 'ir_9': [0], 'ir_108': [], 'ir_224': [1]}
 main:
-{'string': ['coreutils', '/usr/local/share/locale', 'coreutils', ',0123456789at:', 'unexpand', 'GNU coreutils', 'tab stop value is too large'], 'constant': [-131, -130, -1, 0, 1, 2, 44, 48, 63, 64, 97, 116, 128, 429496730], 'ir_24': [6], 'ir_49': ['tabs'], 'ir_260': [1], 'ir_248': [0], 'ir_292': [], 'ir_100': [-1717986918]}
+{'string': ['coreutils', '/usr/local/share/locale', 'coreutils', ',0123456789at:', 'tab stop value is too large', 'unexpand', 'GNU coreutils'], 'constant': [0, 1, 2, 48, 63, 64, 429496729, 429496730, 2576980378, 4294967295], 's_78': [0, 1], 'ir_26': [6], 'ir_51': ['tabs'], 'ir_381': [1], 'ir_361': [0], 'ir_419': []}
 to_uchar:
 {'constant': []}
 add_tab_stop:
-{'string': ['tabs are too far apart'], 'constant': [0, 1, 3, 4, 536870911], 'ir_14': [0], 'ir_57': [8], 'ir_76': [1]}
+{'string': ['tabs are too far apart'], 'constant': [0, 1, 3, 4, 536870911], 's_38': [0, 1], 'ir_16': [0], 'ir_59': [8], 'ir_78': [1]}
 set_extend_size:
-{'string': ["'/' specifier only allowed with the last value"], 'constant': [0, 1], 'ir_7': [0], 'ir_29': []}
+{'string': ["'/' specifier only allowed with the last value"], 'constant': [0, 1], 'ir_9': [0], 'ir_31': []}
 set_increment_size:
-{'string': ["'+' specifier only allowed with the last value"], 'constant': [0, 1], 'ir_7': [0], 'ir_29': []}
+{'string': ["'+' specifier only allowed with the last value"], 'constant': [0, 1], 'ir_9': [0], 'ir_31': []}
 parse_tab_stops:
-{'string': ["'/' specifier not at start of number: %s", "'+' specifier not at start of number: %s", '0123456789', 'tab stop is too large %s', 'tab size contains invalid character(s): %s'], 'constant': [0, 1, 2, 44, 47, 48, 256], 'ir_368': [1], 'ir_46': [0], 'ir_154': [], 'ir_156': [-1717986918]}
+{'string': ["'/' specifier not at start of number: %s", '0123456789', 'tab stop is too large %s', 'tab size contains invalid character(s): %s', "'+' specifier not at start of number: %s"], 'constant': [0, 1, 2, 10, 43, 44, 47, 48, 255, 256, 429496729, 429496730, 2576980378], 's_78': [0, 1], 'ir_1184': [1], 'ir_48': [0], 'ir_156': []}
 validate_tab_stops:
-{'string': ['tab size cannot be 0', 'tab sizes must be ascending', "'/' specifier is mutually exclusive with '+'"], 'constant': [0, 1, 3], 'ir_78': [0], 'ir_26': [1]}
+{'string': ['tab size cannot be 0', 'tab sizes must be ascending', "'/' specifier is mutually exclusive with '+'"], 'constant': [0, 1, 3], 's_30': [0, 1], 'ir_244': [0], 'ir_28': [1]}
 finalize_tab_stops:
-{'constant': [0, 1], 'ir_9': [0], 'ir_71': []}
+{'constant': [0, 1, 8], 's_28': [0, 8], 'ir_11': [0], 'ir_73': []}
 get_next_tab_column:
-{'constant': [0, 1, 3, 536870911], 'ir_11': [0]}
+{'constant': [0, 1, 3, 536870911], 's_38': [0, 1], 'ir_13': [0]}
 set_file_list:
-{'constant': [0]}
+{'constant': [0], 's_8': [0, 754974720]}
 next_file:
-{'string': ['%s', '%s', '%s'], 'constant': [0, 1, 4], 'ir_109': [4, 8], 'ir_10': [341], 'ir_58': [0], 'ir_31': [3], 'ir_164': [2]}
+{'string': ['%s', '%s', '%s'], 'constant': [0, 1, 4], 's_30': [1, 4, 8], 'ir_111': [4, 8], 'ir_12': [341], 'ir_60': [0], 'ir_33': [3], 'ir_333': [2]}
 cleanup_file_list_stdin:
-{'constant': [0], 'ir_7': [], 'ir_23': [1]}
+{'constant': [0], 's_20': [], 'ir_25': [1]}
 emit_tab_list_info:
 {'string': ['  -t, --tabs=LIST  use comma separated list of tab positions\n', "                     The last specified position can be prefixed with '/'\n                     to specify a tab size to use after the last\n                     explicitly specified tab stop.  Also a prefix of '+'\n                     can be used to align remaining tab stops relative to\n                     the last specified tab stop instead of the first column\n"], 'constant': []}
 close_stdout_set_file_name:
@@ -59,161 +59,151 @@ close_stdout_set_file_name:
 close_stdout_set_ignore_EPIPE:
 {'constant': []}
 close_stdout:
-{'string': ['write error', '%s: %s', '%s'], 'constant': [0, 1, 32], 'ir_6': [], 'ir_101': [1], 'ir_69': [0]}
+{'string': ['write error', '%s: %s', '%s'], 'constant': [0, 1, 32], 's_38': [], 'ir_103': [1], 'ir_71': [0]}
 fdadvise:
 {'constant': []}
 fadvise:
 {'constant': [0]}
 set_program_name:
-{'string': ['/.libs/', 'lt-'], 'constant': [0, 1, 3, 7], 'ir_19': [47], 'ir_7': [], 'ir_8': [55], 'ir_9': [1], 'ir_36': [7], 'ir_52': [3]}
+{'string': ['/.libs/', 'lt-'], 'constant': [0, 1, 3, 7], 's_28': [], 'ir_21': [47], 'ir_10': [55], 'ir_11': [1], 'ir_38': [7], 'ir_54': [3]}
 clone_quoting_options:
-{'constant': [0], 'ir_14': [48]}
+{'constant': [0], 's_28': [], 'ir_16': [48]}
 get_quoting_style:
 {'constant': [0]}
 set_quoting_style:
 {'constant': [0]}
 set_char_quoting:
-{'constant': [0, 1, 2, 5, 8, 31, 255]}
+{'constant': [0, 1, 2, 5, 8, 31]}
 set_quoting_flags:
 {'constant': [0]}
 set_custom_quoting:
-{'constant': [0, 10]}
+{'constant': [0, 10], 's_20': [10]}
 quoting_options_from_style:
-{'constant': [10], 'ir_17': [48], 'ir_18': [], 'ir_25': [0]}
+{'constant': [10], 's_60': [0], 'ir_19': [48], 'ir_20': []}
 gettext_quote:
-{'string': ['UTF-8', 'GB18030'], 'constant': [0, 9, 96]}
-quotearg_buffer_restyled:
-{'constant': [-2, -1, 0, 1, 2, 3, 5, 6, 7, 10, 11, 33, 34, 36, 39, 48, 63, 64, 91, 92, 97, 98, 102, 110, 114, 116, 118, 127, 255], 'ir_501': [8], 'ir_502': [0], 'ir_503': []}
+{'string': ['UTF-8', 'GB18030'], 'constant': [0, 9, 96], 's_28': []}
 quotearg_buffer:
 {'constant': [0]}
 quotearg_alloc:
-{'constant': [], 'ir_5': [0]}
+{'constant': [], 'ir_7': [0]}
 quotearg_alloc_mem:
-{'constant': [0, 1], 'ir_34': [0]}
+{'constant': [0, 1], 's_50': [0]}
 quotearg_free:
-{'constant': [1, 3, 256], 'ir_15': [0, 1]}
+{'constant': [1, 3, 256], 's_28': [1, 2, 3, 256], 'ir_17': [0, 1]}
 quotearg_n_options:
-{'constant': [-2147483648, 0, 1, 3, 4, 268435454], 'ir_46': [0]}
+{'constant': [0, 1, 3, 4, 268435454, 2147483648], 's_58': [1, 256], 'ir_48': [0]}
 quotearg_n:
-{'constant': [], 'ir_5': [-1]}
+{'constant': []}
 quotearg_n_mem:
 {'constant': []}
 quotearg:
-{'constant': [], 'ir_3': [0]}
+{'constant': [], 'ir_5': [0]}
 quotearg_mem:
-{'constant': [], 'ir_5': [0]}
-quotearg_n_style:
-{'constant': [], 'ir_15': [-1], 'ir_21': [0]}
-quotearg_n_style_mem:
-{'constant': [], 'ir_22': [0]}
-quotearg_style:
-{'constant': [], 'ir_5': [0]}
-quotearg_style_mem:
 {'constant': [], 'ir_7': [0]}
+quotearg_n_style:
+{'constant': [], 's_60': [0]}
+quotearg_n_style_mem:
+{'constant': [], 's_60': [0]}
+quotearg_style:
+{'constant': [], 'ir_7': [0]}
+quotearg_style_mem:
+{'constant': [], 'ir_9': [0]}
 quotearg_char_mem:
-{'constant': [], 'ir_13': [48], 'ir_22': [1], 'ir_31': [0]}
+{'constant': [], 's_60': [0], 'ir_15': [48], 'ir_24': [1]}
 quotearg_char:
-{'constant': [], 'ir_6': [-1]}
+{'constant': []}
 quotearg_colon:
-{'constant': [], 'ir_2': [58]}
+{'constant': [], 'ir_4': [58]}
 quotearg_colon_mem:
-{'constant': [], 'ir_3': [58]}
+{'constant': [], 'ir_5': [58]}
 quotearg_n_style_colon:
-{'constant': [], 'ir_16': [48], 'ir_24': [1], 'ir_25': [58], 'ir_31': [-1], 'ir_37': [0]}
+{'constant': [], 's_90': [0], 'ir_18': [48], 'ir_26': [1], 'ir_27': [58]}
 quotearg_n_custom:
 {'constant': []}
 quotearg_n_custom_mem:
-{'constant': [], 'ir_13': [48], 'ir_34': [0]}
+{'constant': [], 's_68': [0], 'ir_15': [48]}
 quotearg_custom:
-{'constant': [], 'ir_7': [0]}
-quotearg_custom_mem:
 {'constant': [], 'ir_9': [0]}
+quotearg_custom_mem:
+{'constant': [], 'ir_11': [0]}
 quote_n_mem:
 {'constant': []}
 quote_mem:
-{'constant': [], 'ir_5': [0]}
+{'constant': [], 'ir_7': [0]}
 quote_n:
-{'constant': [], 'ir_3': [-1]}
+{'constant': []}
 quote:
-{'constant': [], 'ir_3': [0]}
+{'constant': [], 'ir_5': [0]}
 version_etc_arn:
-{'string': ['%s (%s) %s\n', '%s %s\n', '(C)', 'License GPLv3+: GNU GPL version 3 or later <%s>.\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n', 'Written by %s, %s, %s,\n%s, %s, %s, and %s.\n', 'Written by %s.\n', 'Written by %s, %s, %s,\n%s, and %s.\n', 'Written by %s, %s, %s,\nand %s.\n', 'Written by %s, %s, %s,\n%s, %s, %s, %s,\n%s, and %s.\n', 'Written by %s, %s, %s,\n%s, %s, %s, %s,\nand %s.\n', 'Written by %s, %s, and %s.\n', 'Written by %s and %s.\n', 'Written by %s, %s, %s,\n%s, %s, and %s.\n', 'Written by %s, %s, %s,\n%s, %s, %s, %s,\n%s, %s, and others.\n'], 'constant': [0, 2, 10], 'ir_41': [2020], 'ir_50': [10]}
+{'string': ['%s (%s) %s\n', '%s %s\n', '(C)', 'License GPLv3+: GNU GPL version 3 or later <%s>.\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n', 'Written by %s, %s, %s,\n%s, %s, %s, and %s.\n', 'Written by %s.\n', 'Written by %s, %s, %s,\n%s, and %s.\n', 'Written by %s, %s, %s,\nand %s.\n', 'Written by %s, %s, %s,\n%s, %s, %s, %s,\n%s, and %s.\n', 'Written by %s, %s, %s,\n%s, %s, %s, %s,\nand %s.\n', 'Written by %s, %s, and %s.\n', 'Written by %s and %s.\n', 'Written by %s, %s, %s,\n%s, %s, and %s.\n', 'Written by %s, %s, %s,\n%s, %s, %s, %s,\n%s, %s, and others.\n'], 'constant': [0, 2, 10], 's_40': [], 'ir_43': [2020], 'ir_52': [10]}
 version_etc_ar:
 {'constant': [0, 1, 2]}
 version_etc_va:
-{'constant': [0, 1, 2, 4, 10, 44], 'ir_17': []}
+{'constant': [0, 1, 4, 10], 's_70': [0, 1, 2], 'ir_19': []}
 version_etc:
-{'constant': []}
+{'constant': [], 's_40': [0]}
 emit_bug_reporting_address:
-{'string': ['Report bugs to: %s\n', '%s home page: <%s>\n', 'General help using GNU software: <%s>\n'], 'constant': [], 'ir_6': [10]}
-xnmalloc:
-{'constant': [-2147483648, 0, 1], 'ir_5': [0], 'ir_16': [1]}
-xnrealloc:
-{'constant': [-2147483648, 0, 1], 'ir_6': [0], 'ir_17': [1]}
-x2nrealloc:
-{'constant': [-2147483648, 0, 1, 64], 'ir_25': [0], 'ir_35': [1]}
+{'string': ['Report bugs to: %s\n', '%s home page: <%s>\n', 'General help using GNU software: <%s>\n'], 'constant': [], 'ir_8': [10]}
 xcharalloc:
 {'constant': []}
 xmalloc:
-{'constant': [0]}
+{'constant': [0], 's_28': []}
 xrealloc:
-{'constant': [0]}
+{'constant': [0], 's_20': []}
 x2realloc:
-{'constant': [], 'ir_3': [1]}
+{'constant': [], 'ir_5': [1]}
 xzalloc:
-{'constant': [], 'ir_2': [1]}
-xcalloc:
-{'constant': [-2147483648, 0, 1], 'ir_5': [0], 'ir_16': [1]}
+{'constant': [], 'ir_4': [1]}
 xmemdup:
 {'constant': []}
 xstrdup:
-{'constant': [1]}
+{'constant': [1], 's_20': []}
 xalloc_die:
-{'string': ['memory exhausted', '%s'], 'constant': [], 'ir_15': [0], 'ir_16': [1]}
+{'string': ['memory exhausted', '%s'], 'constant': [], 'ir_17': [0], 'ir_18': [1]}
 xstrndup:
-{'constant': [0]}
+{'constant': [0], 's_28': []}
 rpl_fclose:
-{'constant': [-2147483648, -1, 0], 'ir_27': [0], 'ir_34': [-1]}
+{'constant': [0, 2147483648, 4294967295], 's_38': [0, 1], 'ir_29': [0], 'ir_36': []}
 clear_ungetc_buffer_preserving_position:
-{'constant': [0, 256], 'ir_8': [0]}
+{'constant': [0, 256], 's_28': [1], 'ir_10': [0]}
 rpl_fflush:
-{'constant': [0]}
+{'constant': [0], 's_20': []}
 rpl_fseeko:
-{'constant': [-17, -1, 0]}
+{'constant': [0, 4294967279, 4294967295], 's_30': []}
 exchange:
 {'constant': [0, 1, 2]}
 process_long_option:
-{'string': ["%s: option '%s%s' is ambiguous; possibilities:", " '%s%s'", "%s: option '%s%s' is ambiguous\n", "%s: option '%s%s' doesn't allow an argument\n", "%s: option '%s%s' requires an argument\n", "%s: unrecognized option '%s%s'\n"], 'constant': [-1, 0, 1, 2, 16, 45, 58, 61], 'ir_208': [], 'ir_447': [0], 'ir_431': [10]}
+{'string': ["%s: option '%s%s' is ambiguous; possibilities:", " '%s%s'", "%s: option '%s%s' is ambiguous\n", "%s: option '%s%s' doesn't allow an argument\n", "%s: option '%s%s' requires an argument\n", "%s: unrecognized option '%s%s'\n"], 'constant': [0, 1, 2, 16, 58, 61, 4294967295], 's_58': [0, 1], 'ir_585': [], 'ir_908': [0], 'ir_892': [10]}
 _getopt_initialize:
-{'string': ['POSIXLY_CORRECT'], 'constant': [0, 1, 2, 43, 45]}
+{'string': ['POSIXLY_CORRECT'], 'constant': [0, 1, 2, 43, 45], 's_20': [0, 1, 2]}
 _getopt_internal_r:
-{'string': ['--', "%s: option requires an argument -- '%c'\n", "%s: option requires an argument -- '%c'\n", "%s: invalid option -- '%c'\n"], 'constant': [0, 1, 2, 43, 45, 58, 59, 87], 'ir_374': []}
+{'string': ['--', "%s: option requires an argument -- '%c'\n", "%s: option requires an argument -- '%c'\n", "%s: invalid option -- '%c'\n"], 'constant': [0, 1, 2, 43, 45, 58, 59, 87], 's_50': [0, 58, 63], 'ir_406': []}
 rpl_getopt_internal:
-{'constant': []}
+{'constant': [], 's_38': [0, 1]}
 rpl_getopt:
-{'constant': [], 'ir_5': [0]}
+{'constant': [], 's_30': [0, 1], 'ir_7': [0]}
 rpl_getopt_long:
-{'constant': []}
+{'constant': [], 's_30': [0]}
 _getopt_long_r:
-{'constant': []}
+{'constant': [], 's_30': [0]}
 rpl_getopt_long_only:
-{'constant': []}
+{'constant': [], 's_30': [0, 1]}
 _getopt_long_only_r:
-{'constant': []}
+{'constant': [], 's_30': [0, 1]}
 rpl_mbrtowc:
-{'constant': [-2, 0, 1], 'ir_22': [], 'ir_53': [0]}
+{'constant': [0, 1, 255, 4294967294], 's_40': [0, 1], 'ir_24': [], 'ir_55': [0]}
 c_strcasecmp:
-{'constant': [0, 1]}
+{'constant': [0, 1], 's_30': []}
 close_stream:
-{'constant': [-1, 0, 1, 9]}
+{'constant': [0, 1, 9, 4294967295], 's_28': [0]}
 hard_locale:
-{'string': ['POSIX'], 'constant': [0, 1, 255], 'ir_7': [257], 'ir_8': [], 'ir_45': [0]}
+{'string': ['POSIX'], 'constant': [0, 1, 255], 's_128': [0], 'ir_9': [257], 'ir_10': []}
 locale_charset:
-{'constant': [0], 'ir_3': [14]}
+{'constant': [0], 's_28': [], 'ir_5': [14]}
 setlocale_null_androidfix:
-{'constant': [], 'ir_4': [0]}
+{'constant': [], 'ir_6': [0]}
 setlocale_null_unlocked:
-{'constant': [0, 1, 22]}
+{'constant': [0, 1, 22, 34], 's_28': [0]}
 setlocale_null_r:
 {'constant': []}
 setlocale_null:
@@ -221,13 +211,13 @@ setlocale_null:
 c_isalnum:
 {'constant': [0, 1, 10, 26, 48, 65, 91, 97]}
 c_isalpha:
-{'constant': [0, 1, 65, 91]}
+{'constant': [0, 1, 26, 65, 91, 97]}
 c_isascii:
 {'constant': [0, 1, 128]}
 c_isblank:
 {'constant': [0, 1, 9, 32, 255]}
 c_iscntrl:
-{'constant': [-2147483648, 0, 1, 32]}
+{'constant': [0, 1, 32, 127, 2147483648]}
 c_isdigit:
 {'constant': [0, 1, 10, 48]}
 c_isgraph:
@@ -239,21 +229,21 @@ c_isprint:
 c_ispunct:
 {'constant': [0, 1, 4, 15, 33, 58, 65, 91, 97, 123]}
 c_isspace:
-{'constant': [0, 1, 9, 14]}
+{'constant': [0, 1, 9, 14, 32]}
 c_isupper:
 {'constant': [0, 1, 26, 65]}
 c_isxdigit:
 {'constant': [0, 1, 2, 48, 55]}
 c_tolower:
-{'constant': [0, 26, 32, 65]}
+{'constant': [0, 26, 65]}
 c_toupper:
-{'constant': [0, 26, 32, 97]}
+{'constant': [0, 26, 97]}
 __libc_csu_fini:
 {'constant': []}
 atexit:
-{'constant': [], 'ir_5': [0]}
+{'constant': [105504], 'ir_5': [0]}
 __do_global_ctors_aux:
-{'constant': [-1, 4]}
+{'constant': [4, 12444, 4294967295]}
 _MIPS_STUBS_:
 {'constant': []}
 sub_40b550:

@@ -12,9 +12,9 @@ from angr.sim_variable import SimRegisterVariable, SimStackVariable, SimVariable
 def main(argv):
     base_addr = 0x4000000
 
-    file_name = "false"
+    file_name = "rm"
     # file_path = "/home/qinfan/coreutils/coreutils-ARM32/src/" + file_name            # X86
-    file_path = "/home/qinfan/coreutils/coreutils-X86/src/" + file_name            # X86
+    file_path = "/home/qinfan/coreutils/coreutils-ARM32/src/" + file_name            # X86
     # file_path = "/home/qinfan/coreutils/coreutils-MIPS32/src/" + file_name            # X86
 
     p = angr.Project(file_path, auto_load_libs=False,

@@ -1,267 +1,291 @@
 _init:
-{'constant': [0], 'ir_4': [20], 'ir_7': [4], 'ir_8': [-65544], 'ir_9': [8]}
+{'constant': [0]}
 sub_40019b0:
 {'constant': []}
 _start:
-{'constant': [], 'ir_6': [-65528], 'ir_7': [20], 'ir_8': [-65536], 'ir_9': [0]}
+{'constant': []}
 deregister_tm_clones:
-{'constant': [0], 'ir_2': [8], 'ir_6': [20]}
+{'constant': [False]}
 register_tm_clones:
-{'constant': [0], 'ir_19': [36], 'ir_25': [20]}
+{'constant': [0]}
 __do_global_dtors_aux:
-{'constant': [0, 1], 'ir_0': [5], 'ir_1': [0], 'ir_3': [8], 'ir_6': [69279752], 's_8': [1]}
+{'constant': [0, 1], 'ir_9': [69279752], 's_8': [1]}
 frame_dummy:
 {'constant': []}
 select_plural:
 {'constant': []}
 emit_ancillary_info:
-{'string': ['\n%s online help: <%s>\n', 'en_', 'Report any translation bugs to <https://translationproject.org/team/>\n', 'Full documentation <%s%s>\n', "or available locally via: info '(coreutils) %s%s'\n"], 'constant': [0, 16], 's_c8': [-65688, -65672, -65656, 0], 'ir_7': [19], 'ir_8': [0], 'ir_24': [-65688], 'ir_27': [20], 'ir_70': [5], 'ir_71': [8], 'ir_75': [3], 'ir_88': [], 'ir_119': [4], 'ir_120': [-65736], 'ir_121': [184]}
+{'string': ['\n%s online help: <%s>\n', 'en_', 'Report any translation bugs to <https://translationproject.org/team/>\n', 'Full documentation <%s%s>\n', "or available locally via: info '(coreutils) %s%s'\n"], 'constant': [0, 16], 's_c8': [0], 'ir_122': [5], 'ir_128': [3], 'ir_145': []}
 diagnose_leading_hyphen:
-{'string': ["Try '%s ./%s' to remove the file %s.\n"], 'constant': [0, 1, 3, 8, 45], 's_e8': [1, 2], 'ir_10': [19], 'ir_11': [0], 'ir_15': [7], 'ir_20': [8, 16], 'ir_29': [5], 'ir_31': [45], 'ir_84': [20], 'ir_38': [17], 'ir_88': [4], 'ir_89': [-65768], 'ir_90': [200], 'ir_45': [-65736], 'ir_67': [3], 'ir_68': [1], 'ir_78': []}
+{'string': ["Try '%s ./%s' to remove the file %s.\n"], 'constant': [0, 1, 3, 8, 45], 's_e8': [1, 2], 'ir_26': [8, 16], 'ir_51': [], 'ir_164': [4], 'ir_169': [3], 'ir_170': [1]}
 usage:
-{'string': ['Usage: %s [OPTION]... [FILE]...\n', 'Remove (unlink) the FILE(s).\n\n  -f, --force           ignore nonexistent files and arguments, never prompt\n  -i                    prompt before every removal\n', '  -I                    prompt once before removing more than three files, or\n                          when removing recursively; less intrusive than -i,\n                          while still giving protection against most mistakes\n      --interactive[=WHEN]  prompt according to WHEN: never, once (-I), or\n                          always (-i); without WHEN, prompt always\n', '      --one-file-system  when removing a hierarchy recursively, skip any\n                          directory that is on a file system different from\n                          that of the corresponding command line argument\n', "      --no-preserve-root  do not treat '/' specially\n      --preserve-root[=all]  do not remove '/' (default);\n                              with 'all', reject any command line argument\n                              on a separate device from its parent\n", '  -r, -R, --recursive   remove directories and their contents recursively\n  -d, --dir             remove empty directories\n  -v, --verbose         explain what is being done\n', '      --help     display this help and exit\n', '      --version  output version information and exit\n', '\nBy default, rm does not remove directories.  Use the --recursive (-r or -R)\noption to remove each listed directory, too, along with all of its contents.\n', "\nTo remove a file whose name starts with a '-', for example '-foo',\nuse one of these commands:\n  %s -- -foo\n\n  %s ./-foo\n", '\nNote that if you use rm to remove a file, it might be possible to recover\nsome of its contents, given sufficient expertise and/or time.  For greater\nassurance that the contents are truly unrecoverable, consider using shred.\n', "Try '%s --help' for more information.\n"], 'constant': [0], 'ir_6': [7], 'ir_16': []}
+{'string': ['Usage: %s [OPTION]... [FILE]...\n', 'Remove (unlink) the FILE(s).\n\n  -f, --force           ignore nonexistent files and arguments, never prompt\n  -i                    prompt before every removal\n', '  -I                    prompt once before removing more than three files, or\n                          when removing recursively; less intrusive than -i,\n                          while still giving protection against most mistakes\n      --interactive[=WHEN]  prompt according to WHEN: never, once (-I), or\n                          always (-i); without WHEN, prompt always\n', '      --one-file-system  when removing a hierarchy recursively, skip any\n                          directory that is on a file system different from\n                          that of the corresponding command line argument\n', "      --no-preserve-root  do not treat '/' specially\n      --preserve-root[=all]  do not remove '/' (default);\n                              with 'all', reject any command line argument\n                              on a separate device from its parent\n", '  -r, -R, --recursive   remove directories and their contents recursively\n  -d, --dir             remove empty directories\n  -v, --verbose         explain what is being done\n', '      --help     display this help and exit\n', '      --version  output version information and exit\n', '\nBy default, rm does not remove directories.  Use the --recursive (-r or -R)\noption to remove each listed directory, too, along with all of its contents.\n', "\nTo remove a file whose name starts with a '-', for example '-foo',\nuse one of these commands:\n  %s -- -foo\n\n  %s ./-foo\n", '\nNote that if you use rm to remove a file, it might be possible to recover\nsome of its contents, given sufficient expertise and/or time.  For greater\nassurance that the contents are truly unrecoverable, consider using shred.\n', "Try '%s --help' for more information.\n"], 'constant': [0], 'ir_22': []}
 rm_option_init:
-{'constant': [0, 4], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16], 'ir_11': [0], 'ir_12': [19]}
-main:
-{'string': ['coreutils', '/usr/local/share/locale', 'coreutils', 'dfirvIR', '/', 'failed to get attributes of %s', '%s: remove %lu argument recursively? ', '%s: remove %lu arguments recursively? ', '%s: remove %lu argument? ', '%s: remove %lu arguments? ', 'missing operand', '--interactive', 'all', 'unrecognized --preserve-root argument: %s', '--no-preserve-root', 'you may not abbreviate the --no-preserve-root option', 'rm', 'GNU coreutils', 'Paul Rubin', 'David MacKenzie'], 'constant': [-131, -130, -1, 0, 1, 2, 3, 4, 8, 73, 82, 100, 102, 105, 114, 118, 128, 129, 131, 132], 's_78': [0, 1, 2, 3, 4, 5], 'ir_9': [19], 'ir_10': [0], 'ir_17': [6], 'ir_23': [-65608], 'ir_28': ['forc'], 'ir_31': [7], 'ir_33': [-1], 'ir_306': [1], 'ir_37': [105], 'ir_445': [17], 'ir_353': [8], 'ir_359': [5], 'ir_214': [73], 'ir_43': [129], 'ir_450': [20], 'ir_419': [2], 'ir_278': [-131], 'ir_220': [100], 'ir_140': [118], 'ir_49': [131], 'ir_368': [3], 'ir_328': [4], 'ir_291': [-65656], 'ir_300': [], 'ir_281': [-130], 'ir_223': [102], 'ir_143': [128], 'ir_303': [-65688], 'ir_304': [32], 'ir_226': [82], 'ir_146': [114], 'ir_55': [132], 'ir_441': [371], 'ir_156': ['neve']}
+{'constant': [0, 4], 'ir_14': [0]}
 dot_or_dotdot:
-{'constant': [0, 1, 2, 46, 47], 'ir_3': [5], 'ir_5': [46], 'ir_6': [0], 'ir_17': [2], 'ir_16': [1], 'ir_30': [47], 'ir_37': [19], 'ir_38': [0, 1]}
+{'constant': [0, 1, 2, 46, 47], 'ir_19': [2], 'ir_18': [1]}
 readdir_ignoring_dot_and_dotdot:
-{'constant': [0, 1, 19], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 'ir_8': [0], 'ir_10': [4], 'ir_12': [19], 'ir_19': [17]}
+{'constant': [0, 1, 19, 255]}
 is_empty_dir:
-{'constant': [0], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [48], 'ir_7': [198912], 'ir_11': [7]}
+{'constant': [0], 'ir_10': [198912]}
 cache_fstatat:
-{'constant': [-2, -1, 0], 'ir_10': [8], 'ir_12': [-1], 'ir_35': [20], 'ir_37': [0], 'ir_18': [19], 's_38': [-2], 'ir_46': [4], 'ir_47': [-65592], 'ir_48': [40]}
+{'constant': [0, 4294967295, 18446744073709551614, 18446744073709551615], 's_38': []}
 cache_stat_init:
-{'constant': [-1]}
+{'constant': [18446744073709551615], 's_8': []}
 write_protected_non_symlink:
-{'constant': [-1, 0, 1, 13, 40960, 61440], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 'ir_7': [17], 'ir_9': [0], 'ir_14': [256], 'ir_16': [19], 'ir_33': [7], 'ir_35': [40960], 'ir_19': [-1], 'ir_38': [512], 'ir_39': [2], 'ir_47': [13], 'ir_50': [1]}
+{'constant': [0, 1, 13, 40960, 61440, 4294967295], 'ir_18': [256], 'ir_44': [512], 'ir_45': [2]}
 prompt:
-{'string': ['cannot remove %s', '%s: descend into write-protected directory %s? ', '%s: descend into directory %s? ', 'cannot remove %s', '%s: remove write-protected %s %s? ', '%s: remove %s %s? '], 'constant': [-1, 0, 1, 2, 3, 4, 5, 10, 21, 16384, 40960, 61440], 's_128': [-65720, -1, 0, 2, 3, 4, 10, 21], 'ir_24': [8], 'ir_26': [0], 'ir_30': [-65720], 'ir_32': [5], 'ir_36': [4], 'ir_59': [20], 'ir_65': [7], 'ir_62': [3], 'ir_348': [2], 'ir_74': [17], 'ir_358': [-65832], 'ir_359': [272], 'ir_97': [10], 'ir_154': [-1, 0], 'ir_129': [256], 'ir_131': [19], 'ir_143': [40960], 'ir_152': [16384], 'ir_194': [1], 'ir_256': []}
+{'string': ['cannot remove %s', '%s: descend into write-protected directory %s? ', '%s: descend into directory %s? ', 'cannot remove %s', '%s: remove write-protected %s %s? ', '%s: remove %s %s? '], 'constant': [0, 1, 2, 3, 4, 5, 10, 21, 255, 16384, 40960, 61440, 4294967295], 's_128': [0, 2, 3, 4, 10, 21], 'ir_36': [], 'ir_55': [3], 'ir_56': [4], 'ir_139': [256], 'ir_370': [0]}
 nonexistent_file_errno:
-{'constant': [0, 1, 2, 20, 22, 84], 'ir_2': [7], 'ir_4': [20], 'ir_24': [1], 'ir_19': [2], 'ir_10': [22], 'ir_16': [84], 'ir_23': [0]}
+{'constant': [0, 1, 2, 20, 22, 84]}
 ignorable_missing:
-{'constant': [0, 1], 'ir_7': [17], 'ir_9': [0], 'ir_23': [19], 'ir_21': [1]}
+{'constant': [0, 1]}
 fts_skip_tree:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 'ir_7': [4]}
+{'constant': [], 'ir_10': [4]}
 mark_ancestor_dirs:
-{'constant': [0, 1], 'ir_5': [20], 'ir_7': [0], 's_8': [1]}
+{'constant': [0, 1], 's_8': [1]}
 excise:
-{'string': ['removed directory %s\n', 'removed %s\n', 'cannot remove %s'], 'constant': [0, 1, 2, 4, 13, 17, 20, 21, 30, 39], 's_e8': [0, 30, 512], 'ir_15': [0], 'ir_16': [5], 'ir_26': [0, 512], 'ir_20': [512], 'ir_29': [19], 'ir_148': [17], 'ir_172': [2], 'ir_154': [4], 'ir_33': [7], 'ir_35': [30], 'ir_180': [20], 'ir_40': [-65720], 'ir_185': [-65768], 'ir_186': [208], 'ir_76': [6], 'ir_82': [39], 'ir_107': [1], 'ir_112': [13], 'ir_86': [21]}
+{'string': ['removed directory %s\n', 'removed %s\n', 'cannot remove %s'], 'constant': [0, 1, 2, 4, 13, 17, 20, 21, 30, 39], 's_e8': [0, 30, 512], 'ir_31': [0, 512], 'ir_179': [4], 'ir_47': [], 'ir_158': [0]}
 rm_fts:
-{'string': ['..', 'refusing to remove %s or %s directory: skipping %s', 'it is dangerous to operate recursively on %s (same as %s)', 'it is dangerous to operate recursively on %s', 'use --no-preserve-root to override this failsafe', '..', 'failed to stat %s: skipping %s', "skipping %s, since it's on a different device", 'and --preserve-root=all is in effect', 'cannot remove %s', 'WARNING: Circular directory structure.\nThis almost certainly means that you have a corrupted file system.\nNOTIFY YOUR SYSTEM MANAGER.\nThe following directory is part of the cycle:\n  %s\n', "skipping %s, since it's on a different device", "skipping %s, since it's on a different device", "skipping %s, since it's on a different device", 'traversal failed: %s', "skipping %s, since it's on a different device", "skipping %s, since it's on a different device", "skipping %s, since it's on a different device", "skipping %s, since it's on a different device", "skipping %s, since it's on a different device", 'unexpected failure: fts_info=%d: %s\nplease report to %s'], 'constant': [0, 1, 2, 4, 6, 21, 39], 's_108': [0, 1, 21, 39], 'ir_18': [7], 'ir_20': [13], 'ir_27': [4], 'ir_398': [3], 'ir_399': [0], 'ir_433': [6], 'ir_42': [17], 'ir_110': [20], 'ir_488': [1], 'ir_294': [-65760], 'ir_295': [2], 'ir_455': [8], 'ir_491': [0, 1], 'ir_87': [39], 'ir_532': [-65800], 'ir_533': [232], 'ir_98': [21, 39], 'ir_200': [-65736], 'ir_344': [19], 'ir_240': [5]}
+{'string': ['..', 'refusing to remove %s or %s directory: skipping %s', 'it is dangerous to operate recursively on %s (same as %s)', 'it is dangerous to operate recursively on %s', 'use --no-preserve-root to override this failsafe', '..', 'failed to stat %s: skipping %s', "skipping %s, since it's on a different device", 'and --preserve-root=all is in effect', 'cannot remove %s', 'WARNING: Circular directory structure.\nThis almost certainly means that you have a corrupted file system.\nNOTIFY YOUR SYSTEM MANAGER.\nThe following directory is part of the cycle:\n  %s\n', "skipping %s, since it's on a different device", "skipping %s, since it's on a different device", "skipping %s, since it's on a different device", 'traversal failed: %s', "skipping %s, since it's on a different device", "skipping %s, since it's on a different device", "skipping %s, since it's on a different device", "skipping %s, since it's on a different device", "skipping %s, since it's on a different device", 'unexpected failure: fts_info=%d: %s\nplease report to %s'], 'constant': [0, 1, 2, 4, 6, 13, 21, 39, 255], 's_108': [0, 1, 21, 39], 'ir_453': [3], 'ir_454': [0], 'ir_331': [], 'ir_332': [2], 'ir_334': [1], 'ir_560': [0, 1], 'ir_101': [4], 'ir_109': [21, 39]}
 rm:
-{'string': ['fts_read failed', 'fts_close failed'], 'constant': [0, 2, 3, 4, 64, 536], 's_48': [2, 4, 536, 600], 'ir_8': [20], 'ir_10': [0], 'ir_110': [2, 4], 'ir_111': [4], 'ir_112': [-65608], 'ir_113': [56], 'ir_13': [17], 'ir_22': [536, 600], 'ir_16': [19], 'ir_17': [600], 'ir_29': [8], 'ir_37': [7], 'ir_39': [2], 'ir_42': [3], 'ir_74': [609]}
+{'string': ['fts_read failed', 'fts_close failed'], 'constant': [0, 2, 3, 4, 64, 536], 's_48': [2, 4, 536, 600], 'ir_26': [536, 600], 'ir_28': [0], 'ir_184': [609]}
 __argmatch_die:
-{'constant': [], 'ir_0': [1]}
+{'constant': [], 'ir_2': [1]}
 sub_4003f59:
 {'constant': []}
 argmatch:
-{'constant': [-2, -1, 0, 1, 3, 8], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [64], 's_48': [-1, 0, 1, 2], 'ir_10': [0, 8, 16], 'ir_17': [20], 'ir_19': [0], 'ir_107': [5], 'ir_23': [4], 'ir_25': [0, 8], 'ir_110': [-1], 'ir_32': [19], 'ir_115': [-2], 'ir_106': [0, 1], 'ir_62': [52]}
+{'constant': [0, 1, 3, 8, 18446744073709551615], 's_48': [0, 1, 2], 'ir_14': [0, 8, 16], 'ir_41': [0, 8]}
 argmatch_invalid:
-{'string': ['invalid argument %s for %s', 'ambiguous argument %s for %s'], 'constant': [-1], 'ir_7': [8], 'ir_16': [1], 'ir_21': [0], 'ir_30': [4], 'ir_31': [-65608], 'ir_32': [56]}
+{'string': ['invalid argument %s for %s', 'ambiguous argument %s for %s'], 'constant': [18446744073709551615], 'ir_23': [1], 'ir_28': [8], 'ir_29': [0]}
 argmatch_valid:
-{'string': ['Valid arguments are:', ', %s', '\n  - %s'], 'constant': [0, 1, 3, 8], 'ir_1': [8], 'ir_2': [-65552], 'ir_3': [56], 's_48': [0, 1], 'ir_7': [], 'ir_13': [0, 8], 'ir_20': [20], 'ir_22': [0], 'ir_102': [10], 'ir_103': [4], 'ir_104': [-65608], 'ir_27': [52], 'ir_38': [19]}
+{'string': ['Valid arguments are:', ', %s', '\n  - %s'], 'constant': [0, 1, 3, 8], 's_48': [0, 1], 'ir_14': [], 'ir_19': [0, 8], 'ir_272': [10], 'ir_57': [0]}
 __xargmatch_internal:
-{'constant': [-1, 0, 63], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [64], 'ir_16': [0]}
+{'constant': [0, 63, 18446744073709551615]}
 argmatch_to_argument:
-{'constant': [0, 1, 3, 8], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [48], 's_38': [0, 1, 2], 'ir_8': [0, 8, 16], 'ir_15': [20], 'ir_17': [0], 'ir_19': [52], 'ir_20': [0, 1], 'ir_30': [19], 'ir_44': [0, 8], 'ir_46': [4]}
+{'constant': [0, 1, 3, 8], 's_38': [0, 1, 2], 'ir_11': [0, 8, 16], 'ir_127': [0, 8]}
 close_stdin_set_file_name:
 {'constant': []}
 close_stdin:
-{'string': ['error closing file', '%s: %s', '%s'], 'constant': [0, 1], 'ir_1': [8], 'ir_2': [-65552], 'ir_3': [24], 'ir_4': [], 'ir_6': [20], 'ir_8': [0], 'ir_10': [1], 'ir_28': [19], 'ir_31': [5], 'ir_71': [4], 'ir_72': [-65576]}
+{'string': ['error closing file', '%s: %s', '%s'], 'constant': [0, 1], 'ir_9': [], 'ir_15': [1], 'ir_16': [0]}
 close_stdout_set_file_name:
 {'constant': []}
 close_stdout_set_ignore_EPIPE:
 {'constant': []}
 close_stdout:
-{'string': ['write error', '%s: %s', '%s'], 'constant': [0, 1, 32], 'ir_1': [8], 'ir_2': [-65552], 'ir_3': [24], 'ir_4': [], 'ir_6': [19], 'ir_8': [0], 'ir_9': [1], 'ir_14': [17], 'ir_70': [4], 'ir_71': [-65576], 'ir_31': [20], 'ir_18': [7], 'ir_20': [32]}
+{'string': ['write error', '%s: %s', '%s'], 'constant': [0, 1, 32], 'ir_9': [], 'ir_84': [1], 'ir_44': [0]}
 last_component:
-{'constant': [0, 1, 47], 's_8': [0, 1], 'ir_4': [5], 'ir_6': [47], 'ir_14': [17], 'ir_16': [0]}
+{'constant': [0, 1, 47], 's_8': [0, 1]}
 base_len:
-{'constant': [1, 47], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 's_28': [0], 'ir_8': [1], 'ir_17': [5], 'ir_19': [47]}
+{'constant': [1, 47], 's_28': [0]}
 file_type:
-{'string': ['regular empty file', 'regular file', 'weird file', 'socket', 'fifo', 'character special file', 'block special file', 'symbolic link', 'directory'], 'constant': [0, 4096, 8192, 16384, 24576, 32768, 40960, 49152, 61440], 'ir_10': [7], 'ir_12': [32768], 'ir_81': [20], 'ir_83': [0], 'ir_21': [16384], 'ir_30': [40960], 'ir_39': [24576], 'ir_48': [8192], 'ir_57': [4096], 'ir_66': [49152]}
+{'string': ['regular empty file', 'regular file', 'weird file', 'socket', 'fifo', 'character special file', 'block special file', 'symbolic link', 'directory'], 'constant': [0, 4096, 8192, 16384, 24576, 32768, 40960, 49152, 61440]}
 file_name_concat:
-{'constant': [0], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [48]}
+{'constant': [0]}
 mfile_name_concat:
-{'constant': [0, 1, 2, 46, 47], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [96], 'ir_19': [4], 's_68': [0, 46, 47], 'ir_27': [0], 'ir_50': [5], 'ir_52': [47], 'ir_57': [0, 1], 'ir_71': [1], 'ir_83': [0, 46]}
+{'constant': [0, 1, 46, 47], 's_68': [0, 46, 47], 'ir_91': [0, 46]}
 priv_set_remove_linkdir:
-{'constant': [-1]}
+{'constant': [4294967295]}
 priv_set_restore_linkdir:
-{'constant': [-1]}
+{'constant': [4294967295]}
 set_program_name:
-{'string': ['/.libs/', 'lt-'], 'constant': [0, 1, 3, 6, 7], 'ir_4': [8], 'ir_6': [0], 'ir_67': [], 'ir_69': [55], 'ir_70': [1], 'ir_8': [47], 'ir_32': [6], 'ir_15': [4], 'ir_36': [7], 'ir_41': [19], 'ir_53': [3]}
+{'string': ['/.libs/', 'lt-'], 'constant': [0, 3, 6, 7], 'ir_79': [], 'ir_80': [55], 'ir_81': [1], 'ir_11': [47], 'ir_27': [0], 'ir_42': [7], 'ir_59': [3]}
 clone_quoting_options:
-{'constant': [0], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 'ir_12': [56]}
+{'constant': [0], 'ir_16': [56]}
 get_quoting_style:
-{'constant': [0], 'ir_1': [8]}
+{'constant': [0]}
 set_quoting_style:
-{'constant': [0], 'ir_2': [8]}
+{'constant': [0]}
 set_char_quoting:
-{'constant': [0, 4, 5, 8], 'ir_5': [8], 'ir_7': [0], 'ir_63': [19]}
+{'constant': [0, 1, 4, 5, 8, 31]}
 set_quoting_flags:
-{'constant': [0], 'ir_2': [8]}
+{'constant': [0]}
 set_custom_quoting:
-{'constant': [0, 10], 'ir_6': [8], 'ir_8': [0], 's_28': [10]}
+{'constant': [0, 10], 's_28': [10]}
 quoting_options_from_style:
-{'constant': [0, 10], 's_58': [0], 'ir_11': [7], 'ir_13': [10], 'ir_25': [20]}
+{'constant': [0, 10], 's_58': [0]}
 gettext_quote:
-{'string': ['UTF-8', 'GB18030'], 'constant': [0, 9, 96], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 'ir_15': [19], 'ir_17': [0], 'ir_44': [5], 'ir_46': [96], 'ir_24': [7], 'ir_26': [9]}
+{'string': ['UTF-8', 'GB18030'], 'constant': [0, 9, 96]}
 quotearg_buffer:
-{'constant': [0], 'ir_8': [8], 'ir_30': [-65624], 'ir_34': [4], 'ir_35': [-65656], 'ir_36': [32]}
+{'constant': [0]}
 quotearg_alloc:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 'ir_10': [0]}
+{'constant': [], 'ir_13': [0]}
 quotearg_alloc_mem:
-{'constant': [0, 1], 'ir_7': [8], 'ir_9': [0], 'ir_37': [-65608], 'ir_48': [4], 'ir_50': [1], 'ir_73': [-65640], 'ir_74': [32]}
+{'constant': [0, 1], 's_58': [0]}
 quotearg_free:
-{'constant': [1, 16, 256], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16], 's_18': [1, 2, 3, 256], 'ir_4': [1], 'ir_5': [7], 'ir_6': [1, 2, 3], 'ir_14': [16, 32], 'ir_16': [4], 'ir_19': [0]}
+{'constant': [1, 16, 256], 's_18': [1, 2, 3, 256], 'ir_17': [16, 32], 'ir_24': [0]}
 quotearg_n_options:
-{'constant': [0, 1, 8, 16, 2147483646], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [80], 'ir_10': [7], 'ir_12': [0], 'ir_13': [1], 'ir_142': [-65624], 's_58': [1, 256], 'ir_22': [], 'ir_37': [5], 'ir_75': [16], 'ir_77': [4], 'ir_213': [-65656], 'ir_214': [32]}
+{'constant': [0, 1, 8, 16, 2147483646], 's_58': [1, 256], 'ir_48': [0], 'ir_80': [16]}
 quotearg_n:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16], 'ir_8': [-1]}
+{'constant': []}
 quotearg_n_mem:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32]}
+{'constant': []}
 quotearg:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16], 'ir_6': [0]}
+{'constant': [], 'ir_9': [0]}
 quotearg_mem:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16], 'ir_8': [0]}
+{'constant': [], 'ir_11': [0]}
 quotearg_n_style:
-{'constant': [], 'ir_8': [19], 'ir_9': [0], 'ir_12': [-65608], 'ir_20': [-1], 'ir_23': [20]}
+{'constant': [], 'ir_27': [0]}
 quotearg_n_style_mem:
-{'constant': [], 'ir_9': [19], 'ir_10': [0], 'ir_13': [-65608], 'ir_23': [20]}
+{'constant': [], 'ir_27': [0]}
 quotearg_style:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16], 'ir_8': [0]}
+{'constant': [], 'ir_11': [0]}
 quotearg_style_mem:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 'ir_10': [0]}
+{'constant': [], 'ir_13': [0]}
 quotearg_char_mem:
-{'constant': [], 's_68': [0], 'ir_9': [19], 'ir_21': [-65608], 'ir_22': [1], 'ir_31': [20]}
+{'constant': [], 's_68': [0], 'ir_25': [1]}
 quotearg_char:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16], 'ir_8': [-1]}
+{'constant': []}
 quotearg_colon:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16], 'ir_5': [58]}
+{'constant': [], 'ir_8': [58]}
 quotearg_colon_mem:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16], 'ir_7': [58]}
+{'constant': [], 'ir_10': [58]}
 quotearg_n_style_colon:
-{'constant': [], 'ir_8': [19], 'ir_9': [0], 'ir_12': [-65688], 'ir_23': [-65608], 'ir_24': [1], 'ir_25': [58], 'ir_31': [-1], 'ir_34': [20]}
+{'constant': [], 'ir_28': [1], 'ir_29': [58], 'ir_39': [0]}
 quotearg_n_custom:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 'ir_11': [-1]}
+{'constant': []}
 quotearg_n_custom_mem:
-{'constant': [], 's_78': [0], 'ir_10': [19], 'ir_23': [-65608], 'ir_32': [20]}
+{'constant': [], 's_78': [0]}
 quotearg_custom:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 'ir_10': [0]}
+{'constant': [], 'ir_13': [0]}
 quotearg_custom_mem:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 'ir_13': [0]}
+{'constant': [], 'ir_16': [0]}
 quote_n_mem:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32]}
+{'constant': []}
 quote_mem:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16], 'ir_8': [0]}
+{'constant': [], 'ir_11': [0]}
 quote_n:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16], 'ir_7': [-1]}
+{'constant': []}
 quote:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16], 'ir_6': [0]}
+{'constant': [], 'ir_9': [0]}
 get_root_dev_ino:
-{'constant': [0], 's_b8': [], 'ir_6': [19], 'ir_10': [-65704], 'ir_24': [20]}
+{'constant': [0], 's_b8': []}
 statat:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 'ir_9': [0]}
+{'constant': [], 'ir_12': [0]}
 lstatat:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 'ir_9': [256]}
+{'constant': [], 'ir_12': [256]}
 version_etc_arn:
-{'string': ['%s (%s) %s\n', '%s %s\n', '(C)', 'Copyright %s %d Free Software Foundation, Inc.', 'License GPLv3+: GNU GPL version 3 or later <%s>.\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n', 'Written by %s.\n', 'Written by %s and %s.\n', 'Written by %s, %s, and %s.\n', 'Written by %s, %s, %s,\nand %s.\n', 'Written by %s, %s, %s,\n%s, and %s.\n', 'Written by %s, %s, %s,\n%s, %s, and %s.\n', 'Written by %s, %s, %s,\n%s, %s, %s, and %s.\n', 'Written by %s, %s, %s,\n%s, %s, %s, %s,\nand %s.\n', 'Written by %s, %s, %s,\n%s, %s, %s, %s,\n%s, and %s.\n', 'Written by %s, %s, %s,\n%s, %s, %s, %s,\n%s, %s, and others.\n'], 'constant': [0, 4], 'ir_14': [8], 'ir_16': [0], 'ir_40': [2020], 'ir_46': [10], 'ir_59': [9], 'ir_131': [4], 'ir_114': [-65672], 'ir_123': [-65720], 'ir_124': [48], 'ir_394': [-65720, -65672], 'ir_459': [-65752, -65704], 'ir_460': [32], 'ir_403': [-65768, -65720], 'ir_323': [-65736, -65688], 'ir_324': [16]}
+{'string': ['%s (%s) %s\n', '%s %s\n', '(C)', 'Copyright %s %d Free Software Foundation, Inc.', 'License GPLv3+: GNU GPL version 3 or later <%s>.\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n', 'Written by %s.\n', 'Written by %s and %s.\n', 'Written by %s, %s, and %s.\n', 'Written by %s, %s, %s,\nand %s.\n', 'Written by %s, %s, %s,\n%s, and %s.\n', 'Written by %s, %s, %s,\n%s, %s, and %s.\n', 'Written by %s, %s, %s,\n%s, %s, %s, and %s.\n', 'Written by %s, %s, %s,\n%s, %s, %s, %s,\nand %s.\n', 'Written by %s, %s, %s,\n%s, %s, %s, %s,\n%s, and %s.\n', 'Written by %s, %s, %s,\n%s, %s, %s, %s,\n%s, %s, and others.\n'], 'constant': [0, 4], 'ir_52': [2020], 'ir_59': [10]}
 version_etc_ar:
-{'constant': [0, 1, 3], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [64], 's_48': [0, 1, 2], 'ir_9': [0, 8, 16], 'ir_16': [20], 'ir_18': [0], 'ir_32': [0, 1]}
+{'constant': [0, 1, 3], 's_48': [0, 1, 2], 'ir_12': [0, 8, 16], 'ir_70': [0, 1]}
 version_etc_va:
-{'constant': [0, 1, 3, 8, 9, 47, 96], 's_a8': [0, 1], 'ir_10': [19], 'ir_11': [0], 'ir_14': [8], 'ir_16': [9], 'ir_19': [7], 'ir_21': [47], 'ir_77': [-65640], 'ir_31': [4], 'ir_49': [20]}
+{'constant': [0, 1, 8, 9, 47], 's_a8': [0, 1], 'ir_147': [0], 'ir_148': []}
 version_etc:
-{'constant': [0], 'ir_10': [17], 's_f8': [-65720, -65528, 32, 48], 'ir_23': [19], 'ir_34': [-65752], 'ir_37': [20]}
+{'constant': [0], 's_f8': [32, 48], 'ir_37': []}
 emit_bug_reporting_address:
-{'string': ['Report bugs to: %s\n', '%s home page: <%s>\n', 'General help using GNU software: <%s>\n'], 'constant': [], 'ir_2': [10], 'ir_6': [0]}
+{'string': ['Report bugs to: %s\n', '%s home page: <%s>\n', 'General help using GNU software: <%s>\n'], 'constant': [], 'ir_4': [10]}
 can_write_any_file:
-{'constant': [0, 1], 'ir_3': [1], 'ir_8': [17], 'ir_10': [0], 'ir_11': [19]}
+{'constant': [0, 1]}
 xnmalloc:
-{'constant': [0, 1], 'ir_5': [0], 'ir_7': [48], 'ir_13': [1], 'ir_15': [20], 'ir_24': [17], 'ir_28': [52]}
+{'constant': [0, 1], 'ir_8': [0], 'ir_16': [1]}
 xnrealloc:
-{'constant': [0, 1], 'ir_6': [0], 'ir_8': [48], 'ir_14': [1], 'ir_16': [20], 'ir_25': [17], 'ir_29': [52]}
+{'constant': [0, 1], 'ir_9': [0], 'ir_17': [1]}
 x2nrealloc:
-{'constant': [0, 1, 128], 'ir_8': [8], 'ir_10': [0], 'ir_55': [48], 'ir_83': [52], 'ir_61': [1], 'ir_63': [20], 'ir_72': [17]}
+{'constant': [0, 1, 128], 'ir_57': [0], 'ir_65': [1]}
 xcharalloc:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16]}
+{'constant': []}
 xmalloc:
-{'constant': [0], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32]}
+{'constant': [0]}
 xrealloc:
-{'constant': [0], 'ir_5': [8]}
+{'constant': [0]}
 x2realloc:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16], 'ir_7': [1]}
+{'constant': [], 'ir_10': [1]}
 xzalloc:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16], 'ir_5': [1]}
+{'constant': [], 'ir_8': [1]}
 xcalloc:
-{'constant': [0, 1], 'ir_5': [0], 'ir_7': [48], 'ir_13': [1], 'ir_15': [20], 'ir_24': [17], 'ir_31': [8]}
+{'constant': [0, 1], 'ir_8': [0], 'ir_16': [1]}
 xmemdup:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16]}
+{'constant': []}
 xstrdup:
-{'constant': [1], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16]}
+{'constant': [1]}
 xalloc_die:
-{'string': ['memory exhausted', '%s'], 'constant': [], 'ir_6': [0], 'ir_7': [1]}
-xfts_open:
-{'constant': [0, 22], 'ir_7': [17], 'ir_9': [0], 'ir_16': [8], 'ir_21': [7], 'ir_23': [22], 'ir_25': [41]}
-yesno:
-{'constant': [0, 1, 10], 's_38': [0], 'ir_5': [19], 'ir_9': [], 'ir_10': [-65568], 'ir_11': [-65576], 'ir_14': [8], 'ir_28': [5], 'ir_30': [10], 'ir_37': [4], 'ir_62': [20]}
+{'string': ['memory exhausted', '%s'], 'constant': [], 'ir_9': [0], 'ir_10': [1]}
+cycle_warning_required:
+{'constant': [0, 1, 16]}
+clear_ungetc_buffer_preserving_position:
+{'constant': [0, 256], 'ir_17': [1], 'ir_18': [0]}
 rpl_fflush:
-{'constant': [0], 'ir_4': [8], 'ir_9': [19]}
+{'constant': [0]}
+freadahead:
+{'constant': [0, 256]}
 rpl_fseeko:
-{'constant': [-17, -1, 0], 'ir_10': [8], 'ir_27': [20], 'ir_29': [0], 'ir_44': [-1], 'ir_47': [19]}
+{'constant': [0, 4294967279, 4294967295, 18446744073709551615]}
 AD_compare:
-{'constant': [0, 1], 'ir_8': [8], 'ir_26': [19], 'ir_28': [0], 'ir_24': [1]}
+{'constant': [0, 1]}
 AD_hash:
 {'constant': [0]}
+setup_dir:
+{'constant': [0, 1, 258], 'ir_31': [32], 'ir_17': [], 'ir_20': [0], 'ir_21': [31]}
+enter_dir:
+{'constant': [0, 1, 2, 120, 258], 'ir_22': [24], 's_38': [2]}
+leave_dir:
+{'constant': [0, 120, 258], 's_58': []}
+free_dir:
+{'constant': [0, 258]}
 fd_ring_clear:
-{'constant': [0, 1], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 'ir_10': [17], 'ir_12': [0], 'ir_15': [7]}
+{'constant': [0, 1, 255]}
 fts_set_stat_required:
-{'constant': [0, 1, 2, 11], 'ir_8': [6], 'ir_10': [11], 'ir_11': [5], 'ir_13': [0], 'ir_14': [1], 's_18': [1, 2], 'ir_15': [2]}
+{'constant': [0, 1, 2, 11], 'ir_18': [1], 's_18': [1, 2], 'ir_19': [2]}
+cwd_advance_fd:
+{'constant': [0, 4, 96, 4294967196]}
+restore_initial_cwd:
+{'constant': [0, 1, 4, 96, 512, 4294967196], 's_28': [0, 1], 'ir_61': [], 'ir_39': [1]}
+diropen:
+{'constant': [0, 512, 8192, 131072, 592128]}
 fts_load:
-{'constant': [0, 1, 264], 'ir_3': [8], 'ir_4': [-65568], 'ir_5': [24], 'ir_18': [47], 'ir_21': [20], 'ir_23': [0], 'ir_59': [4], 'ir_60': [-65592], 'ir_30': [17], 'ir_43': [1]}
+{'constant': [0, 1, 264], 'ir_25': [47]}
+rpl_fts_close:
+{'constant': [0, 4, 96, 512, 4294967295], 's_38': [0]}
 dev_type_hash:
 {'constant': [0]}
 dev_type_compare:
-{'constant': [], 'ir_8': [8]}
+{'constant': []}
+filesystem_type:
+{'constant': [0, 512], 's_c8': [], 'ir_124': [0], 'ir_35': [13], 'ir_83': [16]}
 dirent_inode_sort_may_be_useful:
-{'constant': [-11317950, 0, 1, 26985, 16914836], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16], 'ir_11': [16914836], 'ir_24': [0], 'ir_12': [-11317950], 'ir_22': [26985], 'ir_23': [1]}
+{'constant': [0, 1, 26985, 16914836, 4283649346], 'ir_16': []}
 leaf_optimization:
-{'constant': [-11317950, 0, 1, 2, 26985, 40864, 'sIeR', 'OAFS', 'BSFX'], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16], 'ir_11': [], 'ir_31': [2], 'ir_34': [26985], 'ir_51': [0], 'ir_38': [40864], 'ir_21': [-11317950], 'ir_39': [20], 'ir_46': [1]}
+{'constant': [0, 1, 2, 26985, 40864, 'sIeR', 'OAFS', 'BSFX', 4283649346], 'ir_25': []}
 rpl_fts_set:
-{'constant': [0, 1, 2, 3, 4, 22], 'ir_6': [7], 'ir_8': [0], 'ir_11': [1], 'ir_17': [2], 'ir_20': [3], 'ir_23': [4], 's_28': [22]}
+{'constant': [0, 1, 2, 3, 4, 22], 's_28': [22]}
 fts_compare_ino:
-{'constant': [-1], 'ir_8': [8]}
+{'constant': [4294967295]}
 set_stat_type:
-{'constant': [0, 4096, 8192, 16384, 24576, 32768, 40960, 49152], 'ir_2': [7], 'ir_4': [12], 'ir_11': [4], 'ir_19': [0]}
+{'constant': [0, 4096, 8192, 16384, 24576, 32768, 40960, 49152], 'ir_21': [0]}
+fts_stat:
+{'constant': [0, 1, 2, 3, 5, 8, 10, 12, 13, 32, 46, 120, 16384, 32768, 40960, 61440, 18446744073709551615], 's_38': [0, 1], 'ir_83': [256], 'ir_101': [144], 'ir_102': [0]}
 fts_compar:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32]}
+{'constant': []}
 fts_sort:
-{'constant': [-1, 0, 1, 8, 40], 's_58': [0], 'ir_20': [8], 'ir_27': [-1], 'ir_60': [20], 'ir_115': [4], 'ir_116': [-65624], 'ir_117': [56]}
+{'constant': [0, 2, 8, 40, 2305843009213693951], 's_58': [0], 'ir_106': [8]}
 fts_alloc:
-{'constant': [-8, 0, 3, 264, 272], 'ir_10': [20], 'ir_12': [0], 'ir_34': [4], 'ir_35': [-65592], 'ir_36': [32], 's_38': [0, 3]}
+{'constant': [0, 3, 264, 272, 18446744073709551608], 's_38': [0, 3]}
 fts_lfree:
-{'constant': [0], 'ir_5': [20]}
+{'constant': [0]}
 fts_palloc:
-{'constant': [0, 1, 36, 256], 'ir_18': [8], 's_28': [0, 36], 'ir_31': [0], 'ir_34': [1]}
+{'constant': [0, 1, 36, 256], 's_28': [0, 36]}
 fts_padjust:
-{'constant': [0, 264], 'ir_6': [8], 'ir_8': [0], 'ir_49': [20]}
+{'constant': [0, 264]}
 fts_maxarglen:
-{'constant': [0, 1, 8], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 's_28': [0], 'ir_6': [20], 'ir_26': [4], 'ir_28': [1]}
+{'constant': [0, 1, 8], 's_28': [0]}
+fts_safe_changedir:
+{'string': ['..', '..', '..', '..'], 'constant': [0, 1, 2, 4, 96, 255, 512, 4294967295], 's_e8': [0, 1, 2], 'ir_235': [0], 'ir_156': [], 'ir_205': [1]}
 rpl_mbrtowc:
-{'constant': [-3, 0, 1], 's_48': [-65564], 'ir_12': [0], 'ir_13': [8], 'ir_25': [-3], 'ir_51': [20], 'ir_37': [17], 'ir_47': [1]}
+{'constant': [0, 1, 255, 18446744073709551613], 's_48': [], 'ir_56': [0]}
 c_strcasecmp:
-{'constant': [0, 1], 'ir_9': [8], 'ir_52': [0], 'ir_58': [4], 'ir_59': [-65592], 'ir_60': [32], 'ir_18': [5]}
+{'constant': [0]}
 close_stream:
-{'constant': [0, 1, 9], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 'ir_6': [20], 'ir_8': [0], 'ir_12': [19], 'ir_22': [5], 'ir_49': [17], 'ir_53': [-1], 'ir_35': [7], 'ir_37': [9]}
+{'constant': [0, 1, 9, 4294967295], 's_28': [0]}
 is_zero_or_power_of_two:
-{'constant': [0, 1], 'ir_10': [20], 'ir_12': [0]}
+{'constant': [0, 1]}
 cycle_check_init:
 {'constant': [0, 9827862]}
 cycle_check:
-{'constant': [0, 1, 9827862], 'ir_7': [7], 'ir_9': [9827862], 'ir_16': [20], 'ir_18': [0], 'ir_11': [60], 'ir_23': [8], 'ir_45': [17], 'ir_67': [1]}
+{'constant': [0, 1, 9827862], 'ir_14': [60]}
+open_safer:
+{'constant': [0, 16, 47, 64], 's_f8': [0, 16, 24, 48], 'ir_65': [0], 'ir_53': [24]}
 hard_locale:
-{'string': ['C', 'POSIX', 'C', 'POSIX'], 'constant': [0, 1], 's_128': [], 'ir_6': [19], 'ir_7': [0], 'ir_10': [-65816], 'ir_12': [257], 'ir_49': [20], 'ir_38': [1]}
+{'string': ['C', 'POSIX', 'POSIX'], 'constant': [0, 1], 's_128': [], 'ir_15': [257], 'ir_55': [0]}
 hash_get_n_buckets:
 {'constant': []}
 hash_get_n_buckets_used:
@@ -269,85 +293,81 @@ hash_get_n_buckets_used:
 hash_get_n_entries:
 {'constant': []}
 hash_get_max_bucket_length:
-{'constant': [0, 1, 16], 's_8': [0, 1, 2, 3], 'ir_5': [8], 'ir_10': [20], 'ir_12': [0], 'ir_26': [1, 2]}
+{'constant': [0, 1, 16], 's_8': [0, 1, 2, 3]}
 hash_table_ok:
-{'constant': [0, 1, 16], 's_8': [0, 1, 2, 3], 'ir_5': [8], 'ir_10': [20], 'ir_12': [0], 'ir_17': [4], 'ir_19': [1]}
-hash_print_statistics:
-{'string': ['# entries:         %lu\n', '# buckets:         %lu\n', '# buckets used:    %lu (%.2f%%)\n', 'max bucket length: %lu\n'], 'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [48], 'ir_17': [0], 'ir_24': [20], 'ir_86': [1]}
+{'constant': [0, 1, 16], 's_8': [0, 1, 2, 3]}
+safe_hasher:
+{'constant': [16]}
 hash_lookup:
-{'constant': [0], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 'ir_11': [20]}
+{'constant': [0]}
 hash_get_first:
-{'constant': [0, 16], 'ir_6': [20], 'ir_8': [0], 'ir_13': [8], 'ir_21': [4], 'ir_23': [16]}
+{'constant': [0, 16]}
 hash_get_next:
-{'constant': [0, 16], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 'ir_17': [20], 'ir_19': [0]}
+{'constant': [0, 16]}
 hash_get_entries:
-{'constant': [0, 1, 8, 16], 's_8': [0, 1], 'ir_7': [8], 'ir_12': [20], 'ir_14': [0]}
+{'constant': [0, 1, 8, 16], 's_8': [0, 1]}
 hash_do_for_each:
-{'constant': [0, 1, 16], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [64], 's_48': [0], 'ir_15': [20]}
+{'constant': [0, 1, 16, 255], 's_48': [0]}
+hash_string:
+{'constant': [0, 1, 31], 's_8': [0]}
 is_prime:
-{'constant': [0, 1, 3, 4], 's_8': [3, 4, 5, 6, 7, 9, 25, 49], 'ir_2': [52], 'ir_3': [3], 'ir_1': [9], 'ir_6': [9, 25, 49], 'ir_7': [8], 'ir_15': [20], 'ir_17': [0]}
+{'constant': [0, 1, 3, 4], 's_8': [3, 4, 5, 6, 7, 9, 25, 49]}
 next_prime:
-{'constant': [-1, 0, 1, 2, 9, 10], 'ir_4': [8], 'ir_6': [9], 's_10': [10, 11, 13, 15], 'ir_7': [20], 'ir_8': [11], 'ir_9': [0], 'ir_11': [11, 13, 15], 'ir_12': [-1], 'ir_13': [11, 13], 'ir_19': [17]}
+{'constant': [0, 1, 2, 9, 10, 255, 18446744073709551615], 's_10': [10, 11, 13, 15], 'ir_17': [11, 13]}
 hash_reset_tuning:
 {'constant': [0]}
 raw_comparator:
-{'constant': [], 'ir_3': [8]}
-check_tuning:
-{'constant': [0, 1, 6, 69, 1065353216], 'ir_4': [8], 'ir_83': [1], 's_8': [], 'ir_10': [0]}
-compute_bucket_size:
-{'constant': [0, 1, '\x00\x00\x00_', 1602224128], 'ir_11': [17], 'ir_13': [0], 'ir_15': [20], 'ir_82': [48], 'ir_83': [8], 'ir_87': [1]}
+{'constant': []}
 hash_initialize:
-{'constant': [0, 1, 16], 'ir_8': [8], 'ir_10': [0], 'ir_17': [80], 'ir_33': [17], 'ir_44': [20], 'ir_49': [16], 'ir_73': [4]}
+{'constant': [0, 1, 16, 255], 'ir_20': [80], 'ir_55': [16], 's_48': [0]}
 hash_clear:
-{'constant': [0, 16], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [48], 'ir_13': [20], 'ir_15': [0]}
+{'constant': [0, 16], 's_38': [0]}
 hash_free:
-{'constant': [0, 16], 'ir_6': [20], 'ir_8': [0], 'ir_68': [8]}
+{'constant': [0, 16]}
 allocate_entry:
-{'constant': [0], 'ir_6': [20], 'ir_14': [16]}
+{'constant': [0], 'ir_17': [16]}
 free_entry:
 {'constant': [0]}
 hash_find_entry:
-{'constant': [0], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [80], 'ir_16': [20], 'ir_44': [5]}
+{'constant': [0]}
 transfer_entries:
-{'constant': [0, 1, 16], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [80], 'ir_16': [20], 'ir_18': [0], 'ir_120': [1], 'ir_64': [5]}
+{'constant': [0, 1, 16], 's_58': [0]}
 hash_rehash:
-{'constant': [0, 1, 16], 's_88': [-65640, 0], 'ir_7': [19], 'ir_8': [0], 'ir_16': [8], 'ir_144': [20], 'ir_141': [1], 'ir_26': [16], 'ir_44': [4], 'ir_67': [-65640], 'ir_71': [17]}
-hash_insert_if_absent:
-{'constant': [-1, 0, 1, 6, 69, '\x00\x00\x00_', 1602224128], 's_58': [], 'ir_11': [0], 'ir_12': [8], 'ir_15': [-65584], 'ir_33': [20], 'ir_333': [-1], 'ir_330': [1], 'ir_166': [17]}
+{'constant': [0, 1, 16, 255], 's_88': [0], 'ir_30': [16], 'ir_75': [], 'ir_105': [1]}
 hash_insert:
-{'constant': [-1, 0], 's_38': [], 'ir_7': [19], 'ir_8': [0], 'ir_11': [-65560], 'ir_16': [7], 'ir_18': [-1], 'ir_30': [20]}
-hash_delete:
-{'constant': [0, 1, 6, 69, '\x00\x00\x00_'], 's_58': [], 'ir_7': [19], 'ir_8': [0], 'ir_11': [-65600], 'ir_14': [1], 'ir_16': [8], 'ir_25': [20]}
+{'constant': [0, 4294967295], 's_38': [], 'ir_33': [0]}
 i_ring_init:
-{'constant': [0, 1, 3, 4], 'ir_5': [7], 'ir_6': [0, 1, 2], 'ir_7': [3], 'ir_9': [0, 1]}
+{'constant': [0, 1, 3, 4], 'ir_11': [0, 1]}
 i_ring_empty:
 {'constant': []}
 i_ring_push:
-{'constant': [0, 1, 3, 4], 'ir_29': [7], 'ir_45': [19], 'ir_47': [0]}
+{'constant': [0, 1, 3, 4], 's_8': [0]}
 i_ring_pop:
-{'constant': [0, 1, 3, 4], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 'ir_6': [17], 'ir_8': [0], 'ir_24': [7], 's_28': [1], 'ir_33': [19]}
+{'constant': [0, 1, 3, 4], 's_28': [1]}
 locale_charset:
-{'constant': [0], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16], 'ir_3': [14], 'ir_12': [17]}
+{'constant': [0], 'ir_6': [14]}
+openat_safer:
+{'constant': [0, 24, 47, 64], 's_f8': [0, 24, 32, 48], 'ir_65': [0], 'ir_53': [32]}
 opendirat:
-{'constant': [0, 592128], 'ir_8': [19], 'ir_10': [0], 'ir_18': [7], 'ir_23': [8]}
+{'constant': [0, 592128]}
 setlocale_null_androidfix:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 'ir_5': [0]}
+{'constant': [], 'ir_8': [0]}
 setlocale_null_unlocked:
-{'constant': [0, 1, 22], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [48], 'ir_10': [0], 'ir_55': [22], 'ir_40': [34], 'ir_29': [4]}
+{'constant': [0, 1, 22, 34], 's_38': [0]}
 setlocale_null_r:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32]}
+{'constant': []}
 setlocale_null:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16]}
+{'constant': []}
 fd_safer:
-{'constant': [0, 2], 'ir_4': [7], 'ir_6': [0], 'ir_9': [2]}
+{'constant': [0, 2]}
 rpl_fclose:
-{'constant': [-1, 0], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 'ir_6': [7], 'ir_8': [0], 'ir_11': [19], 'ir_16': [1], 'ir_21': [-1]}
+{'constant': [0, 4294967295, 18446744073709551615], 's_28': [0], 'ir_22': [1]}
 rpl_fcntl:
-{'constant': [0, 1, 3, 4, 8, 9, 10, 11, 16, 47, 1024, 1025, 1026, 1030, 1031, 1033], 'ir_10': [17], 'ir_12': [0], 's_108': [-65720, -65528, -65520, -1, 16, 24, 48], 'ir_30': [19], 'ir_213': [16], 'ir_214': [7], 'ir_216': [47], 'ir_35': [1030], 'ir_219': [-65704], 'ir_227': [3], 'ir_229': [8], 'ir_226': [24], 'ir_39': [11], 'ir_246': [20], 'ir_45': [1031], 'ir_48': [1033], 'ir_99': [1], 'ir_66': [1025], 'ir_69': [1026], 'ir_57': [1034], 'ir_96': [4], 'ir_90': [9], 'ir_72': [1024], 'ir_93': [10]}
+{'constant': [0, 1, 3, 4, 8, 9, 10, 11, 16, 47, 48, 1024, 1025, 1026, 1030, 1031, 1033, 4294967295], 's_108': [16, 24, 48], 'ir_234': [24], 'ir_254': [0]}
 rpl_fcntl_DUPFD:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [32], 'ir_7': [0]}
+{'constant': [], 'ir_10': [0]}
 rpl_fcntl_DUPFD_CLOEXEC:
-{'constant': [-1, 0, 1, 22], 'ir_5': [0], 'ir_6': [19], 'ir_11': [1030], 'ir_14': [7], 's_28': [-1, 1], 'ir_42': [0, 1], 'ir_45': [-1], 'ir_20': [22], 'ir_50': [1], 'ir_63': [2]}
+{'constant': [0, 1, 22, 4294967295], 'ir_14': [1030], 's_28': [1], 'ir_72': [2]}
 rotl64:
 {'constant': [63, 64]}
 rotr64:
@@ -357,55 +377,55 @@ rotl32:
 rotr32:
 {'constant': [31, 32]}
 rotl_sz:
-{'constant': [63, 64], 'ir_27': [20], 'ir_29': [0]}
+{'constant': [63, 64]}
 rotr_sz:
-{'constant': [63, 64], 'ir_27': [20], 'ir_29': [0]}
+{'constant': [63, 64]}
 rotl16:
-{'constant': [16, 31], 'ir_27': [19], 'ir_29': [0]}
+{'constant': [16, 31]}
 rotr16:
-{'constant': [16, 31], 'ir_27': [19], 'ir_29': [0]}
+{'constant': [16, 31]}
 rotl8:
-{'constant': [8, 31], 'ir_27': [19], 'ir_29': [0]}
+{'constant': [8, 31]}
 rotr8:
-{'constant': [8, 31], 'ir_27': [19], 'ir_29': [0]}
+{'constant': [8, 31]}
 c_isalnum:
-{'constant': [0, 1, 9, 25, 48, 65, 90, 97], 'ir_2': [7], 'ir_4': [90], 'ir_14': [65], 'ir_11': [25], 'ir_25': [9], 'ir_31': [1], 'ir_30': [0]}
+{'constant': [0, 1, 9, 25, 48, 65, 90, 97]}
 c_isalpha:
-{'constant': [0, 1, 65, 90], 'ir_2': [7], 'ir_4': [65], 'ir_23': [0], 'ir_7': [90], 'ir_24': [1], 'ir_14': [25]}
+{'constant': [0, 1, 25, 65, 90, 97]}
 c_isascii:
-{'constant': [0, 1, 127], 'ir_6': [7], 'ir_8': [127], 'ir_10': [1], 'ir_9': [0]}
+{'constant': [0, 1, 127]}
 c_isblank:
-{'constant': [0, 1, 9, 32], 'ir_1': [7], 'ir_3': [32], 'ir_11': [1], 'ir_6': [9], 'ir_13': [19], 'ir_14': [0, 1], 'ir_15': [0]}
+{'constant': [0, 1, 9, 32]}
 c_iscntrl:
-{'constant': [0, 1, 31], 'ir_2': [19], 'ir_4': [0], 'ir_5': [7], 'ir_7': [31], 'ir_18': [1], 'ir_10': [127]}
+{'constant': [0, 1, 31, 127]}
 c_isdigit:
-{'constant': [0, 1, 9, 48], 'ir_6': [7], 'ir_8': [9], 'ir_10': [1], 'ir_9': [0]}
+{'constant': [0, 1, 9, 48]}
 c_isgraph:
-{'constant': [0, 1, 33, 93], 'ir_6': [7], 'ir_8': [93], 'ir_10': [1], 'ir_9': [0]}
+{'constant': [0, 1, 33, 93]}
 c_islower:
-{'constant': [0, 1, 25, 97], 'ir_6': [7], 'ir_8': [25], 'ir_10': [1], 'ir_9': [0]}
+{'constant': [0, 1, 25, 97]}
 c_isprint:
-{'constant': [0, 1, 32, 94], 'ir_6': [7], 'ir_8': [94], 'ir_10': [1], 'ir_9': [0]}
+{'constant': [0, 1, 32, 94]}
 c_ispunct:
-{'constant': [0, 1, 3, 14, 33, 58, 64, 91, 96, 123], 'ir_2': [7], 'ir_4': [64], 'ir_28': [58], 'ir_7': [91], 'ir_35': [14], 'ir_37': [1], 'ir_36': [0], 'ir_10': [96], 'ir_17': [3]}
+{'constant': [0, 1, 3, 14, 33, 58, 64, 91, 96, 123]}
 c_isspace:
-{'constant': [0, 1, 9, 13], 'ir_2': [7], 'ir_4': [9], 'ir_17': [0], 'ir_7': [13], 'ir_18': [1], 'ir_10': [32]}
+{'constant': [0, 1, 9, 13, 32]}
 c_isupper:
-{'constant': [0, 1, 25, 65], 'ir_6': [7], 'ir_8': [25], 'ir_10': [1], 'ir_9': [0]}
+{'constant': [0, 1, 25, 65]}
 c_isxdigit:
-{'constant': [0, 1], 'ir_6': [7], 'ir_8': [54], 'ir_15': [4], 'ir_23': [0]}
+{'constant': [0, 1, 4, 48, 54]}
 c_tolower:
-{'constant': [25, 32, 65], 'ir_6': [7], 'ir_8': [25], 'ir_11': [3], 'ir_13': [32]}
+{'constant': [25, 65]}
 c_toupper:
-{'constant': [25, 32, 97], 'ir_6': [7], 'ir_8': [25], 'ir_13': [32]}
+{'constant': [25, 97]}
 dup_safer:
-{'constant': [], 'ir_0': [8], 'ir_1': [-65544], 'ir_2': [16], 'ir_5': [3], 'ir_6': [0]}
+{'constant': [], 'ir_8': [3], 'ir_9': [0]}
 __libc_csu_init:
-{'constant': [0, 1, 8], 'ir_6': [-443987883], 'ir_18': [36], 'ir_19': [1], 'ir_20': [2], 'ir_21': [20], 'ir_23': [0], 'ir_24': [19], 'ir_27': [0, 1, 2], 'ir_52': [4], 'ir_53': [-65592], 'ir_54': [8], 'ir_34': [1, 2]}
+{'constant': [0, 1, 8]}
 __libc_csu_fini:
 {'constant': []}
 atexit:
-{'constant': [], 'ir_0': [69279752], 'ir_1': [19], 'ir_2': [0]}
+{'constant': [], 'ir_0': [69279752], 'ir_4': [0]}
 __stat:
 {'constant': [], 'ir_4': [1]}
 __fstat:
@@ -415,4 +435,4 @@ __lstat:
 fstatat:
 {'constant': [], 'ir_8': [1]}
 _fini:
-{'constant': [], 'ir_3': [4], 'ir_4': [-65544], 'ir_5': [8]}
+{'constant': []}

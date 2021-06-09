@@ -1,7 +1,7 @@
 _init:
 {'constant': []}
 main:
-{'string': ['coreutils', '/usr/local/share/locale', 'coreutils', 'tab stop value is too large', 'input line is too long', 'input line is too long', 'write error'], 'constant': [0, 1, 8, 9, 10, 31, 44, 48, 63, 97], 'ir_15': [6], 'ir_31': ['tabs'], 's_58': [0, 1, 9], 'ir_683': [1], 'ir_89': [-1717986919], 'ir_90': [], 'ir_161': [0], 'ir_127': [5], 'ir_372': [-72540024], 'ir_255': [9]}
+{'string': ['coreutils', '/usr/local/share/locale', 'coreutils', 'tab stop value is too large', 'input line is too long', 'input line is too long', 'write error'], 'constant': [0, 1, 8, 9, 10, 31, 44, 48, 63], 'ir_15': [6], 'ir_31': ['tabs'], 's_58': [0, 1, 9], 'ir_683': [1], 'ir_89': [-1717986919], 'ir_90': [], 'ir_161': [0], 'ir_127': [5], 'ir_372': [-72540024], 'ir_255': [9]}
 _start:
 {'constant': []}
 sub_94ec:
@@ -15,7 +15,7 @@ frame_dummy:
 add_tab_stop:
 {'string': ['tabs are too far apart'], 'constant': [-1, 0, 1, 3, 4, 8, 32, 64, 178956969], 'ir_16': [0], 's_20': [1, 8], 'ir_11': [64], 'ir_109': [-1], 'ir_52': [1], 'ir_126': [5], 'ir_83': [8, 64]}
 parse_tab_stops:
-{'string': ["'/' specifier not at start of number: %s", "'+' specifier not at start of number: %s", '0123456789', 'tab stop is too large %s', '0123456789', '0123456789', '0123456789', 'tab size contains invalid character(s): %s', "'/' specifier only allowed with the last value", "'+' specifier only allowed with the last value", "'/' specifier only allowed with the last value", "'+' specifier only allowed with the last value"], 'constant': [0, 1, 4, 9, 10, 16, 24, 31, 43, 44, 47, 48, 429496729], 'ir_16': [0], 's_38': [0, 1], 'ir_410': [1], 'ir_294': [5], 'ir_125': [-1717986919], 'ir_126': [], 'ir_137': [10], 's_20': [0, 1, 8]}
+{'string': ["'/' specifier not at start of number: %s", "'+' specifier not at start of number: %s", '0123456789', 'tab stop is too large %s', 'tab size contains invalid character(s): %s', "'/' specifier only allowed with the last value", "'+' specifier only allowed with the last value", "'/' specifier only allowed with the last value", "'+' specifier only allowed with the last value"], 'constant': [0, 1, 4, 9, 10, 16, 24, 31, 43, 44, 47, 48, 429496729], 'ir_16': [0], 's_38': [0, 1], 'ir_410': [1], 'ir_294': [5], 'ir_125': [-1717986919], 'ir_126': [], 'ir_137': [10], 's_20': [0, 1, 8]}
 finalize_tab_stops:
 {'constant': [0, 1, 4, 8, 16, 24, 32], 'ir_76': [0], 'ir_181': [5], 'ir_126': [8], 's_18': [0, 8], 'ir_186': [1]}
 sub_9e5c:
@@ -147,7 +147,7 @@ exchange.constprop.3:
 process_long_option.constprop.4:
 {'string': ["%s: option '%s%s' is ambiguous; possibilities:", "%s: option '%s%s' is ambiguous\n", "%s: option '%s%s' doesn't allow an argument\n", "%s: option '%s%s' requires an argument\n", "%s: unrecognized option '%s%s'\n"], 'constant': [0, 1, 2, 8, 12, 16, 20, 61], 'ir_25': [1, 2, 3], 'ir_56': [0], 'ir_478': [1], 's_50': [-1, 0, 1, 2], 'ir_481': [63], 'ir_463': [-72540024], 'ir_465': [5], 'ir_475': [], 'ir_493': [0, 2], 'ir_555': [2], 'ir_401': [10]}
 _getopt_internal_r:
-{'string': ['POSIXLY_CORRECT', "%s: option requires an argument -- '%c'\n", "%s: option requires an argument -- '%c'\n", "%s: invalid option -- '%c'\n"], 'constant': [-1, 0, 1, 2, 4, 43, 45, 58, 59, 63, 87], 'ir_588': [-1], 'ir_23': [0], 's_40': [0, 1, 2], 'ir_147': [1], 'ir_562': [63], 'ir_546': [-72540024], 'ir_548': [5], 'ir_555': []}
+{'string': ['POSIXLY_CORRECT', "%s: option requires an argument -- '%c'\n", "%s: option requires an argument -- '%c'\n", "%s: invalid option -- '%c'\n"], 'constant': [-1, 0, 1, 2, 4, 43, 45, 58, 59, 63, 87], 'ir_588': [-1], 'ir_23': [0], 's_40': [0, 1, 2], 'ir_148': [1], 'ir_562': [63], 'ir_546': [-72540024], 'ir_548': [5], 'ir_555': []}
 rpl_getopt_internal:
 {'constant': [4, 8], 's_20': [0, 1], 'ir_12': [0]}
 rpl_getopt:

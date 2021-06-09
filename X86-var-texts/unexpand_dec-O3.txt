@@ -19,9 +19,9 @@ frame_dummy:
 usage:
 {'string': ['Usage: %s [OPTION]... [FILE]...\n', 'Convert blanks in each FILE to tabs, writing to standard output.\n', '\nWith no FILE, or when FILE is -, read standard input.\n', '\nMandatory arguments to long options are mandatory for short options too.\n', '  -a, --all        convert all blanks, instead of just initial blanks\n      --first-only  convert only leading sequences of blanks (overrides -a)\n  -t, --tabs=N     have tabs N characters apart instead of 8 (enables -a)\n', '      --help     display this help and exit\n', '      --version  output version information and exit\n', '\n%s online help: <%s>\n', '\n%s online help: <%s>\n', 'en_', 'Full documentation <%s%s>\n', 'en_', 'en_', 'Report any translation bugs to <https://translationproject.org/team/>\n', 'en_', 'en_', 'en_', 'Full documentation <%s%s>\n', 'en_', 'en_', 'en_', 'en_', "or available locally via: info '(coreutils) %s%s'\n", "Try '%s --help' for more information.\n"], 'constant': [0, 1, 9, 16], 'ir_1': [5], 's_98': [0], 'ir_37': [1], 'ir_22': [], 'ir_93': [6, 7, 8, 9], 'ir_95': [6, 7, 8], 'ir_152': [3]}
 add_tab_stop:
-{'constant': [0, 1, 2, 3, 8, 16], 'ir_6': [0, 1], 'ir_10': [0], 's_18': [1, 16], 'ir_59': [16], 'ir_33': [1], 'ir_62': [8, 128]}
+{'constant': [0, 1, 2, 3, 8, 16], 'ir_6': [0, 1], 'ir_10': [0], 's_18': [1, 16], 'ir_59': [16], 'ir_33': [1], 'ir_64': [8, 128]}
 parse_tab_stops:
-{'string': ["'/' specifier not at start of number: %s", "'+' specifier not at start of number: %s", 'tab size contains invalid character(s): %s', "'/' specifier only allowed with the last value", "'+' specifier only allowed with the last value", '0123456789', 'tab stop is too large %s', "'/' specifier only allowed with the last value", "'+' specifier only allowed with the last value"], 'constant': [0, 1, 5, 44, 47, 48], 's_48': [0, 1], 'ir_78': [0], 'ir_379': [5], 'ir_398': [1], 's_18': [0, 1, 16]}
+{'string': ["'/' specifier not at start of number: %s", "'+' specifier not at start of number: %s", 'tab size contains invalid character(s): %s', '0123456789', 'tab stop is too large %s', "'+' specifier only allowed with the last value", "'/' specifier only allowed with the last value", "'/' specifier only allowed with the last value", "'+' specifier only allowed with the last value"], 'constant': [0, 1, 5, 44, 47, 48], 's_48': [0, 1], 'ir_78': [0], 'ir_379': [5], 'ir_398': [1], 's_18': [0, 1, 16]}
 finalize_tab_stops:
 {'string': ['tab sizes must be ascending', 'tab size cannot be 0', "'/' specifier is mutually exclusive with '+'", "'/' specifier is mutually exclusive with '+'", 'tab size cannot be 0'], 'constant': [0, 1, 2, 3, 8], 'ir_3': [0], 'ir_120': [8], 'ir_60': [5], 's_8': [0, 1, 8], 'ir_71': [1]}
 get_next_tab_column:
@@ -29,7 +29,7 @@ get_next_tab_column:
 set_file_list:
 {'constant': [0]}
 next_file:
-{'string': ['%s', '-', '%s', 'r', '%s'], 'constant': [0, 1, 2, 8, 32], 's_28': [1, 8, 16], 'ir_8': [0], 'ir_95': [-1, 0, 1, 2], 'ir_98': [-1, 0, 1], 'ir_184': [341], 'ir_37': [1, 2, 3], 'ir_20': [3], 'ir_163': [], 'ir_164': [2]}
+{'string': ['%s', '-', '%s', 'r', '%s'], 'constant': [0, 1, 2, 8, 32], 's_28': [1, 8, 16], 'ir_8': [0], 'ir_95': [-1, 0, 1, 2], 'ir_98': [-1, 0, 1], 'ir_184': [341], 'ir_39': [1, 2, 3], 'ir_20': [3], 'ir_163': [], 'ir_164': [2]}
 cleanup_file_list_stdin:
 {'string': ['-'], 'constant': [0], 'ir_6': [], 'ir_13': [1]}
 emit_tab_list_info:

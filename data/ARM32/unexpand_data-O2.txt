@@ -1,5 +1,5 @@
 unexpand@_init			
-unexpand@main		coreutils	/usr/local/share/locale	coreutils	write error	input line is too long	input line is too long	tab stop value is too large		0	1	8	9	10	31	44	48	63	429496729		6		tabs		0	1	9		1		-1717986919			0		5		-72540024		9		
+unexpand@main		coreutils	/usr/local/share/locale	coreutils	input line is too long	input line is too long	tab stop value is too large	write error		0	1	2	4	8	9	10	31	44	48	63	429496729		6		tabs		0	1	9		1		-1717986919			0		5		-72540024		9		
 unexpand@_start			
 unexpand@sub_94ec			
 unexpand@call_weak_fn			1		0		
@@ -7,8 +7,8 @@ unexpand@__do_global_dtors_aux		0	1		1
 unexpand@frame_dummy			0		
 unexpand@set_extend_size		"'/' specifier only allowed with the last value"		0	4		0		1		5		
 unexpand@set_increment_size		"'+' specifier only allowed with the last value"		0	4	8		0		1		5		
-unexpand@add_tab_stop		tabs are too far apart		-1	0	1	3	4	8	16	32	64	178956969		0		1	8		64		-1		1		5		8	64		
-unexpand@parse_tab_stops		"'/' specifier not at start of number: %s"	"'+' specifier not at start of number: %s"	0123456789	tab stop is too large %s	0123456789	tab size contains invalid character(s): %s		0	1	9	10	31	43	44	47	48	429496729		1		0		5		-1717986919			0	1	8		
+unexpand@add_tab_stop		tabs are too far apart		-1	0	1	3	4	8	16	20	24	32	64	178956969		0		1	8		64		-1		1		5		8	64		
+unexpand@parse_tab_stops		"'/' specifier not at start of number: %s"	"'+' specifier not at start of number: %s"	0123456789	tab stop is too large %s	tab size contains invalid character(s): %s		0	1	9	10	31	43	44	47	48	429496729		1		0		5		-1717986919			0	1	8		
 unexpand@finalize_tab_stops		0	1	4	8	32		0		5		8		0	8		1		
 unexpand@sub_9e28			
 unexpand@get_next_tab_column		0	1	2	3	8		0		0	1		

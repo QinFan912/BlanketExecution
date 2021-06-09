@@ -1,6 +1,6 @@
 unexpand@_init		0		
 unexpand@sub_4011b0			
-unexpand@main		coreutils	/usr/local/share/locale	coreutils	,0123456789at:	unexpand	GNU coreutils	David MacKenzie	tab stop value is too large	input line is too long	write error	input line is too long	write error		-131	-130	-1	0	1	2	8	9	44	48	63	97	116	128	255		0	1	9		6		0		tabs		1			5		-65609		-65608		
+unexpand@main		coreutils	/usr/local/share/locale	coreutils	,0123456789at:	unexpand	GNU coreutils	David MacKenzie	tab stop value is too large	input line is too long	write error	input line is too long	write error		-131	-130	-1	0	1	2	8	9	10	44	48	63	97	116	255		0	1	9		6		0		tabs		1			5		-65609		-65608		
 unexpand@_start			-65528		
 unexpand@_dl_relocate_static_pie			
 unexpand@deregister_tm_clones		0	7		

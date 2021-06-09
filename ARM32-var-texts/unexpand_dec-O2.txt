@@ -1,7 +1,7 @@
 _init:
 {'constant': []}
 main:
-{'string': ['coreutils', '/usr/local/share/locale', 'coreutils', 'write error', 'input line is too long', 'input line is too long', 'tab stop value is too large'], 'constant': [0, 1, 8, 9, 10, 31, 44, 48, 63, 429496729], 'ir_15': [6], 'ir_31': ['tabs'], 's_58': [0, 1, 9], 'ir_683': [1], 'ir_89': [-1717986919], 'ir_90': [], 'ir_161': [0], 'ir_127': [5], 'ir_372': [-72540024], 'ir_255': [9]}
+{'string': ['coreutils', '/usr/local/share/locale', 'coreutils', 'input line is too long', 'input line is too long', 'tab stop value is too large', 'write error'], 'constant': [0, 1, 2, 4, 8, 9, 10, 31, 44, 48, 63, 429496729], 'ir_15': [6], 'ir_31': ['tabs'], 's_58': [0, 1, 9], 'ir_683': [1], 'ir_89': [-1717986919], 'ir_90': [], 'ir_161': [0], 'ir_127': [5], 'ir_372': [-72540024], 'ir_255': [9]}
 _start:
 {'constant': []}
 sub_94ec:
@@ -17,9 +17,9 @@ set_extend_size:
 set_increment_size:
 {'string': ["'+' specifier only allowed with the last value"], 'constant': [0, 4, 8], 'ir_7': [0], 'ir_18': [1], 'ir_22': [5]}
 add_tab_stop:
-{'string': ['tabs are too far apart'], 'constant': [-1, 0, 1, 3, 4, 8, 16, 32, 64, 178956969], 'ir_16': [0], 's_20': [1, 8], 'ir_98': [64], 'ir_68': [-1], 'ir_133': [1], 'ir_85': [5], 'ir_160': [8, 64]}
+{'string': ['tabs are too far apart'], 'constant': [-1, 0, 1, 3, 4, 8, 16, 20, 24, 32, 64, 178956969], 'ir_16': [0], 's_20': [1, 8], 'ir_94': [64], 'ir_68': [-1], 'ir_133': [1], 'ir_85': [5], 'ir_160': [8, 64]}
 parse_tab_stops:
-{'string': ["'/' specifier not at start of number: %s", "'+' specifier not at start of number: %s", '0123456789', 'tab stop is too large %s', '0123456789', 'tab size contains invalid character(s): %s'], 'constant': [0, 1, 9, 10, 31, 43, 44, 47, 48, 429496729], 'ir_16': [1], 'ir_17': [0], 'ir_229': [5], 'ir_121': [-1717986919], 'ir_122': [], 's_20': [0, 1, 8]}
+{'string': ["'/' specifier not at start of number: %s", "'+' specifier not at start of number: %s", '0123456789', 'tab stop is too large %s', 'tab size contains invalid character(s): %s'], 'constant': [0, 1, 9, 10, 31, 43, 44, 47, 48, 429496729], 'ir_16': [1], 'ir_17': [0], 'ir_229': [5], 'ir_121': [-1717986919], 'ir_122': [], 's_20': [0, 1, 8]}
 finalize_tab_stops:
 {'constant': [0, 1, 4, 8, 32], 'ir_76': [0], 'ir_181': [5], 'ir_126': [8], 's_18': [0, 8], 'ir_186': [1]}
 sub_9e28:
@@ -151,7 +151,7 @@ rpl_fseeko:
 process_long_option:
 {'string': ["%s: option '%s%s' is ambiguous; possibilities:", "%s: option '%s%s' is ambiguous\n", "%s: option '%s%s' doesn't allow an argument\n", "%s: option '%s%s' requires an argument\n", "%s: unrecognized option '%s%s'\n"], 'constant': [-1, 0, 1, 2, 16, 45, 61], 'ir_492': [0], 's_58': [-1, 0, 1], 'ir_495': [63], 'ir_475': [-72540024], 'ir_477': [5], 'ir_487': [1], 'ir_488': [], 'ir_135': [-1], 'ir_367': [10]}
 _getopt_internal_r:
-{'string': ['POSIXLY_CORRECT', "%s: option requires an argument -- '%c'\n", "%s: option requires an argument -- '%c'\n", "%s: invalid option -- '%c'\n"], 'constant': [-1, 0, 1, 2, 4, 43, 45, 58, 59, 63, 87], 'ir_587': [-1], 'ir_23': [0], 's_40': [0, 1, 2], 'ir_148': [1], 'ir_561': [63], 'ir_545': [-72540024], 'ir_547': [5], 'ir_200': [0, 1], 'ir_554': []}
+{'string': ['POSIXLY_CORRECT', "%s: option requires an argument -- '%c'\n", "%s: option requires an argument -- '%c'\n", "%s: invalid option -- '%c'\n"], 'constant': [-1, 0, 1, 2, 4, 43, 45, 58, 59, 63, 87], 'ir_587': [-1], 'ir_23': [0], 's_40': [0, 1, 2], 'ir_147': [1], 'ir_561': [63], 'ir_545': [-72540024], 'ir_547': [5], 'ir_200': [0, 1], 'ir_554': []}
 rpl_getopt_internal:
 {'constant': [4, 8], 's_20': [0, 1], 'ir_12': [0]}
 rpl_getopt:
