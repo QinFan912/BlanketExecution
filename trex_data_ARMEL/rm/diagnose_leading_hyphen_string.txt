@@ -1,0 +1,2 @@
+Try '%s ./%s' to remove the file %s.
+
