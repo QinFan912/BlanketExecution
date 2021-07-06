@@ -1,0 +1,8 @@
+coreutils
+/usr/local/share/locale
+coreutils
+TZ
+.
+.
+//DIRED-OPTIONS// --quoting-style=%s
+

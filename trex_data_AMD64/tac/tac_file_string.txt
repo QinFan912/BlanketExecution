@@ -1,0 +1,4 @@
+-
+standard input
+failed to open %s for reading
+%s: read error

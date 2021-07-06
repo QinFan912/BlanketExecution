@@ -1,0 +1,8 @@
+failed to change mode of %s from %04lo (%s) to %04lo (%s)
+
+mode of %s retained as %04lo (%s)
+
+mode of %s changed from %04lo (%s) to %04lo (%s)
+
+neither symbolic link %s nor referent has been changed
+

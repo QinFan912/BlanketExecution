@@ -1,0 +1,2 @@
+C
+time %s is out of range

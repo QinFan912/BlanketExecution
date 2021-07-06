@@ -1,0 +1,6 @@
+cannot fstat %s
+overflow in %ld * %ld byte blocks for file %s
+cannot get the size of %s
+%s has unusable, apparently negative size
+overflow extending size of file %s
+failed to truncate %s at %ld bytes

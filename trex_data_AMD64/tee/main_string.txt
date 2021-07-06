@@ -1,0 +1,13 @@
+coreutils
+/usr/local/share/locale
+coreutils
+aip
+tee
+GNU coreutils
+Mike Parker
+Richard M. Stallman
+--output-error
+standard input
+%s
+appe
+warn

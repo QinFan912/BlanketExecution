@@ -1,0 +1,21 @@
+coreutils
+/usr/local/share/locale
+coreutils
+-0123456789D:FJN:S::TW:abcde::fh:i::l:mn::o:rs::tvw:
+pr
+GNU coreutils
+Pete TerMaat
+Roland Huebner
+'-N NUMBER' invalid starting line number
+'-W PAGE_WIDTH' invalid number of characters
+'-l PAGE_LENGTH' invalid number of lines
+'-o MARGIN' invalid line offset
+'-w PAGE_WIDTH' invalid number of characters
+'--pages=FIRST_PAGE[:LAST_PAGE]' missing argument
+invalid page range %s
+POSIXLY_CORRECT
+TZ
+cannot specify number of columns when printing in parallel
+cannot specify both printing across and printing in parallel
+standard input
+page

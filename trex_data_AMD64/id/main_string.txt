@@ -1,0 +1,21 @@
+coreutils
+/usr/local/share/locale
+coreutils
+agnruzGZ
+id
+GNU coreutils
+Arnold Robbins
+David MacKenzie
+--context (-Z) works only on an SELinux-enabled kernel
+cannot print security context when user specified
+cannot print "only" of more than one choice
+cannot print only names or real IDs in default format
+option --zero not permitted in default format
+POSIXLY_CORRECT
+can't get process context
+%s: no such user
+cannot get effective UID
+cannot get real UID
+cannot get effective GID
+cannot get real GID
+cont

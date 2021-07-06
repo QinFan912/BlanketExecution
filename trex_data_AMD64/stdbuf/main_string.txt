@@ -1,0 +1,14 @@
+coreutils
+/usr/local/share/locale
+coreutils
++i:o:e:
+stdbuf
+GNU coreutils
+Padraig Brady
+invalid mode %s
+line buffering stdin is meaningless
+/usr/local/lib/coreutils
+failed to run command %s
+you must specify a buffering mode option
+missing operand
+inpu

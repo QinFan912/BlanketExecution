@@ -1,0 +1,23 @@
+Usage: %s NAME [SUFFIX]
+  or:  %s OPTION... NAME...
+
+Print NAME with any leading directory components removed.
+If specified, also remove a trailing SUFFIX.
+
+  -a, --multiple       support multiple arguments and treat each as a NAME
+  -s, --suffix=SUFFIX  remove a trailing SUFFIX; implies -a
+  -z, --zero           end each output line with NUL, not newline
+
+      --help     display this help and exit
+
+      --version  output version information and exit
+
+
+Examples:
+  %s /usr/bin/sort          -> "sort"
+  %s include/stdio.h .h     -> "stdio"
+  %s -s .h include/stdio.h  -> "stdio"
+  %s -a any/str1 any/str2   -> "str1" followed by "str2"
+
+Try '%s --help' for more information.
+

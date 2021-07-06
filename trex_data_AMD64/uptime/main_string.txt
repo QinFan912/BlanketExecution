@@ -1,0 +1,6 @@
+coreutils
+/usr/local/share/locale
+coreutils
+uptime
+GNU coreutils
+extra operand %s

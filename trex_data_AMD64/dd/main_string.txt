@@ -1,0 +1,14 @@
+coreutils
+/usr/local/share/locale
+coreutils
+dd
+coreutils
+failed to open %s
+standard input
+failed to open %s
+offset too large: cannot truncate to a length of seek=%lu (%lu-byte) blocks
+cannot fstat %s
+failed to truncate to %lu bytes in output file %s
+standard output
+failed to discard cache for: %s
+failed to discard cache for: %s

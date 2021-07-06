@@ -1,0 +1,4 @@
+missing conversion specifier in suffix
+invalid conversion specifier in suffix: %c
+invalid conversion specifier in suffix: \%.3o
+invalid flags in conversion specification: %%%c%c

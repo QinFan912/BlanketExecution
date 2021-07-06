@@ -1,0 +1,16 @@
+removed %s
+
+cannot remove %s
+cannot create regular file %s
+failed to clone %s from %s
+failed to extend %s
+preserving times for %s
+preserving permissions for %s
+cannot fstat %s
+not writing through dangling symlink %s
+failed to close %s
+not writing through dangling symlink %s
+skipping file %s, as it was replaced while being copied
+cannot fstat %s
+failed to close %s
+cannot open %s for reading

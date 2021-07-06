@@ -1,0 +1,27 @@
+if
+of
+conv
+iflag
+oflag
+status
+ibs
+obs
+bs
+cbs
+skip
+seek
+count
+unrecognized operand %s
+invalid number
+unrecognized operand %s
+cannot combine any two of {ascii,ebcdic,ibm}
+cannot combine block and unblock
+cannot combine lcase and ucase
+cannot combine excl and nocreat
+cannot combine direct and nocache
+count_bytes
+invalid output flag
+seek_bytes
+invalid input flag
+fullblock
+invalid output flag

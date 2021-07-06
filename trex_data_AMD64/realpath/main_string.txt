@@ -1,0 +1,13 @@
+coreutils
+/usr/local/share/locale
+coreutils
+eLmPqsz
+missing operand
+realpath
+GNU coreutils
+Padraig Brady
+%s
+%s
+%s
+%s
+cano

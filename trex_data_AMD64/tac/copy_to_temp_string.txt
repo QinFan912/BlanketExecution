@@ -1,0 +1,3 @@
+%s: write error
+%s: write error
+%s: read error

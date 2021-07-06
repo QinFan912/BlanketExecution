@@ -1,0 +1,15 @@
+byte/character positions are numbered from 1
+fields are numbered from 1
+invalid byte or character range
+invalid field range
+invalid byte/character position %s
+invalid field value %s
+0123456789
+byte/character offset %s is too large
+field number %s is too large
+invalid range with no endpoint: -
+invalid decreasing range
+fields are numbered from 1
+byte/character positions are numbered from 1
+missing list of byte/character positions
+missing list of fields

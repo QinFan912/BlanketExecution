@@ -1,0 +1,18 @@
+creating file %s
+
+failed to stat %s
+%s would overwrite input; aborting
+%s: error truncating
+SHELL
+FILE
+failed to set FILE environment variable
+executing with FILE=%s
+
+failed to create pipe
+closing prior pipe
+closing output pipe
+moving input pipe
+closing input pipe
+failed to run command: "%s -c %s"
+fork system call failed
+failed to close input pipe

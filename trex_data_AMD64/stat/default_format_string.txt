@@ -1,0 +1,28 @@
+%n %s %b %f %u %g %D %i %h %t %T %X %Y %Z %W %o
+
+  File: %N
+  Size: %-10s	Blocks: %-10b IO Block: %-6o %F
+
+Device: %Dh/%dd	Inode: %-10i  Links: %-5h Device type: %t,%T
+
+%s%s
+Device: %Dh/%dd	Inode: %-10i  Links: %h
+
+%s%s
+Access: (%04a/%10.10A)  Uid: (%5u/%8U)   Gid: (%5g/%8G)
+
+%s%s
+Access: %x
+Modify: %y
+Change: %z
+ Birth: %w
+
+%s%s
+%n %i %l %t %s %S %b %f %a %c %d
+
+  File: "%n"
+    ID: %-8i Namelen: %-7l Type: %T
+Block size: %-10s Fundamental block size: %S
+Blocks: Total: %-10b Free: %-10f Available: %a
+Inodes: Total: %-10c Free: %d
+

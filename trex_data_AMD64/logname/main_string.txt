@@ -1,0 +1,7 @@
+coreutils
+/usr/local/share/locale
+coreutils
+logname
+GNU coreutils
+no login name
+extra operand %s

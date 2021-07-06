@@ -1,0 +1,10 @@
+coreutils
+/usr/local/share/locale
+coreutils
++pP
+missing operand
+pathchk
+GNU coreutils
+Paul Eggert
+David MacKenzie
+port

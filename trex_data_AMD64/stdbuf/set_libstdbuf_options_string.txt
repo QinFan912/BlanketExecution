@@ -1,0 +1,5 @@
+%s%c=L
+_STDBUF_
+%s%c=%lu
+_STDBUF_
+failed to update the environment with %s

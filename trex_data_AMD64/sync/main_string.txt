@@ -1,0 +1,11 @@
+coreutils
+/usr/local/share/locale
+coreutils
+df
+sync
+GNU coreutils
+Jim Meyering
+Giuseppe Scrivano
+cannot specify both --data and --file-system
+--data needs at least one argument
+data

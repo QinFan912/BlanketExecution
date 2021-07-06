@@ -1,0 +1,13 @@
+coreutils
+/usr/local/share/locale
+coreutils
+f:b:kn:sqz
+missing operand after %s
+missing operand
+csplit
+GNU coreutils
+Stuart Kemp
+David MacKenzie
+invalid number
+read error
+digi

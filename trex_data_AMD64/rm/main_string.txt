@@ -1,0 +1,22 @@
+coreutils
+/usr/local/share/locale
+coreutils
+dfirvIR
+/
+failed to get attributes of %s
+%s: remove %lu argument recursively? 
+%s: remove %lu arguments recursively? 
+%s: remove %lu argument? 
+%s: remove %lu arguments? 
+missing operand
+all
+unrecognized --preserve-root argument: %s
+--no-preserve-root
+you may not abbreviate the --no-preserve-root option
+--interactive
+rm
+GNU coreutils
+Paul Rubin
+David MacKenzie
+forc
+neve

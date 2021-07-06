@@ -1,0 +1,6 @@
+empty file name
+%s
+%s: unable to determine maximum file name length
+limit %lu exceeded by length %lu of file name %s
+%s
+limit %lu exceeded by length %lu of file name component %s

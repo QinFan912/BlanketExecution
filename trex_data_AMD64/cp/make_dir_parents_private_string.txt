@@ -1,0 +1,6 @@
+failed to get attributes of %s
+failed to get attributes of %s
+setting permissions for %s
+cannot make directory %s
+%s exists but is not a directory
+%s exists but is not a directory

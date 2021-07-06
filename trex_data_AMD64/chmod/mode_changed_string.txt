@@ -1,0 +1,1 @@
+getting new attributes of %s

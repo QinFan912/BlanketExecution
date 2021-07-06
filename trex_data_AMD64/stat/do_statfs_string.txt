@@ -1,0 +1,3 @@
+-
+cannot read file system information for %s
+using %s to denote standard input does not work in file system mode

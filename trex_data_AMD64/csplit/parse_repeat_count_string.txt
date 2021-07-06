@@ -1,0 +1,2 @@
+%s: '}' is required in repeat count
+%s}: integer required between '{' and '}'

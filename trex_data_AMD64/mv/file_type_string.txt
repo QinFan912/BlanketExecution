@@ -1,0 +1,9 @@
+regular empty file
+regular file
+weird file
+socket
+fifo
+character special file
+block special file
+symbolic link
+directory

@@ -1,0 +1,7 @@
+obsolescent key %s used; consider %s instead
+key %lu has zero width and will be ignored
+leading blanks are significant in key %lu; consider also specifying 'b'
+key %lu is numeric and spans multiple fields
+option '-%s' is ignored
+options '-%s' are ignored
+option '-r' only applies to last-resort comparison

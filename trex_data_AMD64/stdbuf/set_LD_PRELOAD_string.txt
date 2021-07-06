@@ -1,0 +1,9 @@
+LD_PRELOAD
+%s/%s
+libstdbuf.so
+libstdbuf.so
+failed to find %s
+libstdbuf.so
+%s=%s
+%s=%s:%s
+failed to update the environment with %s

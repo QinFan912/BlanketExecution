@@ -1,0 +1,2 @@
+too many %% conversion specifications in suffix
+missing %% conversion specification in suffix

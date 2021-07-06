@@ -1,0 +1,10 @@
+coreutils
+/usr/local/share/locale
+coreutils
+sfwiqbhlp
+pinky
+GNU coreutils
+Joseph Arceneaux
+David MacKenzie
+no username specified; at least one must be specified when using -l
+help

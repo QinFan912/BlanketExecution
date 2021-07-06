@@ -1,0 +1,8 @@
+/s
+Infinity
+%s B/s
+%lu bytes (%s) copied, %s, %s
+%lu bytes (%s, %s) copied, %s, %s
+%lu byte copied, %s, %s
+%lu bytes copied, %s, %s
+%*s

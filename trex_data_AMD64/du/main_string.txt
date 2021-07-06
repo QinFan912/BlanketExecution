@@ -1,0 +1,40 @@
+coreutils
+/usr/local/share/locale
+coreutils
+DU_BLOCK_SIZE
+0abd:chHklmst:xB:DLPSX:
+du
+GNU coreutils
+Torbjorn Granlund
+David MacKenzie
+%s
+invalid maximum depth %s
+kKmMGTPEZY0
+invalid --threshold argument '-0'
+--time
+TZ
+cannot both summarize and show all entries
+warning: summarizing is the same as using --max-depth=0
+warning: summarizing conflicts with --max-depth=%lu
+warning: options --apparent-size and -b are ineffective with --inodes
+TIME_STYLE
+locale
+posix-
+locale
+time style
+r
+cannot open %s for reading
+extra operand %s
+file operands cannot be combined with --files0-from
+%s
+
+when reading file names from stdin, no file name of %s allowed
+invalid zero-length file name
+%s
+invalid zero-length file name
+%s:%lu: %s
+%s: read error
+error reading %s
+total
+atim
+full

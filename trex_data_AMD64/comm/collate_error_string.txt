@@ -1,0 +1,3 @@
+string comparison failed
+Set LC_ALL='C' to work around the problem.
+The strings compared were %s and %s.

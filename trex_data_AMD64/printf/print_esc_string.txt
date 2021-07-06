@@ -1,0 +1,4 @@
+missing hexadecimal number in escape
+"\abcefnrtv
+missing hexadecimal number in escape
+invalid universal character name \%c%0*x

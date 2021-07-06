@@ -1,0 +1,15 @@
+format %s has no %% directive
+invalid format %s (width overflow)
+--format padding overriding --padding
+format %s ends in %%
+invalid precision in format %s
+invalid format %s, directive must be %%[0]['][-][N][.][N]f
+format %s has too many %% directives
+format String:
+  input: %s
+  grouping: %s
+  padding width: %ld
+  alignment: %s
+  prefix: %s
+  suffix: %s
+

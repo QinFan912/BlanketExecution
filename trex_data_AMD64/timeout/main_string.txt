@@ -1,0 +1,13 @@
+coreutils
+/usr/local/share/locale
+coreutils
++k:s:v
+timeout
+GNU coreutils
+Padraig Brady
+the monitored command dumped core
+unknown status from command (%d)
+error waiting for command
+failed to run command %s
+fork system call failed
+kill

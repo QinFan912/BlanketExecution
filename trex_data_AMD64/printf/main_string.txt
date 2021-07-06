@@ -1,0 +1,15 @@
+coreutils
+/usr/local/share/locale
+coreutils
+POSIXLY_CORRECT
+--help
+--help
+--version
+printf
+GNU coreutils
+David MacKenzie
+--help
+--help
+--
+warning: ignoring excess arguments, starting with %s
+missing operand

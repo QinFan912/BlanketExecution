@@ -1,0 +1,3 @@
+QUOTING_STYLE
+ignoring invalid value of environment variable QUOTING_STYLE: %s
+lite

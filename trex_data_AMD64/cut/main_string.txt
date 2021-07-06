@@ -1,0 +1,16 @@
+coreutils
+/usr/local/share/locale
+coreutils
+b:c:d:f:nsz
+an input delimiter may be specified only when operating on fields
+suppressing non-delimited lines makes sense
+	only when operating on fields
+you must specify a list of bytes, characters, or fields
+only one type of list may be specified
+cut
+GNU coreutils
+David M. Ihnat
+David MacKenzie
+the delimiter must be a single character
+only one type of list may be specified
+byte

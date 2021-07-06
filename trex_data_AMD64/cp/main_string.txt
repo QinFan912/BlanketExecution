@@ -1,0 +1,25 @@
+coreutils
+/usr/local/share/locale
+coreutils
+abdfHilLnprst:uvxPRS:TZ
+cannot make both hard and symbolic links
+options --backup and --no-clobber are mutually exclusive
+--reflink can be used only with --sparse=auto
+backup type
+cp
+GNU coreutils
+Torbjorn Granlund
+David MacKenzie
+warning: ignoring --context; it requires an SELinux-enabled kernel
+multiple target directories specified
+failed to access %s
+target %s is not a directory
+--reflink
+--sparse
+cannot set target context and preserve it
+cannot preserve security context without an SELinux-enabled kernel
+failed to set default file creation context to %s
+cannot preserve extended attributes, cp is built without xattr support
+arch
+neve
+auto

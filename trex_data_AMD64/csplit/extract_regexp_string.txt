@@ -1,0 +1,2 @@
+%s: closing delimiter '%c' missing
+%s: invalid regular expression: %s

@@ -1,0 +1,17 @@
+coreutils
+/usr/local/share/locale
+coreutils
+benstuvAET
+cat
+GNU coreutils
+Torbjorn Granlund
+Richard M. Stallman
+standard output
+-
+%s
+%s: input file is output file
+%s
+-
+%s
+closing standard input
+numb

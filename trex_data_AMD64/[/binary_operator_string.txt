@@ -1,0 +1,7 @@
+-l
+-l
+-ef does not accept -l
+-ot does not accept -l
+-nt does not accept -l
+%s: unknown binary operator
+!=

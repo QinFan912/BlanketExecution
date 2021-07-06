@@ -1,0 +1,12 @@
+Login
+%-8s
+Name
+ %-19s
+ TTY
+ %-9s
+Idle
+ %-6s
+When
+ %-*s
+Where
+ %s

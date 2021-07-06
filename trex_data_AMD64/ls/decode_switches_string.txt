@@ -1,0 +1,42 @@
+COLUMNS
+ignoring invalid width in environment variable COLUMNS: %s
+TABSIZE
+ignoring invalid tab size in environment variable TABSIZE: %s
+abcdfghiklmnopqrstuvw:xABCDFGHI:LNQRST:UXZ1
+GNU coreutils
+Richard M. Stallman
+David MacKenzie
+*~
+.*~
+invalid tab size
+invalid line width
+%s: %s
+abcdfghiklmnopqrstuvw:xABCDFGHI:LNQRST:UXZ1
+--color
+--format
+--hyperlink
+--indicator-style
+--quoting-style
+--sort
+--time
+LS_BLOCK_SIZE
+BLOCK_SIZE
+TIME_STYLE
+posix-
+time style
+Valid arguments are:
+
+invalid time style format %s
+posix-
+  - [posix-]%s
+
+  - +FORMAT (e.g., +%H:%M) for a 'date'-style format
+
+long
+full
+none
+verb
+lite
+atim
+alwa
+full

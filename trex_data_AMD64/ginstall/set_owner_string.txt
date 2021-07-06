@@ -1,0 +1,2 @@
+clearing permissions for %s
+failed to preserve ownership for %s

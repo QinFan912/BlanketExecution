@@ -1,0 +1,7 @@
+r
+%s
+%s
+%s
+%s
+total
+%s%s%s%s%s%s%s%c

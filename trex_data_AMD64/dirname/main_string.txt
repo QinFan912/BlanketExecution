@@ -1,0 +1,10 @@
+coreutils
+/usr/local/share/locale
+coreutils
+z
+dirname
+GNU coreutils
+David MacKenzie
+Jim Meyering
+missing operand
+zero

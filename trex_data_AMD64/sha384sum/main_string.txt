@@ -1,0 +1,19 @@
+coreutils
+/usr/local/share/locale
+coreutils
+sha384sum
+GNU coreutils
+Ulrich Drepper
+Scott Miller
+--tag does not support --text mode
+the --zero option is not supported when verifying checksums
+the --tag option is meaningless when verifying checksums
+the --binary and --text options are meaningless when verifying checksums
+the --ignore-missing option is meaningful only when verifying checksums
+the --status option is meaningful only when verifying checksums
+the --warn option is meaningful only when verifying checksums
+the --quiet option is meaningful only when verifying checksums
+the --strict option is meaningful only when verifying checksums
+%02x
+standard input
+bina

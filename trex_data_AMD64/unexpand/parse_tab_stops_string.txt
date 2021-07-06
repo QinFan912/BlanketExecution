@@ -1,5 +1,5 @@
 '/' specifier not at start of number: %s
+'+' specifier not at start of number: %s
 0123456789
 tab stop is too large %s
 tab size contains invalid character(s): %s
-'+' specifier not at start of number: %s

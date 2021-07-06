@@ -1,0 +1,2 @@
+%s: line number out of range
+%s: line number out of range

@@ -1,0 +1,5 @@
+SHELL
+csh
+tcsh
+csh
+tcsh

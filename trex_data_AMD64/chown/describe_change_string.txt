@@ -1,0 +1,26 @@
+failed to change group of %s to %s
+
+failed to change ownership of %s
+
+failed to change ownership of %s to %s
+
+failed to change group of %s from %s to %s
+
+failed to change ownership of %s
+
+failed to change ownership of %s from %s to %s
+
+group of %s retained as %s
+
+ownership of %s retained
+
+ownership of %s retained as %s
+
+changed group of %s from %s to %s
+
+no change to ownership of %s
+
+changed ownership of %s from %s to %s
+
+neither symbolic link %s nor referent has been changed
+

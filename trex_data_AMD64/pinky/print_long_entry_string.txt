@@ -1,0 +1,16 @@
+Login name: 
+%-28s
+In real life: 
+ %s
+Directory: 
+%-29s
+Shell: 
+ %s
+r
+Project: 
+r
+Plan:
+
+???
+
+ %s

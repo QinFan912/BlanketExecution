@@ -1,0 +1,4 @@
+error opening %s
+couldn't reset non-blocking mode %s
+error syncing %s
+failed to close %s

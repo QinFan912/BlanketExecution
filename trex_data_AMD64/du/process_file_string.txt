@@ -1,0 +1,9 @@
+cannot read directory %s
+cannot access %s
+WARNING: Circular directory structure.
+This almost certainly means that you have a corrupted file system.
+NOTIFY YOUR SYSTEM MANAGER.
+The following directory is part of the cycle:
+  %s
+
+%s

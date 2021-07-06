@@ -1,0 +1,15 @@
+coreutils
+/usr/local/share/locale
+coreutils
+m:Z
+warning: ignoring --context; it requires an SELinux/SMACK-enabled kernel
+mkfifo
+GNU coreutils
+David MacKenzie
+failed to set default file creation context to %s
+missing operand
+invalid mode
+mode must specify only file permission bits
+cannot set permissions of %s
+cannot create fifo %s
+cont

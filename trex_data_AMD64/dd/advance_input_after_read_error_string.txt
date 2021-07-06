@@ -1,0 +1,4 @@
+offset overflow while reading file %s
+warning: invalid file offset after failed read
+cannot work around kernel bug after all
+%s: cannot seek

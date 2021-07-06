@@ -1,0 +1,5 @@
+write error for %s
+%s
+%s
+
+%s

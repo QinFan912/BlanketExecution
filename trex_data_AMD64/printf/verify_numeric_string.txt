@@ -1,0 +1,3 @@
+%s: value not completely converted
+%s: expected a numeric value
+%s

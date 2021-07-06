@@ -1,0 +1,17 @@
+error: invalid date/time value:
+
+    user provided time: '%s'
+
+       normalized time: '%s'
+
+                                 %4s %2s %2s %2s %2s %2s
+     possible reasons:
+
+       non-existing due to daylight-saving time;
+
+       invalid day/month combination;
+
+       numeric values overflow;
+
+incorrect timezone
+missing timezone

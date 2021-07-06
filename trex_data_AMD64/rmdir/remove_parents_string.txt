@@ -1,0 +1,2 @@
+removing directory, %s
+failed to remove directory %s

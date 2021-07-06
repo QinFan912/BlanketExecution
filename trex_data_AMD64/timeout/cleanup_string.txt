@@ -1,0 +1,2 @@
+%d
+sending signal %s to command %s

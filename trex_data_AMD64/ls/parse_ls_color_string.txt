@@ -1,0 +1,8 @@
+LS_COLORS
+LS_COLORS
+LS_COLORS
+LS_COLORS
+unrecognized prefix: %s
+unparsable value for LS_COLORS environment variable
+target
+COLORTERM
