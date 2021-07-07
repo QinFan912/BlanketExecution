@@ -1,0 +1,8 @@
+%s
+write error
+%s
+write error
+%s
+%s
+%s
+%s

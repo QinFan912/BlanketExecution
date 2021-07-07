@@ -1,0 +1,16 @@
+coreutils
+/usr/local/share/locale
+coreutils
+fn:s:uvxz
+shred
+GNU coreutils
+Colin Plumb
+invalid number of passes
+--remove
+multiple random sources specified
+invalid file size
+cbBkKMGTPEZY0
+%s
+missing file operand
+exac
+unli

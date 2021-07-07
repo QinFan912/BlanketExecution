@@ -1,0 +1,11 @@
+coreutils
+/usr/local/share/locale
+coreutils
++iu:0
+printenv
+GNU coreutils
+David MacKenzie
+Richard Mlynarik
+%s%c
+%s%c
+null

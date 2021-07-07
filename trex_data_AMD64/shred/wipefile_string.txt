@@ -1,0 +1,2 @@
+%s: failed to close
+%s: failed to open for writing

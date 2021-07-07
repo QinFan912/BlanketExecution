@@ -1,0 +1,4 @@
+-
+standard input
+cannot open %s for reading
+failed to close %s

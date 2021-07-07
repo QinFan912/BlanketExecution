@@ -1,0 +1,15 @@
+coreutils
+/usr/local/share/locale
+coreutils
+POSIXLY_CORRECT
+nohup
+GNU coreutils
+/dev/null
+failed to render standard input unusable
+ignoring input
+HOME
+failed to open %s
+failed to open %s
+failed to redirect standard error
+failed to run command %s
+missing operand

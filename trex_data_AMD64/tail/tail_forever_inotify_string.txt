@@ -1,0 +1,11 @@
+cannot watch parent directory of %s
+inotify resources exhausted
+cannot watch %s
+inotify resources exhausted
+%s was replaced
+no files remaining
+error waiting for inotify and output events
+error reading inotify event
+directory containing watched file was removed
+inotify resources exhausted
+cannot watch %s

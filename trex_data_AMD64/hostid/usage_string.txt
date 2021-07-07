@@ -1,0 +1,10 @@
+Usage: %s [OPTION]
+Print the numeric identifier (in hexadecimal) for the current host.
+
+
+      --help     display this help and exit
+
+      --version  output version information and exit
+
+Try '%s --help' for more information.
+

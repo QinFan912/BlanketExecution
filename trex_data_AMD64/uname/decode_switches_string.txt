@@ -1,0 +1,8 @@
+asnrvmpio
+GNU coreutils
+David MacKenzie
+GNU coreutils
+David MacKenzie
+Karel Zak
+extra operand %s
+help

@@ -1,0 +1,16 @@
+coreutils
+/usr/local/share/locale
+coreutils
+diw:
+base32
+GNU coreutils
+Simon Josefsson
+invalid wrap size
+-
+rb
+%s
+extra operand %s
+-
+closing standard input
+%s
+deco

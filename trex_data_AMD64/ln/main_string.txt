@@ -1,0 +1,19 @@
+coreutils
+/usr/local/share/locale
+coreutils
+bdfinrst:vFLPS:T
+cannot do --relative without --symbolic
+missing file operand
+multiple target directories specified
+failed to access %s
+target %s is not a directory
+ln
+GNU coreutils
+Mike Parker
+David MacKenzie
+target %s
+cannot combine --target-directory and --no-target-directory
+extra operand %s
+missing destination file operand after %s
+backup type
+back

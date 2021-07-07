@@ -1,0 +1,15 @@
+upper
+upper
+lower
+alnum
+cntrl
+lower
+space
+alpha
+digit
+print
+upper
+blank
+graph
+punct
+xdigit

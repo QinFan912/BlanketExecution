@@ -1,0 +1,6 @@
+split -S:  %s
+
+ into:    %s
+
+     &    %s
+

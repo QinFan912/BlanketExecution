@@ -1,0 +1,4 @@
+failed to get signal action for signal %d
+failed to set signal action for signal %d
+Reset signal %s (%d) to %s%s
+

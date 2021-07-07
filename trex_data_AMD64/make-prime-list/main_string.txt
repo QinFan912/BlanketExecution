@@ -1,0 +1,5 @@
+write error: %s
+
+Usage: %s LIMIT
+Produces a list of odd primes <= LIMIT
+

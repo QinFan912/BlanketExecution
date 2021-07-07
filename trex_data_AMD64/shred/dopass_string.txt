@@ -1,0 +1,7 @@
+%s: pass %lu/%lu (%s)...
+%s: error writing at offset %s
+%s: pass %lu/%lu (%s)...%s/%s %d%%
+%s: pass %lu/%lu (%s)...%s
+%s: file too large
+%s: lseek failed
+%s: cannot rewind

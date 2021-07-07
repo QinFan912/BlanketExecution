@@ -1,0 +1,1 @@
+range-endpoints of '%s-%s' are in reverse collating sequence order

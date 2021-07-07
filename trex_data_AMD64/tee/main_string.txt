@@ -2,11 +2,11 @@ coreutils
 /usr/local/share/locale
 coreutils
 aip
+--output-error
 tee
 GNU coreutils
 Mike Parker
 Richard M. Stallman
---output-error
 standard input
 %s
 appe

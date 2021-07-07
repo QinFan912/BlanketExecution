@@ -1,0 +1,11 @@
+invalid type string %s;
+this system doesn't provide a %lu-byte floating point type
+invalid type string %s
+invalid character '%c' in type string %s
+invalid type string %s
+invalid type string %s;
+this system doesn't provide a %lu-byte integral type
+%%*.%d%s
+%%*%s
+%%*.%d%s
+%%*%s

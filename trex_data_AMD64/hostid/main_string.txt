@@ -1,0 +1,8 @@
+coreutils
+/usr/local/share/locale
+coreutils
+hostid
+GNU coreutils
+extra operand %s
+%08x
+

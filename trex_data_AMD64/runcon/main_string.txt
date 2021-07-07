@@ -1,0 +1,16 @@
+coreutils
+/usr/local/share/locale
+coreutils
++r:t:u:l:c
+failed to get current context
+you must specify -c, -t, -u, -l, -r, or context
+no command specified
+%s may be used only on a SELinux kernel
+multiple levelranges
+multiple types
+multiple users
+multiple roles
+runcon
+GNU coreutils
+Russell Coker
+role

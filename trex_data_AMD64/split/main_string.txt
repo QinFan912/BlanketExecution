@@ -1,0 +1,45 @@
+coreutils
+/usr/local/share/locale
+coreutils
+0123456789C:a:b:del:n:t:ux
+--filter does not process a chunk extracted to stdout
+0
+invalid number of lines
+%s: %s
+%s: invalid start value for hexadecimal suffix
+%s: invalid start value for numerical suffix
+invalid suffix length
+cannot split in more than one way
+invalid number of bytes
+bEGKkMmPTYZ0
+cannot split in more than one way
+invalid number of bytes
+bEGKkMmPTYZ0
+cannot split in more than one way
+split
+GNU coreutils
+Torbjorn Granlund
+Richard M. Stallman
+invalid suffix %s, contains directory separator
+invalid IO block size
+bEGKkMmPTYZ0
+empty record separator
+\0
+multi-character separator %s
+multiple separator characters specified
+invalid number of lines
+cannot split in more than one way
+r/
+l/
+invalid number of chunks
+cannot split in more than one way
+line count option -%s%c... is too large
+numerical suffix start value is too large for the suffix length
+cannot open %s for reading
+%s
+%s: cannot determine file size
+invalid number of chunks
+%s: %s
+%s
+extra operand %s
+byte

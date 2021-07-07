@@ -1,0 +1,21 @@
+coreutils
+/usr/local/share/locale
+coreutils
++AcCdst
+tr
+GNU coreutils
+Jim Meyering
+C
+C
+write error
+write error
+standard input
+extra operand %s
+Only one string may be given when deleting without squeezing repeats.
+%s
+
+missing operand after %s
+%s
+
+missing operand
+comp

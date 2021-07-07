@@ -1,0 +1,9 @@
+coreutils
+/usr/local/share/locale
+coreutils
+Niels Moller
+Torbjorn Granlund
+factor
+GNU coreutils
+Paul Rubin
+-deb

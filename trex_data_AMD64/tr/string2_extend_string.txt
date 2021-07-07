@@ -1,0 +1,2 @@
+when translating with string1 longer than string2,
+the latter string must not end with a character class

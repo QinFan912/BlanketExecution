@@ -1,0 +1,4 @@
+missing equivalence class character '[==]'
+missing character class name '[::]'
+%s: equivalence class operand must be a single character
+invalid character class %s

@@ -1,0 +1,5 @@
+
+Display values are in units of the first available SIZE from --block-size,
+and the %s_BLOCK_SIZE, BLOCK_SIZE and BLOCKSIZE environment variables.
+Otherwise, units default to 1024 bytes (or 512 if POSIXLY_CORRECT is set).
+

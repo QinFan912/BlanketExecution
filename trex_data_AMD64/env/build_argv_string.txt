@@ -1,0 +1,6 @@
+replacing ${%s} with null string
+
+expanding ${%s} into %s
+
+ 	
+DUMM

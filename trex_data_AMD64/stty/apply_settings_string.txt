@@ -1,0 +1,82 @@
+ispeed
+ispeed
+missing argument to %s
+ispeed
+ispeed
+ospeed
+ispeed
+ospeed
+rows
+ispeed
+ospeed
+rows
+cols
+ispeed
+ospeed
+rows
+cols
+columns
+ispeed
+ospeed
+rows
+cols
+columns
+size
+ispeed
+ospeed
+rows
+cols
+columns
+size
+ispeed
+ospeed
+rows
+cols
+columns
+size
+line
+ispeed
+ospeed
+rows
+cols
+columns
+size
+line
+speed
+ispeed
+ospeed
+rows
+cols
+columns
+size
+line
+speed
+invalid argument %s
+invalid line discipline %s
+line
+ispeed
+size
+rows
+columns
+cols
+ospeed
+missing argument to %s
+ispeed
+ospeed
+rows
+ispeed
+rows
+ospeed
+missing argument to %s
+ispeed
+ospeed
+ispeed
+ospeed
+missing argument to %s
+missing argument to %s
+drain
+invalid argument %s
+missing argument to %s
+drain
+pare
+intr

@@ -1,0 +1,20 @@
+coreutils
+/usr/local/share/locale
+coreutils
+h:b:f:v:i:pl:s:w:n:d:
+invalid line number of blank lines
+ln
+rn
+rz
+invalid line numbering format: %s
+invalid line number field width
+invalid starting line number
+invalid body numbering style: %s
+invalid footer numbering style: %s
+invalid header numbering style: %s
+nl
+GNU coreutils
+Scott Bartram
+David MacKenzie
+invalid line number increment
+head

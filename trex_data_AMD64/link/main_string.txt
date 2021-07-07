@@ -1,0 +1,9 @@
+coreutils
+/usr/local/share/locale
+coreutils
+link
+GNU coreutils
+cannot create link %s to %s
+extra operand %s
+missing operand after %s
+missing operand

@@ -1,0 +1,10 @@
+coreutils
+/usr/local/share/locale
+coreutils
+s
+not a tty
+extra operand %s
+tty
+GNU coreutils
+David MacKenzie
+sile

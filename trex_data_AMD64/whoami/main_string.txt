@@ -1,0 +1,7 @@
+coreutils
+/usr/local/share/locale
+coreutils
+whoami
+GNU coreutils
+cannot find name for user ID %lu
+extra operand %s

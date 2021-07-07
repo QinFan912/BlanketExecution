@@ -1,0 +1,4 @@
+warning: adjusting year value %ld to %ld
+
+error: out-of-range year %ld
+

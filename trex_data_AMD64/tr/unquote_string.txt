@@ -1,0 +1,3 @@
+warning: the ambiguous octal escape \%c%c%c is being
+	interpreted as the 2-byte sequence \0%c%c, %c
+warning: an unescaped backslash at end of string is not portable
