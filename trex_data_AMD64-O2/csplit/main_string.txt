@@ -1,0 +1,38 @@
+coreutils
+/usr/local/share/locale
+coreutils
+f:b:kn:sqz
+missing operand
+csplit
+GNU coreutils
+Stuart Kemp
+David MacKenzie
+invalid number
+missing operand after %s
+missing conversion specifier in suffix
+invalid conversion specifier in suffix: %c
+invalid conversion specifier in suffix: \%.3o
+-
+cannot open %s for reading
+%s: invalid pattern
+line number %s is smaller than preceding line number, %s
+%s: line number must be greater than zero
+%s: integer expected after delimiter
+%s: closing delimiter '%c' missing
+warning: line number %s is the same as preceding line number
+%s: '}' is required in repeat count
+%s}: integer required between '{' and '}'
+too many %% conversion specifications in suffix
+%s: invalid regular expression: %s
+invalid flags in conversion specification: %%%c%c
+missing operand after %s
+error in regular expression search
+error in regular expression search
+read error
+error in regular expression search
+missing operand after %s
+too many %% conversion specifications in suffix
+%s: line number out of range
+invalid flags in conversion specification: %%%c%c
+missing %% conversion specification in suffix
+%s: invalid regular expression: %s

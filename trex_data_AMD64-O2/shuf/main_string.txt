@@ -1,0 +1,46 @@
+coreutils
+/usr/local/share/locale
+coreutils
+ei:n:o:rz
+shuf
+GNU coreutils
+Paul Eggert
+invalid input range
+invalid input range
+invalid line count: %s
+cannot combine -e and -i options
+multiple -i options specified
+multiple random sources specified
+invalid input range
+%s: %s
+multiple output files specified
+read error
+w
+write error
+write error
+write error
+write error
+write error
+write error
+-
+r
+too many input lines
+read error
+too many input lines
+w
+no lines to repeat
+%s
+%s
+extra operand %s
+%s
+%s
+no lines to repeat
+%s
+read error
+multiple -i options specified
+invalid input range
+%s: %s
+multiple random sources specified
+multiple output files specified
+extra operand %s
+%s

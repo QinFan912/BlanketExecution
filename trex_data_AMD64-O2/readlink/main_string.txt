@@ -1,0 +1,10 @@
+coreutils
+/usr/local/share/locale
+coreutils
+efmnqsvz
+readlink
+GNU coreutils
+Dmitry V. Levin
+ignoring --no-newline with multiple arguments
+missing operand
+%s

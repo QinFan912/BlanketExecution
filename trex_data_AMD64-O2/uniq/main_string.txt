@@ -1,0 +1,27 @@
+POSIXLY_CORRECT
+coreutils
+/usr/local/share/locale
+coreutils
+--all-repeated
+-0123456789Dcdf:is:uw:z
+--group
+invalid number of bytes to compare
+uniq
+GNU coreutils
+Richard M. Stallman
+David MacKenzie
+invalid number of bytes to skip
+invalid number of fields to skip
+r
+-
+-
+-
+w
+-
+-
+%s
+error reading %s
+error reading %s
+error reading %s
+%s
+extra operand %s

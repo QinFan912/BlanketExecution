@@ -1,0 +1,12 @@
+coreutils
+/usr/local/share/locale
+coreutils
+pv
+rmdir
+GNU coreutils
+David MacKenzie
+missing operand
+removing directory, %s
+removing directory, %s
+failed to remove directory %s
+failed to remove %s

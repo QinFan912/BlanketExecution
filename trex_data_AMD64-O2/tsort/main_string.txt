@@ -1,0 +1,11 @@
+coreutils
+/usr/local/share/locale
+coreutils
+r
+ 	
+
+%s: input contains an odd number of tokens
+%s: input contains a loop:
+standard input
+%s
+extra operand %s

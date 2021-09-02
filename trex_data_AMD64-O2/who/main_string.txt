@@ -1,0 +1,10 @@
+coreutils
+/usr/local/share/locale
+coreutils
+abdlmpqrstuwHT
+who
+GNU coreutils
+Joseph Arceneaux
+David MacKenzie
+/var/run/utmp
+extra operand %s

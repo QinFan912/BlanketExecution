@@ -1,0 +1,11 @@
+coreutils
+/usr/local/share/locale
+coreutils
+123z
+comm
+GNU coreutils
+Richard M. Stallman
+David MacKenzie
+multiple output delimiters specified
+input is not in sorted order
+missing operand

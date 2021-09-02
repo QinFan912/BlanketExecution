@@ -1,0 +1,37 @@
+coreutils
+/usr/local/share/locale
+coreutils
++i:o:e:
+stdbuf
+GNU coreutils
+Padraig Brady
+L
+EGkKMPTYZ0
+missing operand
+invalid mode %s
+%s%c=L
+_STDBUF_
+%s%c=%lu
+_STDBUF_
+PATH
+:
+failed to update the environment with %s
+missing operand
+:
+/usr/local/lib/coreutils
+LD_PRELOAD
+%s/%s
+libstdbuf.so
+libstdbuf.so
+failed to find %s
+libstdbuf.so
+%s=%s
+LD_PRELOAD
+%s=%s:%s
+LD_PRELOAD
+failed to run command %s
+failed to update the environment with %s
+failed to update the environment with %s
+invalid mode %s
+failed to update the environment with %s
+missing operand

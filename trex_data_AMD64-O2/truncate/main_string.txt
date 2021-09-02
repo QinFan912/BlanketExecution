@@ -1,0 +1,16 @@
+coreutils
+/usr/local/share/locale
+coreutils
+cor:s:
+cannot stat %s
+cannot get the size of %s
+Invalid number
+EgGkKmMPtTYZ0
+division by zero
+Invalid number
+EgGkKmMPtTYZ0
+truncate
+GNU coreutils
+Padraig Brady
+overflow in %ld * %ld byte blocks for file %s
+failed to truncate %s at %ld bytes

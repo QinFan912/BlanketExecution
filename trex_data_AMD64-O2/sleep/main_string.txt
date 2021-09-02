@@ -1,0 +1,6 @@
+coreutils
+/usr/local/share/locale
+coreutils
+invalid time interval %s
+cannot read realtime clock
+missing operand

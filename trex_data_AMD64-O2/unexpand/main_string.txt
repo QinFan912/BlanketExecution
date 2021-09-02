@@ -1,0 +1,12 @@
+coreutils
+/usr/local/share/locale
+coreutils
+,0123456789at:
+unexpand
+GNU coreutils
+David MacKenzie
+tab stop value is too large
+input line is too long
+write error
+input line is too long
+write error

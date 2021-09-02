@@ -1,0 +1,51 @@
+Usage: %s [OPTION]... FILE...
+
+Print value of a symbolic link or canonical file name
+
+
+  -f, --canonicalize            canonicalize by following every symlink in
+                                every component of the given name recursively;
+                                all but the last component must exist
+  -e, --canonicalize-existing   canonicalize by following every symlink in
+                                every component of the given name recursively,
+                                all components must exist
+
+  -m, --canonicalize-missing    canonicalize by following every symlink in
+                                every component of the given name recursively,
+                                without requirements on components existence
+  -n, --no-newline              do not output the trailing delimiter
+  -q, --quiet
+  -s, --silent                  suppress most error messages (on by default)
+  -v, --verbose                 report error messages
+  -z, --zero                    end each output line with NUL, not newline
+
+      --help     display this help and exit
+
+      --version  output version information and exit
+
+
+%s online help: <%s>
+
+
+%s online help: <%s>
+
+en_
+Full documentation <%s%s>
+
+en_
+en_
+Report any translation bugs to <https://translationproject.org/team/>
+
+en_
+en_
+en_
+Full documentation <%s%s>
+
+en_
+en_
+en_
+en_
+or available locally via: info '(coreutils) %s%s'
+
+Try '%s --help' for more information.
+

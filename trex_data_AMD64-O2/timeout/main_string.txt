@@ -1,0 +1,14 @@
+coreutils
+/usr/local/share/locale
+coreutils
++k:s:v
+timeout
+GNU coreutils
+Padraig Brady
+warning: sigprocmask
+failed to run command %s
+fork system call failed
+the monitored command dumped core
+warning: disabling core dumps failed
+unknown status from command (%d)
+error waiting for command

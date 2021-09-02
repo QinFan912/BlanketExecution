@@ -1,0 +1,16 @@
+coreutils
+/usr/local/share/locale
+coreutils
+c:fLt
+missing operand
+%N
+QUOTING_STYLE
+ignoring invalid value of environment variable QUOTING_STYLE: %s
+stat
+GNU coreutils
+Michael Meskes
+--cached
+cannot stat standard input
+-
+-
+using %s to denote standard input does not work in file system mode

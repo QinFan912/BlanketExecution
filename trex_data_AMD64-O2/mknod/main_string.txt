@@ -1,0 +1,21 @@
+coreutils
+/usr/local/share/locale
+coreutils
+m:Z
+invalid mode
+mode must specify only file permission bits
+extra operand %s
+%s
+invalid device type %s
+missing operand
+invalid minor device number %s
+invalid major device number %s
+%s
+invalid device %s %s
+extra operand %s
+missing operand after %s
+cannot set permissions of %s
+warning: ignoring --context; it requires an SELinux/SMACK-enabled kernel
+mknod
+GNU coreutils
+David MacKenzie

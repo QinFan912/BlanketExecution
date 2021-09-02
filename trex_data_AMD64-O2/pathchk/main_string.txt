@@ -1,0 +1,18 @@
+coreutils
+/usr/local/share/locale
+coreutils
++pP
+missing operand
+pathchk
+GNU coreutils
+Paul Eggert
+David MacKenzie
+leading '-' in a component of file name %s
+empty file name
+/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789._-
+nonportable character %s in file name %s
+%s
+%s: unable to determine maximum file name length
+%s
+limit %lu exceeded by length %lu of file name component %s
+limit %lu exceeded by length %lu of file name %s

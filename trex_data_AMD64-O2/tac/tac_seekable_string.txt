@@ -1,0 +1,7 @@
+%s: seek failed
+%s: seek failed
+%s: read error
+error in regular expression search
+record too large
+%s: seek failed
+%s: read error

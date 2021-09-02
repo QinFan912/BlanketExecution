@@ -1,0 +1,6 @@
+coreutils
+/usr/local/share/locale
+coreutils
+cannot unlink %s
+extra operand %s
+missing operand

@@ -1,0 +1,22 @@
+coreutils
+/usr/local/share/locale
+coreutils
+agnruzGZ
+--context (-Z) works only on an SELinux-enabled kernel
+id
+GNU coreutils
+Arnold Robbins
+David MacKenzie
+POSIXLY_CORRECT
+cannot print "only" of more than one choice
+option --zero not permitted in default format
+cannot print only names or real IDs in default format
+cannot get real UID
+cannot get effective GID
+cannot get real GID
+POSIXLY_CORRECT
+cannot get effective UID
+option --zero not permitted in default format
+cannot print only names or real IDs in default format
+cannot print "only" of more than one choice
+%s: no such user

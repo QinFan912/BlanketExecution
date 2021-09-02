@@ -1,0 +1,6 @@
+standard output
+%s
+read error
+%s
+read error
+%s

@@ -1,0 +1,11 @@
+coreutils
+/usr/local/share/locale
+coreutils
+pm:vZ
+invalid mode %s
+missing operand
+warning: ignoring --context; it requires an SELinux/SMACK-enabled kernel
+created directory %s
+mkdir
+GNU coreutils
+David MacKenzie

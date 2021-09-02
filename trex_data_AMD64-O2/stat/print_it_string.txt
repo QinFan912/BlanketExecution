@@ -1,0 +1,6 @@
+'-+ #0I
+0123456789
+0123456789
+%s: invalid directive
+warning: backslash at end of format
+warning: unrecognized escape '\%c'
