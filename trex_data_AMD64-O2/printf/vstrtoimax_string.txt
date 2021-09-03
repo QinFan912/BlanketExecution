@@ -1,0 +1,1 @@
+warning: %s: character(s) following character constant have been ignored

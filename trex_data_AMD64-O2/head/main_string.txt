@@ -1,0 +1,19 @@
+coreutils
+/usr/local/share/locale
+coreutils
+invalid trailing option -- %c
+c:n:qvz0123456789
+head
+GNU coreutils
+David MacKenzie
+Jim Meyering
+invalid trailing option -- %c
+invalid number of bytes
+-
+standard input
+cannot fstat %s
+failed to close %s
+error reading %s
+error reading %s
+error reading %s
+failed to close %s

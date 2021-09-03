@@ -1,0 +1,10 @@
+cannot get current directory
+cannot stat current directory (now %s)
+cannot stat current directory (now %s)
+cannot stat current directory (now %s)
+cannot change to directory %s
+..
+..
+..
+..
+failed to return to initial working directory

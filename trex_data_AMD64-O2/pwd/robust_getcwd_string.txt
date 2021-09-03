@@ -1,0 +1,14 @@
+..
+cannot open directory %s
+couldn't find directory entry in %s with matching i-node
+reading directory %s
+couldn't find directory entry in %s with matching i-node
+reading directory %s
+reading directory %s
+..
+failed to stat %s
+failed to chdir to %s
+.
+failed to stat %s
+failed to get attributes of %s
+couldn't find directory entry in %s with matching i-node

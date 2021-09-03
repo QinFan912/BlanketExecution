@@ -1,0 +1,46 @@
+Usage: %s [OPTION] [COMMAND [ARG]...]
+
+Run COMMAND with an adjusted niceness, which affects process scheduling.
+With no COMMAND, print the current niceness.  Niceness values range from
+%d (most favorable to the process) to %d (least favorable to the process).
+
+
+Mandatory arguments to long options are mandatory for short options too.
+
+  -n, --adjustment=N   add integer N to the niceness (default 10)
+
+      --help     display this help and exit
+
+      --version  output version information and exit
+
+
+NOTE: your shell may have its own version of %s, which usually supersedes
+the version described here.  Please refer to your shell's documentation
+for details about the options it supports.
+
+
+%s online help: <%s>
+
+
+%s online help: <%s>
+
+en_
+Full documentation <%s%s>
+
+en_
+en_
+Report any translation bugs to <https://translationproject.org/team/>
+
+en_
+en_
+en_
+Full documentation <%s%s>
+
+en_
+en_
+en_
+en_
+or available locally via: info '(coreutils) %s%s'
+
+Try '%s --help' for more information.
+

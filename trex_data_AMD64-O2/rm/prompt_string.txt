@@ -1,0 +1,6 @@
+%s: descend into write-protected directory %s? 
+%s: descend into directory %s? 
+cannot remove %s
+cannot remove %s
+%s: remove %s %s? 
+%s: remove write-protected %s %s? 

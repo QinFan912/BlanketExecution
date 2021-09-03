@@ -1,0 +1,15 @@
+coreutils
+/usr/local/share/locale
+coreutils
+bfint:uvS:TZ
+multiple target directories specified
+mv
+GNU coreutils
+Mike Parker
+David MacKenzie
+failed to access %s
+target %s is not a directory
+failed to access %s
+cannot combine --target-directory (-t) and --no-target-directory (-T)
+target %s is not a directory
+backup type

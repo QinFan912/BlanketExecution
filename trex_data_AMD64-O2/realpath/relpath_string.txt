@@ -1,0 +1,4 @@
+..
+/..
+generating relative path
+%s

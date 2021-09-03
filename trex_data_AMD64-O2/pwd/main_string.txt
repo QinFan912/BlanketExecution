@@ -1,0 +1,9 @@
+POSIXLY_CORRECT
+coreutils
+/usr/local/share/locale
+coreutils
+LP
+pwd
+GNU coreutils
+Jim Meyering
+ignoring non-option arguments

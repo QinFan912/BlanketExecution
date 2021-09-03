@@ -1,0 +1,48 @@
+Usage: %s COMMAND [ARG]...
+  or:  %s OPTION
+
+Run COMMAND, ignoring hangup signals.
+
+
+      --help     display this help and exit
+
+      --version  output version information and exit
+
+
+If standard input is a terminal, redirect it from an unreadable file.
+If standard output is a terminal, append output to 'nohup.out' if possible,
+'$HOME/nohup.out' otherwise.
+If standard error is a terminal, redirect it to standard output.
+To save output to FILE, use '%s COMMAND > FILE'.
+
+
+NOTE: your shell may have its own version of %s, which usually supersedes
+the version described here.  Please refer to your shell's documentation
+for details about the options it supports.
+
+
+%s online help: <%s>
+
+
+%s online help: <%s>
+
+en_
+Full documentation <%s%s>
+
+en_
+en_
+Report any translation bugs to <https://translationproject.org/team/>
+
+en_
+en_
+en_
+Full documentation <%s%s>
+
+en_
+en_
+en_
+en_
+or available locally via: info '(coreutils) %s%s'
+
+Try '%s --help' for more information.
+

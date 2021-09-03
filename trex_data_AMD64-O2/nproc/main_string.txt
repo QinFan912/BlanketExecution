@@ -1,0 +1,8 @@
+coreutils
+/usr/local/share/locale
+coreutils
+invalid number
+nproc
+GNU coreutils
+Giuseppe Scrivano
+extra operand %s

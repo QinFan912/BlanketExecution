@@ -1,0 +1,2 @@
+failed to get groups for user %s
+failed to get groups for the current process

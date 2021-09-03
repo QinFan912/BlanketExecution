@@ -1,0 +1,11 @@
+coreutils
+/usr/local/share/locale
+coreutils
+groups
+GNU coreutils
+David MacKenzie
+James Youngman
+%s: no such user
+cannot get real GID
+cannot get real UID
+cannot get effective GID

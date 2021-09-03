@@ -1,0 +1,23 @@
+coreutils
+/usr/local/share/locale
+coreutils
+fn:s:uvxz
+missing file operand
+shred
+GNU coreutils
+Colin Plumb
+invalid number of passes
+multiple random sources specified
+--remove
+invalid file size
+cbBkKMGTPEZY0
+-
+-
+%s: failed to open for writing
+%s: removing
+0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_.
+%s: renamed to %s
+%s: removed
+%s: failed to remove
+%s: failed to close
+%s: cannot shred append-only file descriptor

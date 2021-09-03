@@ -1,0 +1,24 @@
+coreutils
+/usr/local/share/locale
+coreutils
+bctwz
+sha1sum
+GNU coreutils
+Ulrich Drepper
+Scott Miller
+%s: %lu: improperly formatted %s checksum line
+%s: read error
+WARNING: %lu line is improperly formatted
+WARNING: %lu lines are improperly formatted
+WARNING: %lu listed file could not be read
+WARNING: %lu listed files could not be read
+WARNING: %lu computed checksum did NOT match
+WARNING: %lu computed checksums did NOT match
+%s: no file was verified
+%s: no properly formatted %s checksum lines found
+%s
+-
+r
+standard input
+standard input
+%s: too many checksum lines

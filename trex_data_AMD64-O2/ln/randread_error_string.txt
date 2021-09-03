@@ -1,0 +1,2 @@
+%s: end of file
+%s: read error

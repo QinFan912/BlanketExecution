@@ -1,0 +1,27 @@
+coreutils
+/usr/local/share/locale
+coreutils
+-a:e:i1:2:j:o:t:v:z
+auto
+incompatible tabs
+multi-character tab %s
+join
+GNU coreutils
+Mike Haertel
+conflicting empty-field replacement strings
+invalid field number: %s
+missing operand after %s
+-
+r
+-
+r
+%s
+%s
+%s
+%s
+invalid field number: %s
+conflicting empty-field replacement strings
+input is not in sorted order
+both files cannot be standard input
+missing operand
+missing operand after %s

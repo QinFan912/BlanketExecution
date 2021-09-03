@@ -1,0 +1,10 @@
+coreutils
+/usr/local/share/locale
+coreutils
+b:c:d:f:nsz
+cut
+GNU coreutils
+David M. Ihnat
+David MacKenzie
+-
+-

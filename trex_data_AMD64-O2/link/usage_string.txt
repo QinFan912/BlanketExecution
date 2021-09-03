@@ -1,0 +1,36 @@
+Usage: %s FILE1 FILE2
+  or:  %s OPTION
+
+Call the link function to create a link named FILE2 to an existing FILE1.
+
+
+      --help     display this help and exit
+
+      --version  output version information and exit
+
+
+%s online help: <%s>
+
+
+%s online help: <%s>
+
+en_
+Full documentation <%s%s>
+
+en_
+en_
+Report any translation bugs to <https://translationproject.org/team/>
+
+en_
+en_
+en_
+Full documentation <%s%s>
+
+en_
+en_
+en_
+en_
+or available locally via: info '(coreutils) %s%s'
+
+Try '%s --help' for more information.
+

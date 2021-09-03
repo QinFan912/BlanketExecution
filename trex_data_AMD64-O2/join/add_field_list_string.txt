@@ -1,0 +1,4 @@
+invalid field specifier: %s
+, 	
+invalid file number in field spec: %s
+invalid field specifier: %s

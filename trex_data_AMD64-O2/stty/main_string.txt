@@ -1,0 +1,37 @@
+coreutils
+/usr/local/share/locale
+coreutils
+-agF:
+the options for verbose and stty-readable output styles are
+mutually exclusive
+standard input
+standard input
+when specifying an output style, modes may not be set
+%s: unable to perform all requested operations
+line = %d;
+line = %d;
+%s
+%s: couldn't reset non-blocking mode
+-drain
+drain
+stty
+GNU coreutils
+David MacKenzie
+only one device may be specified
+min
+min
+min = %lu; time = %lu;
+
+min
+flush
+%s = %s;
+min = %lu; time = %lu;
+
+-%s
+%s
+min
+flush
+%s = %s;
+min = %lu; time = %lu;
+-%s
+%s

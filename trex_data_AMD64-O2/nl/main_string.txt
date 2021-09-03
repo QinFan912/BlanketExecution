@@ -1,0 +1,14 @@
+coreutils
+/usr/local/share/locale
+coreutils
+h:b:f:v:i:pl:s:w:n:d:
+-
+-
+nl
+GNU coreutils
+Scott Bartram
+David MacKenzie
+invalid starting line number
+invalid line number field width
+invalid line number increment
+invalid line number of blank lines

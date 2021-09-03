@@ -1,0 +1,20 @@
+WARNING: Circular directory structure.
+This almost certainly means that you have a corrupted file system.
+NOTIFY YOUR SYSTEM MANAGER.
+The following directory is part of the cycle:
+  %s
+
+traversal failed: %s
+skipping %s, since it's on a different device
+unexpected failure: fts_info=%d: %s
+please report to %s
+..
+.
+refusing to remove %s or %s directory: skipping %s
+it is dangerous to operate recursively on %s (same as %s)
+it is dangerous to operate recursively on %s
+failed to stat %s: skipping %s
+skipping %s, since it's on a different device
+cannot remove %s
+fts_read failed
+fts_close failed

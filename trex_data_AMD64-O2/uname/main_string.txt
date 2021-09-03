@@ -1,0 +1,17 @@
+coreutils
+/usr/local/share/locale
+coreutils
+asnrvmpio
+GNU coreutils
+David MacKenzie
+extra operand %s
+cannot get system name
+GNU coreutils
+David MacKenzie
+Karel Zak
+extra operand %s
+cannot get system name
+cannot get system name
+unknown
+unknown
+GNU/Linux

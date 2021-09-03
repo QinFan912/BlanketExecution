@@ -1,0 +1,3 @@
+failed to get attributes of %s
+%s exists but is not a directory
+%s exists but is not a directory

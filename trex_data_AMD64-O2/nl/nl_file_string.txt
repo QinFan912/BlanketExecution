@@ -1,0 +1,6 @@
+error in regular expression search
+r
+%s
+r
+%s
+%s
