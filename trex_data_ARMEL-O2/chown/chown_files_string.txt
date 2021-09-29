@@ -1,0 +1,32 @@
+%s
+WARNING: Circular directory structure.
+This almost certainly means that you have a corrupted file system.
+NOTIFY YOUR SYSTEM MANAGER.
+The following directory is part of the cycle:
+  %s
+
+it is dangerous to operate recursively on %s
+it is dangerous to operate recursively on %s (same as %s)
+use --no-preserve-root to override this failsafe
+cannot dereference %s
+it is dangerous to operate recursively on %s
+it is dangerous to operate recursively on %s (same as %s)
+use --no-preserve-root to override this failsafe
+failed to change ownership of %s
+
+failed to change ownership of %s from %s to %s
+
+failed to change ownership of %s to %s
+
+failed to change ownership of %s
+
+changed ownership of %s from %s to %s
+
+ownership of %s retained
+
+ownership of %s retained as %s
+
+neither symbolic link %s nor referent has been changed
+
+fts_read failed
+fts_close failed

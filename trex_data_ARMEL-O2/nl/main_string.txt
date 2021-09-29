@@ -1,0 +1,11 @@
+coreutils
+/usr/local/share/locale
+coreutils
+invalid line numbering format: %s
+invalid line number field width
+invalid starting line number
+invalid line number of blank lines
+nl
+GNU coreutils
+invalid line number increment
+head

@@ -1,0 +1,7 @@
+cannot stat %s
+cannot run %s
+strip process terminated abnormally
+cannot unlink %s
+cannot change ownership of %s
+cannot change permissions of %s
+cannot set timestamps for %s

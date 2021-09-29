@@ -1,0 +1,2 @@
+%s: invalid field specification %s
+POSIXLY_CORRECT

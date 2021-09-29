@@ -1,0 +1,8 @@
+coreutils
+/usr/local/share/locale
+coreutils
+cannot get effective GID
+cannot print only names or real IDs in default format
+POSIXLY_CORRECT
+%s: no such user
+cont

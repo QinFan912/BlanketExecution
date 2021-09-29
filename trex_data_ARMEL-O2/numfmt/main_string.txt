@@ -1,0 +1,18 @@
+coreutils
+/usr/local/share/locale
+coreutils
+--invalid
+--to
+--from
+numfmt
+GNU coreutils
+--round
+failed to set locale
+no conversion option specified
+--format padding overriding --padding
+format %s has too many %% directives
+grouping has no effect in this locale
+error reading input
+--header ignored with command-line input
+failed to convert some of the input numbers
+--grouping cannot be combined with --format

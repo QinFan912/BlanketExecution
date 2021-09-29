@@ -1,0 +1,13 @@
+coreutils
+/usr/local/share/locale
+coreutils
+invalid date format %s
+--time
+touch
+GNU coreutils
+failed to get attributes of %s
+POSIXLY_CORRECT
+warning: 'touch %s' is obsolete; use 'touch -t %04ld%02d%02d%02d%02d.%02d'
+missing file operand
+cannot specify times from more than one source
+failed to close %s

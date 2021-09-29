@@ -1,0 +1,15 @@
+coreutils
+/usr/local/share/locale
+coreutils
+extra operand %s
+mv
+GNU coreutils
+failed to access %s
+target %s is not a directory
+missing destination file operand after %s
+missing file operand
+target %s is not a directory
+failed to access %s
+backup type
+options --backup and --no-clobber are mutually exclusive
+back

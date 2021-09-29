@@ -1,0 +1,20 @@
+coreutils
+/usr/local/share/locale
+coreutils
+POSIXLY_CORRECT
+TZ
+cannot specify both printing across and printing in parallel
+cannot specify number of columns when printing in parallel
+-0123456789D:FJN:S::TW:abcde::fh:i::l:mn::o:rs::tvw:
+'-w PAGE_WIDTH' invalid number of characters
+		
+	
+'-W PAGE_WIDTH' invalid number of characters
+'-o MARGIN' invalid line offset
+'-l PAGE_LENGTH' invalid number of lines
+'--pages=FIRST_PAGE[:LAST_PAGE]' missing argument
+pr
+GNU coreutils
+'-N NUMBER' invalid starting line number
+invalid page range %s
+standard input

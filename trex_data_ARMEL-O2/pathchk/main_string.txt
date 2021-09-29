@@ -1,0 +1,13 @@
+coreutils
+/usr/local/share/locale
+coreutils
+missing operand
+leading '-' in a component of file name %s
+/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789._-
+nonportable character %s in file name %s
+empty file name
+%s: unable to determine maximum file name length
+%s
+limit %lu exceeded by length %lu of file name %s
+%s
+limit %lu exceeded by length %lu of file name component %s

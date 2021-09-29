@@ -1,0 +1,10 @@
+coreutils
+/usr/local/share/locale
+coreutils
+--help
+--version
+--version
+--version
+--version
+extra argument %s
+missing %s

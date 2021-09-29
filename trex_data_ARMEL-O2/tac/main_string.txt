@@ -1,0 +1,21 @@
+coreutils
+/usr/local/share/locale
+coreutils
+%s
+separator cannot be empty
+tac
+GNU coreutils
+standard input
+failed to open %s for reading
+failed to rewind stream for %s
+TMPDIR
+tacXXXXXX
+tacXXXXXX
+failed to create temporary file in %s
+w+
+failed to open %s for writing
+%s: read error
+%s: write error
+%s: write error
+%s: read error
+befo

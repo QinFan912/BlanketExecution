@@ -1,0 +1,9 @@
+%s: option '%s%s' is ambiguous; possibilities:
+%s: option '%s%s' is ambiguous
+
+%s: unrecognized option '%s%s'
+
+%s: option '%s%s' doesn't allow an argument
+
+%s: option '%s%s' requires an argument
+

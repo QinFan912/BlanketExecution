@@ -1,0 +1,13 @@
+TERM
+# Configuration file for dircolors, a utility to help you set the
+# Configuration file for dircolors, a utility to help you set the
+TERM
+OPTIONS
+COLOR
+EIGHTBIT
+NORMAL
+%s:%lu: unrecognized keyword %s
+<internal>
+%s:%lu: invalid line;  missing second token
+# Configuration file for dircolors, a utility to help you set the
+NORM

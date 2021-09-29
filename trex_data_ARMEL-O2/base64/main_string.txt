@@ -1,0 +1,10 @@
+coreutils
+/usr/local/share/locale
+coreutils
+invalid wrap size
+rb
+extra operand %s
+rb
+rb
+%s
+extra operand %s

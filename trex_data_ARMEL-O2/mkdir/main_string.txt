@@ -1,0 +1,8 @@
+coreutils
+/usr/local/share/locale
+coreutils
+invalid mode %s
+missing operand
+warning: ignoring --context; it requires an SELinux/SMACK-enabled kernel
+created directory %s
+cont

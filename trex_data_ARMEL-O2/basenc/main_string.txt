@@ -1,0 +1,11 @@
+coreutils
+/usr/local/share/locale
+coreutils
+missing encoding type
+GNU coreutils
+invalid wrap size
+rb
+extra operand %s
+rb
+%s
+extra operand %s

@@ -1,0 +1,21 @@
+%s
+
+# users=%lu
+
+NAME
+LINE
+TIME
+IDLE
+PID
+COMMENT
+EXIT
+/dev/
+run-level
+run-level
+last=
+last=
+LOGIN
+term=
+exit=
+term=
+exit=

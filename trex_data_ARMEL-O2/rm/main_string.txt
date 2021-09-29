@@ -1,0 +1,17 @@
+coreutils
+/usr/local/share/locale
+coreutils
+%s: remove %llu argument recursively? 
+%s: remove %llu arguments recursively? 
+failed to get attributes of %s
+%s: remove %llu argument? 
+%s: remove %llu arguments? 
+missing operand
+--interactive
+unrecognized --preserve-root argument: %s
+rm
+GNU coreutils
+--no-preserve-root
+you may not abbreviate the --no-preserve-root option
+Try '%s ./%s' to remove the file %s.
+

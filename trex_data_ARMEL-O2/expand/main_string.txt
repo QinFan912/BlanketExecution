@@ -1,0 +1,7 @@
+coreutils
+/usr/local/share/locale
+coreutils
+write error
+write error
+input line is too long
+tabs

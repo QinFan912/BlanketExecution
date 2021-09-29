@@ -1,0 +1,9 @@
+coreutils
+/usr/local/share/locale
+coreutils
+%s
+%s
+%s
+missing operand
+GNU coreutils
+%s

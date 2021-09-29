@@ -1,0 +1,2 @@
+  -t, --tabs=LIST  use comma separated list of tab positions
+

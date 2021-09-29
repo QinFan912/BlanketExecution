@@ -1,0 +1,5 @@
+cannot fstat %s
+error reading %s
+%s: cannot seek
+%s: cannot skip
+%s: cannot seek

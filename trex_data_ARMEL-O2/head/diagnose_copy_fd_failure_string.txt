@@ -1,0 +1,2 @@
+%s: file has shrunk too much
+error reading %s

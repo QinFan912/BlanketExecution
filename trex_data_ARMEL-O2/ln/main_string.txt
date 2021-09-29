@@ -1,0 +1,13 @@
+coreutils
+/usr/local/share/locale
+coreutils
+ln
+GNU coreutils
+failed to access %s
+target %s is not a directory
+cannot do --relative without --symbolic
+backup type
+missing file operand
+target %s
+extra operand %s
+missing destination file operand after %s

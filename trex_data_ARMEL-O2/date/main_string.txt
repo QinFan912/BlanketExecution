@@ -1,0 +1,24 @@
+coreutils
+/usr/local/share/locale
+coreutils
+TZ=UTC0
+--rfc-3339
+date
+GNU coreutils
+--iso-8601
+the options to specify dates for printing are mutually exclusive
+the options to print and set the time may not be used together
+the argument %s lacks a leading '+';
+when using an option to specify date(s), any non-option
+argument must be a format string beginning with '+'
+TZ
+multiple output formats specified
+standard input
+invalid date %s
+cannot set date
+extra operand %s
+%s
+invalid date %s
+%s
+date
+hour

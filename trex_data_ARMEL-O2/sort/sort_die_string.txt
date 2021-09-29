@@ -1,0 +1,4 @@
+standard output
+standard output
+standard output
+%s: %s

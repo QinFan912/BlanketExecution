@@ -1,0 +1,7 @@
+coreutils
+/usr/local/share/locale
+coreutils
+standard input
+%s
+appe
+warn

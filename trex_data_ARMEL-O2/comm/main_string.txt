@@ -1,0 +1,14 @@
+coreutils
+/usr/local/share/locale
+coreutils
+multiple output delimiters specified
+missing operand
+extra operand %s
+missing operand after %s
+%s
+%s
+%s
+total
+input is not in sorted order
+missing operand after %s
+chec

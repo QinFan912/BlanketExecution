@@ -1,0 +1,19 @@
+coreutils
+/usr/local/share/locale
+coreutils
+%s
+missing file operand
+invalid file size
+invalid number of passes
+multiple random sources specified
+--remove
+shred
+GNU coreutils
+%s: cannot shred append-only file descriptor
+%s: fcntl failed
+%s: removing
+0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_.
+%s: renamed to %s
+%s: removed
+%s: failed to remove
+%s: failed to close

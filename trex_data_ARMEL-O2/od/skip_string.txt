@@ -1,0 +1,2 @@
+cannot skip past end of combined input
+%s

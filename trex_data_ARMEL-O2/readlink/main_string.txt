@@ -1,0 +1,7 @@
+coreutils
+/usr/local/share/locale
+coreutils
+ignoring --no-newline with multiple arguments
+missing operand
+%s
+cano

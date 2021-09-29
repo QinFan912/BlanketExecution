@@ -1,0 +1,13 @@
+POSIXLY_CORRECT
+coreutils
+/usr/local/share/locale
+coreutils
+grouping and printing repeat counts is meaningless
+--group is mutually exclusive with -c/-d/-D/-u
+error reading %s
+%s
+error reading %s
+extra operand %s
+%s
+printing all duplicated lines and repeat counts is meaningless
+extra operand %s

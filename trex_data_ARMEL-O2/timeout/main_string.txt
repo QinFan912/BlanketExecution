@@ -1,0 +1,11 @@
+coreutils
+/usr/local/share/locale
+coreutils
+warning: sigprocmask
+the monitored command dumped core
+warning: disabling core dumps failed
+unknown status from command (%d)
+error waiting for command
+failed to run command %s
+fork system call failed
+kill

@@ -1,0 +1,2 @@
+warning: partial read (%llu byte); suggest iflag=fullblock
+warning: partial read (%llu bytes); suggest iflag=fullblock

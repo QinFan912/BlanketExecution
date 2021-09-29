@@ -1,0 +1,7 @@
+warning: the ambiguous octal escape \%c%c%c is being
+	interpreted as the 2-byte sequence \0%c%c, %c
+warning: an unescaped backslash at end of string is not portable
+%s: equivalence class operand must be a single character
+invalid character class %s
+range-endpoints of '%s-%s' are in reverse collating sequence order
+invalid repeat count %s in [c*n] construct

@@ -1,0 +1,3 @@
+syntax error: expecting ')' after %s
+syntax error: expecting ')' instead of %s
+syntax error: unexpected ')'

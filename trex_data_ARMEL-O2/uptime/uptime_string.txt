@@ -1,0 +1,11 @@
+ ??:????  
+ %H:%M:%S  
+up  %2d:%02d,  
+up %ld day %2d:%02d,  
+up %ld days %2d:%02d,  
+up ???? days ??:??,  
+%lu user
+%lu users
+,  load average: %.2f
+couldn't get boot time
+%s

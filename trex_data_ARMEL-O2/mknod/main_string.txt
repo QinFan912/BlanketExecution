@@ -1,0 +1,17 @@
+coreutils
+/usr/local/share/locale
+coreutils
+missing operand after %s
+missing operand
+invalid device type %s
+invalid minor device number %s
+%s
+cannot set permissions of %s
+invalid mode
+mode must specify only file permission bits
+warning: ignoring --context; it requires an SELinux/SMACK-enabled kernel
+invalid device %s %s
+extra operand %s
+invalid major device number %s
+invalid major device number %s
+cont

@@ -1,0 +1,17 @@
+(C)
+Written by %s, %s, %s,
+%s, %s, and %s.
+
+Written by %s, %s, %s,
+%s, and %s.
+
+Written by %s, %s, %s,
+%s, %s, %s, %s,
+and %s.
+
+Written by %s.
+
+Written by %s, %s, and %s.
+
+Written by %s and %s.
+

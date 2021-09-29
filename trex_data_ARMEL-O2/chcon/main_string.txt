@@ -1,0 +1,33 @@
+coreutils
+/usr/local/share/locale
+coreutils
+chcon
+GNU coreutils
+-R -h requires -P
+failed to get attributes of %s
+failed to get security context of %s
+missing operand
+missing operand after %s
+-R --dereference requires either -H or -L
+%s
+it is dangerous to operate recursively on %s
+it is dangerous to operate recursively on %s (same as %s)
+use --no-preserve-root to override this failsafe
+WARNING: Circular directory structure.
+This almost certainly means that you have a corrupted file system.
+NOTIFY YOUR SYSTEM MANAGER.
+The following directory is part of the cycle:
+  %s
+
+it is dangerous to operate recursively on %s
+it is dangerous to operate recursively on %s (same as %s)
+use --no-preserve-root to override this failsafe
+changing security context of %s
+
+failed to get security context of %s
+failed to change context of %s to %s
+can't apply partial context to unlabeled file %s
+failed to create security context: %s
+-R --dereference requires either -H or -L
+fts_read failed
+fts_close failed

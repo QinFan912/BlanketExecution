@@ -1,0 +1,1 @@
+%s: cannot seek to offset %s

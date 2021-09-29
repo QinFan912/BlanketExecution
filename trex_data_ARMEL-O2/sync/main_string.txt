@@ -1,0 +1,7 @@
+coreutils
+/usr/local/share/locale
+coreutils
+cannot specify both --data and --file-system
+--data needs at least one argument
+error opening %s
+failed to close %s

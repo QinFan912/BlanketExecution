@@ -1,0 +1,11 @@
+coreutils
+/usr/local/share/locale
+coreutils
+-R --dereference requires either -H or -L
+failed to get attributes of %s
+missing operand
+missing operand after %s
+chgrp
+GNU coreutils
+failed to get attributes of %s
+invalid group: %s

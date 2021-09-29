@@ -1,0 +1,12 @@
+coreutils
+/usr/local/share/locale
+coreutils
+Login
+Name
+ TTY
+Idle
+When
+Where
+%s
+no username specified; at least one must be specified when using -l
+help

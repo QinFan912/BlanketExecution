@@ -1,0 +1,9 @@
+coreutils
+/usr/local/share/locale
+coreutils
+invalid suffix %s, contains directory separator
+too many templates
+TMPDIR
+TMPDIR
+write error
+dire

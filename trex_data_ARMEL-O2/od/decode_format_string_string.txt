@@ -1,0 +1,4 @@
+invalid type string %s
+invalid character '%c' in type string %s
+invalid type string %s
+invalid type string %s

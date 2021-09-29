@@ -1,0 +1,4 @@
+cannot read symbolic link %s
+failed to canonicalize %s
+failed to get security context of %s
+-#0

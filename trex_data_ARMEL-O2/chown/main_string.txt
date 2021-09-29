@@ -1,0 +1,12 @@
+coreutils
+/usr/local/share/locale
+coreutils
+chown
+GNU coreutils
+%s: %s
+failed to get attributes of %s
+-R --dereference requires either -H or -L
+missing operand after %s
+failed to get attributes of %s
+missing operand
+missing operand after %s

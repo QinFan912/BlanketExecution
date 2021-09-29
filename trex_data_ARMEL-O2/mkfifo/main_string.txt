@@ -1,0 +1,10 @@
+coreutils
+/usr/local/share/locale
+coreutils
+mode must specify only file permission bits
+invalid mode
+missing operand
+warning: ignoring --context; it requires an SELinux/SMACK-enabled kernel
+cannot set permissions of %s
+cannot create fifo %s
+cont

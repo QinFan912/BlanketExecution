@@ -1,0 +1,7 @@
+coreutils
+/usr/local/share/locale
+coreutils
+uptime
+GNU coreutils
+/var/run/utmp
+extra operand %s

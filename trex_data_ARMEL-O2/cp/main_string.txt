@@ -1,0 +1,7 @@
+/usr/local/share/locale
+POSIXLY_CORRECT
+cp
+GNU coreutils
+--sparse
+--reflink
+arch

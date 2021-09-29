@@ -1,0 +1,21 @@
+coreutils
+/usr/local/share/locale
+coreutils
+invalid line count: %s
+invalid input range
+invalid input range
+invalid input range
+%s: %s
+cannot combine -e and -i options
+shuf
+GNU coreutils
+extra operand %s
+%s
+read error
+too many input lines
+%s
+no lines to repeat
+%s
+read error
+no lines to repeat
+extra operand %s

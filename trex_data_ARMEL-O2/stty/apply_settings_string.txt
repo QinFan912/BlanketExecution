@@ -1,0 +1,30 @@
+drain
+parenb
+evenp
+parity
+oddp
+sane
+cbreak
+pass8
+litout
+cooked
+decctlq
+tabs
+lcase
+LCASE
+invalid argument %s
+intr
+ispeed
+intr
+time
+undef
+ispeed
+ispeed
+ospeed
+rows
+cols
+columns
+size
+line
+speed
+invalid line discipline %s

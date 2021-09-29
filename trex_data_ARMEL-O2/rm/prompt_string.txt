@@ -1,0 +1,2 @@
+cannot remove %s
+cannot remove %s

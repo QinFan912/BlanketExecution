@@ -1,0 +1,3 @@
+couldn't create temporary file
+couldn't execute compress program
+cannot create temporary file in %s

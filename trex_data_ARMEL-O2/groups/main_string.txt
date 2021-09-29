@@ -1,0 +1,6 @@
+coreutils
+/usr/local/share/locale
+coreutils
+%s: no such user
+cannot get real UID
+help

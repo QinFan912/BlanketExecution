@@ -1,0 +1,2 @@
+0x
+warning: %s is a zero multiplier; use %s if that is intended

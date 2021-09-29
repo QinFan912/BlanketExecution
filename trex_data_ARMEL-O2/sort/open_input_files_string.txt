@@ -1,0 +1,2 @@
+couldn't execute compress program (with -d)
+couldn't create process for %s -d

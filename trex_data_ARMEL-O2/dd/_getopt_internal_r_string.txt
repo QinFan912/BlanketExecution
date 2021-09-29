@@ -1,0 +1,7 @@
+POSIXLY_CORRECT
+%s: option requires an argument -- '%c'
+
+%s: option requires an argument -- '%c'
+
+%s: invalid option -- '%c'
+

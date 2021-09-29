@@ -1,0 +1,10 @@
+creating file %s
+
+%s would overwrite input; aborting
+failed to stat %s
+%s: error truncating
+SHELL
+FILE
+failed to run command: "%s -c %s"
+executing with FILE=%s
+

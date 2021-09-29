@@ -1,0 +1,8 @@
+coreutils
+/usr/local/share/locale
+coreutils
+cannot combine signal with -l or -t
+invalid option -- %c
+%s: multiple signals specified
+%s
+%s: invalid process id

@@ -1,0 +1,3 @@
+POSIXLY_CORRECT
+%s: invalid option -- '%c'
+

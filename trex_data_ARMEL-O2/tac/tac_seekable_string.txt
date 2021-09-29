@@ -1,0 +1,5 @@
+%s: seek failed
+%s: seek failed
+%s: read error
+%s: seek failed
+%s: read error

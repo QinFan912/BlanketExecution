@@ -1,0 +1,4 @@
+error canonicalizing %s
+cannot access %s
+%s
+cannot read symbolic link %s

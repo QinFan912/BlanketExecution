@@ -1,0 +1,8 @@
+%s
+%s: file too long
+write error
+-: %s
+%s
+write error
+-: %s
+%s

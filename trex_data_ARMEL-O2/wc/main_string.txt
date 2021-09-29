@@ -1,0 +1,16 @@
+coreutils
+/usr/local/share/locale
+coreutils
+POSIXLY_CORRECT
+extra operand %s
+file operands cannot be combined with --files0-from
+cannot read file names from %s
+cannot open %s for reading
+GNU coreutils
+when reading file names from stdin, no file name of %s allowed
+invalid zero-length file name
+%s
+invalid zero-length file name
+%s:%lu: %s
+%s: read error
+total

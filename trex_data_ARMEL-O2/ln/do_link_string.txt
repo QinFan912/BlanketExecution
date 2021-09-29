@@ -1,0 +1,14 @@
+failed to access %s
+%s: hard link not allowed for directory
+failed to access %s
+will not overwrite just-created %s with %s
+%s: cannot overwrite directory
+%s and %s are the same file
+%s: replace %s? 
+cannot backup %s
+failed to create hard link %s => %s
+failed to create hard link %s
+failed to create hard link to %.0s%s
+failed to create symbolic link %s
+failed to create symbolic link %s -> %s
+cannot un-backup %s

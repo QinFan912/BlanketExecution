@@ -1,0 +1,2 @@
+invalid %s argument: %s
+invalid floating point argument: %s

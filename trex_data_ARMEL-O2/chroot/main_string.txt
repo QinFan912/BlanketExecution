@@ -1,0 +1,13 @@
+coreutils
+/usr/local/share/locale
+coreutils
+cannot change root directory to %s
+missing operand
+option --skip-chdir only permitted if NEWROOT is old %s
+SHELL
+no group specified for unknown uid: %d
+option --skip-chdir only permitted if NEWROOT is old %s
+SHELL
+SHELL
+option --skip-chdir only permitted if NEWROOT is old %s
+failed to run command %s

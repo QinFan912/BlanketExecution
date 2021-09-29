@@ -1,0 +1,17 @@
+coreutils
+/usr/local/share/locale
+coreutils
+--cached
+stat
+GNU coreutils
+%N
+QUOTING_STYLE
+ignoring invalid value of environment variable QUOTING_STYLE: %s
+missing operand
+using %s to denote standard input does not work in file system mode
+cannot read file system information for %s
+cannot stat standard input
+cannot stat %s
+dere
+defa
+lite

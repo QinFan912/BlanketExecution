@@ -1,0 +1,12 @@
+coreutils
+/usr/local/share/locale
+coreutils
+POSIXLY_CORRECT
+--help
+--version
+--version
+--version
+--version
+warning: ignoring excess arguments, starting with %s
+--version
+missing operand

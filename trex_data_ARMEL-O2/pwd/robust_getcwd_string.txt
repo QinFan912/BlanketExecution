@@ -1,0 +1,3 @@
+failed to get attributes of %s
+failed to stat %s
+..
