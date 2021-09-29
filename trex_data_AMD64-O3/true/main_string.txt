@@ -1,0 +1,8 @@
+coreutils
+/usr/local/share/locale
+coreutils
+--help
+--version
+true
+GNU coreutils
+Jim Meyering

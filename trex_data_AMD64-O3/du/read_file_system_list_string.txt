@@ -1,0 +1,7 @@
+/proc/self/mountinfo
+r
+/etc/mtab
+r
+bind
+ - 
+%*u %*u %u:%u %n

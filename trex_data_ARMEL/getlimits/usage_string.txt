@@ -1,0 +1,11 @@
+Usage: %s
+
+Output platform dependent limits in a format useful for shell scripts.
+
+
+      --help     display this help and exit
+
+      --version  output version information and exit
+
+Try '%s --help' for more information.
+

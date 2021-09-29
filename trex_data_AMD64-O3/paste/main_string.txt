@@ -1,0 +1,12 @@
+coreutils
+/usr/local/share/locale
+coreutils
+d:sz
+paste
+GNU coreutils
+David M. Ihnat
+David MacKenzie
+	
+	
+delimiter list ends with an unescaped backslash: %s
+-

@@ -1,0 +1,24 @@
+coreutils
+/usr/local/share/locale
+coreutils
+bcp
+dircolors
+GNU coreutils
+H. Peter Anvin
+the options to output dircolors' internal database and
+to select a shell syntax are mutually exclusive
+SHELL
+csh
+tcsh
+no SHELL environment variable, and no shell type option given
+-
+r
+-
+-
+-
+%s
+-
+-
+extra operand %s
+file operands cannot be combined with --print-database (-p)
+# Configuration file for dircolors, a utility to help you set the

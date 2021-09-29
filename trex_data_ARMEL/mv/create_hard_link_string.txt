@@ -1,0 +1,5 @@
+removed %s
+
+removed %s
+
+cannot create hard link %s to %s

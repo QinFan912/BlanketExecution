@@ -1,0 +1,5 @@
+cannot find name for group ID %lu
+cannot find name for group ID %lu
+failed to get groups for user %s
+failed to get groups for the current process
+cannot find name for group ID %lu

@@ -1,0 +1,22 @@
+coreutils
+/usr/local/share/locale
+coreutils
++
+option --skip-chdir only permitted if NEWROOT is old %s
+missing operand
+chroot
+GNU coreutils
+Roland McGrath
+cannot change root directory to %s
+cannot chdir to root directory
+cannot change root directory to %s
+%s
+no group specified for unknown uid: %d
+SHELL
+failed to get supplemental groups
+failed to set group-ID
+failed to run command %s
+failed to set user-ID
+failed to set supplemental groups
+cannot chdir to root directory
+cannot change root directory to %s

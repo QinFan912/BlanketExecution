@@ -1,0 +1,6 @@
+Report bugs to: %s
+
+%s home page: <%s>
+
+General help using GNU software: <%s>
+

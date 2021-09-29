@@ -1,0 +1,9 @@
+%s: cannot change nonblocking mode
+%s
+%s: file truncated
+write error
+write error
+cannot read realtime clock
+cannot read realtime clock
+no files remaining
+no files remaining

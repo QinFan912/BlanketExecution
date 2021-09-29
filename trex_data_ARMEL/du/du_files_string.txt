@@ -1,0 +1,3 @@
+fts_read failed: %s
+fts_close failed
+fts_close failed

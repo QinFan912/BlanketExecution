@@ -1,0 +1,20 @@
+skipping %s, since it's on a different device
+cannot remove %s
+refusing to remove %s or %s directory: skipping %s
+..
+it is dangerous to operate recursively on %s
+it is dangerous to operate recursively on %s (same as %s)
+use --no-preserve-root to override this failsafe
+..
+failed to stat %s: skipping %s
+skipping %s, since it's on a different device
+and --preserve-root=all is in effect
+WARNING: Circular directory structure.
+This almost certainly means that you have a corrupted file system.
+NOTIFY YOUR SYSTEM MANAGER.
+The following directory is part of the cycle:
+  %s
+
+traversal failed: %s
+unexpected failure: fts_info=%d: %s
+please report to %s

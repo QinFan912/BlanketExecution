@@ -1,0 +1,30 @@
+coreutils
+/usr/local/share/locale
+coreutils
+A:aBbcDdeFfHhIij:LlN:OoS:st:vw::Xx
+--endian
+invalid output address radix '%c'; it must be one character from [doxn]
+fD
+dI
+u2
+x4
+o4
+x2
+fF
+d2
+%s is too large
+%s is too large
+o1
+o2
+od
+GNU coreutils
+u4
+dL
+no type may be specified when dumping strings
+extra operand %s
+compatibility mode supports at most one file
+%s
+skip-bytes + read-bytes is too large
+oS
+warning: invalid width %lu; using %d instead
+standard input

@@ -1,0 +1,2 @@
+cannot change permissions of %s
+cannot change ownership of %s

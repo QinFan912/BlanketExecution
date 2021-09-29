@@ -1,0 +1,26 @@
+standard input
+%s has been replaced with an untailable symbolic link
+standard input
+%s has become inaccessible
+standard input
+%s
+; giving up on this name
+standard input
+%s has been replaced with an untailable file%s
+standard input
+standard input
+%s has been replaced with an untailable remote file
+standard input
+standard input
+standard input
+closing %s (fd=%d)
+standard input
+%s has been replaced;  following new file
+standard input
+closing %s (fd=%d)
+standard input
+%s: cannot seek to offset %s
+standard input
+closing %s (fd=%d)
+standard input
+closing %s (fd=%d)

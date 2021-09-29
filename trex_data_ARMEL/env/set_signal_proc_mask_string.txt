@@ -1,0 +1,5 @@
+failed to get signal process mask
+signal %s (%d) mask set to %s
+
+failed to set signal process mask
+failed to set signal process mask

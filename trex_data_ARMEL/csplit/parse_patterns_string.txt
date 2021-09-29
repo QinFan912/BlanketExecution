@@ -1,0 +1,4 @@
+%s: invalid pattern
+%s: line number must be greater than zero
+line number %s is smaller than preceding line number, %s
+warning: line number %s is the same as preceding line number

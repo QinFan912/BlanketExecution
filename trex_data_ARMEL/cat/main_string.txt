@@ -1,0 +1,15 @@
+coreutils
+/usr/local/share/locale
+coreutils
+benstuvAET
+cat
+GNU coreutils
+standard output
+standard output
+%s
+%s: input file is output file
+%s
+%s
+closing standard input
+closing standard input
+numb

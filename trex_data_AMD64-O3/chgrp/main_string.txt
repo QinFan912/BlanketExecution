@@ -1,0 +1,15 @@
+coreutils
+/usr/local/share/locale
+coreutils
+HLPRcfhv
+chgrp
+GNU coreutils
+David MacKenzie
+Jim Meyering
+failed to get attributes of %s
+invalid group: %s
+missing operand
+failed to get attributes of %s
+missing operand after %s
+-R --dereference requires either -H or -L
+missing operand after %s

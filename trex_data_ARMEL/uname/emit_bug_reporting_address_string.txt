@@ -1,0 +1,4 @@
+Report bugs to: %s
+
+General help using GNU software: <%s>
+

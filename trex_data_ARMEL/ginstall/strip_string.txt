@@ -1,0 +1,7 @@
+cannot run %s
+strip process terminated abnormally
+strip process terminated abnormally
+waiting for strip
+waiting for strip
+fork system call failed
+fork system call failed

@@ -1,0 +1,3 @@
+%s: file truncated
+write error
+write error

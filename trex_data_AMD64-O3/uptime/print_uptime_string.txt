@@ -1,0 +1,12 @@
+/proc/uptime
+r
+ ??:????  
+ %H:%M:%S  
+up ???? days ??:??,  
+up %ld day %2d:%02d,  
+up %ld days %2d:%02d,  
+couldn't get boot time
+up  %2d:%02d,  
+%lu user
+%lu users
+,  load average: %.2f

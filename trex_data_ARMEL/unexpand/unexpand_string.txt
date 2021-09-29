@@ -1,4 +1,6 @@
 input line is too long
 input line is too long
+input line is too long
+write error
 write error
 write error

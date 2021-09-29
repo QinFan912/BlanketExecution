@@ -1,0 +1,3 @@
+unset:    %s
+
+cannot unset %s

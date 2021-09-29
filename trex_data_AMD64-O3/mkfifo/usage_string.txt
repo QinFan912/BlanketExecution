@@ -1,0 +1,43 @@
+Usage: %s [OPTION]... NAME...
+
+Create named pipes (FIFOs) with the given NAMEs.
+
+
+Mandatory arguments to long options are mandatory for short options too.
+
+  -m, --mode=MODE    set file permission bits to MODE, not a=rw - umask
+
+  -Z                   set the SELinux security context to default type
+      --context[=CTX]  like -Z, or if CTX is specified then set the SELinux
+                         or SMACK security context to CTX
+
+      --help     display this help and exit
+
+      --version  output version information and exit
+
+
+%s online help: <%s>
+
+
+%s online help: <%s>
+
+en_
+Full documentation <%s%s>
+
+en_
+en_
+Report any translation bugs to <https://translationproject.org/team/>
+
+en_
+en_
+en_
+Full documentation <%s%s>
+
+en_
+en_
+en_
+en_
+or available locally via: info '(coreutils) %s%s'
+
+Try '%s --help' for more information.
+

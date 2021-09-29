@@ -1,0 +1,10 @@
+%s: removing
+%s: removing
+%s: renamed to %s
+%s: renamed to %s
+%s: removed
+%s: removed
+%s: failed to remove
+%s: failed to remove
+%s: failed to close
+%s: failed to close

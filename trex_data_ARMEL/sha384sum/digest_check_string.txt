@@ -1,0 +1,29 @@
+standard input
+%s
+%s: too many checksum lines
+FAILED open or read
+: %s
+
+OK
+: %s
+
+FAILED
+: %s
+
+%s: %llu: improperly formatted %s checksum line
+%s
+WARNING: %llu line is improperly formatted
+WARNING: %llu lines are improperly formatted
+WARNING: %llu line is improperly formatted
+WARNING: %llu lines are improperly formatted
+WARNING: %llu listed file could not be read
+WARNING: %llu listed files could not be read
+WARNING: %llu listed file could not be read
+WARNING: %llu listed files could not be read
+WARNING: %llu computed checksum did NOT match
+WARNING: %llu computed checksums did NOT match
+WARNING: %llu computed checksum did NOT match
+WARNING: %llu computed checksums did NOT match
+%s: no file was verified
+%s: no properly formatted %s checksum lines found
+%s: read error

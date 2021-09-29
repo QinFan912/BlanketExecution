@@ -1,0 +1,11 @@
+coreutils
+/usr/local/share/locale
+coreutils
+m:Z
+warning: ignoring --context; it requires an SELinux/SMACK-enabled kernel
+mkfifo
+GNU coreutils
+David MacKenzie
+invalid mode
+mode must specify only file permission bits
+missing operand

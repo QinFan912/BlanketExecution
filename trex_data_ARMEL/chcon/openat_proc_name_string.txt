@@ -1,0 +1,3 @@
+/proc/self/fd
+/proc/self/fd/%d/../fd
+/proc/self/fd/%d/

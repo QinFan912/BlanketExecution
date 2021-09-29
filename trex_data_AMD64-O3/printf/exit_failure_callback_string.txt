@@ -1,0 +1,2 @@
+cannot convert U+%04X to local character set: %s
+cannot convert U+%04X to local character set

@@ -1,0 +1,11 @@
+coreutils
+/usr/local/share/locale
+coreutils
+aip
+--output-error
+tee
+GNU coreutils
+standard input
+%s
+appe
+warn

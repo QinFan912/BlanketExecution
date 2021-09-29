@@ -1,0 +1,2 @@
+%s: cannot seek to relative offset %s
+error reading %s

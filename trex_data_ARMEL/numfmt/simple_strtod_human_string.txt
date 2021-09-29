@@ -1,0 +1,14 @@
+simple_strtod_human:
+  input string: %s
+  locale decimal-point: %s
+  MAX_UNSCALED_DIGITS: %d
+
+  parsed numeric value: %Lf
+  input precision = %d
+
+  Auto-scaling, found 'i', switching to base %d
+
+  suffix power=%d^%d = %Lf
+
+  returning value: %Lf (%LG)
+

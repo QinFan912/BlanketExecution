@@ -1,0 +1,5 @@
+error reading %s
+%s: cannot follow end of this type of file%s
+; giving up on this name
+error reading %s
+cannot open %s for reading

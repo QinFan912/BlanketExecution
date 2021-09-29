@@ -1,0 +1,8 @@
+# entries:         %lu
+
+# buckets:         %lu
+
+# buckets used:    %lu (%.2f%%)
+
+max bucket length: %lu
+

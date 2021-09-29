@@ -1,0 +1,13 @@
+coreutils
+/usr/local/share/locale
+coreutils
+kill
+multiple -l or -t options specified
+multiple -l or -t options specified
+invalid option -- %c
+invalid option -- %c
+%s: multiple signals specified
+cannot combine signal with -l or -t
+cannot combine signal with -l or -t
+no process ID specified
+no process ID specified

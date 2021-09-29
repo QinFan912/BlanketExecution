@@ -1,0 +1,5 @@
+no terminating quote in -S string
+only ${VARNAME} expansion is supported, error at: %s
+'\c' must not appear in double-quoted -S string
+invalid backslash at end of string in -S
+invalid sequence '\%c' in -S

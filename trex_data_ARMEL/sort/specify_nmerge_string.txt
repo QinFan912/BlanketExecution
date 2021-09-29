@@ -1,0 +1,5 @@
+invalid --%s argument %s
+minimum --%s argument is %s
+--%s argument %s too large
+maximum --%s argument with current rlimit is %s
+igno

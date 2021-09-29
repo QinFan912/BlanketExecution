@@ -1,0 +1,15 @@
+coreutils
+/usr/local/share/locale
+coreutils
+0123456789cstuw:p:g:
+fmt
+GNU coreutils
+invalid option -- %c; -WIDTH is recognized only when it is the first
+option; use -w N instead
+invalid option -- %c; -WIDTH is recognized only when it is the first
+option; use -w N instead
+invalid width
+invalid width
+%s
+cannot open %s for reading
+crow

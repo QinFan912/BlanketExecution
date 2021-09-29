@@ -1,0 +1,14 @@
+coreutils
+/usr/local/share/locale
+coreutils
++r:t:u:l:c
+%s may be used only on a SELinux kernel
+failed to get current context
+runcon
+GNU coreutils
+Russell Coker
+multiple users
+multiple types
+multiple roles
+multiple levelranges
+no command specified

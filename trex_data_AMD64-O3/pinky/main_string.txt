@@ -1,0 +1,18 @@
+coreutils
+/usr/local/share/locale
+coreutils
+sfwiqbhlp
+pinky
+GNU coreutils
+Joseph Arceneaux
+David MacKenzie
+/var/run/utmp
+Login
+Name
+ TTY
+Idle
+When
+Where
+/var/run/utmp
+%s
+no username specified; at least one must be specified when using -l

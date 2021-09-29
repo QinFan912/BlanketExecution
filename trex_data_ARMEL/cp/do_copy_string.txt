@@ -1,0 +1,11 @@
+target %s is not a directory
+cannot combine --target-directory (-t) and --no-target-directory (-T)
+cannot combine --target-directory (-t) and --no-target-directory (-T)
+extra operand %s
+..
+..
+with --parents, the destination must be a directory
+with --parents, the destination must be a directory
+missing file operand
+missing file operand
+missing destination file operand after %s

@@ -1,0 +1,4 @@
+waiting for %s [-d]
+%s [-d] terminated abnormally
+%s [-d] terminated abnormally
+waiting for %s [-d]

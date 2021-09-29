@@ -1,0 +1,4 @@
+warning: working around lseek kernel bug for file (%s)
+  of mt_type=0x%0lx -- see <sys/mtio.h> for the list of types
+warning: working around lseek kernel bug for file (%s)
+  of mt_type=0x%0lx -- see <sys/mtio.h> for the list of types

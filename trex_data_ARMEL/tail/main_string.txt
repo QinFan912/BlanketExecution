@@ -1,0 +1,12 @@
+coreutils
+/usr/local/share/locale
+coreutils
+cannot follow %s by name
+warning: following standard input indefinitely is ineffective
+warning: following standard input indefinitely is ineffective
+standard output
+standard output
+write error
+write error
+inotify cannot be used, reverting to polling
+inotify cannot be used, reverting to polling

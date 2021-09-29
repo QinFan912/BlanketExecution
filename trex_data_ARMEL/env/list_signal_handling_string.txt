@@ -1,0 +1,4 @@
+failed to get signal process mask
+failed to get signal process mask
+%-10s (%2d): %s%s%s
+

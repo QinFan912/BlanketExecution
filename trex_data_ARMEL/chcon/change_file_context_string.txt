@@ -1,0 +1,3 @@
+failed to get security context of %s
+can't apply partial context to unlabeled file %s
+failed to change context of %s to %s

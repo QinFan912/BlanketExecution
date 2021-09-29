@@ -1,0 +1,20 @@
+coreutils
+/usr/local/share/locale
+coreutils
+dp:qtuV
+too many templates
+too many templates
+mktemp
+GNU coreutils
+with --suffix, template %s must end in X
+invalid suffix %s, contains directory separator
+too few X's in template %s
+TMPDIR
+invalid template, %s, contains directory separator
+TMPDIR
+invalid template, %s; with --tmpdir, it may not be absolute
+failed to create file via template %s
+failed to create directory via template %s
+write error
+write error
+dire

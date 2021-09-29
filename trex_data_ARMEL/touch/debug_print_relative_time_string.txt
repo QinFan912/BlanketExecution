@@ -1,0 +1,3 @@
+parsed %s part: 
+today/this/now
+

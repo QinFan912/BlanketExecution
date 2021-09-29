@@ -1,0 +1,10 @@
+TMPDIR
+tacXXXXXX
+tacXXXXXX
+memory exhausted
+memory exhausted
+failed to create temporary file in %s
+w+
+w+
+failed to open %s for writing
+failed to rewind stream for %s

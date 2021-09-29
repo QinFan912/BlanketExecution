@@ -1,0 +1,13 @@
+--sort
+ghMnRV
+sort
+GNU coreutils
+POSIXLY_CORRECT
+coreutils
+/usr/local/share/locale
+coreutils
+multiple random sources specified
+multiple output files specified
+multiple compress programs specified
+--check
+CCc

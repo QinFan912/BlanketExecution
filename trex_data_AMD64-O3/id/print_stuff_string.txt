@@ -1,0 +1,8 @@
+cannot find name for user ID %s
+uid=%s
+ gid=%s
+ euid=%s
+ egid=%s
+failed to get groups for user %s
+failed to get groups for the current process
+ groups=

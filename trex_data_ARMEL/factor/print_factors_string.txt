@@ -1,0 +1,2 @@
+%s is not a valid positive integer
+%s is too large

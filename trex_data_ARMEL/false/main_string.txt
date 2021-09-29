@@ -1,0 +1,7 @@
+coreutils
+/usr/local/share/locale
+coreutils
+--help
+--help
+--version
+--help

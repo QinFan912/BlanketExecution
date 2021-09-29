@@ -1,0 +1,35 @@
+coreutils
+/usr/local/share/locale
+coreutils
+diw:
+-
+rb
+-
+invalid wrap size
+basenc
+GNU coreutils
+Simon Josefsson
+Assaf Gordon
+extra operand %s
+%s
+missing encoding type
+read error
+invalid input
+invalid input
+write error
+invalid input
+write error
+write error
+write error
+write error
+read error
+write error
+write error
+%s
+-
+closing standard input
+%s
+missing encoding type
+%s
+write error
+extra operand %s

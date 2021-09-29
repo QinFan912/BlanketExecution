@@ -1,0 +1,20 @@
+coreutils
+/usr/local/share/locale
+coreutils
+brs:
+tac
+GNU coreutils
+Jay Lepreau
+David MacKenzie
+separator cannot be empty
+%s
+separator cannot be empty
+-
+standard input
+TMPDIR
+tacXXXXXX
+failed to create temporary file in %s
+w+
+failed to open %s for writing
+%s: write error
+-

@@ -1,0 +1,35 @@
+coreutils
+/usr/local/share/locale
+coreutils
+d:z
+--round
+invalid padding value %s
+multiple field specifications
+multiple field specifications
+invalid header value %s
+--invalid
+the delimiter must be a single character
+the delimiter must be a single character
+--from
+--to
+numfmt
+GNU coreutils
+--grouping cannot be combined with --format
+--grouping cannot be combined with --format
+failed to set locale
+failed to set locale
+no conversion option specified
+no conversion option specified
+grouping cannot be combined with --to
+grouping cannot be combined with --to
+grouping has no effect in this locale
+grouping has no effect in this locale
+error reading input
+error reading input
+--header ignored with command-line input
+--header ignored with command-line input
+failed to convert some of the input numbers
+failed to convert some of the input numbers
+from
+none
+abor

@@ -1,0 +1,23 @@
+coreutils
+/usr/local/share/locale
+coreutils
+-agF:
+only one device may be specified
+only one device may be specified
+stty
+GNU coreutils
+-drain
+drain
+the options for verbose and stty-readable output styles are
+mutually exclusive
+the options for verbose and stty-readable output styles are
+mutually exclusive
+when specifying an output style, modes may not be set
+when specifying an output style, modes may not be set
+standard input
+%s
+%s: couldn't reset non-blocking mode
+%s
+%s
+%s
+%s: unable to perform all requested operations

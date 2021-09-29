@@ -1,0 +1,14 @@
+Usage: %s [OPTION]... [FILE]...
+
+Wrap input lines in each FILE, writing to standard output.
+
+  -b, --bytes         count bytes rather than columns
+  -s, --spaces        break at spaces
+  -w, --width=WIDTH   use WIDTH columns instead of 80
+
+      --help     display this help and exit
+
+      --version  output version information and exit
+
+Try '%s --help' for more information.
+

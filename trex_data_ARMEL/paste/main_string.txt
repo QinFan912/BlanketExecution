@@ -1,0 +1,7 @@
+coreutils
+/usr/local/share/locale
+coreutils
+d:sz
+paste
+delimiter list ends with an unescaped backslash: %s
+seri

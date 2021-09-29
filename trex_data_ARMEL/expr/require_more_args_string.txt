@@ -1,0 +1,1 @@
+syntax error: missing argument after %s

@@ -1,0 +1,9 @@
+coreutils
+/usr/local/share/locale
+coreutils
+z
+missing operand
+dirname
+GNU coreutils
+David MacKenzie
+Jim Meyering

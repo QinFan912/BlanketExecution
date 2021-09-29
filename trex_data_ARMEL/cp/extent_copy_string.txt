@@ -1,0 +1,5 @@
+cannot lseek %s
+%s: write failed
+%s: failed to get extents info
+error deallocating %s
+failed to extend %s

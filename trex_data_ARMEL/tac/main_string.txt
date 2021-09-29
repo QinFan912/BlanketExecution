@@ -1,0 +1,10 @@
+coreutils
+/usr/local/share/locale
+coreutils
+brs:
+tac
+GNU coreutils
+separator cannot be empty
+separator cannot be empty
+%s
+befo

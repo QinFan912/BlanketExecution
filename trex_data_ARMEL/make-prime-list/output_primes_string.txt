@@ -1,0 +1,13 @@
+/* Generated file -- DO NOT EDIT */
+
+#define WIDE_UINT_BITS %u
+
+P (%u, %u,
+   (
+),
+   UINTMAX_MAX / %u)
+
+
+#undef FIRST_OMITTED_PRIME
+#define FIRST_OMITTED_PRIME %u
+

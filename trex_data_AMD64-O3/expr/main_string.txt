@@ -1,0 +1,8 @@
+coreutils
+/usr/local/share/locale
+coreutils
+expr
+GNU coreutils
+8.32
+syntax error: unexpected argument %s
+missing operand

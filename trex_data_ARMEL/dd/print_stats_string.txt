@@ -1,0 +1,10 @@
+%llu+%llu records in
+%llu+%llu records out
+
+%llu+%llu records in
+%llu+%llu records out
+
+%llu truncated record
+
+%llu truncated records
+

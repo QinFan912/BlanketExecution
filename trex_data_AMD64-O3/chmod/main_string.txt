@@ -1,0 +1,38 @@
+coreutils
+/usr/local/share/locale
+coreutils
+Rcfvr::w::x::X::s::t::u::g::o::a::,::+::=::0::1::2::3::4::5::6::7::
+failed to get attributes of %s
+missing operand after %s
+failed to get attributes of %s
+invalid mode: %s
+chmod
+GNU coreutils
+David MacKenzie
+Jim Meyering
+%s
+cannot operate on dangling symlink %s
+WARNING: Circular directory structure.
+This almost certainly means that you have a corrupted file system.
+NOTIFY YOUR SYSTEM MANAGER.
+The following directory is part of the cycle:
+  %s
+
+it is dangerous to operate recursively on %s (same as %s)
+it is dangerous to operate recursively on %s
+use --no-preserve-root to override this failsafe
+getting new attributes of %s
+mode of %s changed from %04lo (%s) to %04lo (%s)
+
+changing permissions of %s
+fts_read failed
+fts_close failed
+mode of %s retained as %04lo (%s)
+
+failed to change mode of %s from %04lo (%s) to %04lo (%s)
+
+mode of %s retained as %04lo (%s)
+
+neither symbolic link %s nor referent has been changed
+
+%s: new permissions are %s, not %s

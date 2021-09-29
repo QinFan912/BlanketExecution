@@ -1,0 +1,14 @@
+c:n:fFqs:vz0123456789
+tail
+GNU coreutils
+option used in invalid context -- %c
+invalid number of bytes
+invalid number of lines
+invalid maximum number of unchanged stats between opens
+invalid number of seconds: %s
+invalid PID
+--follow
+warning: --retry only effective for the initial open
+warning: --retry ignored; --retry is useful only when following
+warning: PID ignored; --pid=PID is useful only when following
+warning: --pid=PID is not supported on this system

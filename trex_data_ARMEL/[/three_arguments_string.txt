@@ -1,0 +1,5 @@
+-a
+-a
+-o
+-o
+%s: binary operator expected

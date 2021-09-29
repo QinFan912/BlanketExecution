@@ -1,0 +1,2 @@
+cannot combine --target-directory (-t) and --no-target-directory (-T)
+target %s is not a directory

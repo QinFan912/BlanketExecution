@@ -1,0 +1,3 @@
+incompatible join fields %lu, %lu
+extra operand %s
+incompatible join fields %lu, %lu

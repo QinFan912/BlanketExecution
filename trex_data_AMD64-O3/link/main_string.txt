@@ -1,0 +1,6 @@
+coreutils
+/usr/local/share/locale
+coreutils
+cannot create link %s to %s
+missing operand
+extra operand %s

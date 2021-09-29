@@ -1,0 +1,12 @@
+coreutils
+/usr/local/share/locale
+coreutils
++f:s:w
+seq
+GNU coreutils
+format string may not be specified when printing equal width strings
+invalid Zero increment value: %s
+%0.Lf
+%0.Lf
+extra operand %s
+missing operand

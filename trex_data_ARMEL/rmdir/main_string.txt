@@ -1,0 +1,8 @@
+coreutils
+/usr/local/share/locale
+coreutils
+missing operand
+missing operand
+removing directory, %s
+failed to remove %s
+igno

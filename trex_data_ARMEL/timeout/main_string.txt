@@ -1,0 +1,15 @@
+coreutils
+/usr/local/share/locale
+coreutils
++k:s:v
+timeout
+GNU coreutils
+the monitored command dumped core
+the monitored command dumped core
+unknown status from command (%d)
+error waiting for command
+error waiting for command
+failed to run command %s
+fork system call failed
+fork system call failed
+kill

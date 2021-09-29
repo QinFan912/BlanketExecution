@@ -1,0 +1,31 @@
+coreutils
+/usr/local/share/locale
+coreutils
+m:Z
+mknod
+GNU coreutils
+warning: ignoring --context; it requires an SELinux/SMACK-enabled kernel
+warning: ignoring --context; it requires an SELinux/SMACK-enabled kernel
+invalid mode
+invalid mode
+mode must specify only file permission bits
+mode must specify only file permission bits
+failed to set default file creation context to %s
+invalid major device number %s
+invalid minor device number %s
+invalid device %s %s
+invalid device %s %s
+%s
+%s
+cannot set permissions of %s
+invalid device type %s
+extra operand %s
+Fifos do not have major and minor device numbers.
+%s
+
+missing operand
+missing operand
+missing operand after %s
+Special files require major and minor device numbers.
+%s
+

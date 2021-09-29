@@ -1,0 +1,17 @@
+coreutils
+/usr/local/share/locale
+coreutils
+options %s and %s are mutually exclusive
+aB:iF:hHklmPTt:vx:
+POSIXLY_CORRECT
+DF_BLOCK_SIZE
+df
+GNU coreutils
+file system type %s both selected and excluded
+%s
+Warning: 
+cannot read table of mounted file systems
+%s%s
+no file systems processed
+no file systems processed
+total

@@ -1,0 +1,4 @@
+%s
+standard input
+invalid date %s
+%s

@@ -1,0 +1,10 @@
+coreutils
+/usr/local/share/locale
+coreutils
+rs
+sum
+GNU coreutils
+Kayvan Aghaiepour
+David MacKenzie
+-
+%s

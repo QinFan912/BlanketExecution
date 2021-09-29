@@ -1,0 +1,10 @@
+cannot open directory %s
+cannot determine device and inode of %s
+%s: not listing already-listed directory
+error canonicalizing %s
+reading directory %s
+reading directory %s
+closing directory %s
+closing directory %s
+closing directory %s
+total

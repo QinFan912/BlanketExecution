@@ -1,0 +1,12 @@
+value/precision too large to be printed: '%Lg/%llu' (consider using --to)
+value/precision too large to be printed: '%Lg/%llu' (consider using --to)
+value too large to be printed: '%Lg' (consider using --to)
+value too large to be printed: '%Lg' (consider using --to)
+value too large to be printed: '%Lg' (cannot handle values > 999Y)
+value too large to be printed: '%Lg' (cannot handle values > 999Y)
+formatting output:
+  value: %Lf
+  humanized: %s
+
+  After padding: %s
+

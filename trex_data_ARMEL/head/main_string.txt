@@ -1,0 +1,12 @@
+coreutils
+/usr/local/share/locale
+coreutils
+invalid trailing option -- %c
+c:n:qvz0123456789
+head
+GNU coreutils
+invalid trailing option -- %c
+invalid trailing option -- %c
+invalid number of bytes
+%s: %s
+byte

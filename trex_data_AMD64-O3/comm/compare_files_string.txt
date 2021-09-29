@@ -1,0 +1,10 @@
+-
+r
+%s
+%s
+total
+file %d is not in sorted order
+%s
+%s
+%s
+%s

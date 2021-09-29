@@ -1,0 +1,4 @@
+%s: cannot shred append-only file descriptor
+%s: cannot shred append-only file descriptor
+%s: fcntl failed
+%s: fcntl failed

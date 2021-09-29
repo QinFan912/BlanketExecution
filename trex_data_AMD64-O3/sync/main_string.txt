@@ -1,0 +1,12 @@
+coreutils
+/usr/local/share/locale
+coreutils
+df
+sync
+GNU coreutils
+Jim Meyering
+Giuseppe Scrivano
+--data needs at least one argument
+cannot specify both --data and --file-system
+error opening %s
+failed to close %s

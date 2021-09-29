@@ -1,0 +1,9 @@
+coreutils
+/usr/local/share/locale
+coreutils
+nproc
+GNU coreutils
+invalid number
+extra operand %s
+%lu
+

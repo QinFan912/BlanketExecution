@@ -2,25 +2,45 @@ coreutils
 /usr/local/share/locale
 coreutils
 ei:n:o:rz
-multiple random sources specified
+invalid input range
+invalid input range
 shuf
 GNU coreutils
 Paul Eggert
+invalid line count: %s
+cannot combine -e and -i options
 multiple -i options specified
-invalid input range
-invalid input range
+multiple random sources specified
 invalid input range
 %s: %s
-invalid line count: %s
 multiple output files specified
-cannot combine -e and -i options
-extra operand %s
-r
-%s
-%s
 read error
 w
+write error
+write error
+write error
+write error
+write error
+write error
+-
+r
+too many input lines
+read error
+too many input lines
+w
+extra operand %s
 %s
 no lines to repeat
-write error
-echo
+%s
+%s
+%s
+no lines to repeat
+%s
+read error
+multiple -i options specified
+invalid input range
+%s: %s
+multiple random sources specified
+multiple output files specified
+extra operand %s
+%s

@@ -2,3 +2,4 @@ coreutils
 /usr/local/share/locale
 coreutils
 standard output
+standard output

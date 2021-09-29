@@ -1,0 +1,2 @@
+error reading %s
+cannot fstat %s

@@ -1,0 +1,15 @@
+coreutils
+/usr/local/share/locale
+coreutils
+POSIXLY_CORRECT
+--help
+--help
+--version
+--help
+printf
+--help
+--help
+--
+warning: ignoring excess arguments, starting with %s
+missing operand
+missing operand

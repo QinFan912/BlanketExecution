@@ -1,0 +1,5 @@
+non-integer argument
+non-integer argument
+non-integer argument
+%s
+division by zero

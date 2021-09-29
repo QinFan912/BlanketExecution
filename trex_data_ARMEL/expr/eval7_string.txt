@@ -1,0 +1,4 @@
+syntax error: unexpected ')'
+syntax error: unexpected ')'
+syntax error: expecting ')' after %s
+syntax error: expecting ')' instead of %s

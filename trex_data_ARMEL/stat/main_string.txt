@@ -1,0 +1,13 @@
+coreutils
+/usr/local/share/locale
+coreutils
+c:fLt
+%N
+%N
+missing operand
+missing operand
+--cached
+stat
+GNU coreutils
+dere
+defa

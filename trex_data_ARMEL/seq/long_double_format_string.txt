@@ -1,0 +1,9 @@
+format %s has no %% directive
+-+#0 '
+0123456789
+0123456789
+format %s ends in %%
+efgaEFGA
+efgaEFGA
+format %s has unknown %%%c directive
+format %s has too many %% directives

@@ -1,0 +1,29 @@
+coreutils
+/usr/local/share/locale
+coreutils
++C:iS:u:v0 	
+env
+GNU coreutils
+invalid option -- '%c'
+invalid option -- '%c'
+use -[v]S to pass options in shebang lines
+use -[v]S to pass options in shebang lines
+setenv:   %s
+
+cannot set %s
+cannot specify --null (-0) with command
+cannot specify --null (-0) with command
+must specify command with --chdir (-C)
+must specify command with --chdir (-C)
+%s%c
+chdir:    %s
+
+cannot change directory to %s
+executing: %s
+
+   arg[%d]= %s
+
+%s
+use -[v]S to pass options in shebang lines
+use -[v]S to pass options in shebang lines
+igno

@@ -1,0 +1,30 @@
+coreutils
+/usr/local/share/locale
+coreutils
++AcCdst
+tr
+GNU coreutils
+Jim Meyering
+C
+C
+missing operand
+misaligned [:upper:] and/or [:lower:] construct
+write error
+the [c*] construct may appear in string2 only when translating
+when translating with complemented character classes,
+string2 must map all characters in the domain to one
+when translating with complemented character classes,
+string2 must map all characters in the domain to one
+write error
+the [c*] repeat construct may not appear in string1
+the [c*] repeat construct may not appear in string1
+only one [c*] repeat construct may appear in string2
+when translating, the only character classes that may appear in
+string2 are 'upper' and 'lower'
+[=c=] expressions may not appear in string2 when translating
+when not truncating set1, string2 must be non-empty
+write error
+write error
+extra operand %s
+standard input
+missing operand after %s

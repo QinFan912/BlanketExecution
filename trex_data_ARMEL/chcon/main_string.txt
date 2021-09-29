@@ -1,0 +1,17 @@
+coreutils
+/usr/local/share/locale
+coreutils
+HLPRhvu:r:t:l:
+chcon
+GNU coreutils
+-R -h requires -P
+-R -h requires -P
+-R --dereference requires either -H or -L
+-R --dereference requires either -H or -L
+failed to get security context of %s
+missing operand after %s
+missing operand
+missing operand
+conflicting security context specifiers given
+conflicting security context specifiers given
+failed to get attributes of %s

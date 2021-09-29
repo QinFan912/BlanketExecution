@@ -1,0 +1,2 @@
+cannot read symbolic link %s
+cannot read symbolic link %s

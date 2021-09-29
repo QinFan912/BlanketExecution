@@ -1,0 +1,7 @@
+%s
+ 	
+
+%s: input contains an odd number of tokens
+standard input
+%s
+%s: input contains a loop:

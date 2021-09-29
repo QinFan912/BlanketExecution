@@ -1,0 +1,15 @@
+coreutils
+/usr/local/share/locale
+coreutils
+invalid adjustment %s
+cannot get niceness
+cannot get niceness
+%d
+
+a command must be given with an adjustment
+a command must be given with an adjustment
+cannot get niceness
+cannot get niceness
+cannot set niceness
+cannot set niceness
+%s

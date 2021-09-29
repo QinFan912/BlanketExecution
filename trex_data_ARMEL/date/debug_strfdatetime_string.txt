@@ -1,0 +1,4 @@
+(Y-M-D) %Y-%m-%d %H:%M:%S
+(Y-M-D) %Y-%m-%d %H:%M:%S
+(Y-M-D) %Y-%m-%d %H:%M:%S
+ TZ=%s

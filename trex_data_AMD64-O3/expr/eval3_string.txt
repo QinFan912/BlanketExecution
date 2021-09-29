@@ -1,0 +1,5 @@
+%s
+non-integer argument
+non-integer argument
+%s
+non-integer argument

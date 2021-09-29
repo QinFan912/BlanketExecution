@@ -1,0 +1,15 @@
+cannot change to directory %s
+cannot stat current directory (now %s)
+cannot change to directory %s
+..
+..
+..
+..
+cannot change to directory %s
+..
+cannot stat %s
+..
+failed to return to initial working directory
+failed to return to initial working directory
+cannot get current directory
+cannot get current directory

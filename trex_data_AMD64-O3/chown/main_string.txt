@@ -1,0 +1,17 @@
+coreutils
+/usr/local/share/locale
+coreutils
+HLPRcfhv
+%s: %s
+chown
+GNU coreutils
+David MacKenzie
+Jim Meyering
+failed to get attributes of %s
+-R --dereference requires either -H or -L
+%s: %s
+failed to get attributes of %s
+-R --dereference requires either -H or -L
+failed to get attributes of %s
+missing operand
+missing operand after %s

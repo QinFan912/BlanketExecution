@@ -1,0 +1,3 @@
+%s: cannot seek to relative offset %s
+%s: cannot seek to end-relative offset %s
+%s: cannot seek to offset %s

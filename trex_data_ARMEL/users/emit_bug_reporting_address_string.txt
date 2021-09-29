@@ -1,0 +1,4 @@
+Report bugs to: %s
+
+%s home page: <%s>
+

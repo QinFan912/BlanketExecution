@@ -5,4 +5,5 @@ coreutils
 unexpand
 GNU coreutils
 tab stop value is too large
+tab stop value is too large
 tabs

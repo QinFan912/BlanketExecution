@@ -2,16 +2,16 @@ POSIXLY_CORRECT
 coreutils
 /usr/local/share/locale
 coreutils
---group is mutually exclusive with -c/-d/-D/-u
-grouping and printing repeat counts is meaningless
-printing all duplicated lines and repeat counts is meaningless
-extra operand %s
 -0123456789Dcdf:is:uw:z
---all-repeated
 extra operand %s
 uniq
 GNU coreutils
+--all-repeated
 --group
-coun
-none
-prep
+--group is mutually exclusive with -c/-d/-D/-u
+--group is mutually exclusive with -c/-d/-D/-u
+grouping and printing repeat counts is meaningless
+grouping and printing repeat counts is meaningless
+printing all duplicated lines and repeat counts is meaningless
+printing all duplicated lines and repeat counts is meaningless
+extra operand %s

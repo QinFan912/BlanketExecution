@@ -1,0 +1,24 @@
+creating file %s
+
+SHELL
+FILE
+closing prior pipe
+failed to run command: "%s -c %s"
+executing with FILE=%s
+
+closing input pipe
+closing output pipe
+failed to create pipe
+moving input pipe
+failed to close input pipe
+%s: error truncating
+fork system call failed
+FILE
+%s: error truncating
+%s would overwrite input; aborting
+failed to stat %s
+failed to create pipe
+failed to set FILE environment variable
+fork system call failed
+failed to close input pipe
+moving input pipe

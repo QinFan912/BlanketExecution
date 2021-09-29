@@ -1,0 +1,16 @@
+coreutils
+/usr/local/share/locale
+coreutils
+m:Z
+mkfifo
+GNU coreutils
+warning: ignoring --context; it requires an SELinux/SMACK-enabled kernel
+warning: ignoring --context; it requires an SELinux/SMACK-enabled kernel
+failed to set default file creation context to %s
+invalid mode
+invalid mode
+mode must specify only file permission bits
+missing operand
+missing operand
+cannot create fifo %s
+cannot set permissions of %s

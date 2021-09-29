@@ -1,0 +1,8 @@
+%s: file has negative size
+%s: file has negative size
+%s: error truncating
+%s: error truncating
+%s: invalid file type
+%s: invalid file type
+%s: fstat failed
+%s: fstat failed

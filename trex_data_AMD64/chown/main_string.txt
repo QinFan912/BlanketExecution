@@ -2,15 +2,17 @@ coreutils
 /usr/local/share/locale
 coreutils
 HLPRcfhv
--R --dereference requires either -H or -L
 chown
 GNU coreutils
 David MacKenzie
 Jim Meyering
 %s: %s
+-R --dereference requires either -H or -L
+failed to get attributes of %s
+failed to get attributes of %s
 %s: %s
+%s: %s
+-R --dereference requires either -H or -L
 failed to get attributes of %s
-failed to get attributes of %s
-missing operand after %s
 missing operand
-recu
+missing operand after %s

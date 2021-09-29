@@ -1,0 +1,6 @@
+coreutils
+/usr/local/share/locale
+coreutils
+cannot find name for user ID %lu
+cannot find name for user ID %lu
+extra operand %s

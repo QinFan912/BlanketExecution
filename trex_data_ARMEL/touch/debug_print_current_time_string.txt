@@ -1,0 +1,6 @@
+parsed %s part: 
+(Y-M-D) %04lld-%02lld-%02lld
+year: %04lld
+.%09d
+%s (day ordinal=%lld number=%d)
+number of seconds: %lld

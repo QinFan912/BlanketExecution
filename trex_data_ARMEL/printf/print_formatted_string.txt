@@ -1,0 +1,3 @@
+invalid field width: %s
+invalid precision: %s
+%.*s: invalid conversion specification

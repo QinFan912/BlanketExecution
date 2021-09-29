@@ -1,0 +1,3 @@
+"\abcefnrtv
+invalid universal character name \%c%0*x
+missing hexadecimal number in escape

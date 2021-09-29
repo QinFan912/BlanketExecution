@@ -1,0 +1,2 @@
+w
+couldn't create temporary file

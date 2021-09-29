@@ -1,0 +1,12 @@
+Usage: %s [FILE]...
+  or:  %s [OPTION]
+
+Print CRC checksum and byte counts of each FILE.
+
+
+      --help     display this help and exit
+
+      --version  output version information and exit
+
+Try '%s --help' for more information.
+

@@ -1,0 +1,9 @@
+%s: cannot skip to specified offset
+writing to %s
+error reading %s
+error writing %s
+error writing %s
+cannot fstat %s
+failed to truncate to %lld bytes in output file %s
+fdatasync failed for %s
+fsync failed for %s

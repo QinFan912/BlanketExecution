@@ -1,0 +1,2 @@
+warning: sigprocmask
+warning: sigprocmask

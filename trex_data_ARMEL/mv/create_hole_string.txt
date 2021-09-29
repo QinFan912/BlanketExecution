@@ -1,0 +1,2 @@
+error deallocating %s
+cannot lseek %s

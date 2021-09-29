@@ -1,0 +1,5 @@
+trimming suffix %s
+
+setting Auto-Padding to %ld characters
+
+large input value %s: possible precision loss

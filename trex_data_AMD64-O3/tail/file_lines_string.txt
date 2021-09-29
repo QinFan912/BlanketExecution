@@ -1,0 +1,4 @@
+error reading %s
+%s: cannot seek to offset %s
+error reading %s
+%s: cannot seek to offset %s

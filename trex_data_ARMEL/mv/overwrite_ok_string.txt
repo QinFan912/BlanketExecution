@@ -1,0 +1,3 @@
+%s: unwritable %s (mode %04lo, %s); try anyway? 
+%s: replace %s, overriding mode %04lo (%s)? 
+%s: overwrite %s? 

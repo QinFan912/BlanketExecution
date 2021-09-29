@@ -1,0 +1,19 @@
+coreutils
+/usr/local/share/locale
+coreutils
+multiple levelranges
+multiple levelranges
+multiple types
+multiple types
+multiple users
+multiple users
+multiple roles
+multiple roles
+you must specify -c, -t, -u, -l, -r, or context
+you must specify -c, -t, -u, -l, -r, or context
+failed to get current context
+failed to get current context
+no command specified
+no command specified
+%s may be used only on a SELinux kernel
+role

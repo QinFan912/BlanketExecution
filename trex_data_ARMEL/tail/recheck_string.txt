@@ -1,0 +1,9 @@
+%s has been replaced with an untailable symbolic link
+%s has been replaced with an untailable file%s
+; giving up on this name
+%s has been replaced with an untailable remote file
+%s has become inaccessible
+%s
+%s has become accessible
+%s has been replaced;  following new file
+%s has appeared;  following new file

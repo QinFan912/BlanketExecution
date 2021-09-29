@@ -1,0 +1,9 @@
+coreutils
+/usr/local/share/locale
+coreutils
++as:z
+basename
+GNU coreutils
+David MacKenzie
+extra operand %s
+missing operand

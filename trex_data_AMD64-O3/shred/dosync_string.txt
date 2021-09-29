@@ -1,0 +1,2 @@
+%s: fdatasync failed
+%s: fsync failed

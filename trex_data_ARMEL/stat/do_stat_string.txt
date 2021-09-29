@@ -1,0 +1,3 @@
+cannot stat %s
+cannot stat standard input
+cannot stat standard input

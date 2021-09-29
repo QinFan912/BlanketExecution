@@ -1,0 +1,41 @@
+if
+if
+of
+of
+conv
+conv
+iflag
+iflag
+oflag
+oflag
+status
+ibs
+ibs
+obs
+obs
+bs
+bs
+cbs
+cbs
+skip
+skip
+seek
+seek
+count
+count
+unrecognized operand %s
+invalid number
+unrecognized operand %s
+cannot combine any two of {ascii,ebcdic,ibm}
+cannot combine any two of {ascii,ebcdic,ibm}
+cannot combine block and unblock
+cannot combine block and unblock
+cannot combine lcase and ucase
+cannot combine lcase and ucase
+cannot combine excl and nocreat
+cannot combine excl and nocreat
+cannot combine direct and nocache
+cannot combine direct and nocache
+invalid output flag
+invalid input flag
+invalid output flag

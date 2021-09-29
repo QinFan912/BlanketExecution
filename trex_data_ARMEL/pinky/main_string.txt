@@ -1,0 +1,9 @@
+coreutils
+/usr/local/share/locale
+coreutils
+sfwiqbhlp
+no username specified; at least one must be specified when using -l
+no username specified; at least one must be specified when using -l
+pinky
+GNU coreutils
+help

@@ -1,0 +1,26 @@
+POSIXLY_CORRECT
+coreutils
+/usr/local/share/locale
+coreutils
+-n
+coreutils
+/usr/local/share/locale
+coreutils
+--help
+--help
+--version
+echo
+GNU coreutils
+Brian Fox
+Chet Ramey
+--help
+-n
+--help
+--version
+-n
+--help
+--version
+-n
+--help
+--version
+-n

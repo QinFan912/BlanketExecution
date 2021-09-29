@@ -1,0 +1,12 @@
+Usage: %s FILE
+  or:  %s OPTION
+
+Call the unlink function to remove the specified FILE.
+
+
+      --help     display this help and exit
+
+      --version  output version information and exit
+
+Try '%s --help' for more information.
+

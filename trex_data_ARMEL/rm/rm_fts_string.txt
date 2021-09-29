@@ -1,13 +1,14 @@
+cannot remove %s
 refusing to remove %s or %s directory: skipping %s
 ..
 it is dangerous to operate recursively on %s
 it is dangerous to operate recursively on %s (same as %s)
 use --no-preserve-root to override this failsafe
+use --no-preserve-root to override this failsafe
 ..
 failed to stat %s: skipping %s
 skipping %s, since it's on a different device
 and --preserve-root=all is in effect
-cannot remove %s
 skipping %s, since it's on a different device
 traversal failed: %s
 WARNING: Circular directory structure.

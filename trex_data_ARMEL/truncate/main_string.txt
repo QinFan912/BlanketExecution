@@ -1,0 +1,26 @@
+coreutils
+/usr/local/share/locale
+coreutils
+cor:s:
+you must specify either %s or %s
+--size
+--reference
+you must specify a relative %s with %s
+--size
+--reference
+%s was specified but %s was not
+--io-blocks
+--size
+cannot stat %s
+cannot get the size of %s
+missing file operand
+missing file operand
+multiple relative modifiers specified
+multiple relative modifiers specified
+Invalid number
+division by zero
+division by zero
+truncate
+GNU coreutils
+cannot open %s for writing
+failed to close %s

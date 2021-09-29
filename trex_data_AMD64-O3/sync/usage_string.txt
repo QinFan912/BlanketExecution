@@ -1,0 +1,42 @@
+Usage: %s [OPTION] [FILE]...
+
+Synchronize cached writes to persistent storage
+
+If one or more files are specified, sync only them,
+or their containing file systems.
+
+
+  -d, --data             sync only file data, no unneeded metadata
+
+  -f, --file-system      sync the file systems that contain the files
+
+      --help     display this help and exit
+
+      --version  output version information and exit
+
+
+%s online help: <%s>
+
+
+%s online help: <%s>
+
+en_
+Full documentation <%s%s>
+
+en_
+en_
+Report any translation bugs to <https://translationproject.org/team/>
+
+en_
+en_
+en_
+Full documentation <%s%s>
+
+en_
+en_
+en_
+en_
+or available locally via: info '(coreutils) %s%s'
+
+Try '%s --help' for more information.
+

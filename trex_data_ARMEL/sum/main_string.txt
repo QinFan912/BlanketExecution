@@ -1,0 +1,8 @@
+coreutils
+/usr/local/share/locale
+coreutils
+rs
+sum
+GNU coreutils
+%s
+sysv

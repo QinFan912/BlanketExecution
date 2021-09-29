@@ -1,0 +1,15 @@
+coreutils
+/usr/local/share/locale
+coreutils
+Rcfvr::w::x::X::s::t::u::g::o::a::,::+::=::0::1::2::3::4::5::6::7::
+chmod
+GNU coreutils
+cannot combine mode and --reference options
+cannot combine mode and --reference options
+failed to get attributes of %s
+invalid mode: %s
+failed to get attributes of %s
+missing operand after %s
+missing operand
+missing operand
+chan

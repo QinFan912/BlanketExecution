@@ -1,0 +1,3 @@
+failed to preserve times for %s
+failed to preserve ownership for %s
+failed to preserve permissions for %s

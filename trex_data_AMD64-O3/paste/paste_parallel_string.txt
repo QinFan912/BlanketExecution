@@ -1,0 +1,5 @@
+r
+%s
+standard input is closed
+%s
+%s

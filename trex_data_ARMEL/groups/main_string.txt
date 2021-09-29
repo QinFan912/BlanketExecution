@@ -1,0 +1,13 @@
+coreutils
+/usr/local/share/locale
+coreutils
+groups
+GNU coreutils
+%s : 
+%s: no such user
+cannot get real UID
+cannot get real UID
+cannot get effective GID
+cannot get effective GID
+cannot get real GID
+cannot get real GID

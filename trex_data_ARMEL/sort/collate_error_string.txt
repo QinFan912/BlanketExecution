@@ -1,0 +1,5 @@
+string comparison failed
+string comparison failed
+Set LC_ALL='C' to work around the problem.
+Set LC_ALL='C' to work around the problem.
+The strings compared were %s and %s.

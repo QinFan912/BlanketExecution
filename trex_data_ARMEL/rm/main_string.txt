@@ -2,20 +2,22 @@ coreutils
 /usr/local/share/locale
 coreutils
 dfirvIR
+failed to get attributes of %s
+%s: remove %llu argument? 
+%s: remove %llu arguments? 
+%s: remove %llu argument recursively? 
+%s: remove %llu arguments recursively? 
+missing operand
+missing operand
 all
 all
 unrecognized --preserve-root argument: %s
 --no-preserve-root
 --no-preserve-root
 you may not abbreviate the --no-preserve-root option
+you may not abbreviate the --no-preserve-root option
 --interactive
 rm
 GNU coreutils
-missing operand
-failed to get attributes of %s
-%s: remove %llu argument? 
-%s: remove %llu arguments? 
-%s: remove %llu argument recursively? 
-%s: remove %llu arguments recursively? 
 forc
 neve

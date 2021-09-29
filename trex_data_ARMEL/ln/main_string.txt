@@ -1,0 +1,20 @@
+coreutils
+/usr/local/share/locale
+coreutils
+bdfinrst:vFLPS:T
+multiple target directories specified
+multiple target directories specified
+failed to access %s
+target %s is not a directory
+ln
+GNU coreutils
+cannot do --relative without --symbolic
+cannot do --relative without --symbolic
+missing file operand
+missing file operand
+target %s
+cannot combine --target-directory and --no-target-directory
+cannot combine --target-directory and --no-target-directory
+missing destination file operand after %s
+extra operand %s
+backup type

@@ -1,0 +1,8 @@
+coreutils
+/usr/local/share/locale
+coreutils
+cannot specify both --data and --file-system
+cannot specify both --data and --file-system
+--data needs at least one argument
+--data needs at least one argument
+data

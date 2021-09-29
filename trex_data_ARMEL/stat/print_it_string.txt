@@ -1,0 +1,2 @@
+warning: backslash at end of format
+%s: invalid directive

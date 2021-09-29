@@ -1,0 +1,6 @@
+coreutils
+/usr/local/share/locale
+coreutils
+%s%c
+%s%c
+null

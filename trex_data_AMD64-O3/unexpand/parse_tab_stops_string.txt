@@ -1,0 +1,9 @@
+'/' specifier not at start of number: %s
+'+' specifier not at start of number: %s
+tab size contains invalid character(s): %s
+'/' specifier only allowed with the last value
+'+' specifier only allowed with the last value
+0123456789
+tab stop is too large %s
+'/' specifier only allowed with the last value
+'+' specifier only allowed with the last value

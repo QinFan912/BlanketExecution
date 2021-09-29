@@ -1,0 +1,15 @@
+coreutils
+/usr/local/share/locale
+coreutils
+--help
+--version
+]
+[
+GNU coreutils
+Kevin Braunsdorf
+Matthew Bradburn
+--help
+]
+]
+--help
+]

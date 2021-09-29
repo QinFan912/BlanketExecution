@@ -1,0 +1,15 @@
+coreutils
+/usr/local/share/locale
+coreutils
+123z
+comm
+GNU coreutils
+multiple output delimiters specified
+multiple output delimiters specified
+input is not in sorted order
+input is not in sorted order
+extra operand %s
+missing operand
+missing operand
+missing operand after %s
+chec

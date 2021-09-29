@@ -1,0 +1,15 @@
+coreutils
+/usr/local/share/locale
+coreutils
++i:o:e:
+stdbuf
+GNU coreutils
+line buffering stdin is meaningless
+line buffering stdin is meaningless
+invalid mode %s
+you must specify a buffering mode option
+you must specify a buffering mode option
+missing operand
+missing operand
+failed to run command %s
+inpu

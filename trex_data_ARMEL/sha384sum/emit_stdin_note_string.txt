@@ -1,0 +1,3 @@
+
+With no FILE, or when FILE is -, read standard input.
+

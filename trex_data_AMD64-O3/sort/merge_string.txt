@@ -1,0 +1,11 @@
+open failed
+couldn't create process for %s -d
+r
+r
+open failed
+open failed
+w
+couldn't create temporary file
+fflush failed
+open failed
+open failed

@@ -1,0 +1,6 @@
+coreutils
+/usr/local/share/locale
+coreutils
+not a tty
+extra operand %s
+sile

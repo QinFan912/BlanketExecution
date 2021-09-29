@@ -1,2 +1,0 @@
-fts_read failed
-fts_close failed

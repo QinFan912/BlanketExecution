@@ -1,0 +1,34 @@
+coreutils
+/usr/local/share/locale
+coreutils
+bcCsDdg:m:o:pt:TvS:Z
+install
+GNU coreutils
+David MacKenzie
+multiple target directories specified
+the strip option may not be used when installing a directory
+target directory not allowed when installing a directory
+backup type
+cannot set target context and preserve it
+failed to set default file creation context to %s
+multiple target directories specified
+cannot combine --target-directory (-t) and --no-target-directory (-T)
+target %s is not a directory
+invalid group %s
+invalid user %s
+WARNING: ignoring --strip-program option as -s option was not specified
+the --compare (-C) option is ignored when you specify a mode with non-permission bits
+invalid mode %s
+the --compare (-C) option is ignored when you specify a mode with non-permission bits
+invalid mode %s
+target %s is not a directory
+target %s is not a directory
+multiple target directories specified
+target directory not allowed when installing a directory
+the strip option may not be used when installing a directory
+invalid mode %s
+failed to access %s
+target %s is not a directory
+target %s is not a directory
+failed to access %s
+cannot combine --target-directory (-t) and --no-target-directory (-T)

@@ -1,0 +1,50 @@
+coreutils
+/usr/local/share/locale
+coreutils
+0123456789C:a:b:del:n:t:ux
+empty record separator
+empty record separator
+\0
+\0
+multi-character separator %s
+multiple separator characters specified
+multiple separator characters specified
+cannot split in more than one way
+cannot split in more than one way
+invalid number of lines
+r/
+l/
+invalid number of chunks
+cannot split in more than one way
+cannot split in more than one way
+invalid IO block size
+invalid suffix %s, contains directory separator
+cannot split in more than one way
+cannot split in more than one way
+split
+GNU coreutils
+invalid number of bytes
+cannot split in more than one way
+cannot split in more than one way
+invalid number of bytes
+cannot split in more than one way
+cannot split in more than one way
+invalid suffix length
+line count option -%s%c... is too large
+%s: invalid start value for numerical suffix
+%s: invalid start value for hexadecimal suffix
+--filter does not process a chunk extracted to stdout
+--filter does not process a chunk extracted to stdout
+numerical suffix start value is too large for the suffix length
+numerical suffix start value is too large for the suffix length
+cannot open %s for reading
+%s
+%s: cannot determine file size
+invalid number of chunks
+%s: %s
+%s
+extra operand %s
+invalid number of lines
+%s: %s
+byte
+abcd

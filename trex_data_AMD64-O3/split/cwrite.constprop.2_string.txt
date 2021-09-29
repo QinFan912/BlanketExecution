@@ -1,0 +1,7 @@
+waiting for child process
+with FILE=%s, signal %s from command: %s
+with FILE=%s, exit %d from command: %s
+%s
+%s
+%s
+unknown status from command (0x%X)

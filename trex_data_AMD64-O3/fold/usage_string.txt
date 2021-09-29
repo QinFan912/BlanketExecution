@@ -1,0 +1,44 @@
+Usage: %s [OPTION]... [FILE]...
+
+Wrap input lines in each FILE, writing to standard output.
+
+
+With no FILE, or when FILE is -, read standard input.
+
+
+Mandatory arguments to long options are mandatory for short options too.
+
+  -b, --bytes         count bytes rather than columns
+  -s, --spaces        break at spaces
+  -w, --width=WIDTH   use WIDTH columns instead of 80
+
+      --help     display this help and exit
+
+      --version  output version information and exit
+
+
+%s online help: <%s>
+
+
+%s online help: <%s>
+
+en_
+Full documentation <%s%s>
+
+en_
+en_
+Report any translation bugs to <https://translationproject.org/team/>
+
+en_
+en_
+en_
+Full documentation <%s%s>
+
+en_
+en_
+en_
+en_
+or available locally via: info '(coreutils) %s%s'
+
+Try '%s --help' for more information.
+

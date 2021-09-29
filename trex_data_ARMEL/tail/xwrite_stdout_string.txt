@@ -1,0 +1,2 @@
+error writing %s
+standard output

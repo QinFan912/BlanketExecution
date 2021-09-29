@@ -1,0 +1,28 @@
+cp
+GNU coreutils
+coreutils
+/usr/local/share/locale
+coreutils
+--sparse
+multiple target directories specified
+multiple target directories specified
+failed to access %s
+target %s is not a directory
+warning: ignoring --context; it requires an SELinux-enabled kernel
+warning: ignoring --context; it requires an SELinux-enabled kernel
+--reflink
+abdfHilLnprst:uvxPRS:TZ
+cannot make both hard and symbolic links
+cannot make both hard and symbolic links
+options --backup and --no-clobber are mutually exclusive
+options --backup and --no-clobber are mutually exclusive
+--reflink can be used only with --sparse=auto
+--reflink can be used only with --sparse=auto
+backup type
+cannot set target context and preserve it
+cannot set target context and preserve it
+cannot preserve security context without an SELinux-enabled kernel
+cannot preserve security context without an SELinux-enabled kernel
+failed to set default file creation context to %s
+cannot preserve extended attributes, cp is built without xattr support
+cannot preserve extended attributes, cp is built without xattr support

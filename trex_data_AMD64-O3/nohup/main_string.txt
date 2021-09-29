@@ -1,0 +1,20 @@
+coreutils
+/usr/local/share/locale
+coreutils
+POSIXLY_CORRECT
+/dev/null
+failed to render standard input unusable
+ignoring input
+nohup.out
+nohup.out
+HOME
+nohup.out
+failed to open %s
+nohup.out
+failed to open %s
+nohup.out
+failed to open %s
+failed to open %s
+failed to redirect standard error
+failed to run command %s
+missing operand

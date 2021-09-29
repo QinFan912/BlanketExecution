@@ -1,0 +1,19 @@
+TERM
+TERM
+OPTIONS
+COLOR
+COLOR
+EIGHTBIT
+NORMAL
+<internal>
+%s:%lu: unrecognized keyword %s
+NORMAL
+NORMAL
+NORMAL
+NORMAL
+NORMAL
+NORMAL
+NORMAL
+NORMAL
+%s:%lu: invalid line;  missing second token
+# Configuration file for dircolors, a utility to help you set the

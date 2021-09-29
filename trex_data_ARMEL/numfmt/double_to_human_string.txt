@@ -1,0 +1,11 @@
+0%ld
+failed to prepare value '%Lf' for printing
+failed to prepare value '%Lf' for printing
+  scaled value to %Lf * %0.f ^ %u
+
+  after rounding, value=%Lf * %0.f ^ %u
+
+failed to prepare value '%Lf' for printing
+failed to prepare value '%Lf' for printing
+  returning value: %s
+

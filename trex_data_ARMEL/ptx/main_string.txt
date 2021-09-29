@@ -1,0 +1,13 @@
+coreutils
+/usr/local/share/locale
+coreutils
+AF:GM:ORS:TW:b:i:fg:o:trw:
+invalid gap width: %s
+invalid line width: %s
+--format
+F. Pinard
+ptx
+GNU coreutils
+%s
+extra operand %s
+auto

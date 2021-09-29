@@ -1,0 +1,2 @@
+closing input file %s
+closing output file %s

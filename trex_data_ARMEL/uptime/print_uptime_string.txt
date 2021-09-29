@@ -1,0 +1,14 @@
+couldn't get boot time
+couldn't get boot time
+ %H:%M:%S  
+ %H:%M:%S  
+ ??:????  
+up %ld day %2d:%02d,  
+up %ld days %2d:%02d,  
+up  %2d:%02d,  
+up ???? days ??:??,  
+%lu user
+%lu users
+,  load average: %.2f
+, %.2f
+, %.2f

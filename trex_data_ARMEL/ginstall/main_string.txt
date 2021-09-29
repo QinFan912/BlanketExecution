@@ -1,0 +1,38 @@
+coreutils
+/usr/local/share/locale
+coreutils
+bcCsDdg:m:o:pt:TvS:Z
+multiple target directories specified
+multiple target directories specified
+WARNING: ignoring --preserve-context; this kernel is not SELinux-enabled
+WARNING: ignoring --preserve-context; this kernel is not SELinux-enabled
+warning: ignoring --context; it requires an SELinux-enabled kernel
+warning: ignoring --context; it requires an SELinux-enabled kernel
+install
+GNU coreutils
+the strip option may not be used when installing a directory
+the strip option may not be used when installing a directory
+target directory not allowed when installing a directory
+target directory not allowed when installing a directory
+failed to access %s
+target %s is not a directory
+backup type
+cannot set target context and preserve it
+cannot set target context and preserve it
+failed to set default file creation context to %s
+target %s is not a directory
+cannot combine --target-directory (-t) and --no-target-directory (-T)
+extra operand %s
+invalid mode %s
+WARNING: ignoring --strip-program option as -s option was not specified
+WARNING: ignoring --strip-program option as -s option was not specified
+options --compare (-C) and --preserve-timestamps are mutually exclusive
+options --compare (-C) and --preserve-timestamps are mutually exclusive
+options --compare (-C) and --strip are mutually exclusive
+options --compare (-C) and --strip are mutually exclusive
+the --compare (-C) option is ignored when you specify a mode with non-permission bits
+the --compare (-C) option is ignored when you specify a mode with non-permission bits
+missing file operand
+missing file operand
+missing destination file operand after %s
+back

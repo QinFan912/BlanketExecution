@@ -1,0 +1,14 @@
+uid=%s
+(%s)
+ gid=%s
+(%s)
+ euid=%s
+(%s)
+ egid=%s
+(%s)
+ groups=
+(%s)
+ context=%s
+failed to get groups for user %s
+failed to get groups for the current process
+failed to get groups for the current process

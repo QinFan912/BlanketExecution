@@ -1,0 +1,6 @@
+coreutils
+/usr/local/share/locale
+coreutils
+tsort
+GNU coreutils
+extra operand %s

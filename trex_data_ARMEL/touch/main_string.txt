@@ -1,0 +1,16 @@
+coreutils
+/usr/local/share/locale
+coreutils
+acd:fhmr:t:
+touch
+GNU coreutils
+invalid date format %s
+--time
+failed to get attributes of %s
+cannot specify times from more than one source
+cannot specify times from more than one source
+POSIXLY_CORRECT
+POSIXLY_CORRECT
+warning: 'touch %s' is obsolete; use 'touch -t %04ld%02d%02d%02d%02d.%02d'
+missing file operand
+missing file operand

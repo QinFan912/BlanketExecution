@@ -1,0 +1,2 @@
+cannot stat %s
+cannot create directory %s

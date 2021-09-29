@@ -1,0 +1,3 @@
+%s
+cannot skip past end of combined input
+cannot skip past end of combined input

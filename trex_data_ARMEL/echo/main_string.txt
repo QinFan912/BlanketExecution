@@ -1,0 +1,7 @@
+POSIXLY_CORRECT
+-n
+coreutils
+/usr/local/share/locale
+coreutils
+--help
+--version

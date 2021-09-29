@@ -1,0 +1,6 @@
+coreutils
+/usr/local/share/locale
+coreutils
+missing operand
+missing operand
+zero

@@ -1,0 +1,4 @@
+%s: failed to close
+%s: failed to close
+%s: failed to open for writing
+%s: failed to open for writing

@@ -1,0 +1,5 @@
+read error
+write error
+write error
+invalid input
+invalid input

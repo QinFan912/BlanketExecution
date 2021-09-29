@@ -1,0 +1,20 @@
+ospeed
+rows
+cols
+columns
+size
+line
+speed
+invalid argument %s
+invalid line discipline %s
+missing argument to %s
+missing argument to %s
+missing argument to %s
+missing argument to %s
+missing argument to %s
+drain
+invalid argument %s
+missing argument to %s
+ispeed
+pare
+intr

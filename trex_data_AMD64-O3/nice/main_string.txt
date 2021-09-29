@@ -1,0 +1,14 @@
+coreutils
+/usr/local/share/locale
+coreutils
++n:
+nice
+GNU coreutils
+David MacKenzie
+a command must be given with an adjustment
+invalid adjustment %s
+cannot get niceness
+cannot get niceness
+cannot set niceness
+%s
+cannot get niceness

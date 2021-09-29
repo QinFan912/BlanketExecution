@@ -1,0 +1,30 @@
+skipping %s, since it's on a different device
+traversal failed: %s
+WARNING: Circular directory structure.
+This almost certainly means that you have a corrupted file system.
+NOTIFY YOUR SYSTEM MANAGER.
+The following directory is part of the cycle:
+  %s
+
+..
+.
+refusing to remove %s or %s directory: skipping %s
+it is dangerous to operate recursively on %s
+it is dangerous to operate recursively on %s (same as %s)
+skipping %s, since it's on a different device
+failed to stat %s: skipping %s
+%s: descend into directory %s? 
+%s: descend into write-protected directory %s? 
+%s: remove write-protected %s %s? 
+%s: remove %s %s? 
+cannot remove %s
+cannot remove %s
+cannot remove %s
+%s: remove %s %s? 
+%s: remove write-protected %s %s? 
+cannot remove %s
+cannot remove %s
+unexpected failure: fts_info=%d: %s
+please report to %s
+fts_read failed
+fts_close failed

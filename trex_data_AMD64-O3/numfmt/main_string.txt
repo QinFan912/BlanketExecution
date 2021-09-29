@@ -1,0 +1,37 @@
+coreutils
+/usr/local/share/locale
+coreutils
+d:z
+--to
+--from
+invalid header value %s
+--invalid
+numfmt
+GNU coreutils
+Assaf Gordon
+--round
+failed to set locale
+no conversion option specified
+--grouping cannot be combined with --format
+the delimiter must be a single character
+multiple field specifications
+invalid padding value %s
+format %s has no %% directive
+ 
+ 
+--format padding overriding --padding
+format %s has too many %% directives
+grouping has no effect in this locale
+error reading input
+--header ignored with command-line input
+failed to convert some of the input numbers
+invalid format %s (width overflow)
+--grouping cannot be combined with --format
+the delimiter must be a single character
+format %s ends in %%
+invalid format %s, directive must be %%[0]['][-][N][.][N]f
+invalid precision in format %s
+format %s has too many %% directives
+grouping cannot be combined with --to
+multiple field specifications
+invalid padding value %s

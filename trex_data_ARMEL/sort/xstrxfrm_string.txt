@@ -1,0 +1,5 @@
+string transformation failed
+string transformation failed
+set LC_ALL='C' to work around the problem
+set LC_ALL='C' to work around the problem
+the untransformed string was %s

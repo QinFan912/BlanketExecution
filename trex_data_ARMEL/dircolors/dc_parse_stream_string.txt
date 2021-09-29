@@ -1,0 +1,8 @@
+TERM
+TERM
+OPTIONS
+COLOR
+EIGHTBIT
+%s:%lu: unrecognized keyword %s
+<internal>
+%s:%lu: invalid line;  missing second token

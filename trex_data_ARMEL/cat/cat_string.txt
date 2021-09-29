@@ -1,0 +1,4 @@
+write error
+write error
+cannot do ioctl on %s
+%s

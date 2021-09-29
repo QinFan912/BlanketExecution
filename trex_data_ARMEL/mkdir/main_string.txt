@@ -1,0 +1,14 @@
+coreutils
+/usr/local/share/locale
+coreutils
+pm:vZ
+mkdir
+GNU coreutils
+created directory %s
+warning: ignoring --context; it requires an SELinux/SMACK-enabled kernel
+warning: ignoring --context; it requires an SELinux/SMACK-enabled kernel
+failed to set default file creation context to %s
+invalid mode %s
+missing operand
+missing operand
+cont

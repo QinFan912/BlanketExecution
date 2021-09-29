@@ -1,0 +1,18 @@
+the [c*] repeat construct may not appear in string1
+the [c*] repeat construct may not appear in string1
+only one [c*] repeat construct may appear in string2
+only one [c*] repeat construct may appear in string2
+[=c=] expressions may not appear in string2 when translating
+[=c=] expressions may not appear in string2 when translating
+when translating, the only character classes that may appear in
+string2 are 'upper' and 'lower'
+when translating, the only character classes that may appear in
+string2 are 'upper' and 'lower'
+when not truncating set1, string2 must be non-empty
+when not truncating set1, string2 must be non-empty
+when translating with complemented character classes,
+string2 must map all characters in the domain to one
+when translating with complemented character classes,
+string2 must map all characters in the domain to one
+the [c*] construct may appear in string2 only when translating
+the [c*] construct may appear in string2 only when translating

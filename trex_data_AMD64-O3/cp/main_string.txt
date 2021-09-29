@@ -1,0 +1,24 @@
+coreutils
+/usr/local/share/locale
+coreutils
+POSIXLY_CORRECT
+abdfHilLnprst:uvxPRS:TZ
+warning: ignoring --context; it requires an SELinux-enabled kernel
+failed to access %s
+target %s is not a directory
+multiple target directories specified
+--reflink
+cp
+GNU coreutils
+Torbjorn Granlund
+David MacKenzie
+--sparse
+cannot preserve extended attributes, cp is built without xattr support
+backup type
+cannot preserve security context without an SELinux-enabled kernel
+cannot set target context and preserve it
+failed to set default file creation context to %s
+cannot preserve extended attributes, cp is built without xattr support
+cannot preserve extended attributes, cp is built without xattr support
+failed to set default file creation context to %s
+cannot set target context and preserve it

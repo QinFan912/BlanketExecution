@@ -1,0 +1,7 @@
+coreutils
+/usr/local/share/locale
+coreutils
+abdlmpqrstuwHT
+who
+GNU coreutils
+extra operand %s
