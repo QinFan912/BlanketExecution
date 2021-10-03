@@ -21,12 +21,10 @@ from angr.sim_variable import SimRegisterVariable, SimStackVariable
 
 
 class VariablesValueExtractor:
-    def __init__(self, file_name, file_path):
+    def __init__(self, file_name, file_path, save_path, data_path):
 
         self.file_name = file_name
         self.file_path = file_path
-
-        self.save_dir = None
         # self.save_path = save_path
         # if os.path.exists(self.save_path):
         #     print('[VariablesAddressExtractor] {} already exists, removed!'.format(self.save_path))
@@ -109,13 +107,10 @@ class VariablesValueExtractor:
                     print("decode error!")
             return y
 
-        # 最终结果保存路径
-        self.save_dir = os.path.join("../trex_data", self.file_name)
-
-        while os.path.exists(self.save_dir):
-            self.file_name = self.file_name + "@"
-            self.save_dir = os.path.join("../trex_data", self.file_name)
-        os.makedirs(self.save_dir)
+        save_dir = os.path.join(f"../trex_data_{self.arch.name}", "%s" % self.file_name)
+        if os.path.exists(save_dir):
+            shutil.rmtree(save_dir)
+        os.makedirs(save_dir)
 
         @func_set_timeout(60)
         def func_execution(func):
@@ -129,8 +124,8 @@ class VariablesValueExtractor:
             # if func.name != 'sub_b663':
             #     continue
 
-            string_save_path = f"{self.save_dir}/{func.name}_string.txt"
-            int_save_path = f"{self.save_dir}/{func.name}_int.txt"
+            string_save_path = f"{save_dir}/{func.name}_string.txt"
+            int_save_path = f"{save_dir}/{func.name}_int.txt"
             if os.path.exists(string_save_path):
                 print('[VariablesAddressExtractor] {} already exists, removed!'.format(string_save_path))
                 os.remove(string_save_path)
@@ -277,6 +272,20 @@ class VariablesValueExtractor:
 
                 for va in var:
                     if isinstance(va, SimStackVariable):
+                        # # 通过dwarf信息恢复变量名
+                        # for k, v in variables_offset.items():
+                        #     if k == func.name:
+                        #         for i in range(len(v)):
+                        #             if va.addr == v[i][1]:
+                        #                 va.name = v[i][0]
+                        #                 print(va.name)
+
+                        # var_access = var_manager.get_variable_accesses(va)
+                        #
+                        # for acc in var_access:
+                        #     if not acc.location.ins_addr == state.scratch.ins_addr:
+                        #         continue
+
                         if state.solver.eval(state.regs.sp) - state.solver.eval(stack_base_addr) == va.addr:
                             if expr in mem_data:
                                 d = state.mem[expr].deref.int.concrete
@@ -397,14 +406,14 @@ class VariablesValueExtractor:
                         if isinstance(i, int):
                             print(hex(i))
                             # 8 bytes 8 tokens
-                            with open(int_save_path, 'a') as f:
-                                b = i.to_bytes(2, byteorder='big')
-                                for j in list(b):
-                                    f.write("%02x"%j + " ")
-                                f.write("\n")
-                            # original data
                             # with open(int_save_path, 'a') as f:
-                            #     f.write("%x" % i + "\n")
+                            #     b = i.to_bytes(8, byteorder='big')
+                            #     for j in list(b):
+                            #         f.write("%02x"%j + " ")
+                            #     f.write("\n")
+                            # original data
+                            with open(int_save_path, 'a') as f:
+                                f.write("%x" % i + "\n")
                         else:
                             print(i)
                             with open(string_save_path, 'a') as f:

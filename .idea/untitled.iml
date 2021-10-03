@@ -7,6 +7,9 @@
       <excludeFolder url="file://$MODULE_DIR$/trex_data_AMD64-O3" />
       <excludeFolder url="file://$MODULE_DIR$/trex_data_ARMEL" />
       <excludeFolder url="file://$MODULE_DIR$/trex_data_ARMEL-O2" />
+      <excludeFolder url="file://$MODULE_DIR$/trex_data_ARMEL-O3" />
+      <excludeFolder url="file://$MODULE_DIR$/trex-datasets" />
+      <excludeFolder url="file://$MODULE_DIR$/trex_data" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6 (kaifa)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
