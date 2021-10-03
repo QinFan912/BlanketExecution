@@ -30,6 +30,6 @@ if __name__ == '__main__':
                 gc.collect()
                 os.remove(os.path.join(binary_root, arches, dirs, binary))
                 print(f"remove binary: {binary_path} successful!")
-                time.sleep(30)
+                time.sleep(10)
 
 
